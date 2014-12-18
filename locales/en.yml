@@ -1,0 +1,1325 @@
+en:
+
+  stock:
+    og:
+      title: "Information about %n on Stockflare"
+      description: "This stock currently has a rating of %n. Find more information on Stockflare."
+    notification:
+      widgetUpdating: "Calculations updating."
+      updating: "Our analysis on this stock is currently updating. Please check back in 15 minutes."
+      stale: "The data for this stock has not been updated for at least 10 days and may now be stale."
+      insufficientData: "We do not have enough data to perform this calculation"
+    errors:
+      generic: "An error occurred"
+      loadError: "Error loading stock"
+    buttons:
+      oneWeek: "1 Week"
+      oneMonth: "1 Month"
+      threeMonths: "3 Months"
+    ratings:
+      profitable:
+        positive: "Profitable company"
+        negative: "Not profitable"
+      upside:
+        positive: "+%n upside to price target"
+        negative: "%n downside to price target"
+        neutral: "No difference to price target"
+        unknown: "Unknown price target"
+      cheaper:
+        positive: "Cheaper than the competitors"
+        negative: "Expensive versus the competitors"
+      dividends:
+        positive: "Paying dividends"
+        negative: "Not paying dividends"
+      high_growth:
+        positive: "Stronger growth than the competitors"
+        negative: "Weaker growth than the competitors"
+    header:
+      price: "Stock Price"
+      percentChange: "Percentage Change"
+      actualChange: "Actual Change"
+    cheaper:
+      cheaper:
+        title: "Cheaper"
+        explanation: "%t(pe){PE Ratio} is lower than its competitors."
+      expensive:
+        title: "Expensive"
+        explanation: "%t(pe){PE Ratio} is higher than its competitors."
+    growth:
+      weak:
+        title: "Weak Growth"
+        explanation: "Long-term Growth is forecasted to be lower than its competitors."
+      strong:
+        title: "Strong Growth"
+        explanation: "Long-term Growth is forecasted to be higher than its competitors."
+    targetPrice:
+      title: "Wall Street Target Price"
+      description: "A %n on today's price."
+      increase: "%t(upside){upside}."
+      decrease: "%t(downside){downside}."
+      equal: "No difference"
+      recommendations:
+        strongBuy: "Wall Street's %t(recommendation){recommendation} is Strong Buy."
+        buy: "Wall Street's %t(recommendation){recommendation} is Buy."
+        hold: "Wall Street's %t(recommendation){recommendation} is Hold."
+        sell: "Wall Street's %t(recommendation){recommendation} is Sell."
+        strongSell: "Wall Street's %t(recommendation){recommendation} is Strong Sell."
+    profitable:
+      title: "Profitable?"
+      description: "Forecast %t(eps){Earnings-per-Share}."
+    dividends:
+      title: "Pays Dividends?"
+      description: "Forecast %t(dps){Dividends-per-Share}."
+    worth:
+      title: "What's %n worth, long term?"
+      today:
+        title: "Today I Own"
+        description: "Enter share amount below"
+        unsaved: "You have unsaved changes"
+        submitNotWatching: "Add Position to Watchlist"
+        submitWatching: "Update Position on Watchlist"
+      forecast:
+        title: "is Forecast to"
+      result:
+        title: "That Means"
+      copy:
+        value:
+          text: "Shares valued at %n"
+        sevenYearGain:
+          positive: "Gains %n over 7 years"
+          negative: "Loses %n over 7 years"
+        gainPerYear:
+          positive: "Gain of %n per year"
+          negative: "Loss of %n per year"
+        absoluteGain:
+          positive: "%n increases to %n over 7 years"
+          negative: "%n decreases to %n over 7 years"
+        relativeGain:
+          positive: "Gain of %n over 7 years"
+          negative: "Loss of %n over 7 years"
+      footnote: "We are assuming an 8% annual growth rate for the above calculations."
+    graph:
+      price: "Price"
+      volume: "Price & Volume"
+    information:
+      description: "Company Description"
+      statistics: "Key Statistics"
+      results: "Latest Results"
+    priceChange:
+      title: "What is driving the Price Change?"
+      price:
+        title: "Price Change"
+      profitability:
+        title: "Change in Profitability?"
+        forecastEpsWas: "Forecast %t(eps){EPS} was %n."
+        epsWas: "%t(eps){EPS} was %n."
+        epsToday: "Today it is %n"
+      sentiment:
+        title: "Change in Investor Sentiment?"
+        forecastPeWas: "Forecast %t(pe){PE Ratio} was %nx."
+        peToday: "Today it is %nx"
+        peWas: "%t(pe){PE} was %n."
+    social:
+      email: "Email to a friend"
+    innerTypes:
+      upside:
+        title: "Cheap or Expensive"
+        description:
+          valid: "This stock is trading at %nx times earnings and is %n versus its competitors. Find out more on Stockflare."
+          fallback: "This stock is expensive versus its competitors. Find out more on Stockflare."
+          terms:
+            cheap: "cheap"
+            expensive: "expensive"
+      growth:
+        title: "Growth"
+        description:
+          valid: "This stock's earnings are forecast to grow %n% per annum long-term. Which is %n than its competitors. Find out more on Stockflare."
+          fallback: "This stock has weaker growth than its competitors. Find out why on Stockflare."
+          terms:
+            high: "stronger"
+            low: "weaker"
+      wallStreet:
+        title: "Wall Street Opinion"
+        description:
+          valid: "Wall Street has a %n recommendation for this stock with a price target of %n. That implies a %n% %n. Find out more on Stockflare."
+          fallback: "Wall Street doesn't have an opinion on this stock. Find out why on Stockflare."
+          terms:
+            upside: "upside"
+            downside: "downside"
+      profitable:
+        title: "Profit / Loss"
+        description:
+          valid: "Wall Street is forecasting %n earnings per share for this stock. Find out more on Stockflare."
+          fallback: "Wall Street isn't forecasting any earnings per share for this stock. Find out why on Stockflare."
+      dividends:
+        title: "Dividends"
+        description:
+          valid: "Wall Street is forecasting %n dividend per share for this stock. Find out more on Stockflare."
+          fallback: "Wall Street isn't forecasting any dividends per share for this stock. Find out why on Stockflare."
+      peers:
+        title: "Peers List"
+        description:
+          valid: "This stock has %n competitors. Compare the key metrics at Stockflare."
+      description:
+        title: "Company Description"
+        description: "Read this stock's company description and analysis on Stockflare."
+      stats:
+        title: "Key Stats"
+        description:
+          valid: "This stock has a market value of %n and its valuation is %n based on %n our of 9 metrics. Find out more on Stockflare."
+          terms:
+            cheaper: "cheaper"
+            expensive: "expensive"
+      latest:
+        title: "Latest Results"
+        description: "Read this stock's latest results and get the financial analysis on Stockflare."
+      worth:
+        title: "What it's Worth"
+        description:
+          valid: "This stock is forecast to %n %n% per annum over the next 7 years."
+          fallback: "Find out what this stock is forecasted to gain or lose over the next 7 years on Stockflare."
+          terms:
+            gain: "gain"
+            lose: "lose"
+    inner:
+      upside:
+        title: "PE Ratio Vs. 5 Cheapest Competitors"
+      growth:
+        titles:
+          main: "Growth Rate Vs. 5 Fastest Growing Competitors"
+          comparison: "Comparing the Long Term forecasts to the Short Term forecasts"
+          growth: "Long Term Growth Forecast"
+          profit: "Short Term Profit Forecast"
+          sales: "Short Term Sales Forecast"
+      wallStreet:
+        titles:
+          main: "Upside Vs. 5 Competitors with Highest Upside"
+          recommendation: "Change in Wall Street's Recommendation"
+          today: "Today"
+          oneWeek: "One Week Ago"
+          competitors: "Competitor's Recommendation"
+      profitable:
+        titles:
+          main: "Profitable"
+          epsForecast: "Short Term EPS Forecast"
+          profitForecast: "Short Term Profit Forecast"
+      dividends:
+        titles:
+          main: "Dividends"
+          forecast: "Short Term Dividend Forecast"
+          competitors: "Competitors Paying Dividends"
+      peers:
+        titles:
+          main: "Company Competitors"
+      description:
+        titles:
+          main: "Company Description"
+          competitors: "Who are the Competitors?"
+      latest:
+        titles:
+          main: "Latest Results"
+          salesForecast: "Forecasted Sales and Net Profit"
+          epsForecast: "Forecasted EPS and Dividend Yield"
+          gross: "Gross Margin (%) Vs. 5 Largest Competitors"
+          operating: "Operating Margin (%) Vs. 5 Largest Competitors"
+          roe: "Return on Equity (%) Vs. 5 Largest Competitors"
+        forecasted:
+          sales: "Sales Forecast"
+          profit: "Net Profit Forecast"
+          eps: "EPS Forecast"
+          dividend: "Dividend Forecast"
+      stats:
+        titles:
+          key: "Key Stats"
+          valuations: "Valuation Multiples"
+          upside: "Upside / Downside to 52 Week High / Low"
+        market:
+          value: "Market Value"
+          price: "Share Price"
+          shares: "Common Shares"
+        volumes:
+          daily: "Daily Trade Volume"
+          today: "Today's Volume Is"
+        data:
+          table:
+            cheaperOn: "Cheaper than peers on %n of 9 measures"
+            headers:
+              stock: "Latest"
+              competitors: "Competitors"
+              cheaper: "Cheaper?"
+            labels:
+              forecastedPe: "PE Ratio (Forecast)"
+              historicPe: "PE Ratio (Historic)"
+              forecastedDividends: "Dividend Yield (Forecast)"
+              historicDividends: "Dividend Yield (Historic)"
+              forecastedSales: "Price to Sales (Forecast)"
+              historicSales: "Price to Sales (Historic)"
+              historicProfit: "Price to Operating Profit (Historic)"
+              historicEquity: "Return on Equity (Historic)"
+              historicBookValue: "Price to Book Value (Historic)"
+      worth:
+        title: "What it's Worth"
+
+  common:
+    defaultPageTitle: "Pick Stocks Easily"
+    login: "Login"
+    register: "Sign Up Free"
+    watch: "Watch"
+    unwatch: "Unwatch"
+    loading: "Loading..."
+    pages:
+      privacy_policy: "Privacy Policy"
+      tos: "Terms of Service"
+    social:
+      email: "Email to a friend"
+    tooltips:
+      watch:
+        watch: "Add to your Watchlist"
+        unwatch: "Remove from your Watchlist"
+      widget:
+        graph: "Price Chart"
+        info: "Star Rating"
+        social: "Share"
+        alerts: "Stock Alerts"
+    time:
+      dateFormat: "%m/%d/%y"
+      shortDateFormat: "%m/%d"
+      shortDaysOfWeek:
+        - "Sun"
+        - "Mon"
+        - "Tue"
+        - "Wed"
+        - "Thu"
+        - "Fri"
+        - "Sat"
+      daysOfWeek:
+        - "Sunday"
+        - "Monday"
+        - "Tuesday"
+        - "Wednesday"
+        - "Thursday"
+        - "Friday"
+        - "Saturday"
+    regions:
+      amer: "Americas"
+      apac: "Asia Pacific"
+      emea: "Europe, Middle-East & Africa"
+    countries:
+      afg: "Afghanistan"
+      ago: "Angola"
+      aia: "Anguilla"
+      ala: "Åland Islands"
+      alb: "Albania"
+      and: "Andorra"
+      are: "United Arab Emirates"
+      arg: "Argentina"
+      arm: "Armenia"
+      asm: "American Samoa"
+      ata: "Antarctica"
+      atf: "French Southern Territories"
+      atg: "Antigua and Barbuda"
+      aus: "Australia"
+      aut: "Austria"
+      aze: "Azerbaijan"
+      bdi: "Burundi"
+      bel: "Belgium"
+      ben: "Benin"
+      bes: "Bonaire, Sint Eustatius and Saba"
+      bfa: "Burkina Faso"
+      bgd: "Bangladesh"
+      bgr: "Bulgaria"
+      bhr: "Bahrain"
+      bhs: "Bahamas"
+      bih: "Bosnia and Herzegovina"
+      blm: "Saint Barthélemy"
+      blr: "Belarus"
+      blz: "Belize"
+      bmu: "Bermuda"
+      bol: "Bolivia"
+      bra: "Brazil"
+      brb: "Barbados"
+      brn: "Brunei Darussalam"
+      btn: "Bhutan"
+      bvt: "Bouvet Island"
+      bwa: "Botswana"
+      caf: "Central African Republic"
+      can: "Canada"
+      cck: "Cocos (Keeling) Islands"
+      che: "Switzerland"
+      chl: "Chile"
+      chn: "China"
+      civ: "Côte d'Ivoire"
+      cmr: "Cameroon"
+      cod: "Congo, the Democratic Republic of the Congo"
+      cog: "Congo"
+      cok: "Cook Islands"
+      col: "Colombia"
+      com: "Comoros"
+      cpv: "Cabo Verde"
+      cri: "Costa Rica"
+      cub: "Cuba"
+      cuw: "Curaçao"
+      cxr: "Christmas Island"
+      cym: "Cayman Islands"
+      cyp: "Cyprus"
+      cze: "Czech Republic"
+      deu: "Germany"
+      dji: "Djibouti"
+      dma: "Dominica"
+      dnk: "Denmark"
+      dom: "Dominican Republic"
+      dza: "Algeria"
+      ecu: "Ecuador"
+      egy: "Egypt"
+      eri: "Eritrea"
+      esh: "Western Sahara"
+      esp: "Spain"
+      est: "Estonia"
+      eth: "Ethiopia"
+      fin: "Finland"
+      fji: "Fiji"
+      flk: "Falkland Islands (Malvinas)"
+      fra: "France"
+      fro: "Faroe Islands"
+      fsm: "Micronesia"
+      gab: "Gabon"
+      gbr: "United Kingdom"
+      geo: "Georgia"
+      ggy: "Guernsey"
+      gha: "Ghana"
+      gib: "Gibraltar"
+      gin: "Guinea"
+      glp: "Guadeloupe"
+      gmb: "Gambia"
+      gnb: "Guinea-Bissau"
+      gnq: "Equatorial Guinea"
+      grc: "Greece"
+      grd: "Grenada"
+      grl: "Greenland"
+      gtm: "Guatemala"
+      guf: "French Guiana"
+      gum: "Guam"
+      guy: "Guyana"
+      hkg: "Hong Kong"
+      hmd: "Heard Island and McDonald Islands"
+      hnd: "Honduras"
+      hrv: "Croatia"
+      hti: "Haiti"
+      hun: "Hungary"
+      idn: "Indonesia"
+      imn: "Isle Of Man"
+      ind: "India"
+      iot: "British Indian Ocean Territory"
+      irl: "Ireland"
+      irn: "Iran"
+      irq: "Iraq"
+      isl: "Iceland"
+      isr: "Israel"
+      ita: "Italy"
+      jam: "Jamaica"
+      jey: "Jersey"
+      jor: "Jordan"
+      jpn: "Japan"
+      kaz: "Kazakhstan"
+      ken: "Kenya"
+      kgz: "Kyrgyzstan"
+      khm: "Cambodia"
+      kir: "Kiribati"
+      kna: "Saint Kitts and Nevis"
+      kor: "Korea"
+      kwt: "Kuwait"
+      lao: "Lao"
+      lbn: "Lebanon"
+      lbr: "Liberia"
+      lby: "Libya"
+      lca: "Saint Lucia"
+      lie: "Liechtenstein"
+      lka: "Sri Lanka"
+      lso: "Lesotho"
+      ltu: "Lithuania"
+      lux: "Luxembourg"
+      lva: "Latvia"
+      mac: "Macao"
+      maf: "Saint Martin"
+      mar: "Morocco"
+      mco: "Monaco"
+      mda: "Moldova"
+      mdg: "Madagascar"
+      mdv: "Maldives"
+      mex: "Mexico"
+      mhl: "Marshall Islands"
+      mkd: "Macedonia"
+      mli: "Mali"
+      mlt: "Malta"
+      mmr: "Myanmar"
+      mne: "Montenegro"
+      mng: "Mongolia"
+      mnp: "Northern Mariana Islands"
+      moz: "Mozambique"
+      mrt: "Mauritania"
+      msr: "Montserrat"
+      mtq: "Martinique"
+      mus: "Mauritius"
+      mwi: "Malawi"
+      mys: "Malaysia"
+      myt: "Mayotte"
+      nam: "Namibia"
+      ncl: "New Caledonia"
+      ner: "Niger"
+      nfk: "Norfolk Island"
+      nga: "Nigeria"
+      nic: "Nicaragua"
+      niu: "Niue"
+      nld: "Netherlands"
+      nor: "Norway"
+      npl: "Nepal"
+      nru: "Nauru"
+      nzl: "New Zealand"
+      omn: "Oman"
+      pak: "Pakistan"
+      pan: "Panama"
+      pcn: "Pitcairn"
+      per: "Peru"
+      phl: "Philippines"
+      plw: "Palau"
+      png: "Papua New Guinea"
+      pol: "Poland"
+      pri: "Puerto Rico"
+      prk: "Korea"
+      prt: "Portugal"
+      pry: "Paraguay"
+      pse: "Palestine"
+      pyf: "French Polynesia"
+      qat: "Qatar"
+      reu: "Réunion"
+      rou: "Romania"
+      rus: "Russia"
+      rwa: "Rwanda"
+      sau: "Saudi Arabia"
+      sdn: "Sudan"
+      sen: "Senegal"
+      sgp: "Singapore"
+      sgs: "South Georgia"
+      shn: "Saint Helena"
+      sjm: "Svalbard"
+      slb: "Solomon Islands"
+      sle: "Sierra Leone"
+      slv: "El Salvador"
+      smr: "San Marino"
+      som: "Somalia"
+      spm: "Saint Pierre and Miquelon"
+      srb: "Serbia"
+      ssd: "South Sudan"
+      stp: "Sao Tome and Principe"
+      sur: "Suriname"
+      svk: "Slovakia"
+      svn: "Slovenia"
+      swe: "Sweden"
+      swz: "Swaziland"
+      sxm: "Sint Maarten"
+      syc: "Seychelles"
+      syr: "Syrian Arab Republic"
+      tca: "Turks and Caicos Islands"
+      tcd: "Chad"
+      tgo: "Togo"
+      tha: "Thailand"
+      tjk: "Tajikistan"
+      tkl: "Tokelau"
+      tkm: "Turkmenistan"
+      tls: "Timor-Leste"
+      ton: "Tonga"
+      tto: "Trinidad and Tobago"
+      tun: "Tunisia"
+      tur: "Turkey"
+      tuv: "Tuvalu"
+      twn: "Taiwan"
+      tza: "Tanzania"
+      uga: "Uganda"
+      ukr: "Ukraine"
+      umi: "United States Minor Outlying Islands"
+      ury: "Uruguay"
+      usa: "United States"
+      uzb: "Uzbekistan"
+      vat: "Holy See"
+      vct: "Saint Vincent and the Grenadines"
+      ven: "Venezuela"
+      vgb: "Virgin Islands, British"
+      vir: "Virgin Islands, U.S."
+      vnm: "Vietnam"
+      vut: "Vanuatu"
+      wlf: "Wallis and Futuna"
+      wsm: "Samoa"
+      yem: "Yemen"
+      zaf: "South Africa"
+      zmb: "Zambia"
+      zwe: "Zimbabwe"
+    currencies:
+      names:
+        aed: "United Arab Emirates dirham"
+        afn: "Afghanistan Afghani"
+        all: "Albania Lek"
+        amd: "Armenia Dram"
+        ang: "Netherlands Antilles Guilder"
+        aoa: "Angola Kwanza"
+        ars: "Argentina Peso"
+        aud: "Australia Dollar"
+        awg: "Aruba Guilder"
+        azn: "Azerbaijan New Manat"
+        bam: "Bosnia and Herzegovina convertible mark"
+        bbd: "Barbados Dollar"
+        bdt: "Bangladesh Taka"
+        bgn: "Bulgaria Lev"
+        bhd: "Bahrain Dinar"
+        bif: "Burundi Franc"
+        bmd: "Bermuda Dollar"
+        bnd: "Brunei Darussalam Dollar"
+        bob: "Bolivia Boliviano"
+        brl: "Brazil Real"
+        bsd: "Bahamas Dollar"
+        btn: "Bhutan Ngultrum"
+        bwp: "Botswana Pula"
+        byr: "Belarus Ruble"
+        bzd: "Belize Dollar"
+        cad: "Canada Dollar"
+        cdf: "Congo/Kinshasa Franc"
+        chf: "Switzerland Franc"
+        clf: "Unidad de Fomento"
+        clp: "Chile Peso"
+        cny: "China Yuan Renminbi"
+        cop: "Colombia Peso"
+        crc: "Costa Rica Colon"
+        cup: "Cuba Peso"
+        cve: "Cape Verde Escudo"
+        czk: "Czech Republic Koruna"
+        djf: "Djibouti Franc"
+        dkk: "Denmark Krone"
+        dop: "Dominican Republic Peso"
+        dzd: "Algeria Dinar"
+        egp: "Egypt Pound"
+        ern: "Eritrea Nakfa"
+        etb: "Ethiopia Birr"
+        eur: "Euro"
+        fjd: "Fiji Dollar"
+        fkp: "Falkland Islands (Malvinas) Pound"
+        gbp: "British Pound"
+        gel: "Georgia Lari"
+        ghs: "Ghana Cedi"
+        gip: "Gibraltar Pound"
+        gmd: "Gambia Dalasi"
+        gnf: "Guinea Franc"
+        gtq: "Guatemala Quetzal"
+        gyd: "Guyana Dollar"
+        hkd: "Hong Kong Dollar"
+        hnl: "Honduras Lempira"
+        hrk: "Croatia Kuna"
+        htg: "Haiti Gourde"
+        huf: "Hungary Forint"
+        idr: "Indonesia Rupiah"
+        ils: "Israel Shekel"
+        inr: "India Rupee"
+        iqd: "Iraq Dinar"
+        irr: "Iran Rial"
+        isk: "Iceland Krona"
+        jmd: "Jamaica Dollar"
+        jod: "Jordan Dinar"
+        jpy: "Japan Yen"
+        kes: "Kenya Shilling"
+        kgs: "Kyrgyzstan Som"
+        khr: "Cambodia Riel"
+        kmf: "Comoros Franc"
+        kpw: "Korea (North) Won"
+        krw: "Korea (South) Won"
+        kwd: "Kuwait Dinar"
+        kyd: "Cayman Islands Dollar"
+        kzt: "Kazakhstan Tenge"
+        lak: "Laos Kip"
+        lbp: "Lebanon Pound"
+        lkr: "Sri Lanka Rupee"
+        lrd: "Liberia Dollar"
+        lsl: "Lesotho Loti"
+        ltl: "Lithuania Litas"
+        lyd: "Libya Dinar"
+        mad: "Morocco Dirham"
+        mdl: "Moldova Leu"
+        mga: "Madagascar Ariary"
+        mkd: "Macedonia Denar"
+        mmk: "Myanmar (Burma) Kyat"
+        mnt: "Mongolia Tughrik"
+        mop: "Macau Pataca"
+        mro: "Mauritania Ouguiya"
+        mur: "Mauritius Rupee"
+        mvr: "Maldives (Maldive Islands) Rufiyaa"
+        mwk: "Malawi Kwacha"
+        mxn: "Mexico Peso"
+        myr: "Malaysia Ringgit"
+        mzn: "Mozambique Metical"
+        nad: "Namibia Dollar"
+        ngn: "Nigeria Naira"
+        nio: "Nicaragua Cordoba"
+        nok: "Norway Krone"
+        npr: "Nepal Rupee"
+        nzd: "New Zealand Dollar"
+        omr: "Oman Rial"
+        pab: "Panama Balboa"
+        pen: "Peru Nuevo Sol"
+        pgk: "Papua New Guinea Kina"
+        php: "Philippines Peso"
+        pkr: "Pakistan Rupee"
+        pln: "Poland Zloty"
+        pyg: "Paraguay Guarani"
+        qar: "Qatar Riyal"
+        ron: "Romania New Leu"
+        rsd: "Serbia Dinar"
+        rub: "Russia Ruble"
+        rwf: "Rwanda Franc"
+        sar: "Saudi Arabia Riyal"
+        sbd: "Solomon Islands Dollar"
+        scr: "Seychelles Rupee"
+        sdg: "Sudan Pound"
+        sek: "Sweden Krona"
+        sgd: "Singapore Dollar"
+        shp: "Saint Helena Pound"
+        sll: "Sierra Leone Leone"
+        sos: "Somalia Shilling"
+        srd: "Suriname Dollar"
+        std: "São Tomé and Príncipe Dobra"
+        svc: "El Salvador Colon"
+        syp: "Syria Pound"
+        szl: "Swaziland Lilangeni"
+        thb: "Thailand Baht"
+        tjs: "Tajikistan Somoni"
+        tmt: "Turkmenistan Manat"
+        tnd: "Tunisia Dinar"
+        top: "Tonga Pa'anga"
+        try: "Turkey Lira"
+        ttd: "Trinidad and Tobago Dollar"
+        twd: "Taiwan New Dollar"
+        tzs: "Tanzania Shilling"
+        uah: "Ukraine Hryvnia"
+        ugx: "Uganda Shilling"
+        usd: "United States Dollar"
+        uyu: "Uruguay Peso"
+        uzs: "Uzbekistan Som"
+        vef: "Venezuela Bolivar"
+        vnd: "Viet Nam Dong"
+        vuv: "Vanuatu Vatu"
+        wst: "Samoa Tala"
+        xaf: "Communauté Financière Africaine"
+        xcd: "East Caribbean Dollar"
+        xof: "Communauté Financière Africaine"
+        xpf: "Comptoirs Français du Pacifique"
+        yer: "Yemen Rial"
+        zar: "South Africa Rand"
+        zmw: "Zambia Kwacha"
+      symbols:
+        all: "Lek%n"
+        afn: "؋%n"
+        ars: "$%n"
+        awg: "ƒ%n"
+        aud: "$%n"
+        aed: "%nد.إ"
+        azn: "ман%n"
+        bsd: "$%n"
+        bbd: "$%n"
+        bhd: "%n.د.ب"
+        byr: "p.%n"
+        bzd: "BZ$%n"
+        bmd: "$%n"
+        bob: "$b%n"
+        bam: "KM%n"
+        bwp: "P%n"
+        bgn: "лв%n"
+        brl: "R$%n"
+        bnd: "$%n"
+        khr: "៛%n"
+        cad: "$%n"
+        kyd: "$%n"
+        clp: "$%n"
+        cny: "¥%n"
+        cop: "$%n"
+        crc: "₡%n"
+        hrk: "kn%n"
+        cup: "₱%n"
+        czk: "Kč%n"
+        dkk: "%nkr"
+        dop: "RD$%n"
+        xcd: "$%n"
+        egp: "£%n"
+        svc: "$%n"
+        eek: "%nkr"
+        eur: "€%n"
+        fkp: "£%n"
+        fjd: "$%n"
+        ghc: "¢%n"
+        gip: "£%n"
+        gtq: "Q%n"
+        ggp: "£%n"
+        gyd: "$%n"
+        hnl: "L%n"
+        hkd: "$%n"
+        huf: "%nFt"
+        isk: "%nkr"
+        inr: "₹%n"
+        iqd: "%nد.ع"
+        idr: "Rp%n"
+        irr: "﷼%n"
+        imp: "£%n"
+        ils: "₪%n"
+        jmd: "J$%n"
+        jpy: "¥%n"
+        jep: "£%n"
+        jod: "%nدينار"
+        kzt: "лв%n"
+        kpw: "₩%n"
+        krw: "₩%n"
+        kgs: "лв%n"
+        lak: "₭%n"
+        lvl: "Ls%n"
+        lbp: "£%n"
+        lrd: "$%n"
+        ltl: "Lt%n"
+        mkd: "ден%n"
+        myr: "RM%n"
+        mur: "₨%n"
+        mxn: "$%n"
+        mnt: "₮%n"
+        mzn: "MT%n"
+        nad: "$%n"
+        npr: "₨%n"
+        ang: "ƒ%n"
+        nzd: "$%n"
+        nio: "C$%n"
+        ngn: "₦%n"
+        nok: "%nkr"
+        omr: "﷼%n"
+        pkr: "₨%n"
+        pab: "B/.%n"
+        pyg: "Gs%n"
+        pen: "S/.%n"
+        php: "₱%n"
+        pln: "zł%n"
+        qar: "﷼%n"
+        ron: "lei%n"
+        rub: "руб%n"
+        shp: "£%n"
+        sar: "﷼%n"
+        rsd: "Дин.%n"
+        scr: "₨%n"
+        sgd: "$%n"
+        sbd: "$%n"
+        sos: "S%n"
+        zar: "R%n"
+        lkr: "₨%n"
+        sek: "%nkr"
+        chf: "CHF%n"
+        srd: "$%n"
+        syp: "£%n"
+        twd: "NT$%n"
+        thb: "฿%n"
+        ttd: "TT$%n"
+        try: "₤%n"
+        trl: "₤%n"
+        tvd: "$%n"
+        uah: "₴%n"
+        gbp: "£%n"
+        usd: "$%n"
+        uyu: "$U%n"
+        uzs: "лв%n"
+        vef: "Bs%n"
+        vnd: "₫%n"
+        yer: "﷼%n"
+        zwd: "Z$%n"
+        amd: "%ndram"
+        aoa: "Kz%n"
+        bif: "FBu%n"
+        btn: "Nu.%n"
+        cdf: "Fr%n"
+        cve: "Esc%n"
+        djf: "Fr%n"
+        dzd: "دج%n"
+        ern: "Nfk%n"
+        etb: "Br%n"
+        gel: "%nlari"
+        ghs: "GH₵%n"
+        gmd: "D%n"
+        gnf: "Fr%n"
+        htg: "G%n"
+        kes: "Ksh%n"
+        kmf: "Fr%n"
+        kwd: "د.ك%n"
+        lsl: "M%n"
+        lyd: "ل.د%n"
+        mad: "د.م.%n"
+        mdl: "%nleu"
+        mga: "Ar%n"
+        mmk: "K%n"
+        mop: "MOP$%n"
+        mvr: "Rf.%n"
+        mwk: "MK%n"
+        pgk: "K%n"
+        rwf: "FRw%n"
+        sdg: "ج.س.‏%n"
+        sll: "Le%n"
+        szl: "E%n"
+        tjs: "%ncомонӣ"
+        tmt: "T%n"
+        tnd: "د.ت%n"
+        top: "$%n"
+        tzs: "TSh%n"
+        ugx: "USh%n"
+        vuv: "VT%n"
+        wst: "WS$%n"
+        xaf: "FCFA%n"
+        xof: "CFA%n"
+        xpf: "F%n"
+        bdt: "৳%n"
+        clf: "$%n"
+        mro: "UM%n"
+        std: "Db%n"
+        zmw: "ZK%n"
+    wallStreetRecommendations:
+      titles:
+        strongBuy: "Strong Buy"
+        buy: "Buy"
+        hold: "Hold"
+        sell: "Sell"
+        strongSell: "Strong Sell"
+      missing: "No Recommendation"
+      emptyCategory: "You have no stocks in this category."
+
+  filterBar:
+    order:
+      ascending: "Low to High"
+      descending: "High to Low"
+      orders:
+        latest_market_value_usd: "Market Value"
+        latest_price: "Price"
+        latest_rating: "Star Rating"
+    country:
+      titles:
+        default: "Country"
+    country_currency:
+      titles:
+        default: "Country & Currency"
+        filters: {}
+      categories:
+        regions: "Regions"
+        country: "Countries"
+        currency: "Major Currencies"
+    sectors:
+      -
+        code: "50"
+        name: "Oil & Gas"
+      -
+        code: "51"
+        name: "Mining & Materials"
+      -
+        code: "52"
+        name: "Industrials"
+      -
+        code: "54"
+        name: "Consumer (Food & Home)"
+      -
+        code: "53"
+        name: "Consumer (Other)"
+      -
+        code: "55"
+        name: "Financials"
+      -
+        code: "56"
+        name: "Healthcare"
+      -
+        code: "57"
+        name: "Technology"
+      -
+        code: "58"
+        name: "Telecoms"
+      -
+        code: "59"
+        name: "Utilities"
+    sector:
+      titles:
+        default: "Sector"
+    company_tags:
+      titles:
+        default: "Business Metrics"
+        filters:
+          small: "Small Companies Only"
+          large: "Large Companies Only"
+          profitable: "Profitable Today"
+          turning_profitable: "Turning Profitable"
+          growing: "Growing"
+          high_growth: "High Growth Only"
+          pays_dividends: "Pays Dividends Only"
+          has_cash: "Has Cash & Investments"
+      descriptions:
+        small: "Companies valued at less than $1 Billion US Dollars."
+        large: "Companies valued at more than $10 billion US Dollars."
+        profitable: "Profitable, last year & forecast this year."
+        turning_profitable: "Forecast to be profitable this year, after a loss last year."
+        growing: "Sales & Earnings-per-Share forecast to increase this year, versus last year."
+        high_growth: "Forecast to grow earnings faster than 16%, long term"
+        pays_dividends: "Companies that pay dividends to shareholders."
+        has_cash: "Companies with more cash & investments than debts."
+    direction:
+      titles:
+        default: "Price Direction"
+        filters:
+          positive: "Positive Momentum"
+          negative: "Negative Momentum"
+          near_high: "Near 52 Week High"
+          near_low: "Near 52 Week Low"
+      descriptions:
+        positive: "Stocks with prices greater than their ten day average"
+        negative: "Stocks with prices less than their ten day average"
+        near_high: "Stocks that are within 5% of their fifty two week price high"
+        near_low: "Stocks that are within 5% of their lowest price in fifty two weeks"
+    valuation:
+      titles:
+        default: "Valuation"
+        filters:
+          low_pe: "PE Ratio under 10x"
+          high_dividend: "Dividend yield over 4%"
+          low_book_value: "Trading below Book Value"
+          low_sales: "Less than 1x Sales"
+          low_operating_profit: "Less than 7x Operating Profit"
+      descriptions:
+        low_pe: "Cheap stocks based on their profits"
+        high_dividend: "Cheap stocks based on their dividend payments"
+        low_book_value: "Cheap stocks based on their net asset value"
+        low_sales: "Stocks based on their price to sales"
+        low_operating_profit: "Stocks based on their operating profits"
+    style:
+      titles:
+        default: "Investment Style"
+        filters:
+          value: "Good Value"
+          growth: "High Growth"
+          quality: "High Quality"
+      descriptions:
+        value: "Companies that are cheaper than their competitors."
+        growth: "Companies that grow faster than the competitors, long-term."
+        quality: "Companies that are cheap & forecast to grow strongly."
+    sentiment:
+      titles:
+        default: "Sentiment"
+        filters:
+          loved: "Loved by Wall Street"
+          hated: "Hated by Wall Street"
+          unknown: "Unknown on Wall Street"
+      descriptions:
+        loved: "Stocks were Wall Street’s target price is higher than today’s price."
+        hated: "Stocks were Wall Street’s target price is lower than today’s price."
+        unknown: "Stocks where Wall Street doesn’t have an option on the price."
+    opinion:
+      titles:
+        default: "Investing Style"
+    starRatings:
+      titles:
+        default: "Star Rating"
+        filters:
+          - "1 Star Stocks"
+          - "2 Star Stocks"
+          - "3 Star Stocks"
+          - "4 Star Stocks"
+          - "5 Star Stocks"
+
+  watchlist:
+    pageTitle: "My Watchlist"
+    pageDescription: "Your watchlist contains a summary of your portfolio as well as recent alerts from watched stocks."
+    watching: "Total Watching"
+    watchingPhrase: "%n Companies"
+    worth: "Total Worth"
+    percentChange: "Percent Change"
+    actualChange: "Actual Change (1 Day)"
+    summary:
+      titles:
+        opinion: "Portfolio Opinion"
+        gain: "Seven Year Gain"
+        alerts: "Most Recent Alerts"
+      summaries:
+        opinion:
+          stars: "We rate your portfolio %n stars."
+          ws: "Wall Street thinks it's a %n."
+          notWatchingStocks: "Watch some stocks to receive a rating."
+        gain:
+          projectedValue: "Portfolio projected to be worth %n in 7 years"
+          projectedGain: "an annual growth of %n% from today's %n"
+          notWatchingStocks: "Watch some stocks to receive an average growth."
+    wallStreet:
+      title: "Wall Street Opinions"
+      upside:
+        text: "%n% Upside"
+        missing: "N/A Upside"
+    projected: "Projected Portfolio"
+    portfolioTable:
+      name: "Company Name"
+      price: "Today"
+      shares: "No. Of Shares"
+      value: "Value"
+      usValue: "Value (USD)"
+      forecastGrowth: "Projected Growth *"
+      sevenYears: "In 7 Years (USD)"
+      projected: "In 7 Years (USD) %n"
+      total: "Total %n"
+      gain: "Annual gain of %n%"
+      difference: "A gain of (USD) %n"
+    footnote: "* Where we have no data, we assume an 8% growth rate."
+
+  user:
+    options:
+      settings: "Settings"
+      logout: "Logout"
+    fields:
+      email: "Email Address"
+      name: "Full Name"
+      location: "Location"
+      password: "Password"
+      confirmPassword: "Confirm Password"
+    validation:
+      password:
+        required: "Password is required"
+        tooShort: "Password is too short"
+        tooLong: "Password is too long"
+        mismatch: "Passwords do not match"
+      email:
+        required: "Email Address is required"
+        validity: "Email Address is invalid"
+      name:
+        validity: "Your name is invalid"
+
+  tooltip:
+    acronyms:
+      eps: "Earnings-per-Share"
+      dps: "Dividends-per-share"
+      pe: "Price Earnings ratio"
+      growth: "Long Term Growth Forecast"
+      rating: "Stockflare's star rating"
+      ric: "Reuters ticker code"
+    explanations:
+      pe: "PE ratio shows the share price versus the earnings-per-share. The higher the number the more expensive the stock."
+      recommendation: "Stockbrokers publish a Buy/Sell/Hold recommendation for each stock they analyze. We give you the average recommendation."
+      eps: "A company’s profit is owned by it’s shareholders. The Earnings-per-Share is what you theoretically earn for each share you have."
+      dps: "A company pay dividends, like a bank pay interest. The Dividend-per-Share is what you get for each share you own."
+      upside: "Percentage increase to the Wall Street Target Price, from today's stock price"
+      downside: "Percentage decrease from the Wall Street Target Price, to today's stock price"
+
+  stocks:
+    og:
+      title: "Pick Stocks Easily"
+      description: "Stockflare helps you get new ideas. Search for stock ideas and see if your portfolio's any good."
+    messages:
+      noMatches: "Sorry, no stocks found matching your criteria"
+      noMoreMatches: "No more stocks available"
+      loading: "Loading Stocks"
+    reset: "Reset Filters"
+
+  settings:
+    pageTitle: "Settings"
+    flash:
+      updated: "Your settings have been updated"
+    buttons:
+      apply: "Apply Changes"
+      loading: "Updating Settings"
+    titles:
+      header: "User Settings"
+      danger: "Danger Zone"
+    groups:
+      password: "Change Password"
+    descriptions:
+      location: "Your location is used to filter stocks when you do not have a Country filter applied."
+
+  search:
+    pageTitle: "Search"
+    searchingTitle: "Searching for %n"
+    placeholder: "Type to Search..."
+
+  register:
+    pageTitle: "Register"
+    flash:
+      success: "You have successfully registered as %n"
+    og:
+      title: "Register a new account at Stockflare"
+      description: "Not got an Account yet? Register for Stockflare here."
+    titles:
+      join: "Join Stockflare"
+    buttons:
+      register: "Register for Stockflare"
+      loading: "Creating Account"
+    prompt:
+      question: "Already a member?"
+      login: "Login here"
+    success:
+      title: "Completed Registration"
+      cta: "Go to Stocks"
+      loopback: "Loading..."
+
+  recover:
+    pageTitle: "Reset Password"
+    og:
+      title: "Reset your Stockflare Password"
+      description: "Recover your password here."
+    titles:
+      recover: "Reset your Password"
+      sent: "Password Reset"
+    copy:
+      explanation: "Your password has now been reset."
+      link: "Click here to login"
+    buttons:
+      recover: "Reset my password"
+    errors:
+      400: "Failed to reset password"
+      403: "Password reset token has expired"
+    prompt:
+      question: "Remember your password?"
+      register: "Login here"
+
+  login:
+    pageTitle: "Login"
+    flash:
+      success: "You are now logged in as %n"
+    og:
+      title: "Login to Stockflare"
+      description: "Got an Account? Login to Stockflare here."
+    titles:
+      login: "Login to Stockflare"
+      social: "Social Login (Coming Soon)"
+    buttons:
+      social_login: "Login with"
+      login: "Login"
+      loading: "Logging In"
+      forgot: "I've forgotten my password"
+    errors:
+      401: "Invalid Username or Password"
+      500: "Sorry, there was a server error"
+    prompt:
+      question: "Not a member?"
+      register: "Sign up free here"
+
+  landing:
+    pageTitle: "Pick Stocks Simply"
+    introduction:
+      menu:
+        search: "Search for Stocks"
+        skip: "Skip"
+      content:
+        title: "Pick Stocks Easily"
+        copy: "Pick great stocks for your portfolio."
+        point: "Improve how you invest."
+        cta: "Get Picking, 100% Free"
+      stats:
+        countries: "Countries"
+        analyzed: "Stocks Analyzed"
+        stocks: "5 Star Stocks"
+      tease: "What is Stockflare?"
+    question:
+      content:
+        title: "What is Stockflare?"
+        copy: "Investing doesn’t have to be complicated. We cut through hundreds of metrics for over 40,000 stocks globally. We rate and provide information on every stock. Protect what you’ve saved and grow it with Stockflare."
+    rating:
+      content:
+        title: "Pick Stocks at Lightspeed"
+        copy: "Finding it tough to get new stock picks? Stockflare provides star ratings for every stock in the world."
+        point: "Make smart decisions, faster."
+        reveal:
+          revealing: "%n is a %n star stock"
+          notRevealing: "Check out %n"
+      ratings:
+        cheaper: "Is it Cheap or Expensive?"
+        growth: "Does it have high growth?"
+        upside: "What is Wall Street's opinion?"
+        profitable: "Is it profitable?"
+        dividends: "Does it pay dividends?"
+    feed:
+      content:
+        title: "Cut out the Noise"
+        copy: "Using our filters, screen thousands of stocks quickly."
+        point: "Stockflare gets you to the best stocks."
+    opinion:
+      content:
+        title: "What are the Experts Buying?"
+        copy: "Get the professional recommendations. Are they Buyers or Sellers? Price targets for every stock."
+        point: "Professional recommendations. Free forever."
+      bubbles:
+        buy: "Buy"
+        hold: "Hold"
+        sell: "Sell"
+    register:
+      content:
+        skip: "Skip to Stocks"
+        title: "Don't stay in the past"
+        copy: "Register to save your stock picks and get alerts."
+
+  header:
+    buttons:
+      filters: "Filters"
+      ideas: "Pick Stocks"
+      search: "Search"
+      watchlist: "My Watchlist"
+      alerts: "My Alerts"
+
+  forgot:
+    pageTitle: "Forgot Password"
+    og:
+      title: "Recover your Stockflare Password"
+      description: "Forgot your password? Recover it here."
+    titles:
+      forgot: "Forgot Password"
+      sent: "Password Reset Sent"
+    copy:
+      explanation: "An email has been sent to the email address you submitted, containing a link to safely reset your password."
+    buttons:
+      forgot: "Recover my password"
+    errors:
+      404: "Email Address not found"
+      500: "Sorry, there was a server error"
+    prompt:
+      question: "Remember your password?"
+      register: "Login here"
+
+  appender:
+    add: "Add Stock"
+    search: "Search"
+    pressEnter: "Press Enter to Add"
+    noMatches: "0 Matches"
+
+  alerts:
+    pageTitle: "My Alerts"
+    headers:
+      today: "Todays Alerts"
+    messages:
+      movement:
+        positive: "The price is up %n% from %n to %n."
+        negative: "The price is down by %n% from %n to %n."
+      volume:
+        negative: "Abnormally high trading volumes."
+      rating:
+        positive: "Upgraded to a %n star stock."
+        negative: "Downgraded to a %n star stock."
+      recommendation:
+        positive: "Wall Street has upgraded %n to %n."
+        negative: "Wall Street has downgraded %n to %n."
+      upside:
+        positive: "Earned a star for having a %n upside to its price target."
+
+  user:
+    options:
+      settings: "Settings"
+      logout: "Logout"
+    fields:
+      email: "Email Address"
+      name: "Full Name"
+      location: "Location"
+      password: "Password"
+      confirmPassword: "Confirm Password"
+    validation:
+      password:
+        required: "Password is required"
+        tooShort: "Password is too short"
+        tooLong: "Password is too long"
+        mismatch: "Passwords do not match"
+      email:
+        required: "Email Address is required"
+        validity: "Email Address is invalid"
+      name:
+        validity: "Your name is invalid"
