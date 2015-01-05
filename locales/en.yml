@@ -1,309 +1,74 @@
 en:
-
-  stock:
-    og:
-      title: "Information about %n on Stockflare"
-      description: "This stock currently has a rating of %n. Find more information on Stockflare."
-    notification:
-      widgetUpdating: "Calculations updating."
-      updating: "Our analysis on this stock is currently updating. Please check back in 15 minutes."
-      stale: "The data for this stock has not been updated for at least 10 days and may now be stale."
-      insufficientData: "We do not have enough data to perform this calculation"
+  delete:
+    titles:
+      deleted: "Account Deleted"
+      error: "An error has occurred"
+      deleting: "Deleting Account..."
+    copy:
+      deleted: "Your account has been successfully deleted, and all information permanently removed from our system. This action cannot be undone."
+      deleting: "Your account is now being deleted."
+      error: "An error was encountered whilst attempting to delete your account. Please contact support@stockflare.com"
+  resetMfa:
+    pageTitle: "Reset Multi-Factor Authentication"
+    titles:
+      reset: "Reset Multi-Factor Authentication"
+      sent: "MFA Reset Request Sent"
+    copy:
+      explanation: "An email as been sent to the address you submitted, containing a link to safely reset MFA for this account. You will also need to provide the recovery codes that were sent to you when MFA was first activated."
     errors:
-      generic: "An error occurred"
-      loadError: "Error loading stock"
+      404: "Email Address not found"
+      500: "Sorry, there was a server error"
+    og:
+      description: "Lost your virtual MFA device? Reset it here."
+      title: "Reset MFA for your Stockflare Account"
+    prompt:
+      question: "Found your virtual MFA device?"
+      login: "Login here"
     buttons:
-      oneWeek: "1 Week"
-      oneMonth: "1 Month"
-      threeMonths: "3 Months"
-    ratings:
-      profitable:
-        positive: "Profitable company"
-        negative: "Not profitable"
+      reset: "Reset MFA"
+  recoverMfa:
+    buttons:
+      recover: "Reset MFA"
+    copy:
+      explanation: "Multi-Factor authentication has now been reset, and disabled for this account."
+      link: "Click here to login"
+    errors:
+      400: "Failed to reset MFA"
+      403: "MFA reset token has expired. Please request another."
+    og:
+      description: "Reset your Multi-Factor Authentication here."
+      title: "Reset MFA for your Stockflare Account"
+    pageTitle: "Reset MFA"
+    prompt:
+      question: "Found your MFA device?"
+      login: "Login here"
+    titles:
+      recover: "Reset Multi-Factor Authentication"
+      recovered: "MFA Successfully Reset"
+  alerts:
+    headers:
+      today: "Todays Alerts"
+    messages:
+      movement:
+        negative: "The price is down by %n% from %n to %n."
+        positive: "The price is up %n% from %n to %n."
+      rating:
+        negative: "Downgraded to a %n star stock."
+        positive: "Upgraded to a %n star stock."
+      recommendation:
+        negative: "Wall Street has downgraded %n to %n."
+        positive: "Wall Street has upgraded %n to %n."
       upside:
-        positive: "+%n upside to price target"
-        negative: "%n downside to price target"
-        neutral: "No difference to price target"
-        unknown: "Unknown price target"
-      cheaper:
-        positive: "Cheaper than the competitors"
-        negative: "Expensive versus the competitors"
-      dividends:
-        positive: "Paying dividends"
-        negative: "Not paying dividends"
-      high_growth:
-        positive: "Stronger growth than the competitors"
-        negative: "Weaker growth than the competitors"
-    header:
-      price: "Stock Price"
-      percentChange: "Percentage Change"
-      actualChange: "Actual Change"
-    cheaper:
-      cheaper:
-        title: "Cheaper"
-        explanation: "%t(pe){PE Ratio} is lower than its competitors."
-      expensive:
-        title: "Expensive"
-        explanation: "%t(pe){PE Ratio} is higher than its competitors."
-    growth:
-      weak:
-        title: "Weak Growth"
-        explanation: "Long-term Growth is forecasted to be lower than its competitors."
-      strong:
-        title: "Strong Growth"
-        explanation: "Long-term Growth is forecasted to be higher than its competitors."
-    targetPrice:
-      title: "Wall Street Target Price"
-      description: "A %n on today's price."
-      increase: "%t(upside){upside}."
-      decrease: "%t(downside){downside}."
-      equal: "No difference"
-      recommendations:
-        strongBuy: "Wall Street's %t(recommendation){recommendation} is Strong Buy."
-        buy: "Wall Street's %t(recommendation){recommendation} is Buy."
-        hold: "Wall Street's %t(recommendation){recommendation} is Hold."
-        sell: "Wall Street's %t(recommendation){recommendation} is Sell."
-        strongSell: "Wall Street's %t(recommendation){recommendation} is Strong Sell."
-    profitable:
-      title: "Profitable?"
-      description: "Forecast %t(eps){Earnings-per-Share}."
-    dividends:
-      title: "Pays Dividends?"
-      description: "Forecast %t(dps){Dividends-per-Share}."
-    worth:
-      title: "What's %n worth, long term?"
-      today:
-        title: "Today I Own"
-        description: "Enter share amount below"
-        unsaved: "You have unsaved changes"
-        submitNotWatching: "Add Position to Watchlist"
-        submitWatching: "Update Position on Watchlist"
-      forecast:
-        title: "is Forecast to"
-      result:
-        title: "That Means"
-      copy:
-        value:
-          text: "Shares valued at %n"
-        sevenYearGain:
-          positive: "Gains %n over 7 years"
-          negative: "Loses %n over 7 years"
-        gainPerYear:
-          positive: "Gain of %n per year"
-          negative: "Loss of %n per year"
-        absoluteGain:
-          positive: "%n increases to %n over 7 years"
-          negative: "%n decreases to %n over 7 years"
-        relativeGain:
-          positive: "Gain of %n over 7 years"
-          negative: "Loss of %n over 7 years"
-      footnote: "We are assuming an 8% annual growth rate for the above calculations."
-    graph:
-      price: "Price"
-      volume: "Price & Volume"
-    information:
-      description: "Company Description"
-      statistics: "Key Statistics"
-      results: "Latest Results"
-    priceChange:
-      title: "What is driving the Price Change?"
-      price:
-        title: "Price Change"
-      profitability:
-        title: "Change in Profitability?"
-        forecastEpsWas: "Forecast %t(eps){EPS} was %n."
-        epsWas: "%t(eps){EPS} was %n."
-        epsToday: "Today it is %n"
-      sentiment:
-        title: "Change in Investor Sentiment?"
-        forecastPeWas: "Forecast %t(pe){PE Ratio} was %nx."
-        peToday: "Today it is %nx"
-        peWas: "%t(pe){PE} was %n."
-    social:
-      email: "Email to a friend"
-    innerTypes:
-      upside:
-        title: "Cheap or Expensive"
-        description:
-          valid: "This stock is trading at %nx times earnings and is %n versus its competitors. Find out more on Stockflare."
-          fallback: "This stock is expensive versus its competitors. Find out more on Stockflare."
-          terms:
-            cheap: "cheap"
-            expensive: "expensive"
-      growth:
-        title: "Growth"
-        description:
-          valid: "This stock's earnings are forecast to grow %n% per annum long-term. Which is %n than its competitors. Find out more on Stockflare."
-          fallback: "This stock has weaker growth than its competitors. Find out why on Stockflare."
-          terms:
-            high: "stronger"
-            low: "weaker"
-      wallStreet:
-        title: "Wall Street Opinion"
-        description:
-          valid: "Wall Street has a %n recommendation for this stock with a price target of %n. That implies a %n% %n. Find out more on Stockflare."
-          fallback: "Wall Street doesn't have an opinion on this stock. Find out why on Stockflare."
-          terms:
-            upside: "upside"
-            downside: "downside"
-      profitable:
-        title: "Profit / Loss"
-        description:
-          valid: "Wall Street is forecasting %n earnings per share for this stock. Find out more on Stockflare."
-          fallback: "Wall Street isn't forecasting any earnings per share for this stock. Find out why on Stockflare."
-      dividends:
-        title: "Dividends"
-        description:
-          valid: "Wall Street is forecasting %n dividend per share for this stock. Find out more on Stockflare."
-          fallback: "Wall Street isn't forecasting any dividends per share for this stock. Find out why on Stockflare."
-      peers:
-        title: "Peers List"
-        description:
-          valid: "This stock has %n competitors. Compare the key metrics at Stockflare."
-      description:
-        title: "Company Description"
-        description: "Read this stock's company description and analysis on Stockflare."
-      stats:
-        title: "Key Stats"
-        description:
-          valid: "This stock has a market value of %n and its valuation is %n based on %n our of 9 metrics. Find out more on Stockflare."
-          terms:
-            cheaper: "cheaper"
-            expensive: "expensive"
-      latest:
-        title: "Latest Results"
-        description: "Read this stock's latest results and get the financial analysis on Stockflare."
-      worth:
-        title: "What it's Worth"
-        description:
-          valid: "This stock is forecast to %n %n% per annum over the next 7 years."
-          fallback: "Find out what this stock is forecasted to gain or lose over the next 7 years on Stockflare."
-          terms:
-            gain: "gain"
-            lose: "lose"
-    inner:
-      upside:
-        title: "PE Ratio Vs. 5 Cheapest Competitors"
-      growth:
-        titles:
-          main: "Growth Rate Vs. 5 Fastest Growing Competitors"
-          comparison: "Comparing the Long Term forecasts to the Short Term forecasts"
-          growth: "Long Term Growth Forecast"
-          profit: "Short Term Profit Forecast"
-          sales: "Short Term Sales Forecast"
-      wallStreet:
-        titles:
-          main: "Upside Vs. 5 Competitors with Highest Upside"
-          recommendation: "Change in Wall Street's Recommendation"
-          today: "Today"
-          oneWeek: "One Week Ago"
-          competitors: "Competitor's Recommendation"
-      profitable:
-        titles:
-          main: "Profitable"
-          epsForecast: "Short Term EPS Forecast"
-          profitForecast: "Short Term Profit Forecast"
-      dividends:
-        titles:
-          main: "Dividends"
-          forecast: "Short Term Dividend Forecast"
-          competitors: "Competitors Paying Dividends"
-      peers:
-        titles:
-          main: "Company Competitors"
-      description:
-        titles:
-          main: "Company Description"
-          competitors: "Who are the Competitors?"
-      latest:
-        titles:
-          main: "Latest Results"
-          salesForecast: "Forecasted Sales and Net Profit"
-          epsForecast: "Forecasted EPS and Dividend Yield"
-          gross: "Gross Margin (%) Vs. 5 Largest Competitors"
-          operating: "Operating Margin (%) Vs. 5 Largest Competitors"
-          roe: "Return on Equity (%) Vs. 5 Largest Competitors"
-        forecasted:
-          sales: "Sales Forecast"
-          profit: "Net Profit Forecast"
-          eps: "EPS Forecast"
-          dividend: "Dividend Forecast"
-      stats:
-        titles:
-          key: "Key Stats"
-          valuations: "Valuation Multiples"
-          upside: "Upside / Downside to 52 Week High / Low"
-        market:
-          value: "Market Value"
-          price: "Share Price"
-          shares: "Common Shares"
-        volumes:
-          daily: "Daily Trade Volume"
-          today: "Today's Volume Is"
-        data:
-          table:
-            cheaperOn: "Cheaper than peers on %n of 9 measures"
-            headers:
-              stock: "Latest"
-              competitors: "Competitors"
-              cheaper: "Cheaper?"
-            labels:
-              forecastedPe: "PE Ratio (Forecast)"
-              historicPe: "PE Ratio (Historic)"
-              forecastedDividends: "Dividend Yield (Forecast)"
-              historicDividends: "Dividend Yield (Historic)"
-              forecastedSales: "Price to Sales (Forecast)"
-              historicSales: "Price to Sales (Historic)"
-              historicProfit: "Price to Operating Profit (Historic)"
-              historicEquity: "Return on Equity (Historic)"
-              historicBookValue: "Price to Book Value (Historic)"
-      worth:
-        title: "What it's Worth"
-
+        positive: "Earned a star for having a %n upside to its price target."
+      volume:
+        negative: "Abnormally high trading volumes."
+    pageTitle: "My Alerts"
+  appender:
+    add: "Add Stock"
+    noMatches: "0 Matches"
+    pressEnter: "Press Enter to Add"
+    search: "Search"
   common:
-    defaultPageTitle: "Pick Stocks Easily"
-    login: "Login"
-    register: "Sign Up Free"
-    watch: "Watch"
-    unwatch: "Unwatch"
-    loading: "Loading..."
-    pages:
-      privacy_policy: "Privacy Policy"
-      tos: "Terms of Service"
-    social:
-      email: "Email to a friend"
-    tooltips:
-      watch:
-        watch: "Add to your Watchlist"
-        unwatch: "Remove from your Watchlist"
-      widget:
-        graph: "Price Chart"
-        info: "Star Rating"
-        social: "Share"
-        alerts: "Stock Alerts"
-    time:
-      dateFormat: "%m/%d/%y"
-      shortDateFormat: "%m/%d"
-      shortDaysOfWeek:
-        - "Sun"
-        - "Mon"
-        - "Tue"
-        - "Wed"
-        - "Thu"
-        - "Fri"
-        - "Sat"
-      daysOfWeek:
-        - "Sunday"
-        - "Monday"
-        - "Tuesday"
-        - "Wednesday"
-        - "Thursday"
-        - "Friday"
-        - "Saturday"
-    regions:
-      amer: "Americas"
-      apac: "Asia Pacific"
-      emea: "Europe, Middle-East & Africa"
     countries:
       afg: "Afghanistan"
       ago: "Angola"
@@ -712,182 +477,271 @@ en:
         zar: "South Africa Rand"
         zmw: "Zambia Kwacha"
       symbols:
-        all: "Lek%n"
-        afn: "؋%n"
-        ars: "$%n"
-        awg: "ƒ%n"
-        aud: "$%n"
         aed: "%nد.إ"
+        afn: "؋%n"
+        all: "Lek%n"
+        amd: "%ndram"
+        ang: "ƒ%n"
+        aoa: "Kz%n"
+        ars: "$%n"
+        aud: "$%n"
+        awg: "ƒ%n"
         azn: "ман%n"
-        bsd: "$%n"
+        bam: "KM%n"
         bbd: "$%n"
+        bdt: "৳%n"
+        bgn: "лв%n"
         bhd: "%n.د.ب"
+        bif: "FBu%n"
+        bmd: "$%n"
+        bnd: "$%n"
+        bob: "$b%n"
+        brl: "R$%n"
+        bsd: "$%n"
+        btn: "Nu.%n"
+        bwp: "P%n"
         byr: "p.%n"
         bzd: "BZ$%n"
-        bmd: "$%n"
-        bob: "$b%n"
-        bam: "KM%n"
-        bwp: "P%n"
-        bgn: "лв%n"
-        brl: "R$%n"
-        bnd: "$%n"
-        khr: "៛%n"
         cad: "$%n"
-        kyd: "$%n"
+        cdf: "Fr%n"
+        chf: "CHF%n"
+        clf: "$%n"
         clp: "$%n"
         cny: "¥%n"
         cop: "$%n"
         crc: "₡%n"
-        hrk: "kn%n"
         cup: "₱%n"
+        cve: "Esc%n"
         czk: "Kč%n"
+        djf: "Fr%n"
         dkk: "%nkr"
         dop: "RD$%n"
-        xcd: "$%n"
-        egp: "£%n"
-        svc: "$%n"
+        dzd: "دج%n"
         eek: "%nkr"
+        egp: "£%n"
+        ern: "Nfk%n"
+        etb: "Br%n"
         eur: "€%n"
-        fkp: "£%n"
         fjd: "$%n"
-        ghc: "¢%n"
-        gip: "£%n"
-        gtq: "Q%n"
+        fkp: "£%n"
+        gbp: "£%n"
+        gel: "%nlari"
         ggp: "£%n"
+        ghc: "¢%n"
+        ghs: "GH₵%n"
+        gip: "£%n"
+        gmd: "D%n"
+        gnf: "Fr%n"
+        gtq: "Q%n"
         gyd: "$%n"
-        hnl: "L%n"
         hkd: "$%n"
+        hnl: "L%n"
+        hrk: "kn%n"
+        htg: "G%n"
         huf: "%nFt"
-        isk: "%nkr"
+        idr: "Rp%n"
+        ils: "₪%n"
+        imp: "£%n"
         inr: "₹%n"
         iqd: "%nد.ع"
-        idr: "Rp%n"
         irr: "﷼%n"
-        imp: "£%n"
-        ils: "₪%n"
-        jmd: "J$%n"
-        jpy: "¥%n"
+        isk: "%nkr"
         jep: "£%n"
+        jmd: "J$%n"
         jod: "%nدينار"
-        kzt: "лв%n"
+        jpy: "¥%n"
+        kes: "Ksh%n"
+        kgs: "лв%n"
+        khr: "៛%n"
+        kmf: "Fr%n"
         kpw: "₩%n"
         krw: "₩%n"
-        kgs: "лв%n"
+        kwd: "د.ك%n"
+        kyd: "$%n"
+        kzt: "лв%n"
         lak: "₭%n"
-        lvl: "Ls%n"
         lbp: "£%n"
+        lkr: "₨%n"
         lrd: "$%n"
+        lsl: "M%n"
         ltl: "Lt%n"
+        lvl: "Ls%n"
+        lyd: "ل.د%n"
+        mad: "د.م.%n"
+        mdl: "%nleu"
+        mga: "Ar%n"
         mkd: "ден%n"
-        myr: "RM%n"
-        mur: "₨%n"
-        mxn: "$%n"
+        mmk: "K%n"
         mnt: "₮%n"
+        mop: "MOP$%n"
+        mro: "UM%n"
+        mur: "₨%n"
+        mvr: "Rf.%n"
+        mwk: "MK%n"
+        mxn: "$%n"
+        myr: "RM%n"
         mzn: "MT%n"
         nad: "$%n"
-        npr: "₨%n"
-        ang: "ƒ%n"
-        nzd: "$%n"
-        nio: "C$%n"
         ngn: "₦%n"
+        nio: "C$%n"
         nok: "%nkr"
+        npr: "₨%n"
+        nzd: "$%n"
         omr: "﷼%n"
-        pkr: "₨%n"
         pab: "B/.%n"
-        pyg: "Gs%n"
         pen: "S/.%n"
+        pgk: "K%n"
         php: "₱%n"
+        pkr: "₨%n"
         pln: "zł%n"
+        pyg: "Gs%n"
         qar: "﷼%n"
         ron: "lei%n"
-        rub: "руб%n"
-        shp: "£%n"
-        sar: "﷼%n"
         rsd: "Дин.%n"
-        scr: "₨%n"
-        sgd: "$%n"
+        rub: "руб%n"
+        rwf: "FRw%n"
+        sar: "﷼%n"
         sbd: "$%n"
-        sos: "S%n"
-        zar: "R%n"
-        lkr: "₨%n"
+        scr: "₨%n"
+        sdg: "ج.س.‏%n"
         sek: "%nkr"
-        chf: "CHF%n"
+        sgd: "$%n"
+        shp: "£%n"
+        sll: "Le%n"
+        sos: "S%n"
         srd: "$%n"
+        std: "Db%n"
+        svc: "$%n"
         syp: "£%n"
-        twd: "NT$%n"
+        szl: "E%n"
         thb: "฿%n"
-        ttd: "TT$%n"
-        try: "₤%n"
+        tjs: "%ncомонӣ"
+        tmt: "T%n"
+        tnd: "د.ت%n"
+        top: "$%n"
         trl: "₤%n"
+        try: "₤%n"
+        ttd: "TT$%n"
         tvd: "$%n"
+        twd: "NT$%n"
+        tzs: "TSh%n"
         uah: "₴%n"
-        gbp: "£%n"
+        ugx: "USh%n"
         usd: "$%n"
         uyu: "$U%n"
         uzs: "лв%n"
         vef: "Bs%n"
         vnd: "₫%n"
-        yer: "﷼%n"
-        zwd: "Z$%n"
-        amd: "%ndram"
-        aoa: "Kz%n"
-        bif: "FBu%n"
-        btn: "Nu.%n"
-        cdf: "Fr%n"
-        cve: "Esc%n"
-        djf: "Fr%n"
-        dzd: "دج%n"
-        ern: "Nfk%n"
-        etb: "Br%n"
-        gel: "%nlari"
-        ghs: "GH₵%n"
-        gmd: "D%n"
-        gnf: "Fr%n"
-        htg: "G%n"
-        kes: "Ksh%n"
-        kmf: "Fr%n"
-        kwd: "د.ك%n"
-        lsl: "M%n"
-        lyd: "ل.د%n"
-        mad: "د.م.%n"
-        mdl: "%nleu"
-        mga: "Ar%n"
-        mmk: "K%n"
-        mop: "MOP$%n"
-        mvr: "Rf.%n"
-        mwk: "MK%n"
-        pgk: "K%n"
-        rwf: "FRw%n"
-        sdg: "ج.س.‏%n"
-        sll: "Le%n"
-        szl: "E%n"
-        tjs: "%ncомонӣ"
-        tmt: "T%n"
-        tnd: "د.ت%n"
-        top: "$%n"
-        tzs: "TSh%n"
-        ugx: "USh%n"
         vuv: "VT%n"
         wst: "WS$%n"
         xaf: "FCFA%n"
+        xcd: "$%n"
         xof: "CFA%n"
         xpf: "F%n"
-        bdt: "৳%n"
-        clf: "$%n"
-        mro: "UM%n"
-        std: "Db%n"
+        yer: "﷼%n"
+        zar: "R%n"
         zmw: "ZK%n"
+        zwd: "Z$%n"
+    defaultPageTitle: "Pick Stocks Easily"
+    loading: "Loading..."
+    login: "Login"
+    pages:
+      privacy_policy: "Privacy Policy"
+      tos: "Terms of Service"
+    regions:
+      amer: "Americas"
+      apac: "Asia Pacific"
+      emea: "Europe, Middle-East & Africa"
+    register: "Sign Up Free"
+    social:
+      email: "Email to a friend"
+    time:
+      dateFormat: "%m/%d/%y"
+      daysOfWeek:
+        - "Sunday"
+        - "Monday"
+        - "Tuesday"
+        - "Wednesday"
+        - "Thursday"
+        - "Friday"
+        - "Saturday"
+      shortDateFormat: "%m/%d"
+      shortDaysOfWeek:
+        - "Sun"
+        - "Mon"
+        - "Tue"
+        - "Wed"
+        - "Thu"
+        - "Fri"
+        - "Sat"
+    tooltips:
+      watch:
+        unwatch: "Remove from your Watchlist"
+        watch: "Add to your Watchlist"
+      widget:
+        alerts: "Stock Alerts"
+        graph: "Price Chart"
+        info: "Star Rating"
+        social: "Share"
+    unwatch: "Unwatch"
     wallStreetRecommendations:
+      emptyCategory: "You have no stocks in this category."
+      missing: "No Recommendation"
       titles:
-        strongBuy: "Strong Buy"
         buy: "Buy"
         hold: "Hold"
         sell: "Sell"
+        strongBuy: "Strong Buy"
         strongSell: "Strong Sell"
-      missing: "No Recommendation"
-      emptyCategory: "You have no stocks in this category."
-
+    watch: "Watch"
   filterBar:
+    company_tags:
+      descriptions:
+        growing: "Sales & Earnings-per-Share forecast to increase this year, versus last year."
+        has_cash: "Companies with more cash & investments than debts."
+        high_growth: "Forecast to grow earnings faster than 16%, long term"
+        large: "Companies valued at more than $10 billion US Dollars."
+        pays_dividends: "Companies that pay dividends to shareholders."
+        profitable: "Profitable, last year & forecast this year."
+        small: "Companies valued at less than $1 Billion US Dollars."
+        turning_profitable: "Forecast to be profitable this year, after a loss last year."
+      titles:
+        default: "Business Metrics"
+        filters:
+          growing: "Growing"
+          has_cash: "Has Cash & Investments"
+          high_growth: "High Growth Only"
+          large: "Large Companies Only"
+          pays_dividends: "Pays Dividends Only"
+          profitable: "Profitable Today"
+          small: "Small Companies Only"
+          turning_profitable: "Turning Profitable"
+    country:
+      titles:
+        default: "Country"
+    country_currency:
+      categories:
+        country: "Countries"
+        currency: "Major Currencies"
+        regions: "Regions"
+      titles:
+        default: "Country & Currency"
+    direction:
+      descriptions:
+        near_high: "Stocks that are within 5% of their fifty two week price high"
+        near_low: "Stocks that are within 5% of their lowest price in fifty two weeks"
+        negative: "Stocks with prices less than their ten day average"
+        positive: "Stocks with prices greater than their ten day average"
+      titles:
+        default: "Price Direction"
+        filters:
+          near_high: "Near 52 Week High"
+          near_low: "Near 52 Week Low"
+          negative: "Negative Momentum"
+          positive: "Positive Momentum"
+    opinion:
+      titles:
+        default: "Investing Style"
     order:
       ascending: "Low to High"
       descending: "High to Low"
@@ -895,17 +749,9 @@ en:
         latest_market_value_usd: "Market Value"
         latest_price: "Price"
         latest_rating: "Star Rating"
-    country:
+    sector:
       titles:
-        default: "Country"
-    country_currency:
-      titles:
-        default: "Country & Currency"
-        filters: {}
-      categories:
-        regions: "Regions"
-        country: "Countries"
-        currency: "Major Currencies"
+        default: "Sector"
     sectors:
       -
         code: "50"
@@ -937,83 +783,17 @@ en:
       -
         code: "59"
         name: "Utilities"
-    sector:
-      titles:
-        default: "Sector"
-    company_tags:
-      titles:
-        default: "Business Metrics"
-        filters:
-          small: "Small Companies Only"
-          large: "Large Companies Only"
-          profitable: "Profitable Today"
-          turning_profitable: "Turning Profitable"
-          growing: "Growing"
-          high_growth: "High Growth Only"
-          pays_dividends: "Pays Dividends Only"
-          has_cash: "Has Cash & Investments"
-      descriptions:
-        small: "Companies valued at less than $1 Billion US Dollars."
-        large: "Companies valued at more than $10 billion US Dollars."
-        profitable: "Profitable, last year & forecast this year."
-        turning_profitable: "Forecast to be profitable this year, after a loss last year."
-        growing: "Sales & Earnings-per-Share forecast to increase this year, versus last year."
-        high_growth: "Forecast to grow earnings faster than 16%, long term"
-        pays_dividends: "Companies that pay dividends to shareholders."
-        has_cash: "Companies with more cash & investments than debts."
-    direction:
-      titles:
-        default: "Price Direction"
-        filters:
-          positive: "Positive Momentum"
-          negative: "Negative Momentum"
-          near_high: "Near 52 Week High"
-          near_low: "Near 52 Week Low"
-      descriptions:
-        positive: "Stocks with prices greater than their ten day average"
-        negative: "Stocks with prices less than their ten day average"
-        near_high: "Stocks that are within 5% of their fifty two week price high"
-        near_low: "Stocks that are within 5% of their lowest price in fifty two weeks"
-    valuation:
-      titles:
-        default: "Valuation"
-        filters:
-          low_pe: "PE Ratio under 10x"
-          high_dividend: "Dividend yield over 4%"
-          low_book_value: "Trading below Book Value"
-          low_sales: "Less than 1x Sales"
-          low_operating_profit: "Less than 7x Operating Profit"
-      descriptions:
-        low_pe: "Cheap stocks based on their profits"
-        high_dividend: "Cheap stocks based on their dividend payments"
-        low_book_value: "Cheap stocks based on their net asset value"
-        low_sales: "Stocks based on their price to sales"
-        low_operating_profit: "Stocks based on their operating profits"
-    style:
-      titles:
-        default: "Investment Style"
-        filters:
-          value: "Good Value"
-          growth: "High Growth"
-          quality: "High Quality"
-      descriptions:
-        value: "Companies that are cheaper than their competitors."
-        growth: "Companies that grow faster than the competitors, long-term."
-        quality: "Companies that are cheap & forecast to grow strongly."
     sentiment:
+      descriptions:
+        hated: "Stocks were Wall Street’s target price is lower than today’s price."
+        loved: "Stocks were Wall Street’s target price is higher than today’s price."
+        unknown: "Stocks where Wall Street doesn’t have an option on the price."
       titles:
         default: "Sentiment"
         filters:
-          loved: "Loved by Wall Street"
           hated: "Hated by Wall Street"
+          loved: "Loved by Wall Street"
           unknown: "Unknown on Wall Street"
-      descriptions:
-        loved: "Stocks were Wall Street’s target price is higher than today’s price."
-        hated: "Stocks were Wall Street’s target price is lower than today’s price."
-        unknown: "Stocks where Wall Street doesn’t have an option on the price."
-    opinion:
-      titles:
-        default: "Investing Style"
     starRatings:
       titles:
         default: "Star Rating"
@@ -1023,303 +803,559 @@ en:
           - "3 Star Stocks"
           - "4 Star Stocks"
           - "5 Star Stocks"
-
-  watchlist:
-    pageTitle: "My Watchlist"
-    pageDescription: "Your watchlist contains a summary of your portfolio as well as recent alerts from watched stocks."
-    watching: "Total Watching"
-    watchingPhrase: "%n Companies"
-    worth: "Total Worth"
-    percentChange: "Percent Change"
-    actualChange: "Actual Change (1 Day)"
-    summary:
+    style:
+      descriptions:
+        growth: "Companies that grow faster than the competitors, long-term."
+        quality: "Companies that are cheap & forecast to grow strongly."
+        value: "Companies that are cheaper than their competitors."
       titles:
-        opinion: "Portfolio Opinion"
-        gain: "Seven Year Gain"
-        alerts: "Most Recent Alerts"
-      summaries:
-        opinion:
-          stars: "We rate your portfolio %n stars."
-          ws: "Wall Street thinks it's a %n."
-          notWatchingStocks: "Watch some stocks to receive a rating."
-        gain:
-          projectedValue: "Portfolio projected to be worth %n in 7 years"
-          projectedGain: "an annual growth of %n% from today's %n"
-          notWatchingStocks: "Watch some stocks to receive an average growth."
-    wallStreet:
-      title: "Wall Street Opinions"
-      upside:
-        text: "%n% Upside"
-        missing: "N/A Upside"
-    projected: "Projected Portfolio"
-    portfolioTable:
-      name: "Company Name"
-      price: "Today"
-      shares: "No. Of Shares"
-      value: "Value"
-      usValue: "Value (USD)"
-      forecastGrowth: "Projected Growth *"
-      sevenYears: "In 7 Years (USD)"
-      projected: "In 7 Years (USD) %n"
-      total: "Total %n"
-      gain: "Annual gain of %n%"
-      difference: "A gain of (USD) %n"
-    footnote: "* Where we have no data, we assume an 8% growth rate."
-
-  user:
-    options:
-      settings: "Settings"
-      logout: "Logout"
-    fields:
-      email: "Email Address"
-      name: "Full Name"
-      location: "Location"
-      password: "Password"
-      confirmPassword: "Confirm Password"
-    validation:
-      password:
-        required: "Password is required"
-        tooShort: "Password is too short"
-        tooLong: "Password is too long"
-        mismatch: "Passwords do not match"
-      email:
-        required: "Email Address is required"
-        validity: "Email Address is invalid"
-      name:
-        validity: "Your name is invalid"
-
-  tooltip:
-    acronyms:
-      eps: "Earnings-per-Share"
-      dps: "Dividends-per-share"
-      pe: "Price Earnings ratio"
-      growth: "Long Term Growth Forecast"
-      rating: "Stockflare's star rating"
-      ric: "Reuters ticker code"
-    explanations:
-      pe: "PE ratio shows the share price versus the earnings-per-share. The higher the number the more expensive the stock."
-      recommendation: "Stockbrokers publish a Buy/Sell/Hold recommendation for each stock they analyze. We give you the average recommendation."
-      eps: "A company’s profit is owned by it’s shareholders. The Earnings-per-Share is what you theoretically earn for each share you have."
-      dps: "A company pay dividends, like a bank pay interest. The Dividend-per-Share is what you get for each share you own."
-      upside: "Percentage increase to the Wall Street Target Price, from today's stock price"
-      downside: "Percentage decrease from the Wall Street Target Price, to today's stock price"
-
-  stocks:
-    og:
-      title: "Pick Stocks Easily"
-      description: "Stockflare helps you get new ideas. Search for stock ideas and see if your portfolio's any good."
-    messages:
-      noMatches: "Sorry, no stocks found matching your criteria"
-      noMoreMatches: "No more stocks available"
-      loading: "Loading Stocks"
-    reset: "Reset Filters"
-
-  settings:
-    pageTitle: "Settings"
-    flash:
-      updated: "Your settings have been updated"
+        default: "Investment Style"
+        filters:
+          growth: "High Growth"
+          quality: "High Quality"
+          value: "Good Value"
+    valuation:
+      descriptions:
+        high_dividend: "Cheap stocks based on their dividend payments"
+        low_book_value: "Cheap stocks based on their net asset value"
+        low_operating_profit: "Stocks based on their operating profits"
+        low_pe: "Cheap stocks based on their profits"
+        low_sales: "Stocks based on their price to sales"
+      titles:
+        default: "Valuation"
+        filters:
+          high_dividend: "Dividend yield over 4%"
+          low_book_value: "Trading below Book Value"
+          low_operating_profit: "Less than 7x Operating Profit"
+          low_pe: "PE Ratio under 10x"
+          low_sales: "Less than 1x Sales"
+  forgot:
     buttons:
-      apply: "Apply Changes"
-      loading: "Updating Settings"
-    titles:
-      header: "User Settings"
-      danger: "Danger Zone"
-    groups:
-      password: "Change Password"
-    descriptions:
-      location: "Your location is used to filter stocks when you do not have a Country filter applied."
-
-  search:
-    pageTitle: "Search"
-    searchingTitle: "Searching for %n"
-    placeholder: "Type to Search..."
-
-  register:
-    pageTitle: "Register"
-    flash:
-      success: "You have successfully registered as %n"
-    og:
-      title: "Register a new account at Stockflare"
-      description: "Not got an Account yet? Register for Stockflare here."
-    titles:
-      join: "Join Stockflare"
-    buttons:
-      register: "Register for Stockflare"
-      loading: "Creating Account"
-    prompt:
-      question: "Already a member?"
-      login: "Login here"
-    success:
-      title: "Completed Registration"
-      cta: "Go to Stocks"
-      loopback: "Loading..."
-
-  recover:
-    pageTitle: "Reset Password"
-    og:
-      title: "Reset your Stockflare Password"
-      description: "Recover your password here."
-    titles:
-      recover: "Reset your Password"
-      sent: "Password Reset"
+      forgot: "Recover my password"
     copy:
-      explanation: "Your password has now been reset."
-      link: "Click here to login"
-    buttons:
-      recover: "Reset my password"
+      explanation: "An email has been sent to the email address you submitted, containing a link to safely reset your password."
     errors:
-      400: "Failed to reset password"
-      403: "Password reset token has expired"
+      404: "Email Address not found"
+      500: "Sorry, there was a server error"
+    og:
+      description: "Forgot your password? Recover it here."
+      title: "Recover your Stockflare Password"
+    pageTitle: "Forgot Password"
     prompt:
       question: "Remember your password?"
       register: "Login here"
-
-  login:
-    pageTitle: "Login"
-    flash:
-      success: "You are now logged in as %n"
-    og:
-      title: "Login to Stockflare"
-      description: "Got an Account? Login to Stockflare here."
     titles:
-      login: "Login to Stockflare"
-      social: "Social Login (Coming Soon)"
-    buttons:
-      social_login: "Login with"
-      login: "Login"
-      loading: "Logging In"
-      forgot: "I've forgotten my password"
-    errors:
-      401: "Invalid Username or Password"
-      500: "Sorry, there was a server error"
-    prompt:
-      question: "Not a member?"
-      register: "Sign up free here"
-
-  landing:
-    pageTitle: "Pick Stocks Simply"
-    introduction:
-      menu:
-        search: "Search for Stocks"
-        skip: "Skip"
-      content:
-        title: "Pick Stocks Easily"
-        copy: "Pick great stocks for your portfolio."
-        point: "Improve how you invest."
-        cta: "Get Picking, 100% Free"
-      stats:
-        countries: "Countries"
-        analyzed: "Stocks Analyzed"
-        stocks: "5 Star Stocks"
-      tease: "What is Stockflare?"
-    question:
-      content:
-        title: "What is Stockflare?"
-        copy: "Investing doesn’t have to be complicated. We cut through hundreds of metrics for over 40,000 stocks globally. We rate and provide information on every stock. Protect what you’ve saved and grow it with Stockflare."
-    rating:
-      content:
-        title: "Pick Stocks at Lightspeed"
-        copy: "Finding it tough to get new stock picks? Stockflare provides star ratings for every stock in the world."
-        point: "Make smart decisions, faster."
-        reveal:
-          revealing: "%n is a %n star stock"
-          notRevealing: "Check out %n"
-      ratings:
-        cheaper: "Is it Cheap or Expensive?"
-        growth: "Does it have high growth?"
-        upside: "What is Wall Street's opinion?"
-        profitable: "Is it profitable?"
-        dividends: "Does it pay dividends?"
-    feed:
-      content:
-        title: "Cut out the Noise"
-        copy: "Using our filters, screen thousands of stocks quickly."
-        point: "Stockflare gets you to the best stocks."
-    opinion:
-      content:
-        title: "What are the Experts Buying?"
-        copy: "Get the professional recommendations. Are they Buyers or Sellers? Price targets for every stock."
-        point: "Professional recommendations. Free forever."
-      bubbles:
-        buy: "Buy"
-        hold: "Hold"
-        sell: "Sell"
-    register:
-      content:
-        skip: "Skip to Stocks"
-        title: "Don't stay in the past"
-        copy: "Register to save your stock picks and get alerts."
-
+      forgot: "Forgot Password"
+      sent: "Password Reset Sent"
   header:
     buttons:
+      alerts: "My Alerts"
       filters: "Filters"
       ideas: "Pick Stocks"
       search: "Search"
       watchlist: "My Watchlist"
-      alerts: "My Alerts"
-
-  forgot:
-    pageTitle: "Forgot Password"
-    og:
-      title: "Recover your Stockflare Password"
-      description: "Forgot your password? Recover it here."
-    titles:
-      forgot: "Forgot Password"
-      sent: "Password Reset Sent"
-    copy:
-      explanation: "An email has been sent to the email address you submitted, containing a link to safely reset your password."
+  landing:
+    feed:
+      content:
+        copy: "Using our filters, screen thousands of stocks quickly."
+        point: "Stockflare gets you to the best stocks."
+        title: "Cut out the Noise"
+    introduction:
+      content:
+        copy: "Pick great stocks for your portfolio."
+        cta: "Get Picking, 100% Free"
+        point: "Improve how you invest."
+        title: "Pick Stocks Easily"
+      menu:
+        search: "Search for Stocks"
+        skip: "Skip"
+      stats:
+        analyzed: "Stocks Analyzed"
+        countries: "Countries"
+        stocks: "5 Star Stocks"
+      tease: "What is Stockflare?"
+    opinion:
+      bubbles:
+        buy: "Buy"
+        hold: "Hold"
+        sell: "Sell"
+      content:
+        copy: "Get the professional recommendations. Are they Buyers or Sellers? Price targets for every stock."
+        point: "Professional recommendations. Free forever."
+        title: "What are the Experts Buying?"
+    pageTitle: "Pick Stocks Simply"
+    question:
+      content:
+        copy: "Investing doesn’t have to be complicated. We cut through hundreds of metrics for over 40,000 stocks globally. We rate and provide information on every stock. Protect what you’ve saved and grow it with Stockflare."
+        title: "What is Stockflare?"
+    rating:
+      content:
+        copy: "Finding it tough to get new stock picks? Stockflare provides star ratings for every stock in the world."
+        point: "Make smart decisions, faster."
+        reveal:
+          notRevealing: "Check out %n"
+          revealing: "%n is a %n star stock"
+        title: "Pick Stocks at Lightspeed"
+      ratings:
+        cheaper: "Is it Cheap or Expensive?"
+        dividends: "Does it pay dividends?"
+        growth: "Does it have high growth?"
+        profitable: "Is it profitable?"
+        upside: "What is Wall Street's opinion?"
+    register:
+      content:
+        copy: "Register to save your stock picks and get alerts."
+        skip: "Skip to Stocks"
+        title: "Don't stay in the past"
+  login:
     buttons:
-      forgot: "Recover my password"
+      forgot: "I've forgotten my password"
+      resetOtp: "I've lost my MFA Device"
+      loading: "Logging In"
+      login: "Login"
+      social_login: "Login with"
     errors:
-      404: "Email Address not found"
+      401: "Invalid Username or Password"
       500: "Sorry, there was a server error"
+      mfa:
+        401: "Invalid Authentication Code"
+        500: "Sorry, there was a server error"
+    flash:
+      success: "You are now logged in as %n"
+    og:
+      description: "Got an Account? Login to Stockflare here."
+      title: "Login to Stockflare"
+    pageTitle: "Login"
+    prompt:
+      question: "Not a member?"
+      register: "Sign up free here"
+      mfaInfo: "More Info"
+    titles:
+      login: "Login to Stockflare"
+      social: "Social Login (Coming Soon)"
+      mfa: "Secured Account"
+    descriptions:
+      mfa: "This account has been secured with an MFA device. Enter the code from the device to complete login."
+  recover:
+    buttons:
+      recover: "Reset my password"
+    copy:
+      explanation: "Your password has now been reset."
+      link: "Click here to login"
+    errors:
+      400: "Failed to reset password"
+      403: "Password reset token has expired"
+    og:
+      description: "Recover your password here."
+      title: "Reset your Stockflare Password"
+    pageTitle: "Reset Password"
     prompt:
       question: "Remember your password?"
       register: "Login here"
-
-  appender:
-    add: "Add Stock"
-    search: "Search"
-    pressEnter: "Press Enter to Add"
-    noMatches: "0 Matches"
-
-  alerts:
-    pageTitle: "My Alerts"
-    headers:
-      today: "Todays Alerts"
-    messages:
-      movement:
-        positive: "The price is up %n% from %n to %n."
-        negative: "The price is down by %n% from %n to %n."
-      volume:
-        negative: "Abnormally high trading volumes."
-      rating:
-        positive: "Upgraded to a %n star stock."
-        negative: "Downgraded to a %n star stock."
-      recommendation:
-        positive: "Wall Street has upgraded %n to %n."
-        negative: "Wall Street has downgraded %n to %n."
+    titles:
+      recover: "Reset your Password"
+      sent: "Password Reset"
+  register:
+    buttons:
+      loading: "Creating Account"
+      register: "Register for Stockflare"
+    flash:
+      success: "You have successfully registered as %n"
+    og:
+      description: "Not got an Account yet? Register for Stockflare here."
+      title: "Register a new account at Stockflare"
+    pageTitle: "Register"
+    prompt:
+      login: "Login here"
+      question: "Already a member?"
+    success:
+      cta: "Go to Stocks"
+      loopback: "Loading..."
+      title: "Completed Registration"
+    titles:
+      join: "Join Stockflare"
+  search:
+    pageTitle: "Search"
+    placeholder: "Type to Search..."
+    searchingTitle: "Searching for %n"
+  settings:
+    buttons:
+      apply: "Apply Changes"
+      loading: "Updating Settings"
+      enableMfa: "Enable MFA"
+      disableMfa: "Disable MFA"
+      delete: "Close Account"
+    descriptions:
+      delete: "Closing your account will permanently delete all of your personal data from our systems. This action cannot be undone."
+      location: "Your location is used to filter stocks when you do not have a Country filter applied."
+      mfaDisabled: "MFA provides an additional layer of security for your account."
+      mfaEnabled: "MFA is currently enabled for this account."
+      mfaEnable: "Enable MFA for your account by scanning the QR Code below, then entering two valid codes."
+      mfaDisable: "Disable MFA for your account by entering two valid codes below."
+    flash:
+      delete: "Are you sure you wish to close your Stockflare account?"
+      updated: "Your settings have been updated"
+      deleteInitiated: "Account closure request recieved. Please check your email inbox for further instructions."
+      deleteError: "Sorry, there was an error closing your account, please contact info@stockflare.com"
+    groups:
+      password: "Change Password"
+    pageTitle: "Settings"
+    titles:
+      danger: "Danger Zone"
+      header: "User Settings"
+      mfa: "Multi-Factor Authentication"
+  stock:
+    buttons:
+      oneMonth: "1 Month"
+      oneWeek: "1 Week"
+      threeMonths: "3 Months"
+    cheaper:
+      cheaper:
+        explanation: "%t(pe){PE Ratio} is lower than its competitors."
+        title: "Cheaper"
+      expensive:
+        explanation: "%t(pe){PE Ratio} is higher than its competitors."
+        title: "Expensive"
+    dividends:
+      description: "Forecast %t(dps){Dividends-per-Share}."
+      title: "Pays Dividends?"
+    errors:
+      generic: "An error occurred"
+      loadError: "Error loading stock"
+    graph:
+      price: "Price"
+      volume: "Price & Volume"
+    growth:
+      strong:
+        explanation: "Long-term Growth is forecasted to be higher than its competitors."
+        title: "Strong Growth"
+      weak:
+        explanation: "Long-term Growth is forecasted to be lower than its competitors."
+        title: "Weak Growth"
+    header:
+      actualChange: "Actual Change"
+      percentChange: "Percentage Change"
+      price: "Stock Price"
+    information:
+      description: "Company Description"
+      results: "Latest Results"
+      statistics: "Key Statistics"
+    inner:
+      description:
+        titles:
+          competitors: "Who are the Competitors?"
+          main: "Company Description"
+      dividends:
+        titles:
+          competitors: "Competitors Paying Dividends"
+          forecast: "Short Term Dividend Forecast"
+          main: "Dividends"
+      growth:
+        titles:
+          comparison: "Comparing the Long Term forecasts to the Short Term forecasts"
+          growth: "Long Term Growth Forecast"
+          main: "Growth Rate Vs. 5 Fastest Growing Competitors"
+          profit: "Short Term Profit Forecast"
+          sales: "Short Term Sales Forecast"
+      latest:
+        forecasted:
+          dividend: "Dividend Forecast"
+          eps: "EPS Forecast"
+          profit: "Net Profit Forecast"
+          sales: "Sales Forecast"
+        titles:
+          epsForecast: "Forecasted EPS and Dividend Yield"
+          gross: "Gross Margin (%) Vs. 5 Largest Competitors"
+          main: "Latest Results"
+          operating: "Operating Margin (%) Vs. 5 Largest Competitors"
+          roe: "Return on Equity (%) Vs. 5 Largest Competitors"
+          salesForecast: "Forecasted Sales and Net Profit"
+      peers:
+        titles:
+          main: "Company Competitors"
+      profitable:
+        titles:
+          epsForecast: "Short Term EPS Forecast"
+          main: "Profitable"
+          profitForecast: "Short Term Profit Forecast"
+      stats:
+        data:
+          table:
+            cheaperOn: "Cheaper than peers on %n of 9 measures"
+            headers:
+              cheaper: "Cheaper?"
+              competitors: "Competitors"
+              stock: "Latest"
+            labels:
+              forecastedDividends: "Dividend Yield (Forecast)"
+              forecastedPe: "PE Ratio (Forecast)"
+              forecastedSales: "Price to Sales (Forecast)"
+              historicBookValue: "Price to Book Value (Historic)"
+              historicDividends: "Dividend Yield (Historic)"
+              historicEquity: "Return on Equity (Historic)"
+              historicPe: "PE Ratio (Historic)"
+              historicProfit: "Price to Operating Profit (Historic)"
+              historicSales: "Price to Sales (Historic)"
+        market:
+          price: "Share Price"
+          shares: "Common Shares"
+          value: "Market Value"
+        titles:
+          key: "Key Stats"
+          upside: "Upside / Downside to 52 Week High / Low"
+          valuations: "Valuation Multiples"
+        volumes:
+          daily: "Daily Trade Volume"
+          today: "Today's Volume Is"
       upside:
-        positive: "Earned a star for having a %n upside to its price target."
-
+        title: "PE Ratio Vs. 5 Cheapest Competitors"
+      wallStreet:
+        titles:
+          competitors: "Competitor's Recommendation"
+          main: "Upside Vs. 5 Competitors with Highest Upside"
+          oneWeek: "One Week Ago"
+          recommendation: "Change in Wall Street's Recommendation"
+          today: "Today"
+      worth:
+        title: "What it's Worth"
+    innerTypes:
+      description:
+        description: "Read this stock's company description and analysis on Stockflare."
+        title: "Company Description"
+      dividends:
+        description:
+          fallback: "Wall Street isn't forecasting any dividends per share for this stock. Find out why on Stockflare."
+          valid: "Wall Street is forecasting %n dividend per share for this stock. Find out more on Stockflare."
+        title: "Dividends"
+      growth:
+        description:
+          fallback: "This stock has weaker growth than its competitors. Find out why on Stockflare."
+          terms:
+            high: "stronger"
+            low: "weaker"
+          valid: "This stock's earnings are forecast to grow %n% per annum long-term. Which is %n than its competitors. Find out more on Stockflare."
+        title: "Growth"
+      latest:
+        description: "Read this stock's latest results and get the financial analysis on Stockflare."
+        title: "Latest Results"
+      peers:
+        description:
+          valid: "This stock has %n competitors. Compare the key metrics at Stockflare."
+        title: "Peers List"
+      profitable:
+        description:
+          fallback: "Wall Street isn't forecasting any earnings per share for this stock. Find out why on Stockflare."
+          valid: "Wall Street is forecasting %n earnings per share for this stock. Find out more on Stockflare."
+        title: "Profit / Loss"
+      stats:
+        description:
+          terms:
+            cheaper: "cheaper"
+            expensive: "expensive"
+          valid: "This stock has a market value of %n and its valuation is %n based on %n our of 9 metrics. Find out more on Stockflare."
+        title: "Key Stats"
+      upside:
+        description:
+          fallback: "This stock is expensive versus its competitors. Find out more on Stockflare."
+          terms:
+            cheap: "cheap"
+            expensive: "expensive"
+          valid: "This stock is trading at %nx times earnings and is %n versus its competitors. Find out more on Stockflare."
+        title: "Cheap or Expensive"
+      wallStreet:
+        description:
+          fallback: "Wall Street doesn't have an opinion on this stock. Find out why on Stockflare."
+          terms:
+            downside: "downside"
+            upside: "upside"
+          valid: "Wall Street has a %n recommendation for this stock with a price target of %n. That implies a %n% %n. Find out more on Stockflare."
+        title: "Wall Street Opinion"
+      worth:
+        description:
+          fallback: "Find out what this stock is forecasted to gain or lose over the next 7 years on Stockflare."
+          terms:
+            gain: "gain"
+            lose: "lose"
+          valid: "This stock is forecast to %n %n% per annum over the next 7 years."
+        title: "What it's Worth"
+    notification:
+      insufficientData: "We do not have enough data to perform this calculation"
+      stale: "The data for this stock has not been updated for at least 10 days and may now be stale."
+      updating: "Our analysis on this stock is currently updating. Please check back in 15 minutes."
+      widgetUpdating: "Calculations updating."
+    og:
+      description: "This stock currently has a rating of %n. Find more information on Stockflare."
+      title: "Information about %n on Stockflare"
+    priceChange:
+      price:
+        title: "Price Change"
+      profitability:
+        epsToday: "Today it is %n"
+        epsWas: "%t(eps){EPS} was %n."
+        forecastEpsWas: "Forecast %t(eps){EPS} was %n."
+        title: "Change in Profitability?"
+      sentiment:
+        forecastPeWas: "Forecast %t(pe){PE Ratio} was %nx."
+        peToday: "Today it is %nx"
+        peWas: "%t(pe){PE} was %n."
+        title: "Change in Investor Sentiment?"
+      title: "What is driving the Price Change?"
+    profitable:
+      description: "Forecast %t(eps){Earnings-per-Share}."
+      title: "Profitable?"
+    ratings:
+      cheaper:
+        negative: "Expensive versus the competitors"
+        positive: "Cheaper than the competitors"
+      dividends:
+        negative: "Not paying dividends"
+        positive: "Paying dividends"
+      high_growth:
+        negative: "Weaker growth than the competitors"
+        positive: "Stronger growth than the competitors"
+      profitable:
+        negative: "Not profitable"
+        positive: "Profitable company"
+      upside:
+        negative: "%n downside to price target"
+        neutral: "No difference to price target"
+        positive: "+%n upside to price target"
+        unknown: "Unknown price target"
+    social:
+      email: "Email to a friend"
+    targetPrice:
+      decrease: "%t(downside){downside}."
+      description: "A %n on today's price."
+      equal: "No difference"
+      increase: "%t(upside){upside}."
+      recommendations:
+        buy: "Wall Street's %t(recommendation){recommendation} is Buy."
+        hold: "Wall Street's %t(recommendation){recommendation} is Hold."
+        sell: "Wall Street's %t(recommendation){recommendation} is Sell."
+        strongBuy: "Wall Street's %t(recommendation){recommendation} is Strong Buy."
+        strongSell: "Wall Street's %t(recommendation){recommendation} is Strong Sell."
+      title: "Wall Street Target Price"
+    worth:
+      copy:
+        absoluteGain:
+          negative: "%n decreases to %n over 7 years"
+          positive: "%n increases to %n over 7 years"
+        gainPerYear:
+          negative: "Loss of %n per year"
+          positive: "Gain of %n per year"
+        relativeGain:
+          negative: "Loss of %n over 7 years"
+          positive: "Gain of %n over 7 years"
+        sevenYearGain:
+          negative: "Loses %n over 7 years"
+          positive: "Gains %n over 7 years"
+        value:
+          text: "Shares valued at %n"
+      footnote: "We are assuming an 8% annual growth rate for the above calculations."
+      forecast:
+        title: "is Forecast to"
+      result:
+        title: "That Means"
+      title: "What's %n worth, long term?"
+      today:
+        description: "Enter share amount below"
+        submitNotWatching: "Add Position to Watchlist"
+        submitWatching: "Update Position on Watchlist"
+        title: "Today I Own"
+        unsaved: "You have unsaved changes"
+  stocks:
+    messages:
+      loading: "Loading Stocks"
+      noMatches: "Sorry, no stocks found matching your criteria"
+      noMoreMatches: "No more stocks available"
+    og:
+      description: "Stockflare helps you get new ideas. Search for stock ideas and see if your portfolio's any good."
+      title: "Pick Stocks Easily"
+    reset: "Reset Filters"
+  tooltip:
+    acronyms:
+      dps: "Dividends-per-share"
+      eps: "Earnings-per-Share"
+      growth: "Long Term Growth Forecast"
+      pe: "Price Earnings ratio"
+      rating: "Stockflare's star rating"
+      ric: "Reuters ticker code"
+    explanations:
+      downside: "Percentage decrease from the Wall Street Target Price, to today's stock price"
+      dps: "A company pay dividends, like a bank pay interest. The Dividend-per-Share is what you get for each share you own."
+      eps: "A company’s profit is owned by it’s shareholders. The Earnings-per-Share is what you theoretically earn for each share you have."
+      pe: "PE ratio shows the share price versus the earnings-per-share. The higher the number the more expensive the stock."
+      recommendation: "Stockbrokers publish a Buy/Sell/Hold recommendation for each stock they analyze. We give you the average recommendation."
+      upside: "Percentage increase to the Wall Street Target Price, from today's stock price"
   user:
-    options:
-      settings: "Settings"
-      logout: "Logout"
     fields:
-      email: "Email Address"
-      name: "Full Name"
-      location: "Location"
-      password: "Password"
       confirmPassword: "Confirm Password"
+      email: "Email Address"
+      location: "Location"
+      name: "Full Name"
+      password: "Password"
+      mfa: "MFA Code"
+      otpA: "First Code"
+      otpB: "Second Code"
+      otpC: "Third Code"
+      otpD: "Fourth Code"
+      otpE: "Fifth Code"
+      otpF: "Sixth Code"
+    options:
+      logout: "Logout"
+      settings: "Settings"
     validation:
-      password:
-        required: "Password is required"
-        tooShort: "Password is too short"
-        tooLong: "Password is too long"
-        mismatch: "Passwords do not match"
+      otp:
+        required: "A valid MFA code is required"
+        length: "Invalid MFA code. Six digits are required"
       email:
         required: "Email Address is required"
         validity: "Email Address is invalid"
       name:
         validity: "Your name is invalid"
+      password:
+        mismatch: "Passwords do not match"
+        required: "Password is required"
+        tooLong: "Password is too long"
+        tooShort: "Password is too short"
+  watchlist:
+    actualChange: "Actual Change (1 Day)"
+    footnote: "* Where we have no data, we assume an 8% growth rate."
+    pageDescription: "Your watchlist contains a summary of your portfolio as well as recent alerts from watched stocks."
+    pageTitle: "My Watchlist"
+    percentChange: "Percent Change"
+    portfolioTable:
+      difference: "A gain of (USD) %n"
+      forecastGrowth: "Projected Growth *"
+      gain: "Annual gain of %n%"
+      name: "Company Name"
+      price: "Today"
+      projected: "In 7 Years (USD) %n"
+      sevenYears: "In 7 Years (USD)"
+      shares: "No. Of Shares"
+      total: "Total %n"
+      usValue: "Value (USD)"
+      value: "Value"
+    projected: "Projected Portfolio"
+    summary:
+      summaries:
+        gain:
+          notWatchingStocks: "Watch some stocks to receive an average growth."
+          projectedGain: "an annual growth of %n% from today's %n"
+          projectedValue: "Portfolio projected to be worth %n in 7 years"
+        opinion:
+          notWatchingStocks: "Watch some stocks to receive a rating."
+          stars: "We rate your portfolio %n stars."
+          ws: "Wall Street thinks it's a %n."
+      titles:
+        alerts: "Most Recent Alerts"
+        gain: "Seven Year Gain"
+        opinion: "Portfolio Opinion"
+    wallStreet:
+      title: "Wall Street Opinions"
+      upside:
+        missing: "N/A Upside"
+        text: "%n% Upside"
+    watching: "Total Watching"
+    watchingPhrase: "%n Companies"
+    worth: "Total Worth"
