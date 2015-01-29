@@ -3,6 +3,7 @@ en:
     headers:
       today: Todays Alerts
     messages:
+      none: Currently No Alerts
       movement:
         negative: The price is down by %n% from %n to %n.
         positive: The price is up %n% from %n to %n.
