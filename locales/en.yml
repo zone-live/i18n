@@ -946,6 +946,7 @@ en:
       title: Completed Registration
     titles:
       join: Join Stockflare
+    disclaimer: By using our website or clicking '%n' you agree to our
   resetMfa:
     buttons:
       reset: Reset MFA
