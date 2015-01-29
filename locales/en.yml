@@ -995,6 +995,10 @@ en:
       header: User Settings
       mfa: Multi-Factor Authentication
   stock:
+    stats:
+      value: Market Value
+      fifty_two_week: 52 Week High/Low
+      industry: Industry
     buttons:
       oneMonth: 1 Month
       oneWeek: 1 Week
@@ -1027,6 +1031,7 @@ en:
       percentChange: Percentage Change
       price: Stock Price
     information:
+      competitors: Competitors
       description: Company Description
       results: Latest Results
       statistics: Key Statistics
@@ -1177,6 +1182,8 @@ en:
       description: This stock currently has a rating of %n. Find more information on Stockflare.
       title: Information about %n on Stockflare
     priceChange:
+      up: Up
+      down: Down
       price:
         title: Price Change
       profitability:
@@ -1254,6 +1261,7 @@ en:
         title: Today I Own
         unsaved: You have unsaved changes
   stocks:
+    apply: Apply Filters
     matches: Stocks Found
     messages:
       loading: Loading Stocks
