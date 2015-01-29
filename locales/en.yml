@@ -1310,6 +1310,8 @@ en:
     options:
       logout: Logout
       settings: Settings
+    messages:
+      language: Click here to reload the page with your preferred language settings
     validation:
       email:
         required: Email Address is required
