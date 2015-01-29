@@ -717,25 +717,25 @@ fr:
         default: Secteur
     sectors:
     - code: '50'
-      nom: Pétrole & Gaz
+      name: Pétrole & Gaz
     - code: '51'
-      nom: Matières Premières & Extraction Minière
+      name: Matières Premières & Extraction Minière
     - code: '52'
-      nom: Industries
+      name: Industries
     - code: '54'
-      nom: Consommation (Grande Distribution)
+      name: Consommation (Grande Distribution)
     - code: '53'
-      nom: Consommation (Autres)
+      name: Consommation (Autres)
     - code: '55'
-      nom: Finance
+      name: Finance
     - code: '56'
-      nom: Santé
+      name: Santé
     - code: '57'
-      nom: Technologie
+      name: Technologie
     - code: '58'
-      nom: Télécoms
+      name: Télécoms
     - code: '59'
-      nom: Distributeurs d'Eau, Électricité, Gaz
+      name: Distributeurs d'Eau, Électricité, Gaz
     sentiment:
       descriptions:
         hated: Titres pour lesquels le cours cible des professionnels est plus bas que le cours du jour.
