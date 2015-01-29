@@ -1,0 +1,1351 @@
+fr:
+  alerts:
+    headers:
+      today: Alertes Récentes
+    messages:
+      movement:
+        negative: Le cours a diminué de %n% de %n à %n.
+        positive: Le cours a augmenté de %n% de %n à %n.
+      rating:
+        negative: Rétrogradé à un titre %n étoiles.
+        positive: Promu à un titre %n étoiles.
+      recommendation:
+        negative: Les professionnels ont revu de %n à %n.
+        positive: Les professionnels ont revalorisé de %n à %n.
+      upside:
+        positive: A gagné une étoile pour avoir une hausse de %n à son cours cible.
+      volume:
+        negative: Volumes d'échanges anormalement élevés.
+    pageTitle: Mes Alertes
+  appender:
+    add: Ajouter un Titre
+    noMatches: 0 Correspondances
+    pressEnter: Appuyez sur Entrée pour ajouter
+    search: Rechercher
+  common:
+    countries:
+      afg: Afghanistan
+      ago: Angola
+      aia: Anguilla
+      ala: Îles d'Åland
+      alb: Albanie
+      and: Andorre
+      are: Émirats arabes unis
+      arg: Argentine
+      arm: Arménie
+      asm: Samoas américaines
+      ata: Antarctique
+      atf: Terres australes et antarctiques françaises
+      atg: Antigua-et-Barbuda
+      aus: Australie
+      aut: Autriche
+      aze: Azerbaïdjan
+      bdi: Burundi
+      bel: Belgique
+      ben: Bénin
+      bes: Bonaire, Saint-Eustache et Saba
+      bfa: Burkina Faso
+      bgd: Bangladesh
+      bgr: Bulgarie
+      bhr: Bahreïn
+      bhs: Bahamas
+      bih: Bosnie-Herzégovine
+      blm: Saint-Barthélemy
+      blr: Bélarus
+      blz: Belize
+      bmu: Bermudes
+      bol: Bolivie
+      bra: Brésil
+      brb: Barbade
+      brn: Brunéi Darussalam
+      btn: Bhoutan
+      bvt: Île Bouvet
+      bwa: Botswana
+      caf: République centrafricaine
+      can: Canada
+      cck: Îles Coco
+      che: Suisse
+      chl: Chili
+      chn: Chine
+      civ: Côte d'Ivoire
+      cmr: Cameroun
+      cod: République démocratique du Congo
+      cog: Congo
+      cok: Îles Cook
+      col: Colombie
+      com: Comores
+      cpv: Cabo Verde
+      cri: Costa Rica
+      cub: Cuba
+      cuw: Curaçao
+      cxr: Île Christmas
+      cym: Îles Caïmanes
+      cyp: Chypre
+      cze: République tchèque
+      deu: Allemagne
+      dji: Djibouti
+      dma: Dominique
+      dnk: Danemark
+      dom: République dominicaine
+      dza: Algérie
+      ecu: Équateur
+      egy: Égypte
+      eri: Érythrée
+      esh: Sahara occidental
+      esp: Espagne
+      est: Estonie
+      eth: Éthiopie
+      fin: Finlande
+      fji: Fidji
+      flk: Îles Falkland
+      fra: France
+      fro: Îles Féroé
+      fsm: Micronésie
+      gab: Gabon
+      gbr: Royaume-Uni
+      geo: Géorgie
+      ggy: Guernesey
+      gha: Ghana
+      gib: Gibraltar
+      gin: Guinée
+      glp: Guadeloupe
+      gmb: Gambie
+      gnb: Guinée-Bissau
+      gnq: Guinée équatoriale
+      grc: Grèce
+      grd: Grenade
+      grl: Groenland
+      gtm: Guatemala
+      guf: Guyane française
+      gum: Guam
+      guy: Guyana
+      hkg: Hong Kong
+      hmd: Îles Heard-et-MacDonald
+      hnd: Honduras
+      hrv: Croatie
+      hti: Haïti
+      hun: Hongrie
+      idn: Indonésie
+      imn: Île de Man
+      ind: Inde
+      iot: Territoire britannique de l'océan Indien
+      irl: Irlande
+      irn: Iran
+      irq: Iraq
+      isl: Islande
+      isr: Israël
+      ita: Italie
+      jam: Jamaïque
+      jey: Le Jersey
+      jor: Jordanie
+      jpn: Japon
+      kaz: Kazakhstan
+      ken: Kenya
+      kgz: Kirghizistan
+      khm: Cambodge
+      kir: Kiribati
+      kna: Saint-Kitts-et-Nevis
+      kor: Corée
+      kwt: Koweït
+      lao: Lao
+      lbn: Liban
+      lbr: Libéria
+      lby: Libye
+      lca: Sainte-Lucie
+      lie: Liechtenstein
+      lka: Sri Lanka
+      lso: Lesotho
+      ltu: Lituanie
+      lux: Luxembourg
+      lva: Lettonie
+      mac: Macao
+      maf: Saint-Martin
+      mar: Maroc
+      mco: Monaco
+      mda: Moldova
+      mdg: Madagascar
+      mdv: Maldives
+      mex: Mexique
+      mhl: Îles Marshall
+      mkd: Macédoine
+      mli: Mali
+      mlt: Malte
+      mmr: Myanmar
+      mne: Monténégro
+      mng: Mongolie
+      mnp: Îles Mariannes septentrionales
+      moz: Mozambique
+      mrt: Mauritanie
+      msr: Montserrat
+      mtq: Martinique
+      mus: Maurice
+      mwi: Malawi
+      mys: Malaisie
+      myt: Mayotte
+      nam: Namibie
+      ncl: Nouvelle-Calédonie
+      ner: Niger
+      nfk: Île Norfolk
+      nga: Nigéria
+      nic: Nicaragua
+      niu: Nioué
+      nld: Pays-Bas
+      nor: Norvège
+      npl: Népal
+      nru: Nauru
+      nzl: Nouvelle-Zélande
+      omn: Oman
+      pak: Pakistan
+      pan: Panama
+      pcn: Pitcairn
+      per: Pérou
+      phl: Philippines
+      plw: Palaos
+      png: Papouasie-Nouvelle-Guinée
+      pol: Pologne
+      pri: Porto Rico
+      prk: République populaire démocratique de Corée
+      prt: Portugal
+      pry: Paraguay
+      pse: Palestine
+      pyf: Polynésie française
+      qat: Qatar
+      reu: Réunion
+      rou: Roumanie
+      rus: Russie
+      rwa: Rwanda
+      sau: Arabie saoudite
+      sdn: Soudan
+      sen: Sénégal
+      sgp: Singapour
+      sgs: Géorgie du Sud
+      shn: Sainte-Hélène
+      sjm: Svalbard
+      slb: Îles Salomon
+      sle: Sierra Leone
+      slv: El Salvador
+      smr: Saint-Marino
+      som: Somalie
+      spm: Saint-Pierre-et-Miquelon
+      srb: Serbie
+      ssd: Soudan du Sud
+      stp: Sao Tomé-et-Principe
+      sur: Suriname
+      svk: Slovaquie
+      svn: Slovénie
+      swe: Suède
+      swz: Swaziland
+      sxm: Saint-Martin (partie néerlandaise)
+      syc: Seychelles
+      syr: Syrie
+      tca: Îles Turques et Caïques
+      tcd: Tchad
+      tgo: Togo
+      tha: Thaïlande
+      tjk: Tadjikistan
+      tkl: Tokélaou
+      tkm: Turkménistan
+      tls: Timor-Leste
+      ton: Tonga
+      tto: Trinité-et-Tobago
+      tun: Tunisie
+      tur: Turquie
+      tuv: Tuvalu
+      twn: Taïwan
+      tza: Tanzanie
+      uga: Ouganda
+      ukr: Ukraine
+      umi: Îles mineures éloignées des États-Unis
+      ury: Uruguay
+      usa: États-Unis
+      uzb: Ouzbékistan
+      vat: Saint-Siège
+      vct: Saint-Vincent-et-les Grenadines
+      ven: Venezuela
+      vgb: Îles Vierges britanniques
+      vir: Îles Vierges américaines
+      vnm: Viet Nam
+      vut: Vanuatu
+      wlf: Îles Wallis et Futuna
+      wsm: Samoa
+      yem: Yémen
+      zaf: Afrique du Sud
+      zmb: Zambie
+      zwe: Zimbabwe
+    currencies:
+      names:
+        aed: Dirham des Émirats arabes unis
+        afn: Afghani
+        all: Lek
+        amd: Dram
+        ang: Florin des Antilles néerlandaises
+        aoa: Kwanza
+        ars: Peso argentin
+        aud: Dollar australien
+        awg: Florin arubais
+        azn: Manat azerbaïdjanais
+        bam: Mark convertible de Bosnie-Herzégovine
+        bbd: Dollar barbadien
+        bdt: Taka
+        bgn: Lev bulgare
+        bhd: Dinar bahreïni
+        bif: Franc burundais
+        bmd: Dollar bermudien
+        bnd: Dollar de Brunei
+        bob: Boliviano
+        brl: Réal brésilien
+        bsd: Dollar bahaméen
+        btn: Ngultrum
+        bwp: Pula
+        byr: Rouble biélorusse
+        bzd: Dollar bélizien
+        cad: Dollar canadien
+        cdf: Franc congolais
+        chf: Franc suisse
+        clf: Unidad de Fomento
+        clp: Peso chilien
+        cny: Yuan
+        cop: Peso colombien
+        crc: Colón costaricien
+        cup: Peso cubain
+        cve: Escudo cap-verdien
+        czk: Couronne tchèque
+        djf: Franc Djibouti
+        dkk: Couronne danoise
+        dop: Peso dominicain
+        dzd: Dinar algérien
+        egp: Livre égyptienne
+        ern: Nakfa érythréen
+        etb: Birr
+        eur: Euro
+        fjd: Dollar de Fidji
+        fkp: Livre des Îles Malouines
+        gbp: Livre sterling
+        gel: Lari
+        ghs: Cedi
+        gip: Livre de Gibraltar
+        gmd: Dalasi
+        gnf: Franc guinéen
+        gtq: Quetzal
+        gyd: Dollar guyanien
+        hkd: Dollar de Hong Kong
+        hnl: Lempira
+        hrk: Kuna croate
+        htg: Gourde
+        huf: Forint
+        idr: Roupie indonésienne
+        ils: Shekel
+        inr: Roupie indienne
+        iqd: Dinar irakien
+        irr: Rial iranien
+        isk: Couronne islandaise
+        jmd: Dollar jamaïcain
+        jod: Dinar jordanien
+        jpy: Yen
+        kes: Shilling kényan
+        kgs: Som
+        khr: Riel
+        kmf: Franc comorien
+        kpw: Won nord-coréen
+        krw: Won sud-coréen
+        kwd: Dinar koweïtien
+        kyd: Dollar des îles Caïmans
+        kzt: Tenge kazakh
+        lak: Kip laotien
+        lbp: Livre libanaise
+        lkr: Roupie srilankaise
+        lrd: Dollar libérien
+        lsl: Loti
+        ltl: Litas
+        lyd: Dinar libyen
+        mad: Dirham marocain
+        mdl: Leu moldave
+        mga: Ariary
+        mkd: Denar macédonien
+        mmk: Kyat
+        mnt: Tugrik
+        mop: Pataca
+        mro: Ouguiya
+        mur: Roupie mauricienne
+        mvr: Rufiyaa
+        mwk: Kwacha malawien
+        mxn: Peso mexicain
+        myr: Ringgit
+        mzn: Metical
+        nad: Dollar namibien
+        ngn: Naira
+        nio: Cordoba
+        nok: Couronne norvégienne
+        npr: Roupie népalaise
+        nzd: Dollar néo-zélandais
+        omr: Rial omanais
+        pab: Balboa
+        pen: Nouveau sol
+        pgk: Kina
+        php: Peso philippin
+        pkr: Roupie pakistanaise
+        pln: Złoty
+        pyg: Guaraní
+        qar: Riyal qatarien
+        ron: Leu roumain
+        rsd: Dinar serbe
+        rub: Rouble russe
+        rwf: Franc rwandais
+        sar: Riyal saoudien
+        sbd: Dollar des îles Salomon
+        scr: Roupie seychelloise
+        sdg: Livre soudanaise
+        sek: Couronne suédoise
+        sgd: Dollar de Singapour
+        shp: Livre de Sainte-Hélène
+        sll: Leone
+        sos: Shilling somalien
+        srd: Dollar de Surinam
+        std: Dobra
+        svc: Colón
+        syp: Livre syrienne
+        szl: Lilangeni
+        thb: Baht
+        tjs: Somoni
+        tmt: Manat turkmène
+        tnd: Dinar tunisien
+        top: Paʻanga
+        try: Livre turque
+        ttd: Dollar de Trinité-et-Tobago
+        twd: Nouveau dollar de Taïwan
+        tzs: Shilling tanzanien
+        uah: Hryvnia
+        ugx: Shilling ougandais
+        usd: Dollar américain
+        uyu: Peso uruguayen
+        uzs: Sum
+        vef: Bolivar vénézuélien
+        vnd: Dong
+        vuv: Vatu
+        wst: Tala
+        xaf: Franc CFA (CEMAC)
+        xcd: Dollar des Caraïbes orientales
+        xof: Franc CFA (UEMOA)
+        xpf: Franc Pacifique
+        yer: Rial yéménite
+        zar: Rand
+        zmw: Kwacha zambien
+      symbols:
+        aed: '%nد.إ'
+        afn: ؋%n
+        all: Lek%n
+        amd: '%ndram'
+        ang: ƒ%n
+        aoa: Kz%n
+        ars: $%n
+        aud: $%n
+        awg: ƒ%n
+        azn: ман%n
+        bam: KM%n
+        bbd: $%n
+        bdt: ৳%n
+        bgn: лв%n
+        bhd: '%n.د.ب'
+        bif: FBu%n
+        bmd: $%n
+        bnd: $%n
+        bob: $b%n
+        brl: R$%n
+        bsd: $%n
+        btn: Nu.%n
+        bwp: P%n
+        byr: p.%n
+        bzd: BZ$%n
+        cad: $%n
+        cdf: Fr%n
+        chf: CHF%n
+        clf: $%n
+        clp: $%n
+        cny: ¥%n
+        cop: $%n
+        crc: ₡%n
+        cup: ₱%n
+        cve: Esc%n
+        czk: Kč%n
+        djf: Fr%n
+        dkk: '%nkr'
+        dop: RD$%n
+        dzd: دج%n
+        eek: '%nkr'
+        egp: £%n
+        ern: Nfk%n
+        etb: Br%n
+        eur: €%n
+        fjd: $%n
+        fkp: £%n
+        gbp: £%n
+        gel: '%nlari'
+        ggp: £%n
+        ghc: ¢%n
+        ghs: GH₵%n
+        gip: £%n
+        gmd: D%n
+        gnf: Fr%n
+        gtq: Q%n
+        gyd: $%n
+        hkd: $%n
+        hnl: L%n
+        hrk: kn%n
+        htg: G%n
+        huf: '%nFt'
+        idr: Rp%n
+        ils: ₪%n
+        imp: £%n
+        inr: ₹%n
+        iqd: '%nد.ع'
+        irr: ﷼%n
+        isk: '%nkr'
+        jep: £%n
+        jmd: J$%n
+        jod: '%nدينار'
+        jpy: ¥%n
+        kes: Ksh%n
+        kgs: лв%n
+        khr: ៛%n
+        kmf: Fr%n
+        kpw: ₩%n
+        krw: ₩%n
+        kwd: د.ك%n
+        kyd: $%n
+        kzt: лв%n
+        lak: ₭%n
+        lbp: £%n
+        lkr: ₨%n
+        lrd: $%n
+        lsl: M%n
+        ltl: Lt%n
+        lvl: Ls%n
+        lyd: ل.د%n
+        mad: د.م.%n
+        mdl: '%nleu'
+        mga: Ar%n
+        mkd: ден%n
+        mmk: K%n
+        mnt: ₮%n
+        mop: MOP$%n
+        mro: UM%n
+        mur: ₨%n
+        mvr: Rf.%n
+        mwk: MK%n
+        mxn: $%n
+        myr: RM%n
+        mzn: MT%n
+        nad: $%n
+        ngn: ₦%n
+        nio: C$%n
+        nok: '%nkr'
+        npr: ₨%n
+        nzd: $%n
+        omr: ﷼%n
+        pab: B/.%n
+        pen: S/.%n
+        pgk: K%n
+        php: ₱%n
+        pkr: ₨%n
+        pln: zł%n
+        pyg: Gs%n
+        qar: ﷼%n
+        ron: lei%n
+        rsd: Дин.%n
+        rub: руб%n
+        rwf: FRw%n
+        sar: ﷼%n
+        sbd: $%n
+        scr: ₨%n
+        sdg: ج.س.‏%n
+        sek: '%nkr'
+        sgd: $%n
+        shp: £%n
+        sll: Le%n
+        sos: S%n
+        srd: $%n
+        std: Db%n
+        svc: $%n
+        syp: £%n
+        szl: E%n
+        thb: ฿%n
+        tjs: '%ncомонӣ'
+        tmt: T%n
+        tnd: د.ت%n
+        top: $%n
+        trl: ₤%n
+        try: ₤%n
+        ttd: TT$%n
+        tvd: $%n
+        twd: NT$%n
+        tzs: TSh%n
+        uah: ₴%n
+        ugx: USh%n
+        usd: $%n
+        uyu: $U%n
+        uzs: лв%n
+        vef: Bs%n
+        vnd: ₫%n
+        vuv: VT%n
+        wst: WS$%n
+        xaf: FCFA%n
+        xcd: $%n
+        xof: CFA%n
+        xpf: F%n
+        yer: ﷼%n
+        zar: R%n
+        zmw: ZK%n
+        zwd: Z$%n
+    defaultPageTitle: Choisissez vos Titres Facilement
+    loading: Chargement...
+    login: Login
+    pages:
+      privacy_policy: Confidentialité
+      tos: Conditions Générales
+    regions:
+      amer: Amériques
+      apac: Asie-Pacifique
+      emea: Europe, Moyen-Orient et Afrique
+    register: Enregistrez-Vous
+    social:
+      email: Envoyer
+    time:
+      dateFormat: '%d/%m/%y'
+      daysOfWeek:
+      - Dimanche
+      - Lundi
+      - Mardi
+      - Mercredi
+      - Jeudi
+      - Vendredi
+      - Samedi
+      shortDateFormat: '%d/%m'
+      shortDaysOfWeek:
+      - Dim
+      - Lun
+      - Mar
+      - Mer
+      - Jeu
+      - Ven
+      - Sam
+    tooltips:
+      watch:
+        unwatch: Retirer de votre Liste
+        watch: Ajouter à votre Liste
+      widget:
+        alerts: Alertes du Titre
+        graph: Graphique
+        info: Classement par Étoiles
+        social: Partager
+    unwatch: Retirer de votre Liste
+    wallStreetRecommendations:
+      emptyCategory: Vous n'avez pas de titres dans cette catégorie.
+      missing: 'Pas de Recommandations '
+      titles:
+        buy: Renforcer
+        hold: Conserver
+        sell: Alléger
+        strongBuy: Acheter
+        strongSell: Vendre
+    watch: Ajouter à votre Liste
+  delete:
+    copy:
+      deleted: Votre compte a été supprimé avec succès, et toutes les informations ont été effacées de notre système. Cette action est irrévocable.
+      deleting: Votre compte est en cours de suppression.
+      error: Une erreur est survenue pendant la suppression de votre compte. Veuillez contacter support@stockflare.com
+    titles:
+      deleted: Compte Supprimé
+      deleting: Suppression du compte...
+      error: Une erreur est survenue
+  filterBar:
+    company_tags:
+      descriptions:
+        growing: Les Ventes et les Gains-par-Action sont prévus d'augmenter cette année, par rapport à l'année dernière.
+        has_cash: Entreprises avec plus de trésorerie et d'investissements que de dettes.
+        high_growth: Les gains sont prévus d'augmenter de plus de 16% sur le long terme.
+        large: Entreprises évaluées à plus de $10 milliards US Dollars.
+        pays_dividends: Entreprises versant des dividendes aux actionnaires.
+        profitable: Rentable l'année dernière, et prévue de l'être cette année.
+        small: Entreprises évaluées à moins de $1 milliard US Dollars.
+        turning_profitable: Prévue d'être rentable cette année, après des pertes l'an dernier.
+      titles:
+        default: Paramètres du Business
+        filters:
+          growing: Croissant
+          has_cash: A de la Trésorerie et des Investissements
+          high_growth: Forte Croissance Uniquement
+          large: Grandes Entreprises Uniquement
+          pays_dividends: Verse des Dividendes Uniquement
+          profitable: Rentable Aujourd'hui
+          small: Petites Entreprises Uniquement
+          turning_profitable: Devient Rentable
+    country:
+      titles:
+        default: Pays
+    country_currency:
+      categories:
+        country: Pays
+        currency: Monnaies principales
+        regions: Régions
+      titles:
+        default: Pays & Monnaie
+    direction:
+      descriptions:
+        near_high: Titres en-deçà de 5% de leur plus haut cours depuis cinquante-deux semaines
+        near_low: Titres en-deçà de 5% de leur plus bas cours depuis cinquante-deux semaines
+        negative: Titres aux cours plus bas que la moyenne des dix derniers jours
+        positive: Titres aux cours plus élevés que leur moyenne des dix derniers jours
+      titles:
+        default: Tendance du Cours
+        filters:
+          near_high: Près du Plus Haut Cours depuis 52 Semaines
+          near_low: Près du Plus Bas Cours depuis 52 Semaines
+          negative: Élan négatif
+          positive: Élan positif
+    opinion:
+      titles:
+        default: Style d'investissement
+    order:
+      ascending: Du plus Bas au plus Élevé
+      descending: Du plus Élevé au plus Bas
+      orders:
+        latest_market_value_usd: Valeur sur le Marché
+        latest_price: Cours
+        latest_rating: Notation par étoiles
+    sector:
+      titles:
+        default: Secteur
+    sectors:
+    - code: '50'
+      nom: Pétrole & Gaz
+    - code: '51'
+      nom: Matières Premières & Extraction Minière
+    - code: '52'
+      nom: Industries
+    - code: '54'
+      nom: Consommation (Grande Distribution)
+    - code: '53'
+      nom: Consommation (Autres)
+    - code: '55'
+      nom: Finance
+    - code: '56'
+      nom: Santé
+    - code: '57'
+      nom: Technologie
+    - code: '58'
+      nom: Télécoms
+    - code: '59'
+      nom: Distributeurs d'Eau, Électricité, Gaz
+    sentiment:
+      descriptions:
+        hated: Titres pour lesquels le cours cible des professionnels est plus bas que le cours du jour.
+        loved: Titres pour lesquels le cours cible des professionnels est plus élevé que le cours du jour.
+        unknown: Titres pour lesquels les professionnels n'ont pas d'avis sur le cours.
+      titles:
+        default: Avis
+        filters:
+          hated: Détesté par les professionnels
+          loved: Adoré par les professionnels
+          unknown: Inconnu des professionnels
+    starRatings:
+      titles:
+        default: Classement par étoiles
+        filters:
+        - Titres 1 Étoile
+        - Titres 2 Étoiles
+        - Titres 3 Étoiles
+        - Titres 4 Étoiles
+        - Titres 5 Étoiles
+    style:
+      descriptions:
+        growth: Entreprises aux croissances plus rapide que leurs concurrentes, sur le long terme.
+        quality: Entreprises qui sont bon marché & prévues de croître fortement
+        value: Entreprises qui sont moins chères que leurs concurrentes.
+      titles:
+        default: Style d'Investissement
+        filters:
+          growth: Forte Croissance
+          quality: Qualité Élevée
+          value: Bon Marché
+    valuation:
+      descriptions:
+        high_dividend: Titres bon marché par rapport aux dividendes versées
+        low_book_value: Titres bon marché par rapport à la valeur de leurs actifs nets
+        low_operating_profit: Titres bon marché par rapport à leurs bénéfices avant impôts
+        low_pe: Titres bon marché par rapport à leurs bénéfices
+        low_sales: Titres bon marché par rapport à leurs ratios capitalisation-ventes
+      titles:
+        default: Évaluation
+        filters:
+          high_dividend: Rendement de plus de 4%
+          low_book_value: Échangé moins cher que la Valeur Comptable
+          low_operating_profit: Moins que 7x Bénéfices avant Impôts
+          low_pe: PE Ratio en dessous de 10x
+          low_sales: Moins que 1x Ventes
+  forgot:
+    buttons:
+      forgot: Réinitialiser mon mot de passe
+    copy:
+      explanation: Un email a été envoyé à l'adresse enregistrée, contenant un lien pour réinitialiser votre mot de passe en toute sécurité.
+    errors:
+      '404': Adresse Email inconnue
+      '500': Excusez-nous, une erreur de serveur est survenue
+    og:
+      description: Vous avez oublié votre mot de passe ? Réinitialisez-le ici.
+      title: Réinitialisez votre Mot de Passe Stockflare
+    pageTitle: Mot de Passe Oublié
+    prompt:
+      question: Vous avez retrouvé votre mot de passe ?
+      register: Connectez-vous ici
+    titles:
+      forgot: Mot de Passe Oublié
+      sent: Mot de Passe réinitialisé
+  header:
+    buttons:
+      alerts: Mes Alertes
+      filters: Filtres
+      ideas: Choisissez vos Titres
+      search: Rechercher
+      watchlist: Ma Liste
+  landing:
+    feed:
+      content:
+        copy: Filtrez des milliers de titres en un instant.
+        point: Stockflare vous conduit aux meilleurs titres.
+        title: Allez à l'essentiel
+    introduction:
+      content:
+        copy: Choisissez les meilleurs titres pour votre portefeuille.
+        cta: Faites votre choix, 100% Gratuit
+        point: Améliorez votre façon d'investir.
+        title: Choisissez vos Titres Facilement
+      menu:
+        search: Rechercher des Titres
+        skip: Passer
+      stats:
+        analyzed: Titres Analysés
+        countries: Pays
+        stocks: Titres 5 Étoiles
+      tease: Qu'est-ce que Stockflare ?
+    opinion:
+      bubbles:
+        buy: Acheter
+        hold: Conserver
+        sell: Vendre
+      content:
+        copy: Obtenez les conseils des professionnels. Sont ils Acheteurs ou Vendeurs ? Prix cibles pour tous les titres.
+        point: Conseils des professionnels. Gratuits pour toujours.
+        title: Qu'achètent les professionnels ?
+    pageTitle: Choisissez vos Titres Facilement
+    question:
+      content:
+        copy: Investir n'a pas à être compliqué. Nous criblons des centaines de paramètres pour plus de 40 000 titres à l'échelle mondiale. Nous notons et fournissons de l'information sur chaque titre. Protégez ce que vous avez économisé et faites le fructifier avec Stockflare.
+        title: Qu'est ce que Stockflare ?
+    rating:
+      content:
+        copy: Difficile de choisir de nouveaux titres ? Stockflare fournit un classement par étoiles pour tous les titres du monde.
+        point: Prenez des décisions avisées, plus vite.
+        reveal:
+          notRevealing: Regardez %n
+          revealing: '%n est un titre %n étoiles'
+        title: Choisissez vos Titres en un clin d'œil
+      ratings:
+        cheaper: Est-ce Cher ou Bon Marché ?
+        dividends: L'entreprise verse-t-elle des dividendes ?
+        growth: L'entreprise a-t-elle une croissance élevée ?
+        profitable: L'entreprise est-elle rentable ?
+        upside: Qu'en pensent les professionnels ?
+    register:
+      content:
+        copy: Inscrivez-vous pour enregistrer vos titres et recevoir des alertes.
+        skip: Accéder directement à Stockflare
+        title: Ne restez pas ancrés dans le passé
+  login:
+    buttons:
+      forgot: J'ai oublié mon mot de passe
+      loading: Connexion
+      login: Connexion
+      resetOtp: J'ai perdu ma clé d'authentification MFA
+      social_login: Connectez-vous avec
+    descriptions:
+      mfa: Ce compte a été sécurisé à l'aide d'une clé d'authentification MFA. Entrez le code MFA pour vous connecter.
+    errors:
+      '401': Nom d'Utilisateur ou Mot de Passe Incorrect
+      '500': Excusez-nous, une erreur de serveur est survenue
+      mfa:
+        '401': Code d'authentification invalide
+        '500': Excusez-nous, une erreur de serveur est survenue.
+    flash:
+      success: Vous êtes maintenant connecté en tant que %n
+    og:
+      description: Vous avez un Compte ? Connectez-vous à Stockflare ici.
+      title: Connectez-vous à Stockflare
+    pageTitle: Login
+    prompt:
+      mfaInfo: Plus d'Infos
+      question: Pas encore membre ?
+      register: Inscrivez-vous gratuitement ici
+    titles:
+      login: Connectez-vous à Stockflare
+      mfa: Compte Sécurisé
+      social: Login avec votre compte de Réseau Social (Bientôt Disponible)
+  recover:
+    buttons:
+      recover: Réinitialiser mon Mot de Passe
+    copy:
+      explanation: Votre mot de passe est désormais réinitialisé.
+      link: Cliquez ici pour vous connecter.
+    errors:
+      '400': Échec de la réinitialisation du mot de passe
+      '403': Le mot de passe provisoire a expiré
+    og:
+      description: Réinitialisez votre mot de passe ici.
+      title: Réinitialisez votre mot de passe Stockflare
+    pageTitle: Réinitialiser mon Mot de Passe
+    prompt:
+      question: Vous avez retrouvé votre mot de passe ?
+      register: Connectez-vous ici
+    titles:
+      recover: Réinitialisez votre mot de passe
+      sent: Mot de Passe Réinitialisé
+  recoverMfa:
+    buttons:
+      recover: Réinitialiser ma clé d'authentification MFA
+    copy:
+      explanation: La clé d'authentification MFA est désormais réinitialisée, et désactivée pour ce compte.
+      link: Cliquez ici pour vous connecter.
+    errors:
+      '400': Échec de la réinitialisation de la clé d'authentification MFA
+      '403': La clé d'authentification MFA provisoire a expiré. Veuillez en obtenir une nouvelle.
+    og:
+      description: Réinitialisez votre clé d'authentification MFA ici.
+      title: Réinitialisez votre clé d'authentification MFA pour votre compte Stockflare
+    pageTitle: Réinitialiser ma clé d'authentification MFA
+    prompt:
+      login: Connectez-vous ici
+      question: Vous avez retrouvé votre clé d'authentification MFA ?
+    titles:
+      recover: Réinitialiser ma clé d'authentification MFA
+      recovered: Clé d'authentification MFA réinitialisée avec succès
+  register:
+    buttons:
+      loading: Compte en cours de création
+      register: Inscrivez-vous sur Stockflare
+    flash:
+      success: Vous vous êtes inscrit avec succès en tant que %n
+    og:
+      description: Vous n'avez pas encore de Compte ? Inscrivez-vous sur Stockflare ici.
+      title: Inscrivez-vous avec un nouveau compte sur Stockflare
+    pageTitle: Inscrivez-vous
+    prompt:
+      login: Connectez-vous ici
+      question: Déja membre ?
+    success:
+      cta: Aller aux Titres
+      loopback: Chargement...
+      title: Inscription Terminée
+    titles:
+      join: Rejoindre Stockflare
+  resetMfa:
+    buttons:
+      reset: Réinitialiser ma clé d'authentification MFA
+    copy:
+      explanation: Un email a été envoyé à l'adresse enregistrée, contenant un lien pour réinitialiser votre clé d'authentification MFA pour ce compte en toute sécurité. Vous aurez également besoin des codes de récupération envoyés lorsque la clé MFA fut activée.
+    errors:
+      '404': Adresse Email inconnue
+      '500': Excusez-nous, une erreur de serveur est survenue
+    og:
+      description: Vous avez perdu votre clé d'authentification MFA ? Réinitialisez la ici.
+      title: Réinitialisez votre clé d'authentification MFA pour votre compte Stockflare
+    pageTitle: Réinitialiser ma clé d'authentification MFA
+    prompt:
+      login: Connectez-vous ici
+      question: Vous avez retrouvé votre clé d'authentification MFA ?
+    titles:
+      reset: Réinitialiser ma clé d'authentification MFA
+      sent: Demande de réinitialisation de la clé d'authentification MFA envoyée
+  search:
+    pageTitle: Rechercher
+    placeholder: Tapez pour Rechercher...
+    searchingTitle: Recherche de %n
+  settings:
+    buttons:
+      apply: Appliquer les Changements
+      delete: Résilier le Compte
+      disableMfa: Désactiver la clé d'authentification MFA
+      enableMfa: Activer la clé d'authentification MFA
+      loading: Mettre les Réglages à jour
+    descriptions:
+      delete: Résilier votre compte supprimera vos données personnelles de nos systèmes. Cette action est irrévocable.
+      location: Votre localisation est utilisée pour filtrer les titres lorsque vous n'avez pas de filtre Pays activé.
+      mfaDisable: Désactivez votre clé d'authentification MFA pour votre compte en entrant deux codes valides ci-dessous.
+      mfaDisabled: Une clé d'authentification MFA un niveau de sécurité supplémentaire pour votre compte.
+      mfaEnable: Activez votre clé d'authentification MFA pour votre compte en scannant le code QR ci-dessous, puis en entrant deux codes valides.
+      mfaEnabled: Une clé d'authentification MFA est actuellement activée pour ce compte.
+    flash:
+      delete: Êtes vous sûrs de vouloir résilier votre compte Stockflare ?
+      deleteError: Excusez-nous, une erreur est survenue pendant la résiliation de votre compte, veuillez contacter info@stockflare.com
+      deleteInitiated: Demande de résiliation de compte reçue. Veuillez consulter votre boîte de réception email pour d'autres instructions
+      updated: Vos réglages ont été mis à jour
+    groups:
+      password: Changer mon Mot de Passe
+    pageTitle: Réglages
+    titles:
+      danger: Zone de Danger
+      header: Réglages d'Utilisateur
+      mfa: Clé d'authentification MFA
+  stock:
+    buttons:
+      oneMonth: 1 Mois
+      oneWeek: 1 Semaine
+      threeMonths: 3 Mois
+    cheaper:
+      cheaper:
+        explanation: Le %t(pe){PE Ratio} est plus bas que celui des concurrents.
+        title: Moins Cher
+      expensive:
+        explanation: Le %t(pe){PE Ratio} est plus élevé que celui des concurrents.
+        title: Plus Cher
+    dividends:
+      description: Prévision %(dps){Dividendes-par-Action}.
+      title: Verse des Dividendes ?
+    errors:
+      generic: Une erreur est survenue
+      loadError: Erreur de chargement du titre
+    graph:
+      price: Cours
+      volume: Cours & Volume
+    growth:
+      strong:
+        explanation: La Croissance à long terme est prévue d'être plus élevée que celle des concurrents.
+        title: Forte Croissance
+      weak:
+        explanation: La Croissance à long terme est prévue d'être plus faible que celle des concurrents.
+        title: Faible Croissance
+    header:
+      actualChange: Évolution Réelle
+      percentChange: Pourcentage d'Évolution
+      price: Cours du Titre
+    information:
+      description: Description de l'Entreprise
+      results: Derniers Résultats
+      statistics: Chiffres Clés
+    inner:
+      description:
+        titles:
+          competitors: Qui sont les Concurrents ?
+          main: Description de l'Entreprise
+      dividends:
+        titles:
+          competitors: Concurrents Versant des Dividendes
+          forecast: Prévision de Dividendes à Court Terme
+          main: Dividendes
+      growth:
+        titles:
+          comparison: Comparant les prévisions à Long Terme aux prévisions à Court Terme
+          growth: Prévision de Croissance à Long Terme
+          main: Taux de Croissance Vs. 5 Concurrents aux Croissances les plus rapides
+          profit: Prévision de Bénefices à Court Terme
+          sales: Prévision de Ventes à Court Terme
+      latest:
+        forecasted:
+          dividend: Prévision de Dividendes
+          eps: Prévision de Gains par Action
+          profit: Prévision de Résultat Net
+          sales: Prévision de Ventes
+        titles:
+          epsForecast: Gains et Rendement par Action Prévus
+          gross: Marge Brute (%) Vs. 5 Plus Gros Concurrents
+          main: Derniers Résultats
+          operating: Marge Opérationnelle (%) Vs. 5 Plus Gros Concurrents
+          roe: Rentabilité des capitaux propres (%) Vs. 5 Plus Gros Concurrents
+          salesForecast: Ventes et Résultat Net prévus
+      peers:
+        titles:
+          main: Concurrents de l'Entreprise
+      profitable:
+        titles:
+          epsForecast: Prévision de Gains par Action à Court Terme
+          main: Rentable
+          profitForecast: Prévision de Bénéfices à Court Terme
+      stats:
+        data:
+          table:
+            cheaperOn: Moins cher que les concurrents pour %n des 9 paramètres
+            headers:
+              cheaper: Moins Cher ?
+              competitors: Concurrents
+              stock: Récemment
+            labels:
+              forecastedDividends: Rendement (Prévision)
+              forecastedPe: PE Ratio (Prévision)
+              forecastedSales: Ratio Capitalisation-Ventes (Prévision)
+              historicBookValue: Ratio Cours-Valeur Comptable (Historique)
+              historicDividends: Rendement (Historique)
+              historicEquity: Rentabilité des Capitaux Propres (Historique)
+              historicPe: PE Ratio (Historique)
+              historicProfit: Ratio Capitalisation-Bénefices (Historique)
+              historicSales: Ratio Capitalisation-Ventes (Historique)
+        market:
+          price: Cours de l'Action
+          shares: Actions Ordinaires
+          value: Valeur sur le Marché
+        titles:
+          key: Chiffres Clés
+          upside: Hausse / Baisse au plus Haut / Bas Cours depuis 52 Semaines
+          valuations: Multiples d’Évaluation
+        volumes:
+          daily: Volume d'Échange Quotidien
+          today: Aujourd'hui, le Volume est de
+      upside:
+        title: PE Ratio Vs. les 5 Concurrents les moins chers
+      wallStreet:
+        titles:
+          competitors: Avis sur les Concurrents
+          main: Hausse Vs. 5 Concurrents aux Hausses les plus Élevées
+          oneWeek: Il y a une semaine
+          recommendation: Changement dans la Recommandation des professionnels
+          today: Aujourd'hui
+      worth:
+        title: Qu'est-ce que ça vaut ?
+    innerTypes:
+      description:
+        description: Lisez l'analyse et la description de cette entreprise sur Stockflare.
+        title: Desription de l'Entrprise
+      dividends:
+        description:
+          fallback: Les professionnels ne prévoient pas de dividendes par action pour ce titre. Découvrez pourquoi sur Stockflare.
+          valid: 'Les professionnels prévoient %n de dividende par action pour ce titre. Découvrez plus d''informations sur Stockflare. '
+        title: Dividendes
+      growth:
+        description:
+          fallback: 'Cette entreprise a une croissance plus faible que celle de ses concurrents. Découvrez pourquoi sur Stockflare. '
+          terms:
+            high: plus forte
+            low: plus faible
+          valid: 'Les gains de ce titre sont prévus de croître de %n% par an sur le long terme. Ce qui est %n que ses concurrents. Découvrez plus d''informations sur Stockflare. '
+        title: Croissance
+      latest:
+        description: Lisez les derniers résultats de ce titres leur analyse sur Stockflare.
+        title: Derniers Résultats
+      peers:
+        description:
+          valid: Cette entreprise a %n concurrents. Comparez les chiffres clés sur Stockflare
+        title: Liste des Concurrents
+      profitable:
+        description:
+          fallback: 'Les professionnels ne prévoient pas de gains par action pour ce titre. Découvrez pourquoi sur Stockflare. '
+          valid: 'Les professionnels prévoient %n de gains par action pour ce titre. Découvrez plus d''informations sur Stockflare. '
+        title: Profit / Perte
+      stats:
+        description:
+          terms:
+            cheaper: moins cher
+            expensive: cher
+          valid: 'Ce titre a une valeur sur le marché de %n et son estimation est %n en se basant sur %n de nos 9 paramètres. Découvrez plus d''informations sur Stockflare. '
+        title: Chiffres Clés
+      upside:
+        description:
+          fallback: 'Ce titre est cher comparé à ses concurrents. Découvrez plus d''informations sur Stockflare. '
+          terms:
+            cheap: bon marché
+            expensive: cher
+          valid: 'Ce titre est échangé à %nx fois les gains et est %n vis-à-vis de ses concurrents. Découvrez plus d''informations sur Stockflare. '
+        title: Cher ou Bon Marché
+      wallStreet:
+        description:
+          fallback: 'Les professionnels n''ont pas d''avis sur ce titre. Découvrez pourquoi sur Stockflare. '
+          terms:
+            downside: baisse
+            upside: hausse
+          valid: 'Les professionnels recommandent %n pour ce titre avec un cours cible de %n. Cela implique une %n% %n.  Découvrez plus d''informations sur Stockflare. '
+        title: L'avis des professionnels
+      worth:
+        description:
+          fallback: 'Découvrez ce que ce titre est prévu de gagner ou perdre sur les 7 prochaines années sur Stockflare. '
+          terms:
+            gain: gain
+            lose: perte
+          valid: Ce titre est prévu de %n %n% par an sur les 7 prochaines années.
+        title: Qu'est-ce que ça vaut ?
+    notification:
+      insufficientData: Nous n'avons pas les données nécessaires pour ce calcul
+      stale: Les données pour ce titre n'ont pas été mises à jour depuis au moins 10 jours et pourraient être périmées.
+      updating: Notre analyse sur ce titre est en cours de mise à jour. Veuillez reconsulter cette page dans 15 minutes.
+      widgetUpdating: Mise à jour des calculs.
+    og:
+      description: Ce titre est actuellement noté %n. Trouvez plus d'informations sur Stockflare.
+      title: Informations à propos de %n sur Stockflare
+    priceChange:
+      price:
+        title: Variation du Cours
+      profitability:
+        epsToday: Aujourd'hui elle est de %n
+        epsWas: '%t(eps){Gains-Par-Action} était de %n.'
+        forecastEpsWas: La prévision de %t(eps){Gains-Par-Action} était de %n.
+        title: Évolution de la Profitabilité ?
+      sentiment:
+        forecastPeWas: La prévision de %t(pe){PE Ratio} était de %n.
+        peToday: Aujourd'hui elle est de %nx
+        peWas: '%t(pe){PE Ratio} était de %n.'
+        title: Évolution de l'Avis des Investisseurs ?
+      title: Qu'est-ce qui conduit la Variation du Cours ?
+    profitable:
+      description: Prévision %t(eps){Gains-par-Action}.
+      title: Rentable ?
+    ratings:
+      cheaper:
+        negative: Plus cher que les concurrents
+        positive: Moins cher que les concurrents
+      dividends:
+        negative: Ne verse pas de dividendes
+        positive: Verse des dividendes
+      high_growth:
+        negative: Croissance plus faible que celle des concurrents
+        positive: Croissance plus forte que celle des concurrents
+      profitable:
+        negative: Non rentable
+        positive: Entreprise rentable
+      upside:
+        negative: '%n de moins que le cours cible'
+        neutral: Identique au cours cible
+        positive: +%n de plus que le cours cible
+        unknown: Cours cible inconnu
+    social:
+      email: Envoyer
+    targetPrice:
+      decrease: '%t(downside){de diminution}.'
+      description: Une %n sur le cours du jour.
+      equal: Pas de variation
+      increase: '%t(upside){d''augmentation}.'
+      recommendations:
+        buy: L'%t(recommendation){avis} des professionnels est Renforcer.
+        hold: L'%t(recommendation){avis} des professionnels est Conserver.
+        sell: L'%t(recommendation){avis} des professionnels est Alléger.
+        strongBuy: L'%t(recommendation){avis} des professionnels est Vendre.
+        strongSell: L'%t(recommendation){avis} des professionnels est Acheter.
+      title: Cours Cible des professionnels
+    worth:
+      copy:
+        absoluteGain:
+          negative: '%n diminue jusque %n sur 7 ans'
+          positive: '%n augmente jusque %n sur 7 ans'
+        gainPerYear:
+          negative: Perte de %n par an
+          positive: Gain de %n par an
+        relativeGain:
+          negative: Perte de %n sur 7 ans
+          positive: Gain de %n sur 7 ans
+        sevenYearGain:
+          negative: Perd %n sur 7 ans
+          positive: Gagne %n sur 7 ans
+        value:
+          text: Actions évaluées à %n
+      footnote: Nous supposons une croissance annuelle de 8% pour les calculs ci-dessus.
+      forecast:
+        title: est Prévu de
+      result:
+        title: Cela signifie que
+      title: Quelle est la valeur de %n, sur le long terme ?
+      today:
+        description: Entrez le nombre d'actions ci-dessous
+        submitNotWatching: Ajouter ce titre sur ma Liste
+        submitWatching: Mettre à jour ce titre sur ma liste
+        title: Aujourd'hui Je Possède
+        unsaved: Vous avez des modifications non enregistrées
+  stocks:
+    messages:
+      loading: Chargement des Titres
+      noMatches: Excusez-nous, aucun titre ne correspond à ces critères de recherche
+      noMoreMatches: Pas plus de titres disponibles
+    og:
+      description: Stockflare vous aide à trouver de nouvelles idées. Cherchez des idées de titres et voyez si vous avez un bon portefeuille.
+      title: Choisissez vos Titres Facilement
+    reset: Retirer les Filtres
+  tooltip:
+    acronyms:
+      dps: Dividendes-par-action
+      eps: Gains-par-Action
+      growth: Prévision de Croissance à Long Terme
+      pe: PE ratio
+      rating: Notation par étoiles de Stockflare
+      ric: Code du ticker Reuters
+    explanations:
+      downside: Pourcentage de baisse du Cours Cible des professionnels au cours d'aujourd'hui
+      dps: Une entreprise verse des dividendes, comme une banque paie des intérêts. Les Dividendes-par-action sont ce que vous recevez pour chaque action que vous possédez.
+      eps: Les bénéfices d'une entreprise appartiennent à ses actionnaires. Les Gains-par-Action sont ce que vous gagnez en théorie pour chaque action que vous possédez.
+      pe: Le PE ratio est égal au cours de l'action divisé par les gains-par-action. Plus haut le PE ratio, plus cher le titre.
+      recommendation: Les courtiers publient une recommandation Acheter/Vendre/Conserver pour tous les titres qu'ils analysent. Nous vous donnons l'avis général.
+      upside: Pourcentage de hausse du cours d'aujourd'hui au Cours Cible des professionnels
+  user:
+    fields:
+      confirmPassword: Confirmez le mot de passe
+      email: Adresse email
+      location: Localisation
+      mfa: Code de clé d'authentification MFA
+      name: Nom Entier
+      otpA: Premier Code
+      otpB: Second Code
+      otpC: Troisième Code
+      otpD: Quatrième Code
+      otpE: Cinquième Code
+      otpF: Sixième Code
+      password: Mot de passe
+    options:
+      logout: Déconnexion
+      settings: Réglages
+    validation:
+      email:
+        required: Adresse Email requise
+        validity: Cette Adresse Email est invalide
+      name:
+        validity: Votre nom est invalide
+      otp:
+        length: Code de clé d'authentification MFA invalide. Six chiffres sont requis.
+        required: Un code de clé d'authentification MFA valide est requis
+      password:
+        mismatch: Ces Mots de Passe ne correspondent pas
+        required: Mot de Passe requis
+        tooLong: Ce mot de passe est trop long
+        tooShort: Ce mot de passe est trop long
+  watchlist:
+    actualChange: Variation Réelle (1 Jour)
+    footnote: '* Lorsque nous n''avons pas de données, nous supposons un taux de croissance de 8%.'
+    pageDescription: Votre liste contient un récapitulatif de votre portefeuille ainsi que les alertes récentes des titres figurant sur la liste.
+    pageTitle: Ma Liste
+    percentChange: Pourcentage de Variation
+    portfolioTable:
+      difference: Un gain de (USD) %n
+      forecastGrowth: Croissance prévue *
+      gain: Gain annuel de %n%
+      name: Nom de l'Entreprise
+      price: Aujourd'hui
+      projected: Dans 7 Ans (USD) %n
+      sevenYears: Dans 7 Ans (USD)
+      shares: No. D'Actions
+      total: Total %n
+      usValue: Valeur (USD)
+      value: Valeur
+    projected: Portefeuille projeté
+    summary:
+      summaries:
+        gain:
+          notWatchingStocks: Ajoutez des titres à votre liste pour recevoir une croissance moyenne.
+          projectedGain: une croissance annuelle de %n% à partir de %n aujourd'hui
+          projectedValue: Portefeuille prévu de valoir %n dans 7 ans
+        opinion:
+          notWatchingStocks: Ajoutez des titres à votre liste pour recevoir une note.
+          stars: Nous notons votre portefeuille %n étoiles.
+          ws: Les professionnels recommandent %n.
+      titles:
+        alerts: Alertes Récentes
+        gain: Gain sur Sept Ans
+        opinion: Avis sur ce Portefeuille
+    wallStreet:
+      title: L'avis des professionnels
+      upside:
+        missing: Hausse N/A
+        text: 'Hausse de %n% '
+    watching: Nombre de titres sur votre Liste
+    watchingPhrase: '%n Entreprises'
+    worth: Valeur Totale
