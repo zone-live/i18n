@@ -983,6 +983,7 @@ en:
     descriptions:
       delete: Closing your account will permanently delete all of your personal data from our systems. This action cannot be undone.
       location: Your location is used to filter stocks when you do not have a Country filter applied.
+      language: Set your preferred language to view Stockflare in.
       mfaDisable: Disable MFA for your account by entering two valid codes below.
       mfaDisabled: MFA provides an additional layer of security for your account.
       mfaEnable: Enable MFA for your account by scanning the QR Code below, then entering two valid codes.
@@ -1296,6 +1297,7 @@ en:
       confirmPassword: Confirm Password
       email: Email Address
       location: Location
+      language: Language
       mfa: MFA Code
       name: Full Name
       otpA: First Code
