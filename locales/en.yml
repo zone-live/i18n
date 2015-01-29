@@ -1254,6 +1254,7 @@ en:
         title: Today I Own
         unsaved: You have unsaved changes
   stocks:
+    matches: Stocks Found
     messages:
       loading: Loading Stocks
       noMatches: Sorry, no stocks found matching your criteria
