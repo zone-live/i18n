@@ -24,6 +24,9 @@ en:
     pressEnter: Press Enter to Add
     search: Search
   common:
+    languages:
+      'en-US': English
+      'fr-FR': Français
     countries:
       afg: Afghanistan
       ago: Angola
