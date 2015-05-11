@@ -1198,7 +1198,7 @@ de:
       enableMfa: Zwei-Faktor-Authentifizierung aktivieren
       loading: Einstellungen werden aktualisiert
     descriptions:
-      currency: 
+      currency:
       delete: Wenn Sie Ihren Account löschen, werden Ihre gesamten persönlichen Daten permanent von unseren Systemen gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.
       error: 'Tut uns leid, beim Aktualisieren der Einstellungen ist ein Problem aufgetreten: '
       language: Wählen Sie Ihre Sprache aus.
@@ -1428,8 +1428,8 @@ de:
         title: Kursänderung
       profitability:
         epsToday: Heute ist er bei %n
-        epsWas: '%(eps){Ergebnis pro Aktie} betrug %n.'
-        forecastEpsWas: Prognostiziertes %(eps){Ergebnis pro Aktie} betrug %n.
+        epsWas: '%t(eps){Ergebnis pro Aktie} betrug %n.'
+        forecastEpsWas: Prognostiziertes %t(eps){Ergebnis pro Aktie} betrug %n.
         title: Veränderung des Gewinns/Verlust
       sentiment:
         forecastPeWas: Zukünftigen %t(pe){PE Ratio} war %nx
@@ -1439,8 +1439,8 @@ de:
       title: Was bewirkt die Kursänderung?
       up: Höher
     profitable:
-      forecastedDescription: Prognostizierte %(eps){Ergebnis pro Aktie}.
-      latestDescription: Neueste %(eps){Ergebnis pro Aktie}.
+      forecastedDescription: Prognostizierte %t(eps){Ergebnis pro Aktie}.
+      latestDescription: Neueste %t(eps){Ergebnis pro Aktie}.
       title: Gewinnbringend?
     ratings:
       cheaper:
@@ -1536,7 +1536,7 @@ de:
   user:
     fields:
       confirmPassword: Passwort bestätigen
-      currency: 
+      currency:
       email: E-Mail-Adresse
       language: Sprache
       location: Ort
