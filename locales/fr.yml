@@ -1,27 +1,56 @@
 fr:
+  about:
+    disclaimer: Stockflare fournit des informations, pas de conseils. Stockflare ne fait pas de recommandations. Toute référence à "Acheter", "Vendre", "Conserver" ou "Cours Cibles" pour les actions, reflète l'opinion générale des professionnels.
+    from: Données fournies par
+    links:
+      about: À propos
+      blog: Blog
+      faq: FAQ
+      jobs: Offres d'emploi
+      privacy: Confidentialité
+      tos: Conditions Générales
+    pricingData: Toutes les données correspondent à la fermeture d'hier.
+    title: À propos de Stockflare
   alerts:
+    count: '%n Alertes'
     headers:
       today: Alertes Récentes
     messages:
+      gain:
+        negative: Les gains prévus ont diminué de %previous_gain% à %latest_gain.
+        positive: Les gains prévus ont augmenté de %previous_gain% à %latest_gain.
       movement:
-        negative: Le cours a diminué de %n% de %n à %n.
-        positive: Le cours a augmenté de %n% de %n à %n.
+        negative: Le cours a diminué de %price_change% de %previous_price à %latest_price.
+        positive: Le cours a augmenté de %price_change% de %previous_price à %latest_price.
+      none: Aucune Alerte Actuellement
+      one_month_eps_sentiment:
+        positive: Les bénéfices prévus de cette action ont augmenté plus rapidement que le prix, sur le dernier mois.
+      one_month_price_sentiment:
+        negative: Le prix de cette action a diminué plus rapidement que les bénéfices prévus de cette action, sur le dernier mois.
       rating:
-        negative: Rétrogradé à un titre %n étoiles.
-        positive: Promu à un titre %n étoiles.
+        negative: Action rétrogradée à %latest_rating étoiles.
+        positive: Action promue à %latest_rating étoiles.
       recommendation:
-        negative: Les professionnels ont revu de %n à %n.
-        positive: Les professionnels ont revalorisé de %n à %n.
+        negative: Les professionnels ont revu de %previous_recommendation_text à %latest_recommendation_text.
+        positive: Les professionnels ont revalorisé de %previous_recommendation_text à %latest_recommendation_text.
+      three_month_eps_sentiment:
+        positive: Les bénéfices prévus de cette action ont augmenté plus rapidement que le prix, sur les derniers trois mois.
+      three_month_price_sentiment:
+        negative: Le prix de cette action a diminué plus rapidement que les bénéfices prévus de cette action, sur les derniers trois mois.
       upside:
-        positive: A gagné une étoile pour avoir une hausse de %n à son cours cible.
+        positive: A gagné une étoile pour avoir une hausse de %latest_upside à son cours cible.
       volume:
         negative: Volumes d'échanges anormalement élevés.
     pageTitle: Mes Alertes
+    timeAgo: il y a %n heures
   appender:
-    add: Ajouter un Titre
+    add: Ajouter une action
     noMatches: 0 Correspondances
     pressEnter: Appuyez sur Entrée pour ajouter
     search: Rechercher
+  appenders:
+    watchlist:
+      create: Nouvelle Liste
   common:
     countries:
       afg: Afghanistan
@@ -596,9 +625,12 @@ fr:
         zar: R%n
         zmw: ZK%n
         zwd: Z$%n
-    defaultPageTitle: Choisissez vos Titres Facilement
+    defaultPageTitle: Investir devient facile
+    languages:
+      en-US: English
+      fr-FR: Français
     loading: Chargement...
-    login: Login
+    login: Se Connecter
     pages:
       privacy_policy: Confidentialité
       tos: Conditions Générales
@@ -606,7 +638,7 @@ fr:
       amer: Amériques
       apac: Asie-Pacifique
       emea: Europe, Moyen-Orient et Afrique
-    register: Enregistrez-Vous
+    register: Créer un Compte
     social:
       email: Envoyer
     time:
@@ -633,20 +665,21 @@ fr:
         unwatch: Retirer de votre Liste
         watch: Ajouter à votre Liste
       widget:
-        alerts: Alertes du Titre
+        alerts: Alertes des actions
         graph: Graphique
         info: Classement par Étoiles
         social: Partager
     unwatch: Retirer de votre Liste
     wallStreetRecommendations:
-      emptyCategory: Vous n'avez pas de titres dans cette catégorie.
+      emptyCategory: Vous n'avez pas d'actions dans cette catégorie.
       missing: 'Pas de Recommandations '
       titles:
         buy: Renforcer
         hold: Conserver
         sell: Alléger
-        strongBuy: Acheter
-        strongSell: Vendre
+        strong_buy: Acheter
+        strong_sell: Vendre
+        unknown: N/A
     watch: Ajouter à votre Liste
   delete:
     copy:
@@ -657,12 +690,174 @@ fr:
       deleted: Compte Supprimé
       deleting: Suppression du compte...
       error: Une erreur est survenue
+  explore:
+    all: Toutes les actions
+    biLine: Besoin d'une inspiration ?
+    categories:
+      big-and-cheap:
+        description: Il y a beaucoup de grandes entreprises avec de grandes marques que les investisseurs ignorent. Peut-être qu'ils reviendront en faveur, un jour?
+        filters:
+          country: usa
+          financial: large
+          market_value_usd: 50000+
+          valulation: low_pe
+        name: Gros et bon marché
+      boring-businesses:
+        description: Qui a dit que vous devez investir dans la technologie! Imaginez parler à vos amis au sujet de la peinture, des plastiques, des piles, des eaux usées ou d'un produit sanitaire. Il ya des entreprises vétérinaires et les salons funéraires. Regardez!
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          rating: 1+
+          sector_code: '5110101011,5110101012,5210201013,5210201014,5210201015,5210201016,5210201017,5210203011,5210203012,5210203013,5210203014,5210203015,5210203016,5210203017,5220304020,5220301012,5310102013,5420102013,5420103018,5610102018,5610201016,5620104014,5710102010,5710102012,5710501013,5910301012'
+        name: Les entreprises assommantes
+      cash-heavy:
+        description: Il y a quelques entreprises qui ne disposent pas de la dette et qui paient tous leurs cashflow aux actionnaires. La trésorerie et le cashflow? Geniale!
+        filters:
+          country: usa
+          financial: has_cash
+          market_value_usd: 500+
+          valuation: high_dividend
+        name: Un tas d'argent
+      coffee-cake:
+        description: Investir dans les petits plaisirs de la vie, sans le sentiment de culpabilité si vous prenez une overdose sur le sucre.
+        filters:
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5330102016,5410201015,5410201016,5410202014,5410202021,5410202022,5410202023'
+        name: Café et gâteau
+      gem-stones:
+        description: Sont des diamants meilleur ami de l'investisseur? Diamants, pierres précieuses, les plongeurs de perles. Tous sont les options pour les investisseurs.
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5120101013,5120101014,5120101015'
+        name: Les pierres précieuses
+      going-nuclear:
+        description: L'énergie nucléaire est pas propre, mais quand il vient à un monde sans pétrole, il est important, comme l'énergie renouvelable. La lutte pour alimenter notre planète.
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5030101010,5030101011,5030101012,5210204016,5220102022,5910101013,5910102013'
+        name: L'amour nucléaire
+      hated-by-wall-street:
+        description: Êtes-vous l'un des cyniques qui se méfient de Wall Street et les professionnels? Puis, investir dans les sociétés les professionnels hait!
+        filters:
+          country: usa
+          market_value_usd: 500+
+          sentiment: hated
+        name: Détesté par les professionnels
+      healthy-tech:
+        description: Biotechnologie font des progrès merveilleux chaque jour. Pourquoi ne pas soutenir les scientifiques qui résolvent les problèmes les plus difficiles dans la santé?
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
+        name: Technologie pour la santé
+      land-and-sea:
+        description: Nous mangeons, hein? Il y a beaucoup de sociétés qui travaillent dans l'agriculture. Les agriculteurs, les pesticides. Qui sont les principaux acteurs?
+        filters:
+          country: usa,cad
+          market_value_usd: 1000+
+          sector_code: '5110102010,5110102011,5110102012,5110102013,5110102014,5320201018,5410201010,5410201011,5410201012,5410201013,5410201014,5410201015,5410201016,5410201017,5410201018,5410201019,5410201020,5410201021,5410201022,5410201023,5410201024,5410201025,5410201026,5410201027,5410201028,5410201029,5410203011'
+        name: Terre et Mer
+      legal-eagles:
+        description: Les avocats et les experts-comptables sont chers! Vous pouvez investir dans leurs entreprises aussi!
+        filters:
+          market_value_usd: 50+
+          rating: 1+
+          region: amer
+          sector_code: '5220304011,5220304012,5220307015,5420103012,5420103013'
+        name: Les avocats et experts
+      renewables:
+        description: Si vous souhaitez investir dans un monde sans pétrole, il y a beaucoup d'entreprises qui travaillent dans le marché des énergies renouvelables. Éolien, solaire, vague et l'hydrogène.
+        filters:
+          rating: 3+
+          region: amer
+          sector_code: '5020101010,5020101011,5020101012,5020101013,5020101014,5020101015,5020101016,5020101017,5020101018,5020101019,5020101020,5020102010,5020102011,5020102012,5020102013,5020102014,5020102015,5910101011,5910102012'
+        name: Renouvelables
+      ship-it:
+        description: Si vous voulez expédier vastes choses, la mer est la seule façon. Bien que vous pouvez investir dans des bateaux de loisirs aussi facilement que super tankers.
+        filters:
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5010303014,5210205010,5210205011,5210205012,5320502011,5240502010,5240502011,5240502012,5240502013,5240602014,5240702010,5240702011,5240702012,5240702013'
+        name: Expédiez le!
+      space-race:
+        description: Vous recherchez la dernière frontière, il y a des roquettes et les fabricants de satellites, et les entreprises qui dépendent des satellites pour que leur entreprise peut fonctionner.
+        filters:
+          market_value_usd: 100+
+          sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
+        name: Course à la cosmos
+      sporting-outdoors:
+        description: Vous pouvez investir dans une équipe de sport sur la bourse. Ou simplement porter leurs couleurs!
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
+        name: Idées sportives
+      taking-it-easy:
+        description: Qui a dit que vous devez choisir les stocks d'être bon à l'investissement! Vous pouvez choisir un ETF. Vous obtiendrez les mêmes performances que la bourse, même si vous ne la battre pas!
+        filters:
+          market_value_usd: 10000+
+          sector_code: '5550104010,5550104011,5550104012'
+        name: Détendrez
+      tech-titans:
+        description: Si "la technologie est en train de manger le monde", il y a quelques entreprises profitant de leurs repas.
+        filters:
+          financial: large
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5710101010,5710101011,5710101012,5710101013,5710101014,5710101015,5710102010,5710102011,5710102012,5710102013,5710201010,5710201011,5710201012,5710201013,5710201014,5710201015,5710201016,5710201017,5710501010,5710501011,5710501012,5710501013,5710501014,5710501015,5710401010,5710401011,5710401012,5710401013,5710401014,5710601010,5710601011,5710601012,5710601013,5710601014,5710601015,5710601016,5710601017,5710601018,5710601019,5710602010,5710602011,5710602012,5710602013,5710602014,5710602015,5710603010,5710603011,5710603012,5710603013,5710603014,5720101010,5720101011,5720101012,5720101013,5720101014,5720101015,5720102010,5720102011,5720102012,5720102013,5720102014,5720102015,5720102016,5720102017,5720103010,5720103011,5720103012,5720103013,5720103014,5720103015,5720103016'
+        name: Géants de la technologie
+      thirsty:
+        description: Peu de choses sont aussi essentiels que l'eau propre. Comme la population augmente, peut-être les actions aussi?
+        filters:
+          country: usa
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5220102018,5410103014,5910301010,5910301011,5910301012,5910301013'
+        name: Assoiffé?
+      timber:
+        description: Voulez vous acheter une forêt? Un peu de bois? Voici quelques-uns des plus grands joueurs.
+        filters:
+          country: usa,cad
+          market_value_usd: 100+
+          rating: 2+
+          sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
+        name: Un forêt?
+      time-online:
+        description: L'Internet est en train de tuer la télévision.Les gagnants sont déjà visibles. Voulez-vous d'investir dans les entreprises que vous utilisez?
+        filters:
+          country: usa
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5720103010,5720103011,5720103012,5720103013'
+        name: Les internautes
+      vice-not-nice:
+        description: Oubliez vous l'éthique? Voulez vous investir dans la drogue, l'alcool, les fusils et les vices?
+        filters:
+          country: usa
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5210101011,5330102011,5330103010,5330103011,5330103012,5330103013,5330203016,5340309025,5410101010,5410101011,5410102010,5410102011,5410102012,5410102013,5430102013,5430102015'
+        name: Les vices
+      young-and-old:
+        description: Des vêtements aux jouets, indépendamment de l'âge. Il y a une option d'investissement pour tout le monde.
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          rating: 2+
+          sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
+        name: Les jeunes et âgées
+    pageDescription: Besoin d'une petite inspiration ? Stockflare a créé des catégories originales pour vous aider à découvrir de nouvelles actions.
+    pageTitle: Explorer Stockflare
+    popular: '%n le plus populaire'
   filterBar:
     company_tags:
       descriptions:
-        growing: Les Ventes et les Gains-par-Action sont prévus d'augmenter cette année, par rapport à l'année dernière.
+        growing: Le chiffre d'affaires et le Bénéfice-par-Action sont prévus d'augmenter cette année, par rapport à l'année dernière.
         has_cash: Entreprises avec plus de trésorerie et d'investissements que de dettes.
-        high_growth: Les gains sont prévus d'augmenter de plus de 16% sur le long terme.
+        high_growth: Les bénéfices sont prévus d'augmenter de plus de 16% sur le long terme.
         large: Entreprises évaluées à plus de $10 milliards US Dollars.
         pays_dividends: Entreprises versant des dividendes aux actionnaires.
         profitable: Rentable l'année dernière, et prévue de l'être cette année.
@@ -671,47 +866,50 @@ fr:
       titles:
         default: Paramètres du Business
         filters:
-          growing: Croissant
-          has_cash: A de la Trésorerie et des Investissements
-          high_growth: Forte Croissance Uniquement
-          large: Grandes Entreprises Uniquement
-          pays_dividends: Verse des Dividendes Uniquement
-          profitable: Rentable Aujourd'hui
-          small: Petites Entreprises Uniquement
-          turning_profitable: Devient Rentable
+          growing: Croissance
+          has_cash: A de la trésorerie et des investissements
+          high_growth: Forte croissance uniquement
+          large: Grandes entreprises uniquement
+          pays_dividends: Verse des dividendes uniquement
+          profitable: Rentable aujourd'hui
+          small: Petites entreprises uniquement
+          turning_profitable: Devient rentable
     country:
       titles:
         default: Pays
     country_currency:
       categories:
         country: Pays
-        currency: Monnaies principales
+        currency: Devises principales
         regions: Régions
       titles:
-        default: Pays & Monnaie
+        default: Pays & Devise
     direction:
       descriptions:
-        near_high: Titres en-deçà de 5% de leur plus haut cours depuis cinquante-deux semaines
-        near_low: Titres en-deçà de 5% de leur plus bas cours depuis cinquante-deux semaines
-        negative: Titres aux cours plus bas que la moyenne des dix derniers jours
-        positive: Titres aux cours plus élevés que leur moyenne des dix derniers jours
+        near_high: Actions en-deçà de 5% de leur plus haut cours depuis cinquante-deux semaines
+        near_low: Actions en-deçà de 5% de leur plus bas cours depuis cinquante-deux semaines
+        negative: Actions aux cours plus bas que la moyenne des dix derniers jours
+        positive: Actions aux cours plus élevés que leur moyenne des dix derniers jours
       titles:
         default: Tendance du Cours
         filters:
-          near_high: Près du Plus Haut Cours depuis 52 Semaines
-          near_low: Près du Plus Bas Cours depuis 52 Semaines
-          negative: Élan négatif
-          positive: Élan positif
+          near_high: Près du plus haut cours depuis 52 Semaines
+          near_low: Près du plus bas cours depuis 52 Semaines
+          negative: Tendance à la baisse
+          positive: Tendance à la hausse
     opinion:
       titles:
         default: Style d'investissement
     order:
-      ascending: Du plus Bas au plus Élevé
-      descending: Du plus Élevé au plus Bas
+      ascending: du - au +
+      descending: du + au -
       orders:
-        latest_market_value_usd: Valeur sur le Marché
+        latest_market_value_usd: Valeur
         latest_price: Cours
         latest_rating: Notation par étoiles
+    panel:
+      description: Sélectionnez de nombreux filtres ci-dessous pour trouver votre parfaite action.
+      title: Sélectionner des filtres
     sector:
       titles:
         default: Secteur
@@ -738,9 +936,9 @@ fr:
       name: Distributeurs d'Eau, Électricité, Gaz
     sentiment:
       descriptions:
-        hated: Titres pour lesquels le cours cible des professionnels est plus bas que le cours du jour.
-        loved: Titres pour lesquels le cours cible des professionnels est plus élevé que le cours du jour.
-        unknown: Titres pour lesquels les professionnels n'ont pas d'avis sur le cours.
+        hated: Actions pour lesquelles le cours cible des professionnels est plus bas que le cours du jour.
+        loved: Actions pour lesquelles le cours cible des professionnels est plus élevé que le cours du jour.
+        unknown: Actions pour lesquelles les professionnels n'ont pas d'avis sur le cours.
       titles:
         default: Avis
         filters:
@@ -751,11 +949,11 @@ fr:
       titles:
         default: Classement par étoiles
         filters:
-        - Titres 1 Étoile
-        - Titres 2 Étoiles
-        - Titres 3 Étoiles
-        - Titres 4 Étoiles
-        - Titres 5 Étoiles
+        - Actions 1 Étoile
+        - Actions 2 Étoiles
+        - Actions 3 Étoiles
+        - Actions 4 Étoiles
+        - Actions 5 Étoiles
     style:
       descriptions:
         growth: Entreprises aux croissances plus rapide que leurs concurrentes, sur le long terme.
@@ -769,19 +967,19 @@ fr:
           value: Bon Marché
     valuation:
       descriptions:
-        high_dividend: Titres bon marché par rapport aux dividendes versées
-        low_book_value: Titres bon marché par rapport à la valeur de leurs actifs nets
-        low_operating_profit: Titres bon marché par rapport à leurs bénéfices avant impôts
-        low_pe: Titres bon marché par rapport à leurs bénéfices
-        low_sales: Titres bon marché par rapport à leurs ratios capitalisation-ventes
+        high_dividend: Actions bon marché par rapport aux dividendes versées
+        low_book_value: Actions bon marché par rapport à la valeur de leurs actifs nets
+        low_operating_profit: Actions bon marché par rapport à leurs bénéfices d'exploitation
+        low_pe: Actions bon marché par rapport à leurs bénéfices
+        low_sales: Actions bon marché par rapport à leur capitalisation/chiffre d'affaires
       titles:
-        default: Évaluation
+        default: Valorisation
         filters:
           high_dividend: Rendement de plus de 4%
-          low_book_value: Échangé moins cher que la Valeur Comptable
-          low_operating_profit: Moins que 7x Bénéfices avant Impôts
+          low_book_value: Échangé moins cher que la valeur comptable
+          low_operating_profit: Moins que 7x bénéfices d'exploitation
           low_pe: PE Ratio en dessous de 10x
-          low_sales: Moins que 1x Ventes
+          low_sales: Inférieur à 1x chiffre d'affaires
   forgot:
     buttons:
       forgot: Réinitialiser mon mot de passe
@@ -802,30 +1000,33 @@ fr:
       sent: Mot de Passe réinitialisé
   header:
     buttons:
+      about: À propos de Stockflare
       alerts: Mes Alertes
+      explore: Explorer
       filters: Filtres
-      ideas: Choisissez vos Titres
+      guestWatched: Sauvegarder votre Liste
+      ideas: Choisissez vos Actions
       search: Rechercher
       watchlist: Ma Liste
   landing:
     feed:
       content:
-        copy: Filtrez des milliers de titres en un instant.
-        point: Stockflare vous conduit aux meilleurs titres.
+        copy: Filtrez des milliers d'actions en un instant.
+        point: Avec Stockflare, découvrez les meilleures actions.
         title: Allez à l'essentiel
     introduction:
       content:
-        copy: Choisissez les meilleurs titres pour votre portefeuille.
+        copy: Choisissez les meilleurs actions pour votre portefeuille.
         cta: Faites votre choix, 100% Gratuit
         point: Améliorez votre façon d'investir.
-        title: Choisissez vos Titres Facilement
+        title: Investir devient facile
       menu:
-        search: Rechercher des Titres
+        search: Rechercher des Actions
         skip: Passer
       stats:
-        analyzed: Titres Analysés
+        analyzed: Actions Analysées
         countries: Pays
-        stocks: Titres 5 Étoiles
+        stocks: Actions 5 Étoiles
       tease: Qu'est-ce que Stockflare ?
     opinion:
       bubbles:
@@ -833,22 +1034,22 @@ fr:
         hold: Conserver
         sell: Vendre
       content:
-        copy: Obtenez les conseils des professionnels. Sont ils Acheteurs ou Vendeurs ? Prix cibles pour tous les titres.
+        copy: Obtenez les conseils des professionnels. Sont ils Acheteurs ou Vendeurs ? Prévisions d'évolution pour toutes les actions.
         point: Conseils des professionnels. Gratuits pour toujours.
         title: Qu'achètent les professionnels ?
-    pageTitle: Choisissez vos Titres Facilement
+    pageTitle: Investir Devient Facile
     question:
       content:
-        copy: Investir n'a pas à être compliqué. Nous criblons des centaines de paramètres pour plus de 40 000 titres à l'échelle mondiale. Nous notons et fournissons de l'information sur chaque titre. Protégez ce que vous avez économisé et faites le fructifier avec Stockflare.
+        copy: Investir n'a pas à être compliqué. Nous criblons des centaines de paramètres pour plus de 40 000 actions à l'échelle mondiale. Nous notons et fournissons des informations sur chaque action. Protégez ce que vous avez économisé et faites le fructifier avec Stockflare.
         title: Qu'est ce que Stockflare ?
     rating:
       content:
-        copy: Difficile de choisir de nouveaux titres ? Stockflare fournit un classement par étoiles pour tous les titres du monde.
+        copy: Difficile de choisir de nouvelles actions ? Stockflare fournit un classement par étoiles pour toutes les actions du monde.
         point: Prenez des décisions avisées, plus vite.
         reveal:
           notRevealing: Regardez %n
-          revealing: '%n est un titre %n étoiles'
-        title: Choisissez vos Titres en un clin d'œil
+          revealing: '%n est une action %n étoiles'
+        title: Choisissez vos Actions en un clin d'œil
       ratings:
         cheaper: Est-ce Cher ou Bon Marché ?
         dividends: L'entreprise verse-t-elle des dividendes ?
@@ -857,14 +1058,14 @@ fr:
         upside: Qu'en pensent les professionnels ?
     register:
       content:
-        copy: Inscrivez-vous pour enregistrer vos titres et recevoir des alertes.
+        copy: Inscrivez-vous pour enregistrer vos actions et recevoir des alertes.
         skip: Accéder directement à Stockflare
         title: Ne restez pas ancrés dans le passé
   login:
     buttons:
       forgot: J'ai oublié mon mot de passe
       loading: Connexion
-      login: Connexion
+      login: Se Connecter
       resetOtp: J'ai perdu ma clé d'authentification MFA
       social_login: Connectez-vous avec
     descriptions:
@@ -880,7 +1081,7 @@ fr:
     og:
       description: Vous avez un Compte ? Connectez-vous à Stockflare ici.
       title: Connectez-vous à Stockflare
-    pageTitle: Login
+    pageTitle: Connexion
     prompt:
       mfaInfo: Plus d'Infos
       question: Pas encore membre ?
@@ -889,6 +1090,26 @@ fr:
       login: Connectez-vous à Stockflare
       mfa: Compte Sécurisé
       social: Login avec votre compte de Réseau Social (Bientôt Disponible)
+  onboard:
+    controls:
+      complete: Terminé
+      next: Suivant
+      prev: Précédent
+      skip: Passer
+    subtitles:
+      pick: Voici quelques grandes entreprises américaines. Pourquoi ne pas en ajouter une ou deux à votre Liste ?
+      register: Vous aurez accès à tous les outils du secteur
+      watchlist: 'Les Listes sont des listes d''actions qui vous appartiennent ou qui vous intéressent '
+    titles:
+      pick: Essayons
+      register: Inscrivez-vous gratuitement..
+      watchlist: Les Listes sont super. Voici pourquoi !
+    watchlist:
+      reasons:
+        alerts: Recevez des alertes cruciales sur vos actions
+        analysis: Quelle est la qualité de votre portefeuille ?
+        multiples: Créez facilement de nombreuses Listes
+        unlimited: Suivez un nombre illimité d'actions
   recover:
     buttons:
       recover: Réinitialiser mon Mot de Passe
@@ -931,6 +1152,7 @@ fr:
     buttons:
       loading: Compte en cours de création
       register: Inscrivez-vous sur Stockflare
+    disclaimer: En utilisant notre site ou en cliquant'%n' vous acceptez notre
     flash:
       success: Vous vous êtes inscrit avec succès en tant que %n
     og:
@@ -941,7 +1163,7 @@ fr:
       login: Connectez-vous ici
       question: Déja membre ?
     success:
-      cta: Aller aux Titres
+      cta: Aller aux Actions
       loopback: Chargement...
       title: Inscription Terminée
     titles:
@@ -976,8 +1198,11 @@ fr:
       enableMfa: Activer la clé d'authentification MFA
       loading: Mettre les Réglages à jour
     descriptions:
+      currency: 
       delete: Résilier votre compte supprimera vos données personnelles de nos systèmes. Cette action est irrévocable.
-      location: Votre localisation est utilisée pour filtrer les titres lorsque vous n'avez pas de filtre Pays activé.
+      error: 'Excusez-nous, nous avons rencontré un problème en mettant à jour vos réglages :'
+      language: Sélectionnez la langue dans laquelle vous préférez utiliser Stockflare.
+      location: Votre localisation est utilisée pour filtrer les actions lorsque vous n'avez pas de filtre Pays activé.
       mfaDisable: Désactivez votre clé d'authentification MFA pour votre compte en entrant deux codes valides ci-dessous.
       mfaDisabled: Une clé d'authentification MFA un niveau de sécurité supplémentaire pour votre compte.
       mfaEnable: Activez votre clé d'authentification MFA pour votre compte en scannant le code QR ci-dessous, puis en entrant deux codes valides.
@@ -1007,11 +1232,13 @@ fr:
         explanation: Le %t(pe){PE Ratio} est plus élevé que celui des concurrents.
         title: Plus Cher
     dividends:
-      description: Prévision %(dps){Dividendes-par-Action}.
+      forecastedDescription: Prévision des %t(dps){Dividendes-par-Action}.
+      latestDescription: Récents %t(dps){Dividendes-par-Action}.
       title: Verse des Dividendes ?
+      yield: Rendement de %n%
     errors:
       generic: Une erreur est survenue
-      loadError: Erreur de chargement du titre
+      loadError: Erreur de chargement de l'action
     graph:
       price: Cours
       volume: Cours & Volume
@@ -1025,8 +1252,9 @@ fr:
     header:
       actualChange: Évolution Réelle
       percentChange: Pourcentage d'Évolution
-      price: Cours du Titre
+      price: Cours de l'action
     information:
+      competitors: Concurrents
       description: Description de l'Entreprise
       results: Derniers Résultats
       statistics: Chiffres Clés
@@ -1046,26 +1274,32 @@ fr:
           growth: Prévision de Croissance à Long Terme
           main: Taux de Croissance Vs. 5 Concurrents aux Croissances les plus rapides
           profit: Prévision de Bénefices à Court Terme
-          sales: Prévision de Ventes à Court Terme
+          sales: Prévision de chiffre d'affaires à court terme
+      labels:
+        forecasted: Prévu
+        historic: Plus récent
       latest:
         forecasted:
           dividend: Prévision de Dividendes
-          eps: Prévision de Gains par Action
+          eps: Prévision de bénéfices par action
           profit: Prévision de Résultat Net
-          sales: Prévision de Ventes
+          sales: Prévision de chiffre d'affaires
         titles:
-          epsForecast: Gains et Rendement par Action Prévus
+          epsForecast: Bénéfices et rendement par action prévus
           gross: Marge Brute (%) Vs. 5 Plus Gros Concurrents
           main: Derniers Résultats
           operating: Marge Opérationnelle (%) Vs. 5 Plus Gros Concurrents
           roe: Rentabilité des capitaux propres (%) Vs. 5 Plus Gros Concurrents
-          salesForecast: Ventes et Résultat Net prévus
+          salesForecast: Chiffre d'affaires et résultat net prévus
+      panel:
+        description: Vous pouvez trouver ici des informations détaillées à propos de %n, y compris des comparaisons avec les concurrents.
+        title: Détail
       peers:
         titles:
           main: Concurrents de l'Entreprise
       profitable:
         titles:
-          epsForecast: Prévision de Gains par Action à Court Terme
+          epsForecast: Prévision de bénéfices par action à court terme
           main: Rentable
           profitForecast: Prévision de Bénéfices à Court Terme
       stats:
@@ -1078,22 +1312,32 @@ fr:
               stock: Récemment
             labels:
               forecastedDividends: Rendement (Prévision)
+              forecastedFcfYield: Rendement du cash-flow (Historique)
               forecastedPe: PE Ratio (Prévision)
-              forecastedSales: Ratio Capitalisation-Ventes (Prévision)
-              historicBookValue: Ratio Cours-Valeur Comptable (Historique)
+              forecastedSales: Capitalisation/chiffre d'affaires (Prévision)
+              historicBookValue: Cours/valeur comptable (Historique)
               historicDividends: Rendement (Historique)
               historicEquity: Rentabilité des Capitaux Propres (Historique)
               historicPe: PE Ratio (Historique)
               historicProfit: Ratio Capitalisation-Bénefices (Historique)
-              historicSales: Ratio Capitalisation-Ventes (Historique)
+              historicSales: Capitalisation/chiffre d'affaires (Historique)
         market:
+          cash: Trésorerie
+          debt: Dette
+          enterprise: Valeur de l'entreprise
+          market: Valeur sur le Marché
           price: Cours de l'Action
+          profit: Bénéfices d'exploitation
           shares: Actions Ordinaires
-          value: Valeur sur le Marché
+          value: Valeur
         titles:
+          debt: Quel est le niveau Trésorerie/Dette ?
           key: Chiffres Clés
-          upside: Hausse / Baisse au plus Haut / Bas Cours depuis 52 Semaines
-          valuations: Multiples d’Évaluation
+          percent: La Trésorerie est équivalente à %n de la valeur sur le Marché
+          ratio: Le niveau de la Dette est %n les bénéfices d'exploitation
+          upside: Hausse / baisse au plus haut / bas cours depuis 52 semaines
+          valuations: Multiples de valorisation
+          warning: 'Attention :'
         volumes:
           daily: Volume d'Échange Quotidien
           today: Aujourd'hui, le Volume est de
@@ -1103,8 +1347,10 @@ fr:
         titles:
           competitors: Avis sur les Concurrents
           main: Hausse Vs. 5 Concurrents aux Hausses les plus Élevées
+          oneMonth: Il y a un mois
           oneWeek: Il y a une semaine
           recommendation: Changement dans la Recommandation des professionnels
+          threeMonth: Il y a trois mois
           today: Aujourd'hui
       worth:
         title: Qu'est-ce que ça vaut ?
@@ -1114,8 +1360,8 @@ fr:
         title: Desription de l'Entrprise
       dividends:
         description:
-          fallback: Les professionnels ne prévoient pas de dividendes par action pour ce titre. Découvrez pourquoi sur Stockflare.
-          valid: 'Les professionnels prévoient %n de dividende par action pour ce titre. Découvrez plus d''informations sur Stockflare. '
+          fallback: Les professionnels ne prévoient pas de dividendes par action. Découvrez pourquoi sur Stockflare.
+          valid: 'Les professionnels prévoient %n de dividende par action. Découvrez plus d''informations sur Stockflare. '
         title: Dividendes
       growth:
         description:
@@ -1123,10 +1369,10 @@ fr:
           terms:
             high: plus forte
             low: plus faible
-          valid: 'Les gains de ce titre sont prévus de croître de %n% par an sur le long terme. Ce qui est %n que ses concurrents. Découvrez plus d''informations sur Stockflare. '
+          valid: 'Les bénéfices de cette action sont prévus de croître de %n% par an sur le long terme. Ce qui est %n que ses concurrents. Découvrez plus d''informations sur Stockflare. '
         title: Croissance
       latest:
-        description: Lisez les derniers résultats de ce titres leur analyse sur Stockflare.
+        description: Lisez les derniers résultats de cette action leur analyse sur Stockflare.
         title: Derniers Résultats
       peers:
         description:
@@ -1134,55 +1380,56 @@ fr:
         title: Liste des Concurrents
       profitable:
         description:
-          fallback: 'Les professionnels ne prévoient pas de gains par action pour ce titre. Découvrez pourquoi sur Stockflare. '
-          valid: 'Les professionnels prévoient %n de gains par action pour ce titre. Découvrez plus d''informations sur Stockflare. '
+          fallback: 'Les professionnels ne prévoient pas de bénéfices par action. Découvrez pourquoi sur Stockflare. '
+          valid: 'Les professionnels prévoient %n de bénéfices par action. Découvrez plus d''informations sur Stockflare. '
         title: Profit / Perte
       stats:
         description:
           terms:
             cheaper: moins cher
             expensive: cher
-          valid: 'Ce titre a une valeur sur le marché de %n et son estimation est %n en se basant sur %n de nos 9 paramètres. Découvrez plus d''informations sur Stockflare. '
+          valid: 'Cette action a une valeur de %n et son estimation est %n en se basant sur %n de nos 9 paramètres. Découvrez plus d''informations sur Stockflare. '
         title: Chiffres Clés
       upside:
         description:
-          fallback: 'Ce titre est cher comparé à ses concurrents. Découvrez plus d''informations sur Stockflare. '
+          fallback: 'Cette action est chère comparée à ses concurrentes. Découvrez plus d''informations sur Stockflare. '
           terms:
             cheap: bon marché
             expensive: cher
-          valid: 'Ce titre est échangé à %nx fois les gains et est %n vis-à-vis de ses concurrents. Découvrez plus d''informations sur Stockflare. '
+          valid: 'Cette action est échangée à %nx fois les bénéfices et est %n vis-à-vis de ses concurrents. Découvrez plus d''informations sur Stockflare. '
         title: Cher ou Bon Marché
       wallStreet:
         description:
-          fallback: 'Les professionnels n''ont pas d''avis sur ce titre. Découvrez pourquoi sur Stockflare. '
+          fallback: 'Les professionnels n''ont pas d''avis sur cette action. Découvrez pourquoi sur Stockflare. '
           terms:
             downside: baisse
             upside: hausse
-          valid: 'Les professionnels recommandent %n pour ce titre avec un cours cible de %n. Cela implique une %n% %n.  Découvrez plus d''informations sur Stockflare. '
+          valid: 'Les professionnels recommandent %n pour cette action avec un cours cible de %n. Cela implique une %n% %n.  Découvrez plus d''informations sur Stockflare. '
         title: L'avis des professionnels
       worth:
         description:
-          fallback: 'Découvrez ce que ce titre est prévu de gagner ou perdre sur les 7 prochaines années sur Stockflare. '
+          fallback: 'Découvrez ce que cette action est prévue de gagner ou perdre sur les 7 prochaines années sur Stockflare. '
           terms:
-            gain: gain
+            gain: gagne
             lose: perte
-          valid: Ce titre est prévu de %n %n% par an sur les 7 prochaines années.
+          valid: Cette action est prévue de %n %n% par an sur les 7 prochaines années.
         title: Qu'est-ce que ça vaut ?
     notification:
       insufficientData: Nous n'avons pas les données nécessaires pour ce calcul
-      stale: Les données pour ce titre n'ont pas été mises à jour depuis au moins 10 jours et pourraient être périmées.
-      updating: Notre analyse sur ce titre est en cours de mise à jour. Veuillez reconsulter cette page dans 15 minutes.
+      stale: Les données pour cette action n'ont pas été mises à jour depuis au moins 10 jours et pourraient être périmées.
+      updating: Notre analyse sur cette action est en cours de mise à jour. Veuillez réessayer dans 15 minutes.
       widgetUpdating: Mise à jour des calculs.
     og:
-      description: Ce titre est actuellement noté %n. Trouvez plus d'informations sur Stockflare.
+      description: Cette action est actuellement notée %n. Trouvez plus d'informations sur Stockflare.
       title: Informations à propos de %n sur Stockflare
     priceChange:
+      down: Baisse
       price:
         title: Variation du Cours
       profitability:
         epsToday: Aujourd'hui elle est de %n
-        epsWas: '%t(eps){Gains-Par-Action} était de %n.'
-        forecastEpsWas: La prévision de %t(eps){Gains-Par-Action} était de %n.
+        epsWas: '%t(eps){Bénéfices-Par-Action} était de %n.'
+        forecastEpsWas: La prévision de %t(eps){Bénéfices-Par-Action} était de %n.
         title: Évolution de la Profitabilité ?
       sentiment:
         forecastPeWas: La prévision de %t(pe){PE Ratio} était de %n.
@@ -1190,8 +1437,10 @@ fr:
         peWas: '%t(pe){PE Ratio} était de %n.'
         title: Évolution de l'Avis des Investisseurs ?
       title: Qu'est-ce qui conduit la Variation du Cours ?
+      up: Hausse
     profitable:
-      description: Prévision %t(eps){Gains-par-Action}.
+      forecastedDescription: Prévisions des %t(eps){Bénéfices-par-Action}.
+      latestDescription: Récents %t(eps){Bénéfices-par-Action}.
       title: Rentable ?
     ratings:
       cheaper:
@@ -1213,6 +1462,10 @@ fr:
         unknown: Cours cible inconnu
     social:
       email: Envoyer
+    stats:
+      fifty_two_week: Plus Haut/Bas Cours depuis 52 Semaines
+      industry: Industrie
+      value: Valeur
     targetPrice:
       decrease: '%t(downside){de diminution}.'
       description: Une %n sur le cours du jour.
@@ -1222,8 +1475,8 @@ fr:
         buy: L'%t(recommendation){avis} des professionnels est Renforcer.
         hold: L'%t(recommendation){avis} des professionnels est Conserver.
         sell: L'%t(recommendation){avis} des professionnels est Alléger.
-        strongBuy: L'%t(recommendation){avis} des professionnels est Vendre.
-        strongSell: L'%t(recommendation){avis} des professionnels est Acheter.
+        strong_buy: L'%t(recommendation){avis} des professionnels est Vendre.
+        strong_sell: L'%t(recommendation){avis} des professionnels est Acheter.
       title: Cours Cible des professionnels
     worth:
       copy:
@@ -1232,7 +1485,7 @@ fr:
           positive: '%n augmente jusque %n sur 7 ans'
         gainPerYear:
           negative: Perte de %n par an
-          positive: Gain de %n par an
+          positive: Bénéfice de %n par an
         relativeGain:
           negative: Perte de %n sur 7 ans
           positive: Gain de %n sur 7 ans
@@ -1249,23 +1502,26 @@ fr:
       title: Quelle est la valeur de %n, sur le long terme ?
       today:
         description: Entrez le nombre d'actions ci-dessous
-        submitNotWatching: Ajouter ce titre sur ma Liste
-        submitWatching: Mettre à jour ce titre sur ma liste
+        submitNotWatching: Ajouter cette action sur ma Liste
+        submitWatching: Mettre à jour cette action sur ma liste
         title: Aujourd'hui Je Possède
         unsaved: Vous avez des modifications non enregistrées
   stocks:
+    apply: Filtrer la recherche
+    matches: Actions Trouvées
     messages:
-      loading: Chargement des Titres
-      noMatches: Excusez-nous, aucun titre ne correspond à ces critères de recherche
-      noMoreMatches: Pas plus de titres disponibles
+      loadMore: Afficher plus (%n restants)
+      loading: Chargement des Actions
+      noMatches: Excusez-nous, aucune action ne correspond à ces critères de recherche
+      noMoreMatches: Pas plus de actions disponibles
     og:
-      description: Stockflare vous aide à trouver de nouvelles idées. Cherchez des idées de titres et voyez si vous avez un bon portefeuille.
-      title: Choisissez vos Titres Facilement
-    reset: Retirer les Filtres
+      description: Stockflare vous aide à trouver de nouvelles idées. Trouvez des idées d'actions. Quelle est la qualité de votre portefeuille ?
+      title: Investir Devient Facile
+    reset: Désélectionner les Filtres
   tooltip:
     acronyms:
       dps: Dividendes-par-action
-      eps: Gains-par-Action
+      eps: Bénéfices-par-Action
       growth: Prévision de Croissance à Long Terme
       pe: PE ratio
       rating: Notation par étoiles de Stockflare
@@ -1273,14 +1529,16 @@ fr:
     explanations:
       downside: Pourcentage de baisse du Cours Cible des professionnels au cours d'aujourd'hui
       dps: Une entreprise verse des dividendes, comme une banque paie des intérêts. Les Dividendes-par-action sont ce que vous recevez pour chaque action que vous possédez.
-      eps: Les bénéfices d'une entreprise appartiennent à ses actionnaires. Les Gains-par-Action sont ce que vous gagnez en théorie pour chaque action que vous possédez.
-      pe: Le PE ratio est égal au cours de l'action divisé par les gains-par-action. Plus haut le PE ratio, plus cher le titre.
-      recommendation: Les courtiers publient une recommandation Acheter/Vendre/Conserver pour tous les titres qu'ils analysent. Nous vous donnons l'avis général.
+      eps: Les bénéfices d'une entreprise appartiennent à ses actionnaires. Les Bénéfices-par-Action sont ce que vous gagnez en théorie pour chaque action que vous possédez.
+      pe: Le PE ratio est égal au cours de l'action divisé par les gains-par-action. Plus haut le PE ratio, plus chère l'action.
+      recommendation: Les courtiers publient une recommandation Acheter/Vendre/Conserver pour toutes les actions qu'ils analysent. Nous vous fournissons l'avis moyen.
       upside: Pourcentage de hausse du cours d'aujourd'hui au Cours Cible des professionnels
   user:
     fields:
       confirmPassword: Confirmez le mot de passe
+      currency: 
       email: Adresse email
+      language: Langue
       location: Localisation
       mfa: Code de clé d'authentification MFA
       name: Nom Entier
@@ -1291,6 +1549,8 @@ fr:
       otpE: Cinquième Code
       otpF: Sixième Code
       password: Mot de passe
+    messages:
+      language: Cliquez ici pour actualiser la page dans la langue sélectionnée
     options:
       logout: Déconnexion
       settings: Réglages
@@ -1310,8 +1570,26 @@ fr:
         tooShort: Ce mot de passe est trop long
   watchlist:
     actualChange: Variation Réelle (1 Jour)
+    breakdown: Détail de la Liste
+    create:
+      button: Créer la Liste
+      fields:
+        name: Nom de la Liste
+      points:
+        infinite:
+          subtitle: Il n'y a aucune limite à nos Listes. Ajoutez autant d'actions que vous le souhaitez.
+          title: Taille infinie
+        monitor:
+          subtitle: Déterminez facilement les meilleures et les pires actions de votre Liste grâce à nos analyses.
+          title: Surveiller les performances
+        positions:
+          subtitle: Ajoutez les quantités d'actions et le cours d'achat pour obtenir une analyse de portefeuille réaliste.
+          title: Ajouter la quantité d'actions
+      subtitle: Les Listes sur Stockflare sont bien plus qu'un simple portefeuille.
+      title: Créer une Liste
+    defaultName: Ma Liste
     footnote: '* Lorsque nous n''avons pas de données, nous supposons un taux de croissance de 8%.'
-    pageDescription: Votre liste contient un récapitulatif de votre portefeuille ainsi que les alertes récentes des titres figurant sur la liste.
+    pageDescription: Votre liste contient un récapitulatif de votre portefeuille ainsi que les alertes récentes des actions figurant sur la liste.
     pageTitle: Ma Liste
     percentChange: Pourcentage de Variation
     portfolioTable:
@@ -1321,6 +1599,7 @@ fr:
       name: Nom de l'Entreprise
       price: Aujourd'hui
       projected: Dans 7 Ans (USD) %n
+      purchased: Acheté à
       sevenYears: Dans 7 Ans (USD)
       shares: No. D'Actions
       total: Total %n
@@ -1330,11 +1609,11 @@ fr:
     summary:
       summaries:
         gain:
-          notWatchingStocks: Ajoutez des titres à votre liste pour recevoir une croissance moyenne.
+          notWatchingStocks: Ajoutez des actions à votre liste pour recevoir une croissance moyenne.
           projectedGain: une croissance annuelle de %n% à partir de %n aujourd'hui
           projectedValue: Portefeuille prévu de valoir %n dans 7 ans
         opinion:
-          notWatchingStocks: Ajoutez des titres à votre liste pour recevoir une note.
+          notWatchingStocks: Ajoutez des actions à votre liste pour recevoir une note.
           stars: Nous notons votre portefeuille %n étoiles.
           ws: Les professionnels recommandent %n.
       titles:
@@ -1346,6 +1625,19 @@ fr:
       upside:
         missing: Hausse N/A
         text: 'Hausse de %n% '
-    watching: Nombre de titres sur votre Liste
+    warningSubtitle: Ne perdez pas votre Liste. Elle est seulement sauvegardée temporairement. Inscrivez-vous ou pour l'enregistrer.
+    warningTitle: Vous avez ajouté des actions à une Liste, sans vous inscrire ou vous connecter!
+    watching: Sur votre Liste
     watchingPhrase: '%n Entreprises'
     worth: Valeur Totale
+  watchlists:
+    delete: Êtes-vous sûr de vouloir supprimer %n ?
+    pageTitle: Mes Listes
+    titles:
+      actual: Évolution Réelle
+      change: Pourcentage d'Évolution
+      count: Sur votre Liste
+      mover: Plus forte évolution
+      rating: Avis sur ce Portefeuille
+      stocks: '%n Actions'
+      worth: Valeur Totale

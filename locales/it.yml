@@ -1,27 +1,56 @@
 it:
+  about:
+    disclaimer: 
+    from: 
+    links:
+      about: 
+      blog: 
+      faq: 
+      jobs: 
+      privacy: 
+      tos: 
+    pricingData: 
+    title: 
   alerts:
+    count: 
     headers:
       today: 
     messages:
+      gain:
+        negative: 
+        positive: 
       movement:
         negative: 
         positive: 
+      none: 
+      one_month_eps_sentiment:
+        positive: 
+      one_month_price_sentiment:
+        negative: 
       rating:
         negative: 
         positive: 
       recommendation:
         negative: 
         positive: 
+      three_month_eps_sentiment:
+        positive: 
+      three_month_price_sentiment:
+        negative: 
       upside:
         positive: 
       volume:
         negative: 
     pageTitle: 
+    timeAgo: 
   appender:
     add: 
     noMatches: 
     pressEnter: 
     search: 
+  appenders:
+    watchlist:
+      create: 
   common:
     countries:
       afg: Afghanistan
@@ -597,6 +626,9 @@ it:
         zmw: ZK%n
         zwd: Z$%n
     defaultPageTitle: 
+    languages:
+      en-US: 
+      fr-FR: 
     loading: 
     login: 
     pages:
@@ -631,8 +663,9 @@ it:
         buy: 
         hold: 
         sell: 
-        strongBuy: 
-        strongSell: 
+        strong_buy: 
+        strong_sell: 
+        unknown: 
     watch: 
   delete:
     copy:
@@ -643,6 +676,168 @@ it:
       deleted: 
       deleting: 
       error: 
+  explore:
+    all: 
+    biLine: 
+    categories:
+      big-and-cheap:
+        description: 
+        filters:
+          country: usa
+          financial: large
+          market_value_usd: 50000+
+          valulation: low_pe
+        name: 
+      boring-businesses:
+        description: 
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          rating: 1+
+          sector_code: '5110101011,5110101012,5210201013,5210201014,5210201015,5210201016,5210201017,5210203011,5210203012,5210203013,5210203014,5210203015,5210203016,5210203017,5220304020,5220301012,5310102013,5420102013,5420103018,5610102018,5610201016,5620104014,5710102010,5710102012,5710501013,5910301012'
+        name: 
+      cash-heavy:
+        description: 
+        filters:
+          country: usa
+          financial: has_cash
+          market_value_usd: 500+
+          valuation: high_dividend
+        name: 
+      coffee-cake:
+        description: 
+        filters:
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5330102016,5410201015,5410201016,5410202014,5410202021,5410202022,5410202023'
+        name: 
+      gem-stones:
+        description: 
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5120101013,5120101014,5120101015'
+        name: 
+      going-nuclear:
+        description: 
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5030101010,5030101011,5030101012,5210204016,5220102022,5910101013,5910102013'
+        name: 
+      hated-by-wall-street:
+        description: 
+        filters:
+          country: usa
+          market_value_usd: 500+
+          sentiment: hated
+        name: 
+      healthy-tech:
+        description: 
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
+        name: 
+      land-and-sea:
+        description: 
+        filters:
+          country: usa,cad
+          market_value_usd: 1000+
+          sector_code: '5110102010,5110102011,5110102012,5110102013,5110102014,5320201018,5410201010,5410201011,5410201012,5410201013,5410201014,5410201015,5410201016,5410201017,5410201018,5410201019,5410201020,5410201021,5410201022,5410201023,5410201024,5410201025,5410201026,5410201027,5410201028,5410201029,5410203011'
+        name: 
+      legal-eagles:
+        description: 
+        filters:
+          market_value_usd: 50+
+          rating: 1+
+          region: amer
+          sector_code: '5220304011,5220304012,5220307015,5420103012,5420103013'
+        name: 
+      renewables:
+        description: 
+        filters:
+          rating: 3+
+          region: amer
+          sector_code: '5020101010,5020101011,5020101012,5020101013,5020101014,5020101015,5020101016,5020101017,5020101018,5020101019,5020101020,5020102010,5020102011,5020102012,5020102013,5020102014,5020102015,5910101011,5910102012'
+        name: 
+      ship-it:
+        description: 
+        filters:
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5010303014,5210205010,5210205011,5210205012,5320502011,5240502010,5240502011,5240502012,5240502013,5240602014,5240702010,5240702011,5240702012,5240702013'
+        name: 
+      space-race:
+        description: 
+        filters:
+          market_value_usd: 100+
+          sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
+        name: 
+      sporting-outdoors:
+        description: 
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
+        name: 
+      taking-it-easy:
+        description: 
+        filters:
+          market_value_usd: 10000+
+          sector_code: '5550104010,5550104011,5550104012'
+        name: 
+      tech-titans:
+        description: 
+        filters:
+          financial: large
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5710101010,5710101011,5710101012,5710101013,5710101014,5710101015,5710102010,5710102011,5710102012,5710102013,5710201010,5710201011,5710201012,5710201013,5710201014,5710201015,5710201016,5710201017,5710501010,5710501011,5710501012,5710501013,5710501014,5710501015,5710401010,5710401011,5710401012,5710401013,5710401014,5710601010,5710601011,5710601012,5710601013,5710601014,5710601015,5710601016,5710601017,5710601018,5710601019,5710602010,5710602011,5710602012,5710602013,5710602014,5710602015,5710603010,5710603011,5710603012,5710603013,5710603014,5720101010,5720101011,5720101012,5720101013,5720101014,5720101015,5720102010,5720102011,5720102012,5720102013,5720102014,5720102015,5720102016,5720102017,5720103010,5720103011,5720103012,5720103013,5720103014,5720103015,5720103016'
+        name: 
+      thirsty:
+        description: 
+        filters:
+          country: usa
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5220102018,5410103014,5910301010,5910301011,5910301012,5910301013'
+        name: 
+      timber:
+        description: 
+        filters:
+          country: usa,cad
+          market_value_usd: 100+
+          rating: 2+
+          sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
+        name: 
+      time-online:
+        description: 
+        filters:
+          country: usa
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5720103010,5720103011,5720103012,5720103013'
+        name: 
+      vice-not-nice:
+        description: 
+        filters:
+          country: usa
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5210101011,5330102011,5330103010,5330103011,5330103012,5330103013,5330203016,5340309025,5410101010,5410101011,5410102010,5410102011,5410102012,5410102013,5430102013,5430102015'
+        name: 
+      young-and-old:
+        description: 
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          rating: 2+
+          sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
+        name: 
+    pageDescription: 
+    pageTitle: 
+    popular: 
   filterBar:
     company_tags:
       descriptions:
@@ -698,6 +893,9 @@ it:
         latest_market_value_usd: 
         latest_price: 
         latest_rating: 
+    panel:
+      description: 
+      title: 
     sector:
       titles:
         default: 
@@ -763,8 +961,11 @@ it:
       sent: 
   header:
     buttons:
+      about: 
       alerts: 
+      explore: 
       filters: 
+      guestWatched: 
       ideas: 
       search: 
       watchlist: 
@@ -850,6 +1051,26 @@ it:
       login: 
       mfa: 
       social: 
+  onboard:
+    controls:
+      complete: 
+      next: 
+      prev: 
+      skip: 
+    subtitles:
+      pick: 
+      register: 
+      watchlist: 
+    titles:
+      pick: 
+      register: 
+      watchlist: 
+    watchlist:
+      reasons:
+        alerts: 
+        analysis: 
+        multiples: 
+        unlimited: 
   recover:
     buttons:
       recover: 
@@ -892,6 +1113,7 @@ it:
     buttons:
       loading: 
       register: 
+    disclaimer: 
     flash:
       success: 
     og:
@@ -937,7 +1159,10 @@ it:
       enableMfa: 
       loading: 
     descriptions:
+      currency: 
       delete: 
+      error: 
+      language: 
       location: 
       mfaDisable: 
       mfaDisabled: 
@@ -968,8 +1193,10 @@ it:
         explanation: 
         title: 
     dividends:
-      description: 
+      forecastedDescription: 
+      latestDescription: 
       title: 
+      yield: 
     errors:
       generic: 
       loadError: 
@@ -988,6 +1215,7 @@ it:
       percentChange: 
       price: 
     information:
+      competitors: 
       description: 
       results: 
       statistics: 
@@ -1008,6 +1236,9 @@ it:
           main: 
           profit: 
           sales: 
+      labels:
+        forecasted: 
+        historic: 
       latest:
         forecasted:
           dividend: 
@@ -1021,6 +1252,9 @@ it:
           operating: 
           roe: 
           salesForecast: 
+      panel:
+        description: 
+        title: 
       peers:
         titles:
           main: 
@@ -1039,6 +1273,7 @@ it:
               stock: 
             labels:
               forecastedDividends: 
+              forecastedFcfYield: 
               forecastedPe: 
               forecastedSales: 
               historicBookValue: 
@@ -1048,13 +1283,22 @@ it:
               historicProfit: 
               historicSales: 
         market:
+          cash: 
+          debt: 
+          enterprise: 
+          market: 
           price: 
+          profit: 
           shares: 
           value: 
         titles:
+          debt: 
           key: 
+          percent: 
+          ratio: 
           upside: 
           valuations: 
+          warning: 
         volumes:
           daily: 
           today: 
@@ -1064,8 +1308,10 @@ it:
         titles:
           competitors: 
           main: 
+          oneMonth: 
           oneWeek: 
           recommendation: 
+          threeMonth: 
           today: 
       worth:
         title: 
@@ -1138,6 +1384,7 @@ it:
       description: 
       title: 
     priceChange:
+      down: 
       price:
         title: 
       profitability:
@@ -1151,8 +1398,10 @@ it:
         peWas: 
         title: 
       title: 
+      up: 
     profitable:
-      description: 
+      forecastedDescription: 
+      latestDescription: 
       title: 
     ratings:
       cheaper:
@@ -1174,6 +1423,10 @@ it:
         unknown: 
     social:
       email: 
+    stats:
+      fifty_two_week: 
+      industry: 
+      value: 
     targetPrice:
       decrease: 
       description: 
@@ -1183,8 +1436,8 @@ it:
         buy: 
         hold: 
         sell: 
-        strongBuy: 
-        strongSell: 
+        strong_buy: 
+        strong_sell: 
       title: 
     worth:
       copy:
@@ -1215,7 +1468,10 @@ it:
         title: 
         unsaved: 
   stocks:
+    apply: 
+    matches: 
     messages:
+      loadMore: 
       loading: 
       noMatches: 
       noMoreMatches: 
@@ -1241,7 +1497,9 @@ it:
   user:
     fields:
       confirmPassword: 
+      currency: 
       email: 
+      language: 
       location: 
       mfa: 
       name: 
@@ -1252,6 +1510,8 @@ it:
       otpE: 
       otpF: 
       password: 
+    messages:
+      language: 
     options:
       logout: 
       settings: 
@@ -1271,6 +1531,24 @@ it:
         tooShort: 
   watchlist:
     actualChange: 
+    breakdown: 
+    create:
+      button: 
+      fields:
+        name: 
+      points:
+        infinite:
+          subtitle: 
+          title: 
+        monitor:
+          subtitle: 
+          title: 
+        positions:
+          subtitle: 
+          title: 
+      subtitle: 
+      title: 
+    defaultName: 
     footnote: 
     pageDescription: 
     pageTitle: 
@@ -1282,6 +1560,7 @@ it:
       name: 
       price: 
       projected: 
+      purchased: 
       sevenYears: 
       shares: 
       total: 
@@ -1307,6 +1586,19 @@ it:
       upside:
         missing: 
         text: 
+    warningSubtitle: 
+    warningTitle: 
     watching: 
     watchingPhrase: 
     worth: 
+  watchlists:
+    delete: 
+    pageTitle: 
+    titles:
+      actual: 
+      change: 
+      count: 
+      mover: 
+      rating: 
+      stocks: 
+      worth: 
