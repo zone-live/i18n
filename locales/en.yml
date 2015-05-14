@@ -1019,6 +1019,16 @@ en:
       search: "Search"
       watchlist: "My Watchlist"
   landing:
+    mobile:
+      content:
+        copy: "No matter where you are or what stock you want to check, Stockflare has a mobile and tablet version for you."
+        title: "Stocks on the go!"
+    explore:
+      content:
+        copy: "Everyone loves to explore new ideas and technologies."
+        line: "At Stockflare our Explore section displays stocks in a way that anyone can use."
+        point: "Great ideas are just a click away!"
+        title: "A new way to Explore"
     feed:
       content:
         copy: "Using our filters, screen thousands of stocks quickly."

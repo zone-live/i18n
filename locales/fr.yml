@@ -1198,7 +1198,7 @@ fr:
       enableMfa: Activer la clé d'authentification MFA
       loading: Mettre les Réglages à jour
     descriptions:
-      currency: 
+      currency: Projections et des valeurs Liste sont indiqués dans votre devise préférée, à taux de change le plus récent.
       delete: Résilier votre compte supprimera vos données personnelles de nos systèmes. Cette action est irrévocable.
       error: 'Excusez-nous, nous avons rencontré un problème en mettant à jour vos réglages :'
       language: Sélectionnez la langue dans laquelle vous préférez utiliser Stockflare.
@@ -1254,12 +1254,17 @@ fr:
       percentChange: Pourcentage d'Évolution
       price: Cours de l'action
     information:
+      breakdown: Détail du Classement par Étoiles
       competitors: Concurrents
       description: Description de l'Entreprise
       results: Derniers Résultats
       statistics: Chiffres Clés
     inner:
       description:
+        table:
+          name: Entreprise
+          sector: Secteur
+          size: Valeur
         titles:
           competitors: Qui sont les Concurrents ?
           main: Description de l'Entreprise
@@ -1295,6 +1300,16 @@ fr:
         description: Vous pouvez trouver ici des informations détaillées à propos de %n, y compris des comparaisons avec les concurrents.
         title: Détail
       peers:
+        table:
+          dps: DPA
+          eps: EPA
+          growth: Croissance
+          name: Entreprise
+          pe: PE Ratio
+          rating: |
+            Classement
+          ric: RIC
+          upside: Hausse
         titles:
           main: Concurrents de l'Entreprise
       profitable:
@@ -1357,7 +1372,7 @@ fr:
     innerTypes:
       description:
         description: Lisez l'analyse et la description de cette entreprise sur Stockflare.
-        title: Desription de l'Entrprise
+        title: Description de l'Entrprise
       dividends:
         description:
           fallback: Les professionnels ne prévoient pas de dividendes par action. Découvrez pourquoi sur Stockflare.
@@ -1536,7 +1551,7 @@ fr:
   user:
     fields:
       confirmPassword: Confirmez le mot de passe
-      currency: 
+      currency: Devise
       email: Adresse email
       language: Langue
       location: Localisation

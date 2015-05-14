@@ -1215,12 +1215,17 @@ it:
       percentChange: 
       price: 
     information:
+      breakdown: 
       competitors: 
       description: 
       results: 
       statistics: 
     inner:
       description:
+        table:
+          name: 
+          sector: 
+          size: 
         titles:
           competitors: 
           main: 
@@ -1256,6 +1261,15 @@ it:
         description: 
         title: 
       peers:
+        table:
+          dps: 
+          eps: 
+          growth: 
+          name: 
+          pe: 
+          rating: 
+          ric: 
+          upside: 
         titles:
           main: 
       profitable:

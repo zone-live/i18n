@@ -1198,7 +1198,7 @@ de:
       enableMfa: Zwei-Faktor-Authentifizierung aktivieren
       loading: Einstellungen werden aktualisiert
     descriptions:
-      currency:
+      currency: Liste Projektionen und Werte werden in Ihre bevorzugte Währung angezeigt, auf der jüngsten Wechselkurs.
       delete: Wenn Sie Ihren Account löschen, werden Ihre gesamten persönlichen Daten permanent von unseren Systemen gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.
       error: 'Tut uns leid, beim Aktualisieren der Einstellungen ist ein Problem aufgetreten: '
       language: Wählen Sie Ihre Sprache aus.
@@ -1254,12 +1254,17 @@ de:
       percentChange: Prozentuelle Änderung
       price: Aktienkurs
     information:
+      breakdown: Analyse der Star Rating
       competitors: Konkurrenz
       description: Unternehmensbeschreibung
       results: Neueste Ergebnisse
       statistics: Kennzahlen
     inner:
       description:
+        table:
+          name: Unternehmen
+          sector: Sektor
+          size: Kapitalisierung
         titles:
           competitors: Wer sind die Konkurrenten?
           main: Unternehmensbeschreibung
@@ -1295,6 +1300,15 @@ de:
         description: Hier finden Sie detailliertere Informationen über %n, inklusive Vergleiche und Kennzahlen.
         title: Analyse
       peers:
+        table:
+          dps: DPA
+          eps: EPA
+          growth: Wachstum
+          name: Unternehmen
+          pe: KVG
+          rating: Rating
+          ric: RIC
+          upside: Upside
         titles:
           main: Konkurrenten
       profitable:
@@ -1524,7 +1538,7 @@ de:
       eps: Ertrag pro Aktie
       growth: Prognostiziertes langfristiges Wachstum
       pe: Kurs/Gewinn-Verhältnis
-      rating: Stockflares Star Rating
+      rating: Stockflare's Star Rating
       ric: Reuters Ticker Code
     explanations:
       downside: 'Abweichung des aktuellen Aktienkurses vom Analysten Kursziel '
@@ -1536,7 +1550,7 @@ de:
   user:
     fields:
       confirmPassword: Passwort bestätigen
-      currency:
+      currency: Währung
       email: E-Mail-Adresse
       language: Sprache
       location: Ort
