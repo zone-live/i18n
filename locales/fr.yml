@@ -7,6 +7,7 @@ fr:
       blog: Blog
       faq: FAQ
       jobs: Offres d'emploi
+      my: 
       privacy: Confidentialité
       tos: Conditions Générales
     pricingData: Toutes les données correspondent à la fermeture d'hier.
@@ -1009,6 +1010,12 @@ fr:
       search: Rechercher
       watchlist: Ma Liste
   landing:
+    explore:
+      content:
+        copy: Tout le monde aime à explorer de nouvelles idées et technologies.
+        line: Au Stockflare notre section "Explorez" montre les stocks d'une manière que tout le monde peut utiliser.
+        point: Les idées brillantes sont près!
+        title: Une nouvelle façon d'explorer
     feed:
       content:
         copy: Filtrez des milliers d'actions en un instant.
@@ -1028,6 +1035,10 @@ fr:
         countries: Pays
         stocks: Actions 5 Étoiles
       tease: Qu'est-ce que Stockflare ?
+    mobile:
+      content:
+        copy: Peu importe où vous êtes, Stockflare a une version mobile et la tablette pour vous.
+        title: Les actions portables
     opinion:
       bubbles:
         buy: Acheter
@@ -1494,6 +1505,13 @@ fr:
         strong_sell: L'%t(recommendation){avis} des professionnels est Acheter.
       title: Cours Cible des professionnels
     worth:
+      annotations:
+        annually: par an
+        gain:
+          negative: perte pendant 7 ans
+          positive: gagner pendant 7 ans
+        growth: Prévision de croissance pendant 7 ans
+        value: Valeur en 7 ans
       copy:
         absoluteGain:
           negative: '%n diminue jusque %n sur 7 ans'
@@ -1509,12 +1527,25 @@ fr:
           positive: Gagne %n sur 7 ans
         value:
           text: Actions évaluées à %n
+      descriptions:
+        growth:
+          negative: Valeur actuelle de %n peut diminuer par %n sur une période de 7 ans.
+          positive: Valeur actuelle de %n est peut augmenter de %n sur une période de 7 ans.
+        return: Les prévisions utilise le chiffre de la croissance à long terme par les experts, les prévisions des dividendes attendus et la valorisation actuelle.
       footnote: Nous supposons une croissance annuelle de 8% pour les calculs ci-dessus.
       forecast:
         title: est Prévu de
+      inputs:
+        button: 'Ajouter %n Actions @ %n '
+        price: Modifier prix d'achat
+        shares: Modifier nombre d'actions
+        watchlist: Sélectionnez la liste
       result:
         title: Cela signifie que
       title: Quelle est la valeur de %n, sur le long terme ?
+      titles:
+        growth: Croissance de l'investissement
+        return: Les gains prévus en 7 ans
       today:
         description: Entrez le nombre d'actions ci-dessous
         submitNotWatching: Ajouter cette action sur ma Liste

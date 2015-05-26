@@ -7,6 +7,7 @@ es:
       blog: 
       faq: 
       jobs: 
+      my: 
       privacy: 
       tos: 
     pricingData: 
@@ -970,6 +971,12 @@ es:
       search: 
       watchlist: 
   landing:
+    explore:
+      content:
+        copy: 
+        line: 
+        point: 
+        title: 
     feed:
       content:
         copy: 
@@ -989,6 +996,10 @@ es:
         countries: 
         stocks: 
       tease: 
+    mobile:
+      content:
+        copy: 
+        title: 
     opinion:
       bubbles:
         buy: 
@@ -1454,6 +1465,13 @@ es:
         strong_sell: 
       title: 
     worth:
+      annotations:
+        annually: 
+        gain:
+          negative: 
+          positive: 
+        growth: 
+        value: 
       copy:
         absoluteGain:
           negative: 
@@ -1469,12 +1487,25 @@ es:
           positive: 
         value:
           text: 
+      descriptions:
+        growth:
+          negative: 
+          positive: 
+        return: 
       footnote: 
       forecast:
         title: 
+      inputs:
+        button: 
+        price: 
+        shares: 
+        watchlist: 
       result:
         title: 
       title: 
+      titles:
+        growth: 
+        return: 
       today:
         description: 
         submitNotWatching: 

@@ -7,6 +7,7 @@ de:
       blog: Blog
       faq: FAQ
       jobs: Karriere
+      my: 
       privacy: Datenschutz
       tos: Servicebedinungen
     pricingData: Alle Kursdaten vom gestrigen Schlusskurs.
@@ -1009,6 +1010,12 @@ de:
       search: Suchen
       watchlist: Meine Watchlist
   landing:
+    explore:
+      content:
+        copy: Jeder liebt es, neue Ideen und Technologien zu erforschen.
+        line: Bei Stockflare unseren Abschnitt erkunden zeigt Bestände in einer Weise, dass jeder benutzen kann.
+        point: Brillante Ideen sind nur einen Klick entfernt!
+        title: Ein neuer Weg zu erkunden
     feed:
       content:
         copy: Verwenden Sie unsere Filter und screenen Sie schnell tausende Aktien.
@@ -1028,6 +1035,10 @@ de:
         countries: Länder
         stocks: 5 Star Aktien
       tease: Was ist Stockflare?
+    mobile:
+      content:
+        copy: Egal wo Sie sind, hat Stockflare eine mobile und Tablet-Version für Sie.
+        title: Portable aktien!
     opinion:
       bubbles:
         buy: Kaufen
@@ -1493,6 +1504,13 @@ de:
         strong_sell: Wall Streets %t(recommendation){Emfehlung} ist Klarer Verkauf.
       title: Wall Street Kursziel
     worth:
+      annotations:
+        annually: pro Jahr
+        gain:
+          negative: Verlust über 7 Jahre
+          positive: Gewinn über 7 Jahre
+        growth: Prognostizierte wachstum über 7 Jahre
+        value: Gesamtwert in 7 Jahren
       copy:
         absoluteGain:
           negative: '%n sinkt auf %n innerhalb der nächsten 7 Jahre'
@@ -1508,12 +1526,25 @@ de:
           positive: Gewinnt %n seit 7 Jahren
         value:
           text: Aktien mit %n bewertet
+      descriptions:
+        growth:
+          negative: Aktueller Wert %n voraussichtlich um %n über einen Zeitraum von 7 Jahren zu verringern.
+          positive: Aktueller Wert %n voraussichtlich um %n über einen Zeitraum von 7 Jahren zu erhöhen.
+        return: Berechnet nach der Prognose langfristige Wachstum der Experten, Vorhersage Dividenden und die aktuelle Bewertung.
       footnote: Wir nehmen eine Wachstumsrate von 8% pro Jahr für die obrigen Berechnungen an.
       forecast:
         title: 'wird erwartet '
+      inputs:
+        button: In %n Aktien @ %n
+        price: Bearbeiten Preis der Aktien
+        shares: Bearbeiten Menge der Aktien
+        watchlist: Wählen Sie Ihre Watchlist
       result:
         title: dies bedeutet
       title: Was ist %n auf lange Zeit gesehen wert?
+      titles:
+        growth: Investitionswachstum
+        return: gewinnen über 7 Jahren
       today:
         description: Geben Sie bitte unten die Anzahl an Aktien ein
         submitNotWatching: Zur Watchlist hinzufügen
