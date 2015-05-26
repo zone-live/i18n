@@ -5,6 +5,7 @@ en:
     links:
       about: "About Us"
       blog: "Blog"
+      my: "My Stockflare"
       faq: "FAQ"
       jobs: "Jobs"
       privacy: "Privacy Policy"
@@ -1513,33 +1514,28 @@ en:
         strong_sell: "Wall Street's %t(recommendation){recommendation} is Strong Sell."
       title: "Wall Street Target Price"
     worth:
-      copy:
-        absoluteGain:
-          negative: "%n decreases to %n over 7 years"
-          positive: "%n increases to %n over 7 years"
-        gainPerYear:
-          negative: "Loss of %n per year"
-          positive: "Gain of %n per year"
-        relativeGain:
-          negative: "Loss of %n over 7 years"
-          positive: "Gain of %n over 7 years"
-        sevenYearGain:
-          negative: "Loses %n over 7 years"
-          positive: "Gains %n over 7 years"
-        value:
-          text: "Shares valued at %n"
+      title: "What it's Worth"
+      inputs:
+        watchlist: "Select Watchlist"
+        shares: "Set Share Amount"
+        price: "Set Purchase Price"
+        button: "Add %n Shares @ %n"
+      titles:
+        return: "7 Year Forecast Return"
+        growth: "Investment Growth"
+      descriptions:
+        return: "Forecast driven by Wall Street's long-term growth figure, expect dividends and the current valuation."
+        growth:
+          positive: "Current value of %n is forecast to increase by %n over a 7 year period."
+          negative: "Current value of %n is forecast to decrease by %n over a 7 year period."
+      annotations:
+        annually: "Per Year"
+        growth: "7 Year Forecast Growth"
+        value: "Total Value in 7 Years"
+        gain:
+          positive: "Gain Over 7 Years"
+          negative: "Loss Over 7 Years"
       footnote: "We are assuming an 8% annual growth rate for the above calculations."
-      forecast:
-        title: "is Forecast to"
-      result:
-        title: "That Means"
-      title: "What's %n worth, long term?"
-      today:
-        description: "Enter share amount below"
-        submitNotWatching: "Add Position to Watchlist"
-        submitWatching: "Update Position on Watchlist"
-        title: "Today I Own"
-        unsaved: "You have unsaved changes"
   stocks:
     apply: "Apply Filters"
     matches: "Stocks Found"
