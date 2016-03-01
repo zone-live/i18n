@@ -31,8 +31,8 @@ es:
       one_month_price_sentiment:
         negative: En el último mes, las ganancias pronosticadas han caído más rápido que el precio en la bolsa.
       rating:
-        negative: 
-        positive: 
+        negative: No ha aprovado un medidor clave. Ahora aprueba %latest_rating medidores clave.
+        positive: Ha aprovado un medidor clave extra. Ahora aprueba %latest_rating medidores clave.
       recommendation:
         negative: Wall Street ha rebajado %previous_recommendation_text a %latest_recommendation_text
         positive: Wall Street ha ascendido %previous_recommendation_text a %latest_recommendation_text.
@@ -41,7 +41,7 @@ es:
       three_month_price_sentiment:
         negative: En los últimos 3 meses,el precio de las acciones ha crecido más rápidamente que las ganacias pronosticadas.
       upside:
-        positive: 
+        positive: Ahora está un %latest_upside más alta que su precio objetivo.
       volume:
         negative: Volúmenes de compraventa anormalmente elevados
     pageTitle: Mis avisos
@@ -706,8 +706,9 @@ es:
       third: Presentamos la prodección consensuada de Wall Street y las recomendaciones en nuestra página web. Esto incluye cualquier referencia a "Compra", "Vende", "Mantén" y "Precios Objetivos" de las acciones. Al igual que otros servicios de información, Stockflare no respalda estas predicciones. Por desgracia, no hay datos sobre el futuro y las visiones de Wall Street son subjetivas, no objetivas.
     metrics: Los 5 medidores analizan la rentabilidad, los dividendos, el crecimiento, la valoración y el sentimiento. No son recomendaciones, sino una forma de comparar la calidad de las acciones y señalar riesgos importantes.
     title: Detalles legales
-    wallStreet: 
-    worth: 
+    wallStreet: Esta tabla presenta la parte alta del consenso de Wall Street sobre el precio y la recomendación para las acciones en tu lista de seguimiento. No hay datos futuros. Por lo tanto, el consenso en un análisis subjetivo. Stockflare no respalda las opiniones de Wall Street. Simplemente presentamos los datos para que nuestros usuarios puedan ver el sentimiento de los expertos con respecto a las acciones.
+    worth: |
+      Esta tabla las ganancias previstas a largo plazo según el consenso de Wall Street así como la previsión de dividendos y la media de la previsión del ratio precio-beneficio . Por lo tanto, los valores previstos son un análisis subjetivo basado en las predicciones de los expertos. Stockflare no respalda las opiniones de Wall Street. Simplemente presentamos los datos para que nuestros usuarios puedan ver el sentimiento de los expertos con respecto a las acciones. Si las predicciones no se cumplen, los beneficios pueden ser sensiblemente diferentes a los valores aquí expresados.
   explore:
     all: Todas las acciones
     biLine: ¿Necesitas un poco de inspiración?
@@ -828,12 +829,12 @@ es:
           sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
         name: Deporte al aire libre
       taking-it-easy:
-        description: 
-        disclaimer: 
+        description: ¿Quién dice que debes elegir las acciones para ser buen inversor? Siempre puedes optar por un Fondo Negociable en el mercado. La mayoría siguen un índice conocido, así que harás igual de bien que el mercado aunque no lo superes.
+        disclaimer: Las acciones bajo "Fácilmente" son todas Fondos Negociables en el mercado, filtrados buscando todas las acciones mundiales en dicho sector con un valor de mercado superior a los $10 billones.
         filters:
           market_value_usd: 10000+
           sector_code: '5550104010,5550104011,5550104012'
-        name: 
+        name: Fácilmente
       tech-titans:
         description: Si la tecnología se está comiendo el mundo hay unas pocas compañías que están disfrutando del menú.
         disclaimer: Las acciones bajo "Titanes tecnológicos" son generadas filtrando las acciones mundiales con un valor de mercado superior a los $10 billones y que hayan superado al menos un medidor (p.ej. rentabilidad). Miramos las acciones en la industria de la tecnología.
@@ -970,7 +971,27 @@ es:
     sector:
       titles:
         default: Sector
-    sectors: 
+    sectors:
+    - code: '50'
+      name: Petróleo y Gas
+    - code: '51'
+      name: Minería y Materiales
+    - code: '52'
+      name: Industrias
+    - code: '54'
+      name: Productos de consumo (Comida y Hogar)
+    - code: '53'
+      name: Productos de consumo (Otros)
+    - code: '55'
+      name: Finanzas
+    - code: '56'
+      name: Sanidad
+    - code: '57'
+      name: Tecnología
+    - code: '58'
+      name: Telecomunicaciones
+    - code: '59'
+      name: Servicios de agua, electricidad,...
     sentiment:
       descriptions:
         hated: Acciones con un precio objetivo según Wall Street inferior al precio de hoy
@@ -999,15 +1020,15 @@ es:
         low_book_value: Acciones baratas considrando el valor de los activos netos.
         low_operating_profit: Acciones basadas en su rentabilidad operativa
         low_pe: Acciones baratas considerando sus beneficios.
-        low_sales: 
+        low_sales: Acciones basadas en el precio de venta
       titles:
         default: Valoración
         filters:
-          high_dividend: 
-          low_book_value: 
-          low_operating_profit: 
-          low_pe: 
-          low_sales: 
+          high_dividend: Dividendos por encima del 4%
+          low_book_value: Venta por debajo del valor nominal
+          low_operating_profit: Menos de 7x el beneficio de operación
+          low_pe: Ratio precio-beneficio por debajo de 10x
+          low_sales: Menos de 1x ventas
   forgot:
     buttons:
       forgot: Recupera mi contraseña
@@ -1032,10 +1053,10 @@ es:
       alerts: Mis avisos
       explore: Explora
       filters: Filtros
-      guestWatched: 
-      ideas: 
-      search: 
-      watchlist: 
+      guestWatched: Guarda tu lista de seguimiento
+      ideas: Elige las acciones
+      search: Busca
+      watchlist: Mi lista de seguimiento
   home:
     explore:
       link: Haga clic aquí para explorar todos los temas
@@ -1056,7 +1077,7 @@ es:
       content:
         copy: Usando nuestros filtros, puedes cribar miles de acciones rápidamente.
         point: Stockflare te ayuda a investigar acciones más rápidamente.
-        title: 
+        title: Corta con las distracciones
     introduction:
       content:
         copy: Escoge grandes acciones para tu portafolios.
@@ -1091,52 +1112,52 @@ es:
         title: ¿Qué es Stockflare?
     rating:
       content:
-        copy: 
-        point: 
+        copy: ¿Agobiado por todos los términos financieros? Mira los medidores clave de cada acción. Corta con las distracciones y descubre sólo los datos.
+        point: Busca acciones fácilmente. Mejora cómo inviertes.
         reveal:
-          notRevealing: 
-          revealing: 
-        title: 
+          notRevealing: Descubre %n
+          revealing: '%n supera %n de los medidores clave.'
+        title: Obtén la información clave rápidamente.
       ratings:
-        cheaper: 
-        dividends: 
-        growth: 
-        profitable: 
-        upside: 
+        cheaper: ¿Está caro o barato?
+        dividends: ¿Paga dividendos?
+        growth: ¿Tiene un crecimiento alto?
+        profitable: ¿Da beneficios?
+        upside: ¿Cuál es la opinión de Wall Street?
     register:
       content:
-        copy: 
-        skip: 
-        title: 
+        copy: Regístrate para seguir tus acciones preferidas.
+        skip: Pasa a las acciones
+        title: Únete de forma gratuita
   login:
     buttons:
-      forgot: 
-      loading: 
-      login: 
-      resetOtp: 
-      social_login: 
+      forgot: He olvidado mi contraseña
+      loading: Accediendo
+      login: Accede
+      resetOtp: He perdido mi dispostivo MFA.
+      social_login: Accede a través de
     descriptions:
-      mfa: 
+      mfa: Esta cuenta ha sido protegida con un dispostivo MFA. Introduce el código indicado en el dispositivo para acceder a tu cuenta.
     errors:
-      '401': 
-      '500': 
+      '401': Contraseña o nombre de usuario incorrectos
+      '500': Lo sentimos, ha habido un error en el servidor
       mfa:
-        '401': 
-        '500': 
+        '401': Código de autentificación inválido.
+        '500': Lo sentimos, ha habido un error en el servidor.
     flash:
-      success: 
+      success: Has accedido a tu cuenta %n
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description: ¿Tienes una cuenta? Entra a Sotckflare aquí.
+      title: Accede a Stockflare
+    pageTitle: Accede
     prompt:
-      mfaInfo: 
-      question: 
-      register: 
+      mfaInfo: Más info
+      question: ¿No estas registrado?
+      register: Regístrate aquí gratis
     titles:
-      login: 
-      mfa: 
-      social: 
+      login: Accede a Stockflare
+      mfa: Cuenta protegida
+      social: Acceso social (próximamente)
   onboard:
     controls:
       complete: Completado
@@ -1178,23 +1199,23 @@ es:
       sent: Contraseña reseteada
   recoverMfa:
     buttons:
-      recover: 
+      recover: Resetea código MFA
     copy:
-      explanation: 
-      link: 
+      explanation: El código MFA ha sido reseteado y deshabilitado para esta cuenta.
+      link: Pulsa aquí para acceder
     errors:
-      '400': 
-      '403': 
+      '400': Error en el reseteo del código MFA
+      '403': El vale de reseteo del código MFA ha caducado. Por favor solicita otro vale.
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description: Resetea tu código MFA aquí.
+      title: Resetea tu código MFA para tu cuenta de Stockflare.
+    pageTitle: Resetear código MFA.
     prompt:
-      login: 
-      question: 
+      login: Accede aquí
+      question: ¿Has encontrado tu dispositivo MFA?
     titles:
-      recover: 
-      recovered: 
+      recover: Resetear código MFA
+      recovered: El código MFA ha sido reseteado con éxito.
   register:
     buttons:
       loading: Creando cuenta
@@ -1217,22 +1238,22 @@ es:
       join: Únete a Stockflare
   resetMfa:
     buttons:
-      reset: 
+      reset: Resetea tu código MFA
     copy:
-      explanation: 
+      explanation: Te hemos mandado un email a tu dirección de correo que contiene un link para resetear tu código MFA de forma segura. Necesitarás tus códigos de recuperación que se te enviaron cuando activaste el primer código MFA.
     errors:
-      '404': 
-      '500': 
+      '404': Dirección de email no encontrada
+      '500': Lo sentimos, ha habido un error en el servidor
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description: ¿Has perdido tu dispositivo MFA virtual? Resetéalo aquí
+      title: Restea tu código MFA para tu cuenta de Stockflare
+    pageTitle: Restea tu código MFA
     prompt:
-      login: 
-      question: 
+      login: Accede aquí
+      question: ¿Has encontrado tu dispositivo MFA virtual?
     titles:
-      reset: 
-      sent: 
+      reset: Restea tu código MFA
+      sent: Solicitud de resteo de código MFA enviada
   search:
     none:
       link: Prueba %n en su lugar
@@ -1270,9 +1291,9 @@ es:
       password: Cambia contraseña
     pageTitle: Ajustes
     titles:
-      danger: 
-      header: 
-      mfa: 
+      danger: Zona de peligro
+      header: Ajustes
+      mfa: Código MFA
   stock:
     buttons:
       oneMonth: 1 mes
@@ -1316,111 +1337,111 @@ es:
     inner:
       description:
         table:
-          name: 
-          sector: 
-          size: 
+          name: Nombre
+          sector: Sector
+          size: Tamaño
         titles:
-          competitors: 
-          main: 
+          competitors: ¿Quiénes son los competidores?
+          main: Descripción de la compañía
       dividends:
         titles:
-          competitors: 
-          forecast: 
-          main: 
+          competitors: Los competidores pagan dividendos
+          forecast: Previsión de dividendos a corto plazo
+          main: Dividendos
       growth:
         titles:
-          comparison: 
-          growth: 
-          main: 
-          profit: 
-          sales: 
+          comparison: Comparando las predicciones a largo y corto plazo
+          growth: Previsión de crecimiento a largo plazo
+          main: Tasa de crecimiento vs 5 compañías con crecimiento más rápido
+          profit: Previsión de beneficios a corto plazo
+          sales: Previsión de ventas a corto plazo
       labels:
         forecasted: Previsión
         historic: Últimos 12 meses
       latest:
         forecasted:
-          dividend: 
-          eps: 
-          profit: 
-          sales: 
+          dividend: Previsión de dividendos
+          eps: Previsión de beneficios por acción
+          profit: Previsión de beneficio neto
+          sales: Previsión de ventas
         titles:
-          epsForecast: 
-          gross: 
-          main: 
-          operating: 
-          roe: 
-          salesForecast: 
+          epsForecast: Previsión de beneficios por acción y de dividendos
+          gross: Margen de beneficio bruto (%) vs 5 mayores competidores
+          main: Últimos resultados
+          operating: Margen de explotación (%) vs 5 mayores competidores
+          roe: Rentabilidad financiera (%) vs 5 mayores competidores
+          salesForecast: Previsión de ventas y de beneficios netos
       panel:
         description: Aquí puedes encontrar toda la información detallada sobre %n, incluídas las comparativas con los medidores clave.
         title: Desglose
       peers:
         table:
-          dps: 
-          eps: 
-          growth: 
-          name: 
-          pe: 
-          rating: 
+          dps: Dividendos por acción
+          eps: Beneficios por acción
+          growth: Crecimiento
+          name: Nombre de la compañía
+          pe: Ratio de precio-beneficio
+          rating: Medidores clave
           ric: 
-          upside: 
+          upside: En alza
         titles:
-          main: 
+          main: Competidores de la compañía
       profitable:
         titles:
-          epsForecast: 
-          main: 
-          profitForecast: 
+          epsForecast: Previsión de los beneficios por acción a corto plazo
+          main: Rentable
+          profitForecast: Previsión de beneficios a corto plazo
       stats:
         data:
           table:
-            cheaperOn: 
+            cheaperOn: Más barato que los competidores en %n de los 10 medidores
             headers:
-              cheaper: 
-              competitors: 
-              stock: 
+              cheaper: ¿Más barato?
+              competitors: Competidores
+              stock: Último
             labels:
-              forecastedDividends: 
+              forecastedDividends: Previsión de dividendos
               forecastedFcfYield: 
-              forecastedPe: 
-              forecastedSales: 
+              forecastedPe: Previsión de ratio precio-beneficio
+              forecastedSales: Previsión de precio a ventas
               historicBookValue: 
-              historicDividends: 
-              historicEquity: 
-              historicPe: 
-              historicProfit: 
-              historicSales: 
+              historicDividends: Dividendos (histórico)
+              historicEquity: Rentabilidad financiera (histórico)
+              historicPe: Ratio de precio-beneficio (histórico)
+              historicProfit: Precio a Beneficio de explotación (histórico)
+              historicSales: Precio a ventas (histórico)
         market:
-          cash: 
-          debt: 
-          enterprise: 
-          market: 
-          price: 
-          profit: 
-          shares: 
-          value: 
+          cash: Liquidez neta
+          debt: Deuda neta
+          enterprise: Valor empresarial
+          market: Valor de mercado
+          price: Precio de la acción
+          profit: Beneficio de explotación
+          shares: Acciones comunes
+          value: Valor de mercado
         titles:
-          debt: 
-          key: 
-          percent: 
-          ratio: 
-          unavailable: 
+          debt: ¿Cuál es el nivel de líquidez o de deuda?
+          key: Estadísticas clave
+          percent: La liquidez neta es equivalente a %n del valor de mercado
+          ratio: Los niveles de deuda neta son un %n del beneficio de explotación
+          unavailable: Análisis de deuda/liquidez no disponible
           upside: 
           valuations: 
-          warning: 
+          warning: Aviso
         volumes:
-          daily: 
+          daily: Volumen de compraventa diario
           today: 
       upside:
         title: Ratio precio-beneficio vs los 5 competidores más baratos.
       wallStreet:
         titles:
-          competitors: 
-          main: 
-          oneMonth: 
-          oneWeek: 
-          recommendation: 
-          threeMonth: 
-          today: 
+          competitors: Recomendaciones de los competidores
+          main: En alza vs 5 competidores más fuertes en alza
+          oneMonth: Hace un mes
+          oneWeek: Hace una semana
+          recommendation: Cambio en la recomendación de Wall Street
+          threeMonth: Hace tres meses
+          today: Hoy
       worth:
         title: Lo que vale
     innerTypes:
@@ -1464,24 +1485,24 @@ es:
           fallback: 
           terms:
             cheap: 
-            expensive: 
-          valid: 
+            expensive: caro
+          valid: La acción se está vendiendo a %nx veces los beneficios y es %n frente a sus competidores. Averigua más en Stockflare.
         title: Barato o Caro
       wallStreet:
         description:
-          fallback: 
+          fallback: Wall Street no ha formulado ninguna opinión sobre esta acción. Descubre más en Stockflare.
           terms:
-            downside: 
-            upside: 
-          valid: 
+            downside: Caída
+            upside: En alza
+          valid: Wall Street tiene una recomendación de %n para esta acción con precio objetivo de %n. Esto implica que %n% %n. Aprende más en Stockflare.
         title: La opinión de Wall Street
       worth:
         description:
-          fallback: 
+          fallback: Descubre más sobre las previsiones de ganancias o pérdidas de esta acción para los próximos 7 años en Stockflare.
           terms:
-            gain: 
-            lose: 
-          valid: 
+            gain: gana
+            lose: pierde
+          valid: Esta acción tiene previsto %n %n% cada año durante los próximos 7 años.
         title: Lo que vale
     notification:
       insufficientData: No tenemos suficiente información para calcularlo.
@@ -1498,12 +1519,12 @@ es:
       profitability:
         epsToday: Hoy es %n
         epsWas: El %t(eps){beneficio por acción} fue de %n.
-        forecastEpsWas: 
-        title: 
+        forecastEpsWas: La previsión de %t(eps){EPS} era de %n.
+        title: ¿Cambio en la rentabilidad?
       sentiment:
-        forecastPeWas: 
-        peToday: 
-        peWas: 
+        forecastPeWas: La previsón de %t(pe){PE Ratio} era de %nx.
+        peToday: Hoy es %nx
+        peWas: '%t(pe){PE} era %n.'
         title: 
       title: ¿Qué motiva el cambio en el precio?
       up: Sube
@@ -1549,31 +1570,31 @@ es:
       title: Precio objetivo de Wall Street
     worth:
       annotations:
-        annually: 
+        annually: Por año
         gain:
-          negative: 
-          positive: 
-        growth: 
-        value: 
+          negative: Pérdidas en 7 años
+          positive: Ganacias en 7 años
+        growth: Previsión de crecimiento a 7 años
+        value: Valor total dentro de 7 años
       copy:
         absoluteGain:
-          negative: 
-          positive: 
+          negative: '%n baja a %n en 7 años'
+          positive: '%n aumenta a %n en 7 años'
         gainPerYear:
-          negative: 
-          positive: 
+          negative: Pérdidas de %n por año
+          positive: Beneficios de %n por año
         relativeGain:
-          negative: 
-          positive: 
+          negative: Pérdida de %n en 7 años
+          positive: Ganacias de %n en 7 años
         sevenYearGain:
-          negative: 
-          positive: 
+          negative: Pierde %n en 7 años
+          positive: Ganas %n en 7 años
         value:
-          text: 
+          text: Acciones valoradas en %n
       descriptions:
         growth:
-          negative: 
-          positive: 
+          negative: 'Está previsto que el valor actual de %n baje a %n en un periodo de 7 años '
+          positive: 'Está previsto que el valor actual de %n aumente a %n en un periodo de 7 años '
         return: 
       flash:
         another: 
@@ -1608,8 +1629,8 @@ es:
       noMoreMatches: 
     og:
       description: 
-      title: 
-    reset: 
+      title: Escoge acciones fácilmente
+    reset: Reinicia los filtros
   tooltip:
     acronyms:
       dps: Dividendos por acción
