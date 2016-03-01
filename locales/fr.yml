@@ -1,13 +1,15 @@
 fr:
   about:
-    disclaimer: Stockflare fournit des informations, pas de conseils. Stockflare ne fait pas de recommandations. Toute référence à "Acheter", "Vendre", "Conserver" ou "Cours Cibles" pour les actions, reflète l'opinion générale des professionnels.
-    from: Données fournies par
+    disclaimer: Stockflare fournit des informations, non des conseils. Stockflare ne fait pas de recommandations. Toute référence à "l'Achat", à la "Vente", au "Maintien ", et aux "Prix cibles" des stocks, reflète l'opinion du consensus de “Wall Street”
+    from: Choisir les données à partir
     links:
       about: À propos
       blog: Blog
       faq: FAQ
       jobs: Offres d'emploi
-      my: 
+      landing: Première fois ?
+      learn: Apprendre
+      playground: Terrain de jeux
       privacy: Confidentialité
       tos: Conditions Générales
     pricingData: Toutes les données correspondent à la fermeture d'hier.
@@ -29,8 +31,8 @@ fr:
       one_month_price_sentiment:
         negative: Le prix de cette action a diminué plus rapidement que les bénéfices prévus de cette action, sur le dernier mois.
       rating:
-        negative: Action rétrogradée à %latest_rating étoiles.
-        positive: Action promue à %latest_rating étoiles.
+        negative: Perdu une mesure clé. Actuellement passé% dernières mesures note de clés.
+        positive: Passé une mesure clé. Action promue à %latest_rating étoiles.
       recommendation:
         negative: Les professionnels ont revu de %previous_recommendation_text à %latest_recommendation_text.
         positive: Les professionnels ont revalorisé de %previous_recommendation_text à %latest_recommendation_text.
@@ -39,7 +41,7 @@ fr:
       three_month_price_sentiment:
         negative: Le prix de cette action a diminué plus rapidement que les bénéfices prévus de cette action, sur les derniers trois mois.
       upside:
-        positive: A gagné une étoile pour avoir une hausse de %latest_upside à son cours cible.
+        positive: Maintenant il a gagné une hausse de %latest_upside à son cours cible.
       volume:
         negative: Volumes d'échanges anormalement élevés.
     pageTitle: Mes Alertes
@@ -175,9 +177,9 @@ fr:
       khm: Cambodge
       kir: Kiribati
       kna: Saint-Kitts-et-Nevis
-      kor: Corée
+      kor: Corée du Sud
       kwt: Koweït
-      lao: Lao
+      lao: Laos
       lbn: Liban
       lbr: Libéria
       lby: Libye
@@ -294,7 +296,7 @@ fr:
       ven: Venezuela
       vgb: Îles Vierges britanniques
       vir: Îles Vierges américaines
-      vnm: Viet Nam
+      vnm: Viet-nam
       vut: Vanuatu
       wlf: Îles Wallis et Futuna
       wsm: Samoa
@@ -307,7 +309,7 @@ fr:
         aed: Dirham des Émirats arabes unis
         afn: Afghani
         all: Lek
-        amd: Dram
+        amd: Dram arménien
         ang: Florin des Antilles néerlandaises
         aoa: Kwanza
         ars: Peso argentin
@@ -371,7 +373,7 @@ fr:
         isk: Couronne islandaise
         jmd: Dollar jamaïcain
         jod: Dinar jordanien
-        jpy: Yen
+        jpy: Yen japonais
         kes: Shilling kényan
         kgs: Som
         khr: Riel
@@ -439,7 +441,7 @@ fr:
         tjs: Somoni
         tmt: Manat turkmène
         tnd: Dinar tunisien
-        top: Paʻanga
+        top: Paʻanga tongien
         try: Livre turque
         ttd: Dollar de Trinité-et-Tobago
         twd: Nouveau dollar de Taïwan
@@ -628,8 +630,13 @@ fr:
         zwd: Z$%n
     defaultPageTitle: Investir devient facile
     languages:
+      de-DE: Deutsch
       en-US: English
+      es-ES: Español
       fr-FR: Français
+      it-IT: Italiano
+      ja-JP: 日本語
+      zh-CN: 中文
     loading: Chargement...
     login: Se Connecter
     pages:
@@ -668,7 +675,7 @@ fr:
       widget:
         alerts: Alertes des actions
         graph: Graphique
-        info: Classement par Étoiles
+        info: 'Indicateurs clés '
         social: Partager
     unwatch: Retirer de votre Liste
     wallStreetRecommendations:
@@ -691,12 +698,23 @@ fr:
       deleted: Compte Supprimé
       deleting: Suppression du compte...
       error: Une erreur est survenue
+  disclaimers:
+    main:
+      first: Stockflare est un service d'informations. Nous ne fournissons pas de conseils ni ne faisons de recommandations. Nous sommes un outil de recherche dédié aux investisseurs autonomes.
+      fourth: Les 5 indicateurs clés de Stockflare, sont un moyen de comparer la qualité de n'importe quel groupe de stocks. Ils s'occupent de ce qui a trait à la rentabilité, des dividendes, de la croissance, de l'évaluation, et de l'opinion de "Wall Street"  sur un stock. Nous soulignons que ce sont des outils de mesure de qualité et de recherche. Ils ne sont pas absolument une recommandation explicite ou implicite.
+      second: Stockflare tire ses données de base de Thomson Reuters, l'un des principaux fournisseurs de données financières du monde.
+      third: Nous présentons les prévisions et les recommandations du consensus de "Wall Street" sur notre site. Ceci inclut la référence à "l'Achat", à la "Vente" au "Maintien ", et aux "Prix cibles" des stocks. À l'instar d'autres services d'informations, Stockflare ne cautionne pas ces prévisions. Malheureusement, il n'existe pas de données sur l'avenir. Les points de vue de Wall Street sont subjectifs, et non objectifs.
+    metrics: Les 5 indicateurs clés couvrent la rentabilité, les dividendes, la croissance, la valorisation et les indicateurs psychologiques. Ils ne sont pas une recommandation, mais un moyen de comparer la qualité des stocks et de mettre en évidence les principaux risques.
+    title: 'Qu''en est-il maintenant de la légalité ! '
+    wallStreet: Ce tableau présente le bon côté du prix cible du consensus de "Wall Street" et de la recommandation de consensus des stocks de votre liste de surveillance. Il n'existe pas de données sur l'avenir. Par conséquent, ce consensus est une analyse subjective, non objective. Stockflare ne cautionne pas les points de vue de "Wall Street". Nous présentons ces données, afin que nos utilisateurs puissent avoir l'avis des experts sur un stock.
+    worth: Ce tableau combine les bénéfices à long terme des prévisions du consensus de "Wall Street", le rendement de dividende prévu et le retour à la moyenne du ratio cours-bénéfice prévu. Par conséquent, le chiffre de gain projeté est basé sur l'analyse subjective des professionnels, et ne constitue pas l'objectif. Stockflare ne cautionne pas les vues de "Wall Street". Nous présentons ces données, afin que nos utilisateurs puissent voir ce que le sentiment des experts est vers un stock. Il n'y a pas de données sur l'avenir. Si les prévisions des experts se trompent, le gain réel sera matériellement différents des chiffres présentés ici.
   explore:
     all: Toutes les actions
     biLine: Besoin d'une inspiration ?
     categories:
       big-and-cheap:
-        description: Il y a beaucoup de grandes entreprises avec de grandes marques que les investisseurs ignorent. Peut-être qu'ils reviendront en faveur, un jour?
+        description: Il y a plusieurs grandes entreprises et grandes marques que les investisseurs choisissent d'ignorer. Peut-être qu'un jour ils seront en faveur de ces derniers, qui sait ?
+        disclaimer: Les stocks de "Big and Cheap" sont générés en utilisant un filtre de tous les stocks aux Etats-Unis avec une valeur de marché plus de 50 milliards $ et est moins cher que ses concurrents en utilisant un ratio cours-bénéfice.
         filters:
           country: usa
           financial: large
@@ -704,7 +722,8 @@ fr:
           valulation: low_pe
         name: Gros et bon marché
       boring-businesses:
-        description: Qui a dit que vous devez investir dans la technologie! Imaginez parler à vos amis au sujet de la peinture, des plastiques, des piles, des eaux usées ou d'un produit sanitaire. Il ya des entreprises vétérinaires et les salons funéraires. Regardez!
+        description: Qui a dit que vous devez investir dans la technologie! Imaginez parler à vos amis au sujet de la peinture, des plastiques, des piles, des eaux usées ou d'un produit sanitaire. Il y a des entreprises vétérinaires et les salons funéraires. Regardez!
+        disclaimer: 'Les stocks dans les "entreprises ennuyeux" sont générés en utilisant un filtre de chaque stock Américain ayant une valeur de marché supérieure à 1 milliard $ et qui a passé au moins 1 test d''indicateur clé (par exemple, rentable, dividendes, forte croissance, etc). Nous examinons ensuite les actions qui correspondent à ce filtre et se trouvent également dans l''un des secteurs suivants : peinture, plastiques, batteries, roulements à billes, eaux usées, produits sanitaires, laboratoires d''analyse, entreprises vétérinaires et salons funéraires.'
         filters:
           country: usa
           market_value_usd: 1000+
@@ -712,7 +731,8 @@ fr:
           sector_code: '5110101011,5110101012,5210201013,5210201014,5210201015,5210201016,5210201017,5210203011,5210203012,5210203013,5210203014,5210203015,5210203016,5210203017,5220304020,5220301012,5310102013,5420102013,5420103018,5610102018,5610201016,5620104014,5710102010,5710102012,5710501013,5910301012'
         name: Les entreprises assommantes
       cash-heavy:
-        description: Il y a quelques entreprises qui ne disposent pas de la dette et qui paient tous leurs cashflow aux actionnaires. La trésorerie et le cashflow? Geniale!
+        description: Il y a quelques entreprises qui ne disposent pas de la dette et qui paient tous leurs cashflow aux actionnaires. La trésorerie et le cashflow ? Geniale !
+        disclaimer: Les stocks de « Cash lourd » sont générés en utilisant un filtre de chaque stock Américain ayant une valeur de marché supérieur à 500 millions $, qui a une position de trésorerie nette sur son bilan et verse un dividende significatif (c.-à-d céder plus de 4 %).
         filters:
           country: usa
           financial: has_cash
@@ -721,48 +741,55 @@ fr:
         name: Un tas d'argent
       coffee-cake:
         description: Investir dans les petits plaisirs de la vie, sans le sentiment de culpabilité si vous prenez une overdose sur le sucre.
+        disclaimer: 'Les stocks dans « Café & Gâteau » sont générés en utilisant un filtre de chaque stock mondial ayant une valeur de marché supérieure à 500 millions $ et qui a passé au moins 2 test d''indicateur clé (par exemple, rentable, verse des dividendes, etc). Nous examinons ensuite les stocks qui correspondent à ce filtre et se trouvent dans l''un des secteurs suivants : cafés, café et culture de canne à sucre, fabricants de biscuits, édulcorants et confiseries.'
         filters:
           market_value_usd: 500+
           rating: 2+
           sector_code: '5330102016,5410201015,5410201016,5410202014,5410202021,5410202022,5410202023'
         name: Café et gâteau
       gem-stones:
-        description: Sont des diamants meilleur ami de l'investisseur? Diamants, pierres précieuses, les plongeurs de perles. Tous sont les options pour les investisseurs.
+        description: Sont des diamants meilleur ami de l'investisseur ? Diamants, pierres précieuses, les plongeurs de perles. Tous sont les options pour les investisseurs.
+        disclaimer: 'Les stocks dans « Pierres précieuses » sont générés en utilisant un filtre de chaque stock mondial ayant une valeur de marché supérieure à 100 millions $ et qui a passé au moins 1 test d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : mines de diamants, pierres semi-précieuses, perles.'
         filters:
           market_value_usd: 100+
           rating: 1+
           sector_code: '5120101013,5120101014,5120101015'
         name: Les pierres précieuses
       going-nuclear:
-        description: L'énergie nucléaire est pas propre, mais quand il vient à un monde sans pétrole, il est important, comme l'énergie renouvelable. La lutte pour alimenter notre planète.
+        description: L'énergie nucléaire n'est pas propre, mais quand il vient à un monde sans pétrole, il est important, comme l'énergie renouvelable. La lutte pour alimenter notre planète.
+        disclaimer: 'Les stocks dans « Nucléaire » sont générés en utilisant un filtre de chaque stock mondial ayant une valeur de marché supérieure à 100 millions $ et qui a passé au moins 1 test d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : uranium, composants nucléaires et construction, services nucléaires.'
         filters:
           market_value_usd: 100+
           rating: 1+
           sector_code: '5030101010,5030101011,5030101012,5210204016,5220102022,5910101013,5910102013'
         name: L'amour nucléaire
       hated-by-wall-street:
-        description: Êtes-vous l'un des cyniques qui se méfient de Wall Street et les professionnels? Puis, investir dans les sociétés les professionnels hait!
+        description: Êtes-vous l'un des cyniques qui se méfient de Wall Street et les professionnels ? Puis, investir dans les sociétés les professionnels hait !
+        disclaimer: Les stocks dans « Bannis par Wall Street » sont générés en utilisant un filtre de chaque stock Américain ayant une valeur de marché supérieure à 500 millions $ dont la recommandation du courtier en valeurs mobilières est soit une Vente ou une Forte vente.
         filters:
           country: usa
           market_value_usd: 500+
           sentiment: hated
         name: Détesté par les professionnels
       healthy-tech:
-        description: Biotechnologie font des progrès merveilleux chaque jour. Pourquoi ne pas soutenir les scientifiques qui résolvent les problèmes les plus difficiles dans la santé?
+        description: Biotechnologie font des progrès merveilleux chaque jour. Pourquoi ne pas soutenir les scientifiques qui résolvent les problèmes les plus difficiles dans la santé ?
+        disclaimer: 'Les stocks dans « Healthy Tech » sont générés en utilisant un filtre de chaque stock Américain ayant une valeur de marché supérieure à 1 milliard $ se trouvant dans les secteurs suivants : produits biopharmaceutiques, biotechnologie et recherche médicale.'
         filters:
           country: usa
           market_value_usd: 1000+
           sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
         name: Technologie pour la santé
       land-and-sea:
-        description: Nous mangeons, hein? Il y a beaucoup de sociétés qui travaillent dans l'agriculture. Les agriculteurs, les pesticides. Qui sont les principaux acteurs?
+        description: Nous mangeons, hein ? Il y a beaucoup de sociétés qui travaillent dans l'agriculture. Les agriculteurs, les pesticides. Qui sont les principaux acteurs ?
+        disclaimer: 'Les stocks dans « Terre et Mer » sont générés en utilisant un filtre de chaque stock Américain et Canadien ayant une valeur de marché supérieure à 1 milliard $ et qui se trouve dans les secteurs suivants : produits chimiques agricoles, culture du coton, pêche et élevage, culture du tabac.'
         filters:
           country: usa,cad
           market_value_usd: 1000+
           sector_code: '5110102010,5110102011,5110102012,5110102013,5110102014,5320201018,5410201010,5410201011,5410201012,5410201013,5410201014,5410201015,5410201016,5410201017,5410201018,5410201019,5410201020,5410201021,5410201022,5410201023,5410201024,5410201025,5410201026,5410201027,5410201028,5410201029,5410203011'
         name: Terre et Mer
       legal-eagles:
-        description: Les avocats et les experts-comptables sont chers! Vous pouvez investir dans leurs entreprises aussi!
+        description: Les avocats et les experts-comptables sont chers! Vous pouvez investir dans leurs entreprises aussi !
+        disclaimer: 'Les stocks dans « Legal Eagles » sont générés en utilisant un filtre de chaque stock de la zone Amériques ayant une valeur de marché supérieure à 50 millions $ et qui a passé au moins 1 test d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : comptabilité et services juridiques, fournisseurs d''informations juridiques et fiscales.'
         filters:
           market_value_usd: 50+
           rating: 1+
@@ -771,6 +798,7 @@ fr:
         name: Les avocats et experts
       renewables:
         description: Si vous souhaitez investir dans un monde sans pétrole, il y a beaucoup d'entreprises qui travaillent dans le marché des énergies renouvelables. Éolien, solaire, vague et l'hydrogène.
+        disclaimer: 'Les stocks dans « Énergies renouvelables » sont générés en utilisant un filtre de chaque stock de la zone Amériques ayant passé au moins 3 tests d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : énergies renouvelables, fournisseurs d''énergies renouvelables.'
         filters:
           rating: 3+
           region: amer
@@ -778,6 +806,7 @@ fr:
         name: Renouvelables
       ship-it:
         description: Si vous voulez expédier vastes choses, la mer est la seule façon. Bien que vous pouvez investir dans des bateaux de loisirs aussi facilement que super tankers.
+        disclaimer: 'Les stocks dans « Expédier » sont générés en utilisant un filtre de chaque stock mondial ayant une valeur de marché supérieure à 500 millions $ et qui a passé au moins 1 test d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : transport maritime par tanker, construction navale, fret maritime et logistique, yachts et bateaux à moteur, services portuaires maritimes.'
         filters:
           market_value_usd: 500+
           rating: 1+
@@ -785,25 +814,29 @@ fr:
         name: Expédiez le!
       space-race:
         description: Vous recherchez la dernière frontière, il y a des roquettes et les fabricants de satellites, et les entreprises qui dépendent des satellites pour que leur entreprise peut fonctionner.
+        disclaimer: 'Les stocks dans « Space Race » sont générés en utilisant un filtre de chaque stock mondial ayant une valeur de marché supérieure à 100 millions $ qui se situe dans les secteurs suivants : satellite et fabricants de satellites, réseaux de satellite et navigation,opérateurs de satellite.'
         filters:
           market_value_usd: 100+
           sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
         name: Course à la cosmos
       sporting-outdoors:
-        description: Vous pouvez investir dans une équipe de sport sur la bourse. Ou simplement porter leurs couleurs!
+        description: Vous pouvez investir dans une équipe de sport sur la bourse. Ou simplement porter leurs couleurs !
+        disclaimer: 'Les stocks de « Sports en plein air » sont générés en utilisant un filtre de chaque stock mondial qui a passé au moins 1 test d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : vêtements d''extérieur et chaussures, articles de plein air, gymnases, stations de ski, sites sportifs, terrains de golf, magasins de sport, détaillants  d''articles de plein air.'
         filters:
           market_value_usd: 100+
           rating: 1+
           sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
         name: Idées sportives
       taking-it-easy:
-        description: Qui a dit que vous devez choisir les stocks d'être bon à l'investissement! Vous pouvez choisir un ETF. Vous obtiendrez les mêmes performances que la bourse, même si vous ne la battre pas!
+        description: Qui a dit que vous devez choisir les stocks d'être bon à l'investissement ! Vous pouvez choisir un ETF. Vous obtiendrez les mêmes performances que la bourse, même si vous ne la battre pas !
+        disclaimer: 'Les stocks dans "Taking It Easy" sont tous des FNB (fonds négociés en bourse), générés en utilisant un filtre de chaque stock dans le monde avec une valeur de marché de plus de 10 milliards $ qui se trouve dans le secteur suivant : fonds négociés en bourse.'
         filters:
           market_value_usd: 10000+
           sector_code: '5550104010,5550104011,5550104012'
         name: Détendrez
       tech-titans:
-        description: Si "la technologie est en train de manger le monde", il y a quelques entreprises profitant de leurs repas.
+        description: Si « la technologie est en train de manger le monde », il y a quelques entreprises profitant de leurs repas.
+        disclaimer: 'Les stocks de « Tech Titans » sont générés en utilisant un filtre de chaque stock mondial ayant une valeur de marché de plus de 10 milliards $ qui a passé au moins 1 test d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : technologie.'
         filters:
           financial: large
           market_value_usd: 10000+
@@ -811,7 +844,8 @@ fr:
           sector_code: '5710101010,5710101011,5710101012,5710101013,5710101014,5710101015,5710102010,5710102011,5710102012,5710102013,5710201010,5710201011,5710201012,5710201013,5710201014,5710201015,5710201016,5710201017,5710501010,5710501011,5710501012,5710501013,5710501014,5710501015,5710401010,5710401011,5710401012,5710401013,5710401014,5710601010,5710601011,5710601012,5710601013,5710601014,5710601015,5710601016,5710601017,5710601018,5710601019,5710602010,5710602011,5710602012,5710602013,5710602014,5710602015,5710603010,5710603011,5710603012,5710603013,5710603014,5720101010,5720101011,5720101012,5720101013,5720101014,5720101015,5720102010,5720102011,5720102012,5720102013,5720102014,5720102015,5720102016,5720102017,5720103010,5720103011,5720103012,5720103013,5720103014,5720103015,5720103016'
         name: Géants de la technologie
       thirsty:
-        description: Peu de choses sont aussi essentiels que l'eau propre. Comme la population augmente, peut-être les actions aussi?
+        description: Peu de choses sont aussi essentiels que l'eau propre. Comme la population augmente, peut-être les actions aussi ?
+        disclaimer: 'Les stocks de « Thirsty » sont générés en utilisant un filtre de chaque stock Américain ayant passé au moins 1 test d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : eau et construction de réseaux d''égout, eau embouteillée et glace, services d''eau.'
         filters:
           country: usa
           market_value_usd: 500+
@@ -819,7 +853,8 @@ fr:
           sector_code: '5220102018,5410103014,5910301010,5910301011,5910301012,5910301013'
         name: Assoiffé?
       timber:
-        description: Voulez vous acheter une forêt? Un peu de bois? Voici quelques-uns des plus grands joueurs.
+        description: Voulez vous acheter une forêt ? Un peu de bois ? Voici quelques-uns des plus grands joueurs.
+        disclaimer: 'Les stocks dans « Secteur du bois » ! sont générés en utilisant un filtre dans chaque stock Américain et Canadien avec une valeur de marché de plus de 100 millions $ et ayant passé au moins 2 tests d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : papier et produits forestiers, contenants en bois et emballages, papier d''emballage, FPI du secteur du bois.'
         filters:
           country: usa,cad
           market_value_usd: 100+
@@ -827,7 +862,8 @@ fr:
           sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
         name: Un forêt?
       time-online:
-        description: L'Internet est en train de tuer la télévision.Les gagnants sont déjà visibles. Voulez-vous d'investir dans les entreprises que vous utilisez?
+        description: L'Internet est en train de tuer la télévision.Les gagnants sont déjà visibles. Voulez-vous d'investir dans les entreprises que vous utilisez ?
+        disclaimer: 'Les stocks dans « Temps en ligne » sont générés en utilisant un filtre de chaque stock Américain avec une valeur de marché supérieure à 10 milliards $ qui a passé au moins 1 test d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : services Internet.'
         filters:
           country: usa
           market_value_usd: 10000+
@@ -835,7 +871,8 @@ fr:
           sector_code: '5720103010,5720103011,5720103012,5720103013'
         name: Les internautes
       vice-not-nice:
-        description: Oubliez vous l'éthique? Voulez vous investir dans la drogue, l'alcool, les fusils et les vices?
+        description: Oubliez vous l'éthique ? Voulez vous investir dans la drogue, l'alcool, les fusils et les vices ?
+        disclaimer: 'Les stocks dans « Vice, Not Nice » sont générés en utilisant un filtre de chaque stock Américain ayant une valeur de marché supérieure à 500 millions $ qui a passé au moins 2 tests d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : fabrication d''armes, pubs et boîtes de nuit, casinos et jeux, divertissement pour adultes et détaillants, brasseurs et distillateurs, magasins de bière et de tabac.'
         filters:
           country: usa
           market_value_usd: 500+
@@ -844,12 +881,14 @@ fr:
         name: Les vices
       young-and-old:
         description: Des vêtements aux jouets, indépendamment de l'âge. Il y a une option d'investissement pour tout le monde.
+        disclaimer: 'Les stocks dans « Young & Old » sont générés en utilisant un filtre de chaque Américain ayant une valeur de marché supérieure à 1 milliard $ qui a passé au moins 2 tests d''indicateur clé (par exemple, rentable, etc). Nous examinons ensuite les stocks se trouvant dans l''un des secteurs suivants : vêtements et chaussures, maisons de retraite, jouets pour enfants, lignes de croisière, détaillants produits pour Enfants et Ados, aliments pour bébé, produits de contrôle des naissances, soins de l''enfant, services funéraires, lunettes et lentilles de contact , soins de longue durée.'
         filters:
           country: usa
           market_value_usd: 1000+
           rating: 2+
           sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
         name: Les jeunes et âgées
+    filters: 'Les filtres derrière '
     pageDescription: Besoin d'une petite inspiration ? Stockflare a créé des catégories originales pour vous aider à découvrir de nouvelles actions.
     pageTitle: Explorer Stockflare
     popular: '%n le plus populaire'
@@ -868,7 +907,7 @@ fr:
         default: Paramètres du Business
         filters:
           growing: Croissance
-          has_cash: A de la trésorerie et des investissements
+          has_cash: Trésorerie et Investissements
           high_growth: Forte croissance uniquement
           large: Grandes entreprises uniquement
           pays_dividends: Verse des dividendes uniquement
@@ -898,6 +937,23 @@ fr:
           near_low: Près du plus bas cours depuis 52 Semaines
           negative: Tendance à la baisse
           positive: Tendance à la hausse
+    metrics:
+      cheaper:
+        description: Le stock est-il moins cher que celui des concurrents ?
+        title: Bon marché
+      dividends:
+        description: L'entreprise verse-t-elle des dividendes ?
+        title: Verse des dividendes
+      high_growth:
+        description: Est-il prévu que l'entreprise croît plus vite que ses concurrents
+        title: ' Forte croissance'
+      profitable:
+        description: L'entreprise est-elle rentable ?
+        title: Rentable
+      title: Indicateurs clés
+      upside:
+        description: Wall Street pense-t-il que le stock vaut plus que le prix actuel
+        title: Présente des avantages
     opinion:
       titles:
         default: Style d'investissement
@@ -946,15 +1002,6 @@ fr:
           hated: Détesté par les professionnels
           loved: Adoré par les professionnels
           unknown: Inconnu des professionnels
-    starRatings:
-      titles:
-        default: Classement par étoiles
-        filters:
-        - Actions 1 Étoile
-        - Actions 2 Étoiles
-        - Actions 3 Étoiles
-        - Actions 4 Étoiles
-        - Actions 5 Étoiles
     style:
       descriptions:
         growth: Entreprises aux croissances plus rapide que leurs concurrentes, sur le long terme.
@@ -1009,12 +1056,21 @@ fr:
       ideas: Choisissez vos Actions
       search: Rechercher
       watchlist: Ma Liste
+  home:
+    explore:
+      link: Cliquez ici pour explorer tous les thèmes
+      title: Explorer par Thème
+    pageDescription: Rechercher un stock mondial
+    pageTitle: Accueil
+    sector:
+      link: Cliquez ici pour voir tous les stocks dans %n
+      title: Explorer les plus grands stocks dans %n
   landing:
     explore:
       content:
         copy: Tout le monde aime à explorer de nouvelles idées et technologies.
-        line: Au Stockflare notre section "Explorez" montre les stocks d'une manière que tout le monde peut utiliser.
-        point: Les idées brillantes sont près!
+        line: Notre section « Explorez » montre les stocks d'une manière que tout le monde peut utiliser.
+        point: Les idées brillantes sont près !
         title: Une nouvelle façon d'explorer
     feed:
       content:
@@ -1024,7 +1080,7 @@ fr:
     introduction:
       content:
         copy: Choisissez les meilleurs actions pour votre portefeuille.
-        cta: Faites votre choix, 100% Gratuit
+        cta: 100% Gratuit
         point: Améliorez votre façon d'investir.
         title: Investir devient facile
       menu:
@@ -1045,7 +1101,7 @@ fr:
         hold: Conserver
         sell: Vendre
       content:
-        copy: Obtenez les conseils des professionnels. Sont ils Acheteurs ou Vendeurs ? Prévisions d'évolution pour toutes les actions.
+        copy: Obtenez les conseils des professionnels. Sont-ils Acheteurs ou Vendeurs ? Prévisions d'évolution pour toutes les actions.
         point: Conseils des professionnels. Gratuits pour toujours.
         title: Qu'achètent les professionnels ?
     pageTitle: Investir Devient Facile
@@ -1071,7 +1127,7 @@ fr:
       content:
         copy: Inscrivez-vous pour enregistrer vos actions et recevoir des alertes.
         skip: Accéder directement à Stockflare
-        title: Ne restez pas ancrés dans le passé
+        title: Joignez-vous à nous pour des rafraîchissements gratuits
   login:
     buttons:
       forgot: J'ai oublié mon mot de passe
@@ -1133,7 +1189,7 @@ fr:
     og:
       description: Réinitialisez votre mot de passe ici.
       title: Réinitialisez votre mot de passe Stockflare
-    pageTitle: Réinitialiser mon Mot de Passe
+    pageTitle: Réinitialisez le Mot de Passe
     prompt:
       question: Vous avez retrouvé votre mot de passe ?
       register: Connectez-vous ici
@@ -1198,9 +1254,16 @@ fr:
       reset: Réinitialiser ma clé d'authentification MFA
       sent: Demande de réinitialisation de la clé d'authentification MFA envoyée
   search:
+    none:
+      link: Essayez plutôt %n ?
+      title: Impossible de trouver un stock correspondant à '%n'
     pageTitle: Rechercher
     placeholder: Tapez pour Rechercher...
+    searching:
+      description: Part faire le tour du monde !
+      title: Recherche dans plus de 45 000 Stocks
     searchingTitle: Recherche de %n
+    title: 'Rechercher '
   settings:
     buttons:
       apply: Appliquer les Changements
@@ -1273,7 +1336,7 @@ fr:
     inner:
       description:
         table:
-          name: Entreprise
+          name: Nom
           sector: Secteur
           size: Valeur
         titles:
@@ -1331,7 +1394,7 @@ fr:
       stats:
         data:
           table:
-            cheaperOn: Moins cher que les concurrents pour %n des 9 paramètres
+            cheaperOn: Moins cher que les concurrents pour %n des 10 paramètres
             headers:
               cheaper: Moins Cher ?
               competitors: Concurrents
@@ -1361,6 +1424,7 @@ fr:
           key: Chiffres Clés
           percent: La Trésorerie est équivalente à %n de la valeur sur le Marché
           ratio: Le niveau de la Dette est %n les bénéfices d'exploitation
+          unavailable: 'Analyse flux de trésorerie/dette indisponible '
           upside: Hausse / baisse au plus haut / bas cours depuis 52 semaines
           valuations: Multiples de valorisation
           warning: 'Attention :'
@@ -1487,7 +1551,7 @@ fr:
         positive: +%n de plus que le cours cible
         unknown: Cours cible inconnu
     social:
-      email: Envoyer
+      email: Envoyer à un ami
     stats:
       fifty_two_week: Plus Haut/Bas Cours depuis 52 Semaines
       industry: Industrie
@@ -1498,24 +1562,24 @@ fr:
       equal: Pas de variation
       increase: '%t(upside){d''augmentation}.'
       recommendations:
-        buy: L'%t(recommendation){avis} des professionnels est Renforcer.
+        buy: L'%t(recommendation){avis} des professionnels est Achat.
         hold: L'%t(recommendation){avis} des professionnels est Conserver.
-        sell: L'%t(recommendation){avis} des professionnels est Alléger.
-        strong_buy: L'%t(recommendation){avis} des professionnels est Vendre.
-        strong_sell: L'%t(recommendation){avis} des professionnels est Acheter.
+        sell: L'%t(recommendation){avis} des professionnels est Vendu.
+        strong_buy: L'%t(recommendation){avis} des professionnels est Achat Fort.
+        strong_sell: L'%t(recommendation){avis} des professionnels est Vente Forte.
       title: Cours Cible des professionnels
     worth:
       annotations:
         annually: par an
         gain:
-          negative: perte pendant 7 ans
-          positive: gagner pendant 7 ans
+          negative: Perte pendant 7 ans
+          positive: Gagner pendant 7 ans
         growth: Prévision de croissance pendant 7 ans
         value: Valeur en 7 ans
       copy:
         absoluteGain:
           negative: '%n diminue jusque %n sur 7 ans'
-          positive: '%n augmente jusque %n sur 7 ans'
+          positive: '%n augmente jusqu''à %n sur 7 ans'
         gainPerYear:
           negative: Perte de %n par an
           positive: Bénéfice de %n par an
@@ -1530,8 +1594,11 @@ fr:
       descriptions:
         growth:
           negative: Valeur actuelle de %n peut diminuer par %n sur une période de 7 ans.
-          positive: Valeur actuelle de %n est peut augmenter de %n sur une période de 7 ans.
-        return: Les prévisions utilise le chiffre de la croissance à long terme par les experts, les prévisions des dividendes attendus et la valorisation actuelle.
+          positive: Valeur actuelle de %n peut augmenter de %n sur une période de 7 ans.
+        return: Les prévisions utilisent le chiffre de la croissance à long terme par les experts, les prévisions des dividendes attendus et la valorisation actuelle.
+      flash:
+        another: 'Ajouté un autre %n Parts @ %n pour '
+        first: 'Ajouté %n Parts @ %n pour '
       footnote: Nous supposons une croissance annuelle de 8% pour les calculs ci-dessus.
       forecast:
         title: est Prévu de
@@ -1573,12 +1640,13 @@ fr:
       rating: Notation par étoiles de Stockflare
       ric: Code du ticker Reuters
     explanations:
-      downside: Pourcentage de baisse du Cours Cible des professionnels au cours d'aujourd'hui
+      downside: Stockbrokers publient ce qu'ils croient être la juste valeur d'un stock, il est appelé leur prix cible. Notre fournisseur de données calcule la moyenne de ces experts. Ici, nous montrons le pourcentage en baisse à Wall Street Prix cible, à partir du prix de l'action d'aujourd'hui. Attention, c'est une option subjective de ces experts, pas objectives.
       dps: Une entreprise verse des dividendes, comme une banque paie des intérêts. Les Dividendes-par-action sont ce que vous recevez pour chaque action que vous possédez.
       eps: Les bénéfices d'une entreprise appartiennent à ses actionnaires. Les Bénéfices-par-Action sont ce que vous gagnez en théorie pour chaque action que vous possédez.
       pe: Le PE ratio est égal au cours de l'action divisé par les gains-par-action. Plus haut le PE ratio, plus chère l'action.
-      recommendation: Les courtiers publient une recommandation Acheter/Vendre/Conserver pour toutes les actions qu'ils analysent. Nous vous fournissons l'avis moyen.
-      upside: Pourcentage de hausse du cours d'aujourd'hui au Cours Cible des professionnels
+      recommendation: Stockbrokers publient une recommandation Acheter/Vendre/Conserver pour toutes les actions qu'ils analysent. Nous vous fournissons l'avis moyen de ces experts. Ceci est un bon indicateur du sentiment "Wall Street". Mais attention, c'est une opinion subjective, pas objective.
+      upside: |
+        Stockbrokers publient ce qu'ils croient être la juste valeur d'un stock, il est appelé leur prix cible. Notre fournisseur de données calcule la moyenne de ces experts. Ici, nous montrons le pourcentage d'augmentation à Wall Street Prix cible, à partir du prix de l'action d'aujourd'hui. Attention, c'est une option subjective de ces experts, pas objectives.
   user:
     fields:
       confirmPassword: Confirmez le mot de passe
@@ -1613,12 +1681,12 @@ fr:
         mismatch: Ces Mots de Passe ne correspondent pas
         required: Mot de Passe requis
         tooLong: Ce mot de passe est trop long
-        tooShort: Ce mot de passe est trop long
+        tooShort: Ce mot de passe est trop court
   watchlist:
     actualChange: Variation Réelle (1 Jour)
     breakdown: Détail de la Liste
     create:
-      button: Créer la Liste
+      button: Créez la Liste
       fields:
         name: Nom de la Liste
       points:
@@ -1683,7 +1751,7 @@ fr:
       actual: Évolution Réelle
       change: Pourcentage d'Évolution
       count: Sur votre Liste
-      mover: Plus forte évolution
+      mover: Plus Gros Moteur
       rating: Avis sur ce Portefeuille
       stocks: '%n Actions'
       worth: Valeur Totale

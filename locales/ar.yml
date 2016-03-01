@@ -1,0 +1,1721 @@
+ar:
+  about:
+    disclaimer: 
+    from: 
+    links:
+      about: 
+      blog: 
+      faq: 
+      jobs: 
+      landing: 
+      learn: 
+      playground: 
+      privacy: 
+      tos: 
+    pricingData: 
+    title: 
+  alerts:
+    count: 
+    headers:
+      today: 
+    messages:
+      gain:
+        negative: 
+        positive: 
+      movement:
+        negative: 
+        positive: 
+      none: 
+      one_month_eps_sentiment:
+        positive: 
+      one_month_price_sentiment:
+        negative: 
+      rating:
+        negative: 
+        positive: 
+      recommendation:
+        negative: 
+        positive: 
+      three_month_eps_sentiment:
+        positive: 
+      three_month_price_sentiment:
+        negative: 
+      upside:
+        positive: 
+      volume:
+        negative: 
+    pageTitle: 
+    timeAgo: 
+  appender:
+    add: 
+    noMatches: 
+    pressEnter: 
+    search: 
+  appenders:
+    watchlist:
+      create: 
+  common:
+    countries:
+      afg: أفغانستان
+      ago: أنغولا
+      aia: أنغويلا
+      ala: أولند
+      alb: ألبانيا
+      and: أندورا
+      are: الإمارات العربية المتحدة
+      arg: الأرجنتين
+      arm: أرمينيا
+      asm: ساموا الأمريكية
+      ata: القارة القطبية الجنوبية
+      atf: أراض فرنسية جنوبية وأنتارتيكية
+      atg: أنتيغوا وباربودا
+      aus: أستراليا
+      aut: النمسا
+      aze: أذربيجان
+      bdi: بوروندي
+      bel: بلجيكا
+      ben: بنين
+      bes: الجزر الكاريبية الهولندية
+      bfa: بوركينا فاسو
+      bgd: بنغلاديش
+      bgr: بلغاريا
+      bhr: البحرين
+      bhs: باهاماس
+      bih: البوسنة والهرسك
+      blm: سان بارتليمي
+      blr: بيلاروسيا
+      blz: بليز
+      bmu: برمودا
+      bol: بوليفيا
+      bra: البرازيل
+      brb: باربادوس
+      brn: بروناي
+      btn: بوتان
+      bvt: جزيرة بوفيه
+      bwa: بوتسوانا
+      caf: جمهورية أفريقيا الوسطى
+      can: كندا
+      cck: جزر كوكس
+      che: سويسرا
+      chl: تشيلي
+      chn: الصين
+      civ: ساحل العاج
+      cmr: الكاميرون
+      cod: جمهورية الكونغو الديمقراطية
+      cog: جمهورية الكونغو
+      cok: جزر كوك
+      col: كولومبيا
+      com: جزر القمر
+      cpv: الرأس الأخضر
+      cri: كوستاريكا
+      cub: كوبا
+      cuw: كوراساو
+      cxr: جزيرة عيد الميلاد
+      cym: جزر كايمان
+      cyp: قبرص
+      cze: التشيك
+      deu: ألمانيا
+      dji: جيبوتي
+      dma: دومينيكا
+      dnk: الدنمارك
+      dom: جمهورية الدومينيكان
+      dza: الجزائر
+      ecu: الإكوادور
+      egy: مصر
+      eri: إريتريا
+      esh: الصحراء الغربية
+      esp: إسبانيا
+      est: إستونيا
+      eth: إثيوبيا
+      fin: فنلندا
+      fji: فيجي
+      flk: جزر فوكلاند
+      fra: فرنسا
+      fro: جزر فارو
+      fsm: ولايات ميكرونيسيا المتحدة
+      gab: الغابون
+      gbr: المملكة المتحدة
+      geo: جورجيا
+      ggy: غيرنزي
+      gha: غانا
+      gib: جبل طارق
+      gin: غينيا
+      glp: غوادلوب
+      gmb: غامبيا
+      gnb: غينيا بيساو
+      gnq: غينيا الاستوائية
+      grc: اليونان
+      grd: غرينادا
+      grl: غرينلاند
+      gtm: غواتيمالا
+      guf: غويانا الفرنسية
+      gum: غوام
+      guy: غيانا
+      hkg: هونغ كونغ
+      hmd: جزيرة هيرد وجزر ماكدونالد
+      hnd: هندوراس
+      hrv: كرواتيا
+      hti: هايتي
+      hun: المجر
+      idn: إندونيسيا
+      imn: جزيرة مان
+      ind: الهند
+      iot: إقليم المحيط الهندي البريطاني
+      irl: جمهورية أيرلندا
+      irn: إيران
+      irq: العراق
+      isl: آيسلندا
+      isr: إسرائيل
+      ita: إيطاليا
+      jam: جامايكا
+      jey: جيرزي
+      jor: الأردن
+      jpn: اليابان
+      kaz: كازاخستان
+      ken: كينيا
+      kgz: قيرغيزستان
+      khm: كمبوديا
+      kir: كيريباتي
+      kna: سانت كيتس ونيفيس
+      kor: كوريا الجنوبية
+      kwt: الكويت
+      lao: لاوس
+      lbn: لبنان
+      lbr: ليبيريا
+      lby: ليبيا
+      lca: سانت لوسيا
+      lie: ليختنشتاين
+      lka: سريلانكا
+      lso: ليسوتو
+      ltu: ليتوانيا
+      lux: لوكسمبورغ
+      lva: لاتفيا
+      mac: ماكاو
+      maf: سانت مارتن الفرنسية
+      mar: المغرب
+      mco: موناكو
+      mda: مولدافيا
+      mdg: مدغشقر
+      mdv: جزر المالديف
+      mex: المكسيك
+      mhl: جزر مارشال
+      mkd: جمهورية مقدونيا
+      mli: مالي
+      mlt: مالطا
+      mmr: بورما
+      mne: الجبل الأسود
+      mng: منغوليا
+      mnp: جزر ماريانا الشمالية
+      moz: موزمبيق
+      mrt: موريتانيا
+      msr: مونتسرات
+      mtq: مارتينيك
+      mus: موريشيوس
+      mwi: مالاوي
+      mys: ماليزيا
+      myt: مايوت
+      nam: ناميبيا
+      ncl: كاليدونيا الجديدة
+      ner: النيجر
+      nfk: جزيرة نورفولك
+      nga: نيجيريا
+      nic: نيكاراغوا
+      niu: نييوي
+      nld: هولندا
+      nor: النرويج
+      npl: نيبال
+      nru: ناورو
+      nzl: نيوزيلندا
+      omn: سلطنة عمان
+      pak: باكستان
+      pan: بنما
+      pcn: جزر بيتكيرن
+      per: بيرو
+      phl: الفلبين
+      plw: بالاو
+      png: بابوا غينيا الجديدة
+      pol: بولندا
+      pri: بورتوريكو
+      prk: كوريا الشمالية
+      prt: البرتغال
+      pry: باراغواي
+      pse: دولة فلسطين
+      pyf: بولينزيا الفرنسية
+      qat: قطر
+      reu: لا ريونيون
+      rou: رومانيا
+      rus: روسيا
+      rwa: رواندا
+      sau: السعودية
+      sdn: السودان
+      sen: السنغال
+      sgp: سنغافورة
+      sgs: جورجيا الجنوبية وجزر ساندويتش الجنوبية
+      shn: سانت هيلينا وأسينشين وتريستان دا كونا
+      sjm: سفالبارد ويان ماين
+      slb: جزر سليمان
+      sle: سيراليون
+      slv: السلفادور
+      smr: سان مارينو
+      som: الصومال
+      spm: سان بيير وميكلون
+      srb: صربيا
+      ssd: جنوب السودان
+      stp: ساو تومي وبرينسيب
+      sur: سورينام
+      svk: سلوفاكيا
+      svn: سلوفينيا
+      swe: السويد
+      swz: سوازيلاند
+      sxm: سينت مارتن
+      syc: سيشل
+      syr: سوريا
+      tca: جزر توركس وكايكوس
+      tcd: تشاد
+      tgo: توغو
+      tha: تايلاند
+      tjk: طاجيكستان
+      tkl: توكلو
+      tkm: تركمانستان
+      tls: تيمور الشرقية
+      ton: تونغا
+      tto: ترينيداد وتوباغو
+      tun: تونس
+      tur: تركيا
+      tuv: توفالو
+      twn: تايوان
+      tza: تنزانيا
+      uga: أوغندا
+      ukr: أوكرانيا
+      umi: جزر الولايات المتحدة الصغيرة النائية
+      ury: الأوروغواي
+      usa: الولايات المتحدة
+      uzb: أوزبكستان
+      vat: الفاتيكان
+      vct: سانت فنسنت والجرينادين
+      ven: فنزويلا
+      vgb: الجزر العذراء البريطانية
+      vir: جزر العذراء الأمريكية
+      vnm: فيتنام
+      vut: فانواتو
+      wlf: والس وفوتونا
+      wsm: ساموا
+      yem: اليمن
+      zaf: جنوب أفريقيا
+      zmb: زامبيا
+      zwe: زيمبابوي
+    currencies:
+      names:
+        aed: درهم إماراتي
+        afn: أفغاني
+        all: ليك ألباني
+        amd: درام أرميني
+        ang: غويلدر الأنتيل الهولندية
+        aoa: كوانزا أنغولي
+        ars: بيزو أرجنتيني
+        aud: دولار أسترالي
+        awg: فلورن أروبي
+        azn: مانات أذربيجاني
+        bam: مارك بوسني
+        bbd: دولار بربادوسي
+        bdt: تاكا بنغلاديشي
+        bgn: ليف بلغاري
+        bhd: دينار بحريني
+        bif: فرنك بوروندي
+        bmd: دولار برمودي
+        bnd: دولار بروني
+        bob: بوليفاريو بوليفي
+        brl: ريال برازيلي
+        bsd: دولار بهامي
+        btn: نغولترم بوتاني
+        bwp: بوتسوانا بولا
+        byr: روبل بلاروسي
+        bzd: دولار بليزي
+        cad: دولار كندي
+        cdf: فرنك كونغولي
+        chf: فرنك سويسري
+        clf: تشيليUF
+        clp: بيزو تشيلي
+        cny: رنمينبي
+        cop: بيزو كولومبي
+        crc: كولون كوستاريكي
+        cup: بيزو كوبي
+        cve: إيسكودو جزر الرأس الأخضر
+        czk: كرونة تشيكية
+        djf: فرنك جيبوتي
+        dkk: كرونة دنماركية
+        dop: بيزو دومنيكاني
+        dzd: دينار جزائري
+        egp: جنيه مصري
+        ern: ناكفا
+        etb: بير إثيوبي
+        eur: يورو
+        fjd: دولار فيجي
+        fkp: جنيه جزر فوكلاند
+        gbp: جنيه إسترليني
+        gel: لاري جورجي
+        ghs: سيدي غاني
+        gip: جنيه جبل طارق[عدل]
+        gmd: دالاسي غامبي
+        gnf: فرنك غيني
+        gtq: كتزال غواتيمالي
+        gyd: دولار غياني
+        hkd: دولار هونغ كونغ
+        hnl: لمبيرة هندوراسية
+        hrk: كونا كرواتية
+        htg: جوردة هايتية
+        huf: فورنت مجري
+        idr: روبية إندونيسية
+        ils: شيكل إسرائيلي جديد
+        inr: روبية هندية[عدل]
+        iqd: دينار عراقي
+        irr: ريال إيراني
+        isk: كرونة آيسلندية
+        jmd: دولار جامايكي
+        jod: دينار أردني
+        jpy: ين ياباني
+        kes: شيلينغ كيني
+        kgs: سوم قيرغيزستاني
+        khr: ريال كمبودي
+        kmf: فرنك قمري
+        kpw: وون كوري شمالي
+        krw: وون كوري جنوبي
+        kwd: دينار كويتي
+        kyd: دولار جزر كايمان
+        kzt: تينغ كازاخستاني
+        lak: كيب لاوي
+        lbp: ليرة لبنانية
+        lkr: روبية سريلانكي
+        lrd: دولار ليبيري
+        lsl: لوتي ليسوتو
+        ltl: ليتاس ليتواني
+        lyd: دينار ليبي
+        mad: درهم مغربي
+        mdl: ليو مولدوفي
+        mga: أرياري مدغشقري
+        mkd: دينار مقدوني
+        mmk: كيات ميانماري
+        mnt: توغروغ منغولي
+        mop: باتاكا ماكاوية
+        mro: أوقية موريتانية
+        mur: روبي موريشي
+        mvr: روفيه مالديفية
+        mwk: كواشا ملاوية
+        mxn: بيزو مكسيكي
+        myr: رينغيت ماليزي
+        mzn: متكال موزمبيقي
+        nad: دولار ناميبي
+        ngn: نيرة نيجيرية
+        nio: كوردبا نيكاراغوا
+        nok: كرونة نروجية
+        npr: روبية نيبالية
+        nzd: دولار نيوزيلندي
+        omr: ريال عُماني
+        pab: بالبوا بنمي
+        pen: سول بيروفي جديد
+        pgk: كينا بابوا غينيا الجديدة
+        php: بيسو فلبيني
+        pkr: روبية باكستانية
+        pln: زلوتي بولندي[عدل]
+        pyg: غواراني باراغواي
+        qar: ريال قطري
+        ron: ليو روماني[عدل]
+        rsd: دينار صربي
+        rub: روبل روسي[عدل]
+        rwf: فرنك رواندي
+        sar: ريال سعودي
+        sbd: دولار جزر سليمان
+        scr: روبية سيشلية
+        sdg: جنيه سوداني
+        sek: كرونة سويدية
+        sgd: دولار سنغافوري
+        shp: جنيه سانت هيليني
+        sll: ليون سيراليوني
+        sos: شلن صومالي[عدل]
+        srd: دولار سورينامي
+        std: دوبرا ساو توميه وبرينسيب
+        svc: كولون
+        syp: ليرة سورية
+        szl: ليلانغيني سوازيلندي
+        thb: بات تايلاندي
+        tjs: ساماني طاجيكي
+        tmt: منات تركمانستاني
+        tnd: دينار تونسي
+        top: بانغا تونغي
+        try: ليرة تركية
+        ttd: دولار ترينيداد وتوباغو
+        twd: دولار تايواني جديد
+        tzs: شيلينغ تانزاني
+        uah: هريفنا أوكرانية
+        ugx: شيلينغ أوغندي
+        usd: دولار أمريكي
+        uyu: بيزو أوروغواي
+        uzs: سوم أوزبكستاني
+        vef: بوليفار فنزويلي
+        vnd: دونغ فيتنامي
+        vuv: فاتو فانواتي
+        wst: تالا ساموي
+        xaf: فرنك وسط أفريقي
+        xcd: دولار شرق الكاريبي
+        xof: فرنك غرب أفريقي
+        xpf: فرنك س ف ب
+        yer: ريال يمني
+        zar: راند جنوب أفريقي
+        zmw: كواشا زامبي
+      symbols:
+        aed: '%nد.إ'
+        afn: ؋%n
+        all: Lek%n
+        amd: '%ndram'
+        ang: ƒ%n
+        aoa: Kz%n
+        ars: $%n
+        aud: $%n
+        awg: ƒ%n
+        azn: ман%n
+        bam: KM%n
+        bbd: $%n
+        bdt: ৳%n
+        bgn: лв%n
+        bhd: '%n.د.ب'
+        bif: FBu%n
+        bmd: $%n
+        bnd: $%n
+        bob: $b%n
+        brl: R$%n
+        bsd: $%n
+        btn: Nu.%n
+        bwp: P%n
+        byr: p.%n
+        bzd: BZ$%n
+        cad: $%n
+        cdf: Fr%n
+        chf: CHF%n
+        clf: $%n
+        clp: $%n
+        cny: ¥%n
+        cop: $%n
+        crc: ₡%n
+        cup: ₱%n
+        cve: Esc%n
+        czk: Kč%n
+        djf: Fr%n
+        dkk: '%nkr'
+        dop: RD$%n
+        dzd: دج%n
+        eek: '%nkr'
+        egp: £%n
+        ern: Nfk%n
+        etb: Br%n
+        eur: €%n
+        fjd: $%n
+        fkp: £%n
+        gbp: £%n
+        gel: '%nlari'
+        ggp: £%n
+        ghc: ¢%n
+        ghs: GH₵%n
+        gip: £%n
+        gmd: D%n
+        gnf: Fr%n
+        gtq: Q%n
+        gyd: $%n
+        hkd: $%n
+        hnl: L%n
+        hrk: kn%n
+        htg: G%n
+        huf: '%nFt'
+        idr: Rp%n
+        ils: ₪%n
+        imp: £%n
+        inr: ₹%n
+        iqd: '%nد.ع'
+        irr: ﷼%n
+        isk: '%nkr'
+        jep: جنيه جيرزي
+        jmd: J$%n
+        jod: '%nدينار'
+        jpy: ¥%n
+        kes: Ksh%n
+        kgs: лв%n
+        khr: ៛%n
+        kmf: Fr%n
+        kpw: ₩%n
+        krw: ₩%n
+        kwd: د.ك%n
+        kyd: $%n
+        kzt: лв%n
+        lak: ₭%n
+        lbp: £%n
+        lkr: ₨%n
+        lrd: $%n
+        lsl: M%n
+        ltl: Lt%n
+        lvl: Ls%n
+        lyd: ل.د%n
+        mad: د.م.%n
+        mdl: '%nleu'
+        mga: Ar%n
+        mkd: ден%n
+        mmk: K%n
+        mnt: ₮%n
+        mop: MOP$%n
+        mro: UM%n
+        mur: ₨%n
+        mvr: Rf.%n
+        mwk: MK%n
+        mxn: $%n
+        myr: RM%n
+        mzn: MT%n
+        nad: $%n
+        ngn: ₦%n
+        nio: C$%n
+        nok: '%nkr'
+        npr: ₨%n
+        nzd: $%n
+        omr: ﷼%n
+        pab: B/.%n
+        pen: S/.%n
+        pgk: K%n
+        php: ₱%n
+        pkr: ₨%n
+        pln: zł%n
+        pyg: Gs%n
+        qar: ﷼%n
+        ron: lei%n
+        rsd: Дин.%n
+        rub: руб%n
+        rwf: FRw%n
+        sar: ﷼%n
+        sbd: $%n
+        scr: ₨%n
+        sdg: ج.س.‏%n
+        sek: '%nkr'
+        sgd: $%n
+        shp: £%n
+        sll: Le%n
+        sos: S%n
+        srd: $%n
+        std: Db%n
+        svc: $%n
+        syp: $%n
+        szl: E%n
+        thb: ฿%n
+        tjs: '%ncомонӣ'
+        tmt: T%n
+        tnd: د.ت%n
+        top: $%n
+        trl: ₤%n
+        try: ₤%n
+        ttd: TT$%n
+        tvd: $%n
+        twd: NT$%n
+        tzs: TSh%n
+        uah: ₴%n
+        ugx: USh%n
+        usd: $%n
+        uyu: $U%n
+        uzs: лв%n
+        vef: Bs%n
+        vnd: ₫%n
+        vuv: VT%n
+        wst: WS$%n
+        xaf: FCFA%n
+        xcd: $%n
+        xof: CFA%n
+        xpf: F%n
+        yer: ﷼%n
+        zar: R%n
+        zmw: ZK%n
+        zwd: Z$%n
+    defaultPageTitle: 
+    languages:
+      de-DE: 
+      en-US: 
+      es-ES: 
+      fr-FR: 
+      it-IT: 
+      ja-JP: 
+      zh-CN: 
+    loading: 
+    login: 
+    pages:
+      privacy_policy: 
+      tos: 
+    regions:
+      amer: 
+      apac: 
+      emea: 
+    register: 
+    social:
+      email: 
+    time:
+      dateFormat: 
+      daysOfWeek: 
+      shortDateFormat: 
+      shortDaysOfWeek: 
+    tooltips:
+      watch:
+        unwatch: 
+        watch: 
+      widget:
+        alerts: 
+        graph: 
+        info: 
+        social: 
+    unwatch: 
+    wallStreetRecommendations:
+      emptyCategory: 
+      missing: 
+      titles:
+        buy: 
+        hold: 
+        sell: 
+        strong_buy: 
+        strong_sell: 
+        unknown: 
+    watch: 
+  delete:
+    copy:
+      deleted: 
+      deleting: 
+      error: 
+    titles:
+      deleted: 
+      deleting: 
+      error: 
+  disclaimers:
+    main:
+      first: 
+      fourth: 
+      second: 
+      third: 
+    metrics: 
+    title: 
+    wallStreet: 
+    worth: 
+  explore:
+    all: 
+    biLine: 
+    categories:
+      big-and-cheap:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa
+          financial: large
+          market_value_usd: 50000+
+          valulation: low_pe
+        name: 
+      boring-businesses:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          rating: 1+
+          sector_code: '5110101011,5110101012,5210201013,5210201014,5210201015,5210201016,5210201017,5210203011,5210203012,5210203013,5210203014,5210203015,5210203016,5210203017,5220304020,5220301012,5310102013,5420102013,5420103018,5610102018,5610201016,5620104014,5710102010,5710102012,5710501013,5910301012'
+        name: 
+      cash-heavy:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa
+          financial: has_cash
+          market_value_usd: 500+
+          valuation: high_dividend
+        name: 
+      coffee-cake:
+        description: 
+        disclaimer: 
+        filters:
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5330102016,5410201015,5410201016,5410202014,5410202021,5410202022,5410202023'
+        name: 
+      gem-stones:
+        description: 
+        disclaimer: 
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5120101013,5120101014,5120101015'
+        name: 
+      going-nuclear:
+        description: 
+        disclaimer: 
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5030101010,5030101011,5030101012,5210204016,5220102022,5910101013,5910102013'
+        name: 
+      hated-by-wall-street:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa
+          market_value_usd: 500+
+          sentiment: hated
+        name: 
+      healthy-tech:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
+        name: 
+      land-and-sea:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa,cad
+          market_value_usd: 1000+
+          sector_code: '5110102010,5110102011,5110102012,5110102013,5110102014,5320201018,5410201010,5410201011,5410201012,5410201013,5410201014,5410201015,5410201016,5410201017,5410201018,5410201019,5410201020,5410201021,5410201022,5410201023,5410201024,5410201025,5410201026,5410201027,5410201028,5410201029,5410203011'
+        name: 
+      legal-eagles:
+        description: 
+        disclaimer: 
+        filters:
+          market_value_usd: 50+
+          rating: 1+
+          region: amer
+          sector_code: '5220304011,5220304012,5220307015,5420103012,5420103013'
+        name: 
+      renewables:
+        description: 
+        disclaimer: 
+        filters:
+          rating: 3+
+          region: amer
+          sector_code: '5020101010,5020101011,5020101012,5020101013,5020101014,5020101015,5020101016,5020101017,5020101018,5020101019,5020101020,5020102010,5020102011,5020102012,5020102013,5020102014,5020102015,5910101011,5910102012'
+        name: 
+      ship-it:
+        description: 
+        disclaimer: 
+        filters:
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5010303014,5210205010,5210205011,5210205012,5320502011,5240502010,5240502011,5240502012,5240502013,5240602014,5240702010,5240702011,5240702012,5240702013'
+        name: 
+      space-race:
+        description: 
+        disclaimer: 
+        filters:
+          market_value_usd: 100+
+          sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
+        name: 
+      sporting-outdoors:
+        description: 
+        disclaimer: 
+        filters:
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
+        name: 
+      taking-it-easy:
+        description: 
+        disclaimer: 
+        filters:
+          market_value_usd: 10000+
+          sector_code: '5550104010,5550104011,5550104012'
+        name: 
+      tech-titans:
+        description: 
+        disclaimer: 
+        filters:
+          financial: large
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5710101010,5710101011,5710101012,5710101013,5710101014,5710101015,5710102010,5710102011,5710102012,5710102013,5710201010,5710201011,5710201012,5710201013,5710201014,5710201015,5710201016,5710201017,5710501010,5710501011,5710501012,5710501013,5710501014,5710501015,5710401010,5710401011,5710401012,5710401013,5710401014,5710601010,5710601011,5710601012,5710601013,5710601014,5710601015,5710601016,5710601017,5710601018,5710601019,5710602010,5710602011,5710602012,5710602013,5710602014,5710602015,5710603010,5710603011,5710603012,5710603013,5710603014,5720101010,5720101011,5720101012,5720101013,5720101014,5720101015,5720102010,5720102011,5720102012,5720102013,5720102014,5720102015,5720102016,5720102017,5720103010,5720103011,5720103012,5720103013,5720103014,5720103015,5720103016'
+        name: 
+      thirsty:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5220102018,5410103014,5910301010,5910301011,5910301012,5910301013'
+        name: 
+      timber:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa,cad
+          market_value_usd: 100+
+          rating: 2+
+          sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
+        name: 
+      time-online:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5720103010,5720103011,5720103012,5720103013'
+        name: 
+      vice-not-nice:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5210101011,5330102011,5330103010,5330103011,5330103012,5330103013,5330203016,5340309025,5410101010,5410101011,5410102010,5410102011,5410102012,5410102013,5430102013,5430102015'
+        name: 
+      young-and-old:
+        description: 
+        disclaimer: 
+        filters:
+          country: usa
+          market_value_usd: 1000+
+          rating: 2+
+          sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
+        name: 
+    filters: 
+    pageDescription: 
+    pageTitle: 
+    popular: 
+  filterBar:
+    company_tags:
+      descriptions:
+        growing: 
+        has_cash: 
+        high_growth: 
+        large: 
+        pays_dividends: 
+        profitable: 
+        small: 
+        turning_profitable: 
+      titles:
+        default: 
+        filters:
+          growing: 
+          has_cash: 
+          high_growth: 
+          large: 
+          pays_dividends: 
+          profitable: 
+          small: 
+          turning_profitable: 
+    country:
+      titles:
+        default: 
+    country_currency:
+      categories:
+        country: 
+        currency: 
+        regions: 
+      titles:
+        default: 
+    direction:
+      descriptions:
+        near_high: 
+        near_low: 
+        negative: 
+        positive: 
+      titles:
+        default: 
+        filters:
+          near_high: 
+          near_low: 
+          negative: 
+          positive: 
+    metrics:
+      cheaper:
+        description: 
+        title: 
+      dividends:
+        description: 
+        title: 
+      high_growth:
+        description: 
+        title: 
+      profitable:
+        description: 
+        title: 
+      title: 
+      upside:
+        description: 
+        title: 
+    opinion:
+      titles:
+        default: 
+    order:
+      ascending: 
+      descending: 
+      orders:
+        latest_market_value_usd: 
+        latest_price: 
+        latest_rating: 
+    panel:
+      description: 
+      title: 
+    sector:
+      titles:
+        default: 
+    sectors: 
+    sentiment:
+      descriptions:
+        hated: 
+        loved: 
+        unknown: 
+      titles:
+        default: 
+        filters:
+          hated: 
+          loved: 
+          unknown: 
+    style:
+      descriptions:
+        growth: 
+        quality: 
+        value: 
+      titles:
+        default: 
+        filters:
+          growth: 
+          quality: 
+          value: 
+    valuation:
+      descriptions:
+        high_dividend: 
+        low_book_value: 
+        low_operating_profit: 
+        low_pe: 
+        low_sales: 
+      titles:
+        default: 
+        filters:
+          high_dividend: 
+          low_book_value: 
+          low_operating_profit: 
+          low_pe: 
+          low_sales: 
+  forgot:
+    buttons:
+      forgot: 
+    copy:
+      explanation: 
+    errors:
+      '404': 
+      '500': 
+    og:
+      description: 
+      title: 
+    pageTitle: 
+    prompt:
+      question: 
+      register: 
+    titles:
+      forgot: 
+      sent: 
+  header:
+    buttons:
+      about: 
+      alerts: 
+      explore: 
+      filters: 
+      guestWatched: 
+      ideas: 
+      search: 
+      watchlist: 
+  home:
+    explore:
+      link: 
+      title: 
+    pageDescription: 
+    pageTitle: 
+    sector:
+      link: 
+      title: 
+  landing:
+    explore:
+      content:
+        copy: 
+        line: 
+        point: 
+        title: 
+    feed:
+      content:
+        copy: 
+        point: 
+        title: 
+    introduction:
+      content:
+        copy: 
+        cta: 
+        point: 
+        title: 
+      menu:
+        search: 
+        skip: 
+      stats:
+        analyzed: 
+        countries: 
+        stocks: 
+      tease: 
+    mobile:
+      content:
+        copy: 
+        title: 
+    opinion:
+      bubbles:
+        buy: 
+        hold: 
+        sell: 
+      content:
+        copy: 
+        point: 
+        title: 
+    pageTitle: 
+    question:
+      content:
+        copy: 
+        title: 
+    rating:
+      content:
+        copy: 
+        point: 
+        reveal:
+          notRevealing: 
+          revealing: 
+        title: 
+      ratings:
+        cheaper: 
+        dividends: 
+        growth: 
+        profitable: 
+        upside: 
+    register:
+      content:
+        copy: 
+        skip: 
+        title: 
+  login:
+    buttons:
+      forgot: 
+      loading: 
+      login: 
+      resetOtp: 
+      social_login: 
+    descriptions:
+      mfa: 
+    errors:
+      '401': 
+      '500': 
+      mfa:
+        '401': 
+        '500': 
+    flash:
+      success: 
+    og:
+      description: 
+      title: 
+    pageTitle: 
+    prompt:
+      mfaInfo: 
+      question: 
+      register: 
+    titles:
+      login: 
+      mfa: 
+      social: 
+  onboard:
+    controls:
+      complete: 
+      next: 
+      prev: 
+      skip: 
+    subtitles:
+      pick: 
+      register: 
+      watchlist: 
+    titles:
+      pick: 
+      register: 
+      watchlist: 
+    watchlist:
+      reasons:
+        alerts: 
+        analysis: 
+        multiples: 
+        unlimited: 
+  recover:
+    buttons:
+      recover: 
+    copy:
+      explanation: 
+      link: 
+    errors:
+      '400': 
+      '403': 
+    og:
+      description: 
+      title: 
+    pageTitle: 
+    prompt:
+      question: 
+      register: 
+    titles:
+      recover: 
+      sent: 
+  recoverMfa:
+    buttons:
+      recover: 
+    copy:
+      explanation: 
+      link: 
+    errors:
+      '400': 
+      '403': 
+    og:
+      description: 
+      title: 
+    pageTitle: 
+    prompt:
+      login: 
+      question: 
+    titles:
+      recover: 
+      recovered: 
+  register:
+    buttons:
+      loading: 
+      register: 
+    disclaimer: 
+    flash:
+      success: 
+    og:
+      description: 
+      title: 
+    pageTitle: 
+    prompt:
+      login: 
+      question: 
+    success:
+      cta: 
+      loopback: 
+      title: 
+    titles:
+      join: 
+  resetMfa:
+    buttons:
+      reset: 
+    copy:
+      explanation: 
+    errors:
+      '404': 
+      '500': 
+    og:
+      description: 
+      title: 
+    pageTitle: 
+    prompt:
+      login: 
+      question: 
+    titles:
+      reset: 
+      sent: 
+  search:
+    none:
+      link: 
+      title: 
+    pageTitle: 
+    placeholder: 
+    searching:
+      description: 
+      title: 
+    searchingTitle: 
+    title: 
+  settings:
+    buttons:
+      apply: 
+      delete: 
+      disableMfa: 
+      enableMfa: 
+      loading: 
+    descriptions:
+      currency: 
+      delete: 
+      error: 
+      language: 
+      location: 
+      mfaDisable: 
+      mfaDisabled: 
+      mfaEnable: 
+      mfaEnabled: 
+    flash:
+      delete: 
+      deleteError: 
+      deleteInitiated: 
+      updated: 
+    groups:
+      password: 
+    pageTitle: 
+    titles:
+      danger: 
+      header: 
+      mfa: 
+  stock:
+    buttons:
+      oneMonth: 
+      oneWeek: 
+      threeMonths: 
+    cheaper:
+      cheaper:
+        explanation: 
+        title: 
+      expensive:
+        explanation: 
+        title: 
+    dividends:
+      forecastedDescription: 
+      latestDescription: 
+      title: 
+      yield: 
+    errors:
+      generic: 
+      loadError: 
+    graph:
+      price: 
+      volume: 
+    growth:
+      strong:
+        explanation: 
+        title: 
+      weak:
+        explanation: 
+        title: 
+    header:
+      actualChange: 
+      percentChange: 
+      price: 
+    information:
+      breakdown: 
+      competitors: 
+      description: 
+      results: 
+      statistics: 
+    inner:
+      description:
+        table:
+          name: 
+          sector: 
+          size: 
+        titles:
+          competitors: 
+          main: 
+      dividends:
+        titles:
+          competitors: 
+          forecast: 
+          main: 
+      growth:
+        titles:
+          comparison: 
+          growth: 
+          main: 
+          profit: 
+          sales: 
+      labels:
+        forecasted: 
+        historic: 
+      latest:
+        forecasted:
+          dividend: 
+          eps: 
+          profit: 
+          sales: 
+        titles:
+          epsForecast: 
+          gross: 
+          main: 
+          operating: 
+          roe: 
+          salesForecast: 
+      panel:
+        description: 
+        title: 
+      peers:
+        table:
+          dps: 
+          eps: 
+          growth: 
+          name: 
+          pe: 
+          rating: 
+          ric: 
+          upside: 
+        titles:
+          main: 
+      profitable:
+        titles:
+          epsForecast: 
+          main: 
+          profitForecast: 
+      stats:
+        data:
+          table:
+            cheaperOn: 
+            headers:
+              cheaper: 
+              competitors: 
+              stock: 
+            labels:
+              forecastedDividends: 
+              forecastedFcfYield: 
+              forecastedPe: 
+              forecastedSales: 
+              historicBookValue: 
+              historicDividends: 
+              historicEquity: 
+              historicPe: 
+              historicProfit: 
+              historicSales: 
+        market:
+          cash: 
+          debt: 
+          enterprise: 
+          market: 
+          price: 
+          profit: 
+          shares: 
+          value: 
+        titles:
+          debt: 
+          key: 
+          percent: 
+          ratio: 
+          unavailable: 
+          upside: 
+          valuations: 
+          warning: 
+        volumes:
+          daily: 
+          today: 
+      upside:
+        title: 
+      wallStreet:
+        titles:
+          competitors: 
+          main: 
+          oneMonth: 
+          oneWeek: 
+          recommendation: 
+          threeMonth: 
+          today: 
+      worth:
+        title: 
+    innerTypes:
+      description:
+        description: 
+        title: 
+      dividends:
+        description:
+          fallback: 
+          valid: 
+        title: 
+      growth:
+        description:
+          fallback: 
+          terms:
+            high: 
+            low: 
+          valid: 
+        title: 
+      latest:
+        description: 
+        title: 
+      peers:
+        description:
+          valid: 
+        title: 
+      profitable:
+        description:
+          fallback: 
+          valid: 
+        title: 
+      stats:
+        description:
+          terms:
+            cheaper: 
+            expensive: 
+          valid: 
+        title: 
+      upside:
+        description:
+          fallback: 
+          terms:
+            cheap: 
+            expensive: 
+          valid: 
+        title: 
+      wallStreet:
+        description:
+          fallback: 
+          terms:
+            downside: 
+            upside: 
+          valid: 
+        title: 
+      worth:
+        description:
+          fallback: 
+          terms:
+            gain: 
+            lose: 
+          valid: 
+        title: 
+    notification:
+      insufficientData: 
+      stale: 
+      updating: 
+      widgetUpdating: 
+    og:
+      description: 
+      title: 
+    priceChange:
+      down: 
+      price:
+        title: 
+      profitability:
+        epsToday: 
+        epsWas: 
+        forecastEpsWas: 
+        title: 
+      sentiment:
+        forecastPeWas: 
+        peToday: 
+        peWas: 
+        title: 
+      title: 
+      up: 
+    profitable:
+      forecastedDescription: 
+      latestDescription: 
+      title: 
+    ratings:
+      cheaper:
+        negative: 
+        positive: 
+      dividends:
+        negative: 
+        positive: 
+      high_growth:
+        negative: 
+        positive: 
+      profitable:
+        negative: 
+        positive: 
+      upside:
+        negative: 
+        neutral: 
+        positive: 
+        unknown: 
+    social:
+      email: 
+    stats:
+      fifty_two_week: 
+      industry: 
+      value: 
+    targetPrice:
+      decrease: 
+      description: 
+      equal: 
+      increase: 
+      recommendations:
+        buy: 
+        hold: 
+        sell: 
+        strong_buy: 
+        strong_sell: 
+      title: 
+    worth:
+      annotations:
+        annually: 
+        gain:
+          negative: 
+          positive: 
+        growth: 
+        value: 
+      copy:
+        absoluteGain:
+          negative: 
+          positive: 
+        gainPerYear:
+          negative: 
+          positive: 
+        relativeGain:
+          negative: 
+          positive: 
+        sevenYearGain:
+          negative: 
+          positive: 
+        value:
+          text: 
+      descriptions:
+        growth:
+          negative: 
+          positive: 
+        return: 
+      flash:
+        another: 
+        first: 
+      footnote: 
+      forecast:
+        title: 
+      inputs:
+        button: 
+        price: 
+        shares: 
+        watchlist: 
+      result:
+        title: 
+      title: 
+      titles:
+        growth: 
+        return: 
+      today:
+        description: 
+        submitNotWatching: 
+        submitWatching: 
+        title: 
+        unsaved: 
+  stocks:
+    apply: 
+    matches: 
+    messages:
+      loadMore: 
+      loading: 
+      noMatches: 
+      noMoreMatches: 
+    og:
+      description: 
+      title: 
+    reset: 
+  tooltip:
+    acronyms:
+      dps: 
+      eps: 
+      growth: 
+      pe: 
+      rating: 
+      ric: 
+    explanations:
+      downside: 
+      dps: 
+      eps: 
+      pe: 
+      recommendation: 
+      upside: 
+  user:
+    fields:
+      confirmPassword: 
+      currency: 
+      email: 
+      language: 
+      location: 
+      mfa: 
+      name: 
+      otpA: 
+      otpB: 
+      otpC: 
+      otpD: 
+      otpE: 
+      otpF: 
+      password: 
+    messages:
+      language: 
+    options:
+      logout: 
+      settings: 
+    validation:
+      email:
+        required: 
+        validity: 
+      name:
+        validity: 
+      otp:
+        length: 
+        required: 
+      password:
+        mismatch: 
+        required: 
+        tooLong: 
+        tooShort: 
+  watchlist:
+    actualChange: 
+    breakdown: 
+    create:
+      button: 
+      fields:
+        name: 
+      points:
+        infinite:
+          subtitle: 
+          title: 
+        monitor:
+          subtitle: 
+          title: 
+        positions:
+          subtitle: 
+          title: 
+      subtitle: 
+      title: 
+    defaultName: 
+    footnote: 
+    pageDescription: 
+    pageTitle: 
+    percentChange: 
+    portfolioTable:
+      difference: 
+      forecastGrowth: 
+      gain: 
+      name: 
+      price: 
+      projected: 
+      purchased: 
+      sevenYears: 
+      shares: 
+      total: 
+      usValue: 
+      value: 
+    projected: 
+    summary:
+      summaries:
+        gain:
+          notWatchingStocks: 
+          projectedGain: 
+          projectedValue: 
+        opinion:
+          notWatchingStocks: 
+          stars: 
+          ws: 
+      titles:
+        alerts: 
+        gain: 
+        opinion: 
+    wallStreet:
+      title: 
+      upside:
+        missing: 
+        text: 
+    warningSubtitle: 
+    warningTitle: 
+    watching: 
+    watchingPhrase: 
+    worth: 
+  watchlists:
+    delete: 
+    pageTitle: 
+    titles:
+      actual: 
+      change: 
+      count: 
+      mover: 
+      rating: 
+      stocks: 
+      worth: 

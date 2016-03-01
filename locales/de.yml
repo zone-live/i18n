@@ -1,13 +1,15 @@
 de:
   about:
-    disclaimer: Stockflare stellt Informationen zur Verfügung, keine Ratschläge. Stockflare gibt keine Empfehlungen aus. Jede Referenz von "Kaufen", "Verkaufen", "Halten" oder das "Kursziel" für Aktien reflektieren die Sicht des Wall Street Consens.
-    from: Kursdaten von
+    disclaimer: Stockflare stellt Informationen zur Verfügung, keine Ratschläge. Stockflare gibt keine Empfehlungen aus. Jede Referenz von "Kaufen", "Verkaufen", "Halten" oder das "Kursziel" für Aktien reflektieren die Sicht der Wall Street Meinung.
+    from: Daten von
     links:
       about: Über uns
       blog: Blog
       faq: FAQ
       jobs: Karriere
-      my: 
+      landing: Zum ersten Mal hier?
+      learn: Lernen
+      playground: Spielplatz
       privacy: Datenschutz
       tos: Servicebedinungen
     pricingData: Alle Kursdaten vom gestrigen Schlusskurs.
@@ -41,7 +43,7 @@ de:
       upside:
         positive: Stern wegen einer Steigerung des Kursziels um %latest_upside verdient.
       volume:
-        negative: Abnormal hohes Tradingvolumen.
+        negative: Ungewöhnlich hohes Tradingvolumen.
     pageTitle: Meine Alarme
     timeAgo: vor %n Stunden
   appender:
@@ -96,7 +98,7 @@ de:
       cck: Kokosinseln
       che: Schweiz
       chl: Chile
-      chn: Kina
+      chn: China
       civ: Elfenbeinküste
       cmr: Kamerun
       cod: Demokratische Republik Kongo
@@ -411,7 +413,7 @@ de:
         omr: Omanischer Rial
         pab: Panamaischer Balboa
         pen: Nuevo Sol
-        pgk: Kina
+        pgk: Papua-Neuguinea
         php: Philippinischer Peso
         pkr: Pakistanische Rupie
         pln: Złoty
@@ -628,8 +630,13 @@ de:
         zwd: Z$%n
     defaultPageTitle: Einfach Aktien finden
     languages:
-      en-US: Englisch
-      fr-FR: Französisch
+      de-DE: Deutsch
+      en-US: English
+      es-ES: Español
+      fr-FR: Français
+      it-IT: Italiano
+      ja-JP: 日本語
+      zh-CN: 中文
     loading: Ladevorgang...
     login: Login
     pages:
@@ -678,7 +685,7 @@ de:
         buy: Kaufen
         hold: Halten
         sell: Verkaufen
-        strong_buy: Klarer Kaud
+        strong_buy: Klarer Kauf
         strong_sell: Klarer Verkauf
         unknown: Nicht verfügbar
     watch: Speichern
@@ -691,12 +698,23 @@ de:
       deleted: Account gelöscht
       deleting: Account löschen...
       error: Ein Fehler ist aufgetreten
+  disclaimers:
+    main:
+      first: Stockflare stellt Informationen zu Verfügung. Wir geben werder Ratschläge, noch Empfehlungen ab. Wir sind ein Werkzeug zur Recherche für selbsttätige Investoren.
+      fourth: Stockflares 5 Star-Rating bietet eine Möglichkeit, um die Qualität jeder Gruppe von Aktie zu vergleichen. Sie berücksichtigen Dividende, Wachstum, Wert und die Meinung der "Wall Street". Wir betonen, dieses ist ein Qualitätsparameter und Recherchewerkzeug, keine expliziten oder impliziten Empfehlungen.
+      second: Stockflare bezieht seine Daten von Thomson Reuters, einer der führenden Daten-Provider der Finanzindustrie.
+      third: Wir zeigen Ihnen die Prognosen und Empfehlungen der "Wall Street". Diese beinhalten Empfehlungen wie "Kaufen", "Verkaufen", "Halten" und "Kursziele" für Aktien. Wie viele andere Services, die Informationen zur Verfügung stellen, stimmt Stockflare diesen Prognosen nicht explizit zu. Leider gibt es keine zu 100 Prozent richtigen Daten für die Zunkunft. Weiters sind die Sichtweisen der Wall Street subjektiv, nicht objektiv.
+    metrics: Das Star Rating entählt Profitabilität, Dividenten, Wachstum, Wert und Meinung der "Wall Street". Es bietet keine Empfehlung, sondern eine Möglichkeit, die Qualität von Aktien zu vergleichen und Risiken hervorzuheben.
+    title: Zeit fürs Rechtliche!
+    wallStreet: Diese Tabelle zeigt Ihnen die Wertsteigerung zum Kursziel und Empfehlung der "Wall Street" in Ihrer Watchlist. Es gibt keine 100 Prozent richtigen Daten für die Zukunft, deshalb beruhen diese Empfehlungen auf einer subjektiven Analyse, keiner objektiven. Stockflare unterstützt die Sichtweisen der "Wall Street" nicht. Wir präsentieren lediglich die Daten, damit Sie erkennen können, welches Gefühl die Experten für bestimmte Aktien ausdrücken.
+    worth: Diese Tabelle kombiniert langfristige Gewinnprognose, die prognostizierte Dividendenrendite und eine Rückkehr zum Mittelwert des prognostiziertem Kurs-Gewinn-Verhältnis. Daher basieren diese Zahlen auf einer subjektiven Analyse von Experten. Stockflare unterstützt die Sichtweisen der "Wall Street" nicht. Wir präsentieren lediglich die Daten, damit Sie erkennen können, wie das allgemeine Gefühl zu bestimmten Aktien steht. Es gibt keine 100 Prozent richtigen Daten für die Zukunft. Wenn die Prognosen der Experten falsch sind, können sich die tatsächlichen Daten wesentlich unterscheiden.
   explore:
     all: Alle Aktien
     biLine: Brauchen Sie Inspiration?
     categories:
       big-and-cheap:
         description: Es gibt viele große Unternehmen mit tollen Marken, die von Inverstoren ignoriert werden. Vielleicht erwiedern sie den gefallen eines Tages?
+        disclaimer: 'Die Aktien aus "Big and Cheap" werden laut folgenden Filtern ausgewählt: "Vereinigte Staaten", "Martkapitalisierung über $50 Mrd. USD", "Billiger als die Konkurrenz laut Kurs-Gewinn-Verhältnis".'
         filters:
           country: usa
           financial: large
@@ -705,6 +723,7 @@ de:
         name: Big & Cheap
       boring-businesses:
         description: Wer sagt, dass Sie in die nächste heiße Aktie investieren müssen? Stellen Sie sich vor, Sie sprechen mit Ihren Freunden über Farben, Kunststoff und Kugellager, Abwasser oder Hygieneartikel. Es gibt Prüfungsfirmen, veterenärmedizinische Unternehmen und Bestattungsunternehmen. Werfen Sie einen Blick darauf!
+        disclaimer: 'Die Aktien aus "Langweilige Unternehmen" werden laut folgenden Filtern ausgewählt: "Vereinigte Staaten", "Marktkapitalisierung über $1 Mrd. USD", "Zumindest 1 Star im Star-Rating", "Aus einem der folgenden Sektoren: Farbe, Kunststoff, Batterien, Kugellager, Abwasser, Hygieneprodukte, Prüfungsgesellschaft, Veterinärmedizin, Bestattungsinstitut".'
         filters:
           country: usa
           market_value_usd: 1000+
@@ -713,6 +732,7 @@ de:
         name: Langweilige Unternehmen
       cash-heavy:
         description: Es gibt ein paar Unternehmen da draußen, die keine Schulden haben und damit beschäftigt sind, den ganzen generierten Cashflow an ihre Aktionäre auszuzahlen. Sind diese beides, Cash Cows und "Cash Heavy"?
+        disclaimer: 'Die Aktien aus "Cash Heavy" werden laut folgenden Filtern ausgewählt: "Vereinigte Staaten", "Marktkapitalisierung über $500 Mio. USD", "'
         filters:
           country: usa
           financial: has_cash
@@ -721,6 +741,7 @@ de:
         name: Cash Heavy
       coffee-cake:
         description: Investieren Sie in die kleinen Freuden des Lebens. Ohne es mit dem Zucker zu übertreiben und die Schuld zu tragen.
+        disclaimer: 'Die Aktien aus "Kaffee & Kuchen" werden laut folgenden Filtern ausgewählt: "Weltweit", "Marktkapitalisierung über $500 Mio. USD", "Zumindest 2 Stars im Star-Rating" "Aus einem der folgenden Sektoren: Kaffeehäuser, Kaffee- und Zuckerrohranbau, Backwerkfabriken, Süßstoffe und Konditoren-Kunst".'
         filters:
           market_value_usd: 500+
           rating: 2+
@@ -728,6 +749,7 @@ de:
         name: Kaffee & Kuchen
       gem-stones:
         description: Sind Diamanten der beste Freund eines Investors? Diamanten, Edelsteine, Perltaucher. All diese sind Möglichkeiten, um den investor zu blenden.
+        disclaimer: 'Die Aktien in "Edelsteine" werden laut folgenden Filtern ausgewählt: "Weltweit", "Marktkapitalisierung über $100 Mio. USD", "Zumindest 1 Star im Star-Rating", Aus einem der folgenden Sektoren: Diamantminen, Halbedelsteine, Perlen".'
         filters:
           market_value_usd: 100+
           rating: 1+
@@ -735,6 +757,7 @@ de:
         name: Edelsteine
       going-nuclear:
         description: Atomenergie ist kaum sauber, aber in der post-Öl Welt kämpft sie mit erneuerbarer Energie, um den Planeten zu versorgen.
+        disclaimer: 'Die Aktien in "Portfolios, die Atome spalten" werden laut folgenden Filtern ausgewählt: "Weltweit", "Marktkapitalisierung über $100 Mio. USD", "Zumindest 1 Star im Star-Rating", Aus einem der folgenden Sektoren: Uran, Nuklearbauteile & -bauprojekte, Nuklearanlagen".'
         filters:
           market_value_usd: 100+
           rating: 1+
@@ -742,6 +765,7 @@ de:
         name: Portfolios, die Atome spalten
       hated-by-wall-street:
         description: Wenn Sie einer dieser Zyniker sind, die der Wall Street so viel Vertrauen schenken, wie einer Postkastenfirma auf den Caymans, was wäre besser für Sie, als in Aktien zu investieren, die von der Wall Street gehasst werden?
+        disclaimer: 'Die Aktien in "Von der Wall Street gehasst" werden duch folgende Filter ausgewählt: "Vereinigte Staaten", "Marktkapitalisierung über $500 Mio. USD", "Expertenmeinung der Aktienbroker entweder "Verkauf" oder "Klarer Verkauf".'
         filters:
           country: usa
           market_value_usd: 500+
@@ -749,6 +773,7 @@ de:
         name: Von der Wall Street gehasst
       healthy-tech:
         description: Biotech Unternehmen machen wundervolle Fortschritte. Und das jeden Tag. Warum unterstüzen Sie nicht die Wissenschaftler, die die schwierigsten Probleme der Medizin lösen?
+        disclaimer: 'Die Aktien in "Gesunde Technologie" werden duch folgende Filter ausgewählt: "Vereinigte Staaten", "Marktkapitalisierung über $1 Mrd. USD", "Aus einem der folgenden Sektoren: Biopharmazeutika, Biotechnologie oder medizinische Forschung".'
         filters:
           country: usa
           market_value_usd: 1000+
@@ -756,6 +781,7 @@ de:
         name: Gesunde Technologie
       land-and-sea:
         description: Wir müssen alle essen, oder? Es gibt viele Unternehmen, die in der Landwirtschaft tätig sind. Von Farmern bis zu den Typen, die die Maschinen bauen und die Pestizide entwickeln. Hier sind die amerikanischen "Big Player".
+        disclaimer: 'Die Aktien in "Zu Land und zu Wasser" werden durch folgende Filter ausgewählt: "Vereinigte Staaten & Kanada", "Marktkapitalisierung von über $1 Mrd. USD", "Aus einem der folgenden Sektoren: Landwirtschaftliche Chemikalien, Baumwollanbau, Fischfang & Landwirtschaft, Tabakanbau".'
         filters:
           country: usa,cad
           market_value_usd: 1000+
@@ -763,6 +789,7 @@ de:
         name: Zu Land und zu Wasser
       legal-eagles:
         description: Anwälte und Buchhalter bringen Kosten mit sich. In die können Sie auch investieren!
+        disclaimer: 'Die Aktien in "Für Recht und Ordnung" werden durch folgende Filter ausgewählt: "Nord- und Südamerika", Marktkapitalisierung über $50 Mio. USD", "Zumindest 1 Star im Star-Rating", "Aus einem der folgenden Sektoren: Finanzbuchhaltung & Antwaltschaft oder Rechts- & Steuerinformationsdienstleister".'
         filters:
           market_value_usd: 50+
           rating: 1+
@@ -771,13 +798,15 @@ de:
         name: Für Recht und Ordnung
       renewables:
         description: Wenn Sie in die post-Öl Welt investieren wollen, gibt es viele, viele Unternehmen die im Sektor der erneuerbaren Energie tätig sind. Ihre Technologien reichen von Wind- und Solar- bis zu Wasserkraft. Hier ist eine Liste der größten dieser Unternehmen auf dem amerikanischen Kontinent.
+        disclaimer: 'Die Aktien in "Nachhaltiges Investment" werden laut folgenden Filtern ausgewählt: "Nord- & Südamerika", "Mindestens 3 Stars im Star-Rating" "Aus einem der folgenden Sektoren: Erneuerbare Energie, Erneuerbare Versorger".'
         filters:
           rating: 3+
           region: amer
           sector_code: '5020101010,5020101011,5020101012,5020101013,5020101014,5020101015,5020101016,5020101017,5020101018,5020101019,5020101020,5020102010,5020102011,5020102012,5020102013,5020102014,5020102015,5910101011,5910102012'
-        name: Die Erneuerbaren
+        name: Nachhaltiges Investment
       ship-it:
         description: Große Mengen an Waren sind nur mit dem Schiff zu transportieren. Sie können in Yachten ebenso wie in riesige Frachtschiffe investieren.
+        disclaimer: 'Die Aktien in "Schiffen" werden laut folgenden Filtern ausgewählt: "Weltweit", "Marktkapitalisierung über $500 Mio. USD", "Mindestens 1 Star im Star-Rating", "Aus einem der folgenden Sektoren: Ozeantanker, Schiffsbau, Seefracht & -logistik, Yachten & Motorboote, Hafengesellschaften".'
         filters:
           market_value_usd: 500+
           rating: 1+
@@ -785,12 +814,14 @@ de:
         name: Schiffen
       space-race:
         description: 'Für Kriegsfanatiker: Es gibt Raketen- und Satellitenproduzenten. Und Unternehmen, die sich auf Satelliten verlassen, um Ihr Geschäft am Laufen zu halten.'
+        disclaimer: 'Die Aktien in "Wettlauf zum Mond" werden laut folgenden Filtern ausgewählt: "Weltweit", "Marktkapitalisierung über $100 Mio. USD", "Aus einem der folgenden Sektoren: Satelliten- & Raumschiffproduzenten, Satellitennetzwerke & Navigation, Satellitenbetreiber".'
         filters:
           market_value_usd: 100+
           sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
         name: Wettlauf zum Mond
       sporting-outdoors:
         description: Sie können auch eine Sportmannschaft am Aktienmarkt unterstützen. Oder auch einfach ihre Teamfarben tragen.
+        disclaimer: 'Die Aktien in "Sport ist gesund" werden laut folgenden Filtern ausgewählt: "Weltweit", "Mindestens 1 Star im Star-Rating", "Aus einem der folgenden Sektoren: Outdoor-Bekleidung, Outdoor-Produkte, Fitnessstudios, Ski-Resorts, Sportstätten, Golfanlagen, Sportfachhandel, Outdoor-Einzelandel".'
         filters:
           market_value_usd: 100+
           rating: 1+
@@ -798,12 +829,14 @@ de:
         name: Sport ist gesund (fürs Portfolio).
       taking-it-easy:
         description: Wer sagt, dass Sie Aktien selektieren müssen, um gut zu investieren? Sie könnten auch immer einen ETF, einen sogenannten Excange Traded Fund auswählen. Die meisten ETFs stellen berühmte Indizes nach. So performen Sie so gut wie der Markt, auch, wenn Sie ihn nicht schlagen können!
+        disclaimer: Die Auswahl in "Der einfache Weg" beinhaltet alle ETFs (exchange traded funds) mit einer Marktkapitalisierung von über $10 Mrd. USD.
         filters:
           market_value_usd: 10000+
           sector_code: '5550104010,5550104011,5550104012'
         name: Der einfache Weg
       tech-titans:
         description: Wenn die Technologie "die Welt auffrisst", gibt es ein paar ausgewählte Unternehmen, die sich ihre Mahlzeit schmecken lassen.
+        disclaimer: 'Die Aktien in "Tech Titanen" werden laut folgenden Filtern ausgewählt: "Weltweit", "Marktkapitalisierung über $10 Mrd. USD", "Mindestens 1 Star im Star-Rating", "Aus einem der folgenden Sektoren: Technologie".'
         filters:
           financial: large
           market_value_usd: 10000+
@@ -812,6 +845,7 @@ de:
         name: Tech-Titanen
       thirsty:
         description: Ein paar Dinge sind so wichtig, wie Trinkwasser. Wenn die Bevölkerung zunimmt, sollte es auch die Nachfrage.
+        disclaimer: 'Die Aktien in "Durstig?" werden laut folgenden Filtern ausgewählt: "Vereinigte Staaten", "Mindestens 1 Star im Star-Rating", "Aus einem der folgenden Sektoren: Wasser- & Abwasserbau, Abgefülltes Wasser & Eis, Wasserversorger".'
         filters:
           country: usa
           market_value_usd: 500+
@@ -820,6 +854,7 @@ de:
         name: Durstig?
       timber:
         description: Wollen Sie in Wälder, Sägewerke oder die Bauholz-Branche investieren? Hier sind die besten Unternehmen in den USA und Kanada
+        disclaimer: 'Die Aktien in "Baum fällt!" werden laut folgenden Filtern ausgewählt: "Vereinigte Staaten & Kanada", "Marktkapitalisierung über $100 Mio. USD", "Mindestens 2 Star im Star-Rating", "Aus einem der folgenden Sektoren: Papier- & Waldprodukte, Holzboxen & Holzverpackungen, Papierverpackungen, Bauholz REITs (Real Estate Investment Trust)".'
         filters:
           country: usa,cad
           market_value_usd: 100+
@@ -828,6 +863,7 @@ de:
         name: Baum fällt!
       time-online:
         description: Seit das Internet mehr und mehr Fernsehzeit wegnimmt, stehen die führenden Unternehmen fest. Wollen Sie in Unternehmen investieren, die Sie verwenden?
+        disclaimer: 'Die Aktien in "Zeit online" werden laut folgenden Filtern ausgewählt: "Vereinigte Staaten", "Marktkapitalisierung über $10 Mrd. USD", "Mindestens 1 Star im Star-Rating", "Aus einem der folgenden Sektoren: Internet Service".'
         filters:
           country: usa
           market_value_usd: 10000+
@@ -836,6 +872,7 @@ de:
         name: Zeit online
       vice-not-nice:
         description: Ihre Moral vergessen? Wollen Sie in Drogen, Alkohol, Glücksspiel, Waffen und andere "Lieferanten der Untugend" investieren?
+        disclaimer: 'Die Aktien in "Lieferanten der Untugend" werden laut folgenden Filtern ausgewählt: "Vereinigte Staaten", "Marktkapitalisierung über $500 Mio. USD", "Mindestens 2 Star im Star-Rating", "Aus einem der folgenden Sektoren: Waffenerzeugung, Bars & Nachtclubs, Casinos & Glücksspiel, Pornografie, Brauereien & Destillereien, Bier- & Tabakhandel".'
         filters:
           country: usa
           market_value_usd: 500+
@@ -844,35 +881,37 @@ de:
         name: Lieferanten der Untugend
       young-and-old:
         description: Von Klamotten bis Spielzeug, ungeachtet des Alters. Es gibt Investmentmöglichkeiten für jeden.
+        disclaimer: 'Die Aktien in "Jung und Alt" werden laut folgenden Filtern ausgewählt: "Vereinigte Staaten", "Marktkapitalisierung über $1 Mrd. USD", "Mindestens 2 Star im Star-Rating", "Aus einem der folgenden Sektoren: Kinderbekleidung, Altenheime, Spielzeug, Kreuzfahrtschiffsgesellschaften, Kinder- & Teenager-Einzelhandel, Babynahrung, Produkte zur Geburtenkontrolle, Kinderbetreuung, Bestattungsunternehmen, Brillen & Kontaktlinesen, Langzeitpflege".'
         filters:
           country: usa
           market_value_usd: 1000+
           rating: 2+
           sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
         name: Jung & Alt
+    filters: Die Filter hinter %n
     pageDescription: Brauchen Sie ein wenig Inspiration? Stocklfare hat ein paar großartige Kategorien kreirt, um Ihnen beim Start zu helfen.
     pageTitle: Entdecken Sie Stockflare
-    popular: Die berühmtesten %n
+    popular: Die größten Aktien in %n
   filterBar:
     company_tags:
       descriptions:
-        growing: Umsatz & Gewinn pro Aktie steigt dieses Jahr voraussichtlich.
-        has_cash: Unternehmen mit mehr Cash und Investments als Schulden
-        high_growth: Voraussichtliches Gewinnwachstum höher als 16%, langfristig
-        large: Unternehmen, die mit mehr als 10 Mrd. USD bewertet werden.
+        growing: Umsatz & Gewinn pro Aktie steigen in diesem Jahr voraussichtlich.
+        has_cash: Unternehmen mit mehr liquiden Mitteln & Anlagen als Schulden.
+        high_growth: Prognostizierter Anstieg des Gewinns mehr als 16%, langfristig.
+        large: Unternehmen, die mit mehr als $10 Mrd. USD bewertet werden.
         pays_dividends: Unternehmen, die Dividenden zahlen.
         profitable: Letztes Jahr, dieses Jahr und voraussichtlich nächstes Jahr profitabel.
-        small: Unternehmen, die mit weniger als 1 Mrd. USD bewertet werden.
+        small: Unternehmen, die mit weniger als $1 Mrd. USD bewertet werden.
         turning_profitable: Prognostizierter Gewinn in diesem Jahr nach einem Verlust im letzten.
       titles:
         default: Geschäftskennzahlen
         filters:
           growing: Wachsend
-          has_cash: Hat Cash & Investments
+          has_cash: Liquidität & Anlagen
           high_growth: Nur stark wachsende Unternehmen
           large: Nur große Unternehmen
           pays_dividends: Nur Unternehmen, die Dividenden ausbezahlen
-          profitable: Zurzeit gewinnbringend
+          profitable: Schwarze Zahlen
           small: Nur kleine Unternehmen
           turning_profitable: In der Gewinnzone
     country:
@@ -889,8 +928,8 @@ de:
       descriptions:
         near_high: Aktien, die max. 5% vom 52W Hoch entfernt sind
         near_low: Aktien, die max. 5% vom 52W Tief entfernt sind
-        negative: Aktien mit niedrigerem Kurs als ihr 52W Hoch
-        positive: Aktien mit höherem Kurs als ihr 52W Hoch
+        negative: Aktien mit niedrigerem Kurs als ihr 10-Tages-Durchschnitt
+        positive: Aktien mit höherem Kurs als ihr 10-Tages-Durchschnitt
       titles:
         default: Kursrichtung
         filters:
@@ -898,6 +937,23 @@ de:
           near_low: Nahe dem 52W Tief
           negative: Negative Dynamik
           positive: Positive Dynamik
+    metrics:
+      cheaper:
+        description: Ist die Aktie billiger als die Konkurrenz?
+        title: Billig
+      dividends:
+        description: Zahlt das Unternehmen Dividenden aus?
+        title: Zahlt Dividenden aus
+      high_growth:
+        description: Wird von diesem Unternehmen erwartet, dass es schneller wächst als seine Konkurrenten?
+        title: Hohes Wachstum
+      profitable:
+        description: Schreibt das Unternehmen schwarze Zahlen?
+        title: Gewinnbringend
+      title: Fundamentalkennzahlen
+      upside:
+        description: Glaubt die Wall Street, dass die Aktie mehr wert ist, als der aktuelle Kurs?
+        title: Hat Upside
     opinion:
       titles:
         default: Investment-Stil
@@ -909,7 +965,7 @@ de:
         latest_price: Kurs
         latest_rating: Star Rating
     panel:
-      description: Sie können mehrer Filter aus den unteren Optionen auswählen, um Ihre perfekte Aktie zu finden.
+      description: Wählen Sie mehrere Filter von den Optionen unterhalb auswählen, um Ihre perfekte Aktie zu finden.
       title: Filter anwenden
     sector:
       titles:
@@ -946,20 +1002,11 @@ de:
           hated: Von der Wall Street gehasst
           loved: Von der Wall Street geliebt
           unknown: Unbekannt an der Wall Street
-    starRatings:
-      titles:
-        default: Star Rating
-        filters:
-        - 1 Star Aktien
-        - 2 Star Aktien
-        - 3 Star Aktien
-        - 4 Star Aktien
-        - 5 Star Aktien
     style:
       descriptions:
-        growth: Unternehmen, die langfristig schneller wachsen, als die Konkurrenz.
+        growth: Unternehmen, die langfristig schneller wachsen als die Konkurrenz.
         quality: Unternehmen, die billig sind, und von denen ein starkes Wachstum prognostiziert wird.
-        value: Unternehmen, die billiger als die Konkurrenz sind.
+        value: Aktien, die billiger sind, als die der Konkurrenten.
       titles:
         default: Investment Stil
         filters:
@@ -970,17 +1017,17 @@ de:
       descriptions:
         high_dividend: Billige Aktien, basierend auf ihrer Dividendenausschüttung
         low_book_value: Billige Aktien, gemessen am Inventarwert
-        low_operating_profit: Billige Aktien gemessen am EBIT
-        low_pe: Billige Aktien gemessen am Gewinn
+        low_operating_profit: Billige Aktien, gemessen am operativen Ergebnis.
+        low_pe: Billige Aktien, gemessen am Gewinn.
         low_sales: Billige Aktien gemessen am KUV
       titles:
         default: Wert
         filters:
           high_dividend: Dividende über 4%
           low_book_value: Unter dem Buchwert gehandelt
-          low_operating_profit: Weniger als 7x von EBIT
+          low_operating_profit: Kurs weniger als 7x operatives Ergebnis
           low_pe: KGV unter 10x
-          low_sales: KUV niedriger als 1x
+          low_sales: Kurs-Umsatz-Verhältnis niedriger als 1x
   forgot:
     buttons:
       forgot: Passwort zurücksetzen
@@ -1009,36 +1056,45 @@ de:
       ideas: Aktien suchen
       search: Suchen
       watchlist: Meine Watchlist
+  home:
+    explore:
+      link: Hier klicken, um alle Themes zu erkunden
+      title: Via Theme erkunden
+    pageDescription: Nach beliebiger Aktie auf der Welt suchen
+    pageTitle: Home
+    sector:
+      link: Hier klicken, um alle Aktien in %n zu sehen
+      title: Erkunden Sie die größten Aktien in %n
   landing:
     explore:
       content:
         copy: Jeder liebt es, neue Ideen und Technologien zu erforschen.
-        line: Bei Stockflare unseren Abschnitt erkunden zeigt Bestände in einer Weise, dass jeder benutzen kann.
-        point: Brillante Ideen sind nur einen Klick entfernt!
+        line: Dieser Abschnitt von Stockflare bietet Informationen, die jeder benutzen kann.
+        point: Recherchieren Sie und verbessern Sie ihre Art des Investierens.
         title: Ein neuer Weg zu erkunden
     feed:
       content:
         copy: Verwenden Sie unsere Filter und screenen Sie schnell tausende Aktien.
         point: Stockflare zeigt Ihnen die besten Aktien.
-        title: Verdrängen Sie den Lärm
+        title: Verdrängen Sie den lärm
     introduction:
       content:
         copy: Wählen Sie großartige Aktien für Ihr Portfolio aus.
-        cta: Starten Sie, 100% gratis
-        point: Verbessern Sie Ihre Art zu Investieren
+        cta: 100% gratis
+        point: Verbessern Sie Ihre Art zu investieren
         title: Einfach Aktien auswählen
       menu:
         search: Aktien suchen
         skip: Überspringen
       stats:
-        analyzed: Aktie analysiert
+        analyzed: analysierte Aktien
         countries: Länder
         stocks: 5 Star Aktien
       tease: Was ist Stockflare?
     mobile:
       content:
-        copy: Egal wo Sie sind, hat Stockflare eine mobile und Tablet-Version für Sie.
-        title: Portable aktien!
+        copy: Wo auch immer Sie sind, Stockflare lässt sich bequem dorthin mitnehmen.
+        title: Aktien zum Mitnehmen!
     opinion:
       bubbles:
         buy: Kaufen
@@ -1051,25 +1107,25 @@ de:
     pageTitle: Einfach Aktien suchen
     question:
       content:
-        copy: Investieren muss nicht kompliziert sein. Wir werten hunderte Daten von über 40.000 Aktien weltweit aus. Wir bewerten diese und stellen für jede Aktie Informationen zur Verfügung.
+        copy: Investieren muss nicht kompliziert sein. Wir werten hunderte verschiedene Daten von über 40.000 weltweiten Aktien aus, bewerten diese und stellen für jede Aktie die komprimierten, gefilterten Informationen zur Verfügung, die Sie benötigen.
         title: Was ist Stockflare?
     rating:
       content:
-        copy: Schwierig, neue Aktien zu suchen? Stockflare bietet Ihnen Star Ratings für jede Aktie weltweit.
-        point: Machen Sie kluge Entscheidungen. Schneller.
+        copy: Überwältigt von all den Begriffen, den Ihnen Finanzexperten an den Kopf werfen? Schalten Sie den Lärm um Sie herum aus und erhalten Sie Zugang zu den wichtigen Fakten.
+        point: Mühelos nach Aktien suchen. Verbessern Sie Ihre Art zu investieren.
         reveal:
           notRevealing: Entdecken Sie %n
-          revealing: '%n ist eine %n Star Aktie'
-        title: Suchen Sie Aktien mit Lichtgeschwindigkeit
+          revealing: '%n hat %n Stars im Star-Rating'
+        title: Suchen Sie Aktien in Lichtgeschwindigkeit
       ratings:
         cheaper: Billig oder teuer?
         dividends: Zahlt das Unternehmen Dividenden?
-        growth: Hat es hohes Wachstum?
+        growth: Hohes Wachstum?
         profitable: Ist es Profitabel?
         upside: Wie sieht die Wall Street Meinung aus?
     register:
       content:
-        copy: Registrieren Sie sich, um Ihre Aktien zu speichern und Alarme zu erhalten.
+        copy: Registrieren Sie sich jetzt, um Ihre Lieblingsaktien im Blick zu halten.
         skip: Zu den Aktien
         title: Bleiben Sie nicht in der Vergangenheit
   login:
@@ -1118,7 +1174,7 @@ de:
     watchlist:
       reasons:
         alerts: Erhalten Sie Alarme für Ihre Aktien
-        analysis: Sehen Sie, ob Ihr Portfolio in Ordnung ist
+        analysis: Zu den Schlüsselkennzahlen. Mit Lichtgeschwindigkeit!
         multiples: Sie können einfach mehrere Watchlists anlegen
         unlimited: Verfolgen Sie unbegrenzt viele Aktien
   recover:
@@ -1163,7 +1219,7 @@ de:
     buttons:
       loading: Account anlegen
       register: Registrieren Sie sich für Stockflare
-    disclaimer: Mit dem Verwenden unserer Website oder einem Klick hier '%n' akzeptieren Sie unsere
+    disclaimer: Mit dem Verwenden unserer Website oder einem Klick auf '%n' akzeptieren Sie unseren
     flash:
       success: Sie haben sich erfolgreich als %n registriert
     og:
@@ -1198,9 +1254,16 @@ de:
       reset: Zwei-Faktor-Authentifizierung zurücksetzen
       sent: Anfrage für das Zurücksetzen der Zwei-Faktor-Authentifizierung wurde gesendet
   search:
+    none:
+      link: Versuchen Sie stattdessen %n
+      title: Es konnten leider keine Aktien mit '%n' gefunden werden
     pageTitle: Suche
-    placeholder: Tippen Sie, um zu suchen...
+    placeholder: Nach Unternehmen oder Ticker suchen...
+    searching:
+      description: Eine Weltreise machen!
+      title: Über 45.000 Aktien durchsuchen
     searchingTitle: Suche nach %n
+    title: Nach %n suchen
   settings:
     buttons:
       apply: Änderungen anwenden
@@ -1234,7 +1297,7 @@ de:
     buttons:
       oneMonth: 1 Monat
       oneWeek: 1 Woche
-      threeMonths: 3 Wochen
+      threeMonths: 3 Monate
     cheaper:
       cheaper:
         explanation: '%t(pe){KGV} ist niedriger als das der Konkurrenz.'
@@ -1265,7 +1328,7 @@ de:
       percentChange: Prozentuelle Änderung
       price: Aktienkurs
     information:
-      breakdown: Analyse der Star Rating
+      breakdown: Star-Rating
       competitors: Konkurrenz
       description: Unternehmensbeschreibung
       results: Neueste Ergebnisse
@@ -1297,11 +1360,11 @@ de:
       latest:
         forecasted:
           dividend: Dividendenprognose
-          eps: Prognostiziertes Ergebnis pro Aktie
+          eps: Prognostizierte Aktienrendite
           profit: Prognostizierter Nettoprofit
           sales: Prognostizierter Umsatz
         titles:
-          epsForecast: Prognostiziertes Ergebnis pro Aktie und Dividendenrendite
+          epsForecast: Prognostizierter Gewinn je Aktie und Dividendenrendite
           gross: Bruttorendite (%) im Vergleich zu dem 5 größten Konkurrenten
           main: Neueste Ergebnisse
           operating: Rentabilität (%) im Vergleich zu dem 5 größten Konkurrenten
@@ -1317,14 +1380,14 @@ de:
           growth: Wachstum
           name: Unternehmen
           pe: KVG
-          rating: Rating
+          rating: Star-Rating
           ric: RIC
           upside: Upside
         titles:
           main: Konkurrenten
       profitable:
         titles:
-          epsForecast: Prognostiziertes Ergebnis pro Aktie (kurzfristig)
+          epsForecast: Prognostizierte Aktienrendite (kurzfristig)
           main: Profitabel
           profitForecast: Prognostizierter Gewinn (kurzfristig)
       stats:
@@ -1360,6 +1423,7 @@ de:
           key: Kennzahlen
           percent: Netto Finanzmittelbestand ist äquivalent zu %n der Börsenkapitalisierung
           ratio: Nettoschulden machen %n des operativen Gewinns aus
+          unavailable: Verschuldungsanalyse nicht verfügbar
           upside: Upside / Downside zum 52W Hoch/Tief
           valuations: Bewertungsmultiplikatoren
           warning: 'Achtung:'
@@ -1448,24 +1512,24 @@ de:
       description: Diese Aktie hat momentan ein Rating von %n. Mehr Informationen auf Stockflare.
       title: Information über %n auf Stockflare
     priceChange:
-      down: Niedriger
+      down: Down
       price:
         title: Kursänderung
       profitability:
-        epsToday: Heute ist er bei %n
-        epsWas: '%t(eps){Ergebnis pro Aktie} betrug %n.'
-        forecastEpsWas: Prognostiziertes %t(eps){Ergebnis pro Aktie} betrug %n.
+        epsToday: Momentan ist er bei %n
+        epsWas: Der %t(eps){GjA} betrug %n.
+        forecastEpsWas: Der prognostizierte %t(eps){GjA} betrug %n.
         title: Veränderung des Gewinns/Verlust
       sentiment:
-        forecastPeWas: Zukünftigen %t(pe){PE Ratio} war %nx
-        peToday: Heute beträgt es %nx so viel
+        forecastPeWas: Prognostiziertes %t(pe){KGV} war %nx.
+        peToday: Momentan beträgt es %nx.
         peWas: '%t(pe){KGV} was %n.'
         title: Eine Änderung des Gefühls der Investoren?
       title: Was bewirkt die Kursänderung?
-      up: Höher
+      up: Up
     profitable:
-      forecastedDescription: Prognostizierte %t(eps){Ergebnis pro Aktie}.
-      latestDescription: Neueste %t(eps){Ergebnis pro Aktie}.
+      forecastedDescription: Prognostizierter %t(eps){Gewinn je Aktie}.
+      latestDescription: Aktuellste %t(eps){Gewinn je Aktie}.
       title: Gewinnbringend?
     ratings:
       cheaper:
@@ -1497,11 +1561,11 @@ de:
       equal: Kein Unterschied
       increase: '%t(upside){Wertsteigerung}.'
       recommendations:
-        buy: Wall Streets %t(recommendation){Emfehlung} ist Kaufen.
-        hold: Wall Streets %t(recommendation){Emfehlung} ist Halten.
-        sell: Wall Streets %t(recommendation){Emfehlung} ist Verkaufen.
-        strong_buy: Wall Streets %t(recommendation){Emfehlung} ist Klarer Kauf.
-        strong_sell: Wall Streets %t(recommendation){Emfehlung} ist Klarer Verkauf.
+        buy: Wall Streets %t(recommendation){Empfehlung} ist Kaufen.
+        hold: Wall Streets %t(recommendation){Empfehlung} ist Halten.
+        sell: Wall Streets %t(recommendation){Empfehlung} ist Verkaufen.
+        strong_buy: Wall Streets %t(recommendation){Empfehlung} ist Klarer Kauf.
+        strong_sell: Wall Streets %t(recommendation){Empfehlung} ist Klarer Verkauf.
       title: Wall Street Kursziel
     worth:
       annotations:
@@ -1509,7 +1573,7 @@ de:
         gain:
           negative: Verlust über 7 Jahre
           positive: Gewinn über 7 Jahre
-        growth: Prognostizierte wachstum über 7 Jahre
+        growth: Prognostiziertes Wachstum innerhalb von 7 Jahren
         value: Gesamtwert in 7 Jahren
       copy:
         absoluteGain:
@@ -1528,9 +1592,12 @@ de:
           text: Aktien mit %n bewertet
       descriptions:
         growth:
-          negative: Aktueller Wert %n voraussichtlich um %n über einen Zeitraum von 7 Jahren zu verringern.
-          positive: Aktueller Wert %n voraussichtlich um %n über einen Zeitraum von 7 Jahren zu erhöhen.
+          negative: Der aktuelle Wert von %n wird in 7 Jahren voraussichtlich um %n gesunken sein.
+          positive: Der aktuelle Wert von %n wird in 7 Jahren voraussichtlich um %n gestiegen sein.
         return: Berechnet nach der Prognose langfristige Wachstum der Experten, Vorhersage Dividenden und die aktuelle Bewertung.
+      flash:
+        another: ''
+        first: '%n Aktien @ %n für %n hinzugefügt'
       footnote: Wir nehmen eine Wachstumsrate von 8% pro Jahr für die obrigen Berechnungen an.
       forecast:
         title: 'wird erwartet '
@@ -1544,12 +1611,12 @@ de:
       title: Was ist %n auf lange Zeit gesehen wert?
       titles:
         growth: Investitionswachstum
-        return: gewinnen über 7 Jahren
+        return: Gewinn laut 7-Jahres-Prognose
       today:
         description: Geben Sie bitte unten die Anzahl an Aktien ein
         submitNotWatching: Zur Watchlist hinzufügen
         submitWatching: Position auf der Watchlist aktualisieren
-        title: Heute besitze ich
+        title: Momentan besitze ich
         unsaved: Sie haben ungesicherte Änderungen vorgenommen
   stocks:
     apply: Filter anwenden
@@ -1566,18 +1633,18 @@ de:
   tooltip:
     acronyms:
       dps: Dividende pro Aktie
-      eps: Ertrag pro Aktie
+      eps: Gewinn je Aktie
       growth: Prognostiziertes langfristiges Wachstum
       pe: Kurs/Gewinn-Verhältnis
-      rating: Stockflare's Star Rating
+      rating: Star-Rating
       ric: Reuters Ticker Code
     explanations:
-      downside: 'Abweichung des aktuellen Aktienkurses vom Analysten Kursziel '
+      downside: Aktienbroker veröffentlichen den ihrer Meinung nach fairen Wert für eine Aktie, genannt Kursziel. Unser Datenservice errechnet die Durchschnittsmeinung dieser Experten. Hier zeigen wir die prozentuelle Wertverminderung zum Wall Street Kursziel. Achtung, es ist eine subjektive Meinung dieser Experten, keine objektive!
       dps: Ein Unternehmen zahlt Dividenden aus, wie eine Bank Zinsen bezahlt. Die Kennzahl "Dividende pro Aktie" zeigt an, wie viel Sie für jede Ihrer Aktien erhalten würden.
       eps: Der Gewinn eines Unternehmens gehöhrt seinen Aktionären. Die Kennzahl "Ertrag pro Aktie" zeigt an, wie viel Sie theoretisch für jede Ihrer Aktien erhlaten würden.
-      pe: Das KGV zeigt das Verhältnis zwischen Aktienkurs und dem "Ergebnis pro Aktie". Je höher diese Kennziffer ist, desto teurer ist die Aktie.
-      recommendation: Aktienbroker veröffentlichen Eine Kaufen/Halten/Verkaufen Empfehlung für jede Aktie, die sie Analysieren. Wir bieten Ihnen die durchschnittliche Empfehlung.
-      upside: Prozent, die das Kursziel vom momentanen Kurs entfernt liegt
+      pe: Das KGV zeigt das Verhältnis zwischen Aktienkurs und dem "Gewinn je Aktie". Je höher diese Kennziffer ist, desto teurer ist die Aktie.
+      recommendation: Aktienbroker veröffentlichen Eine Kaufen/Halten/Verkaufen Empfehlung für jede Aktie, die sie analysieren. Unser Datenprovider Thomson Reuters errechnet die "Durchschnittsempfehlung" der Experten. Diese ist eine guter Indikator für das Gefühl der Wall Street. Achtung, es ist eine subjektive Meinung, keine objektive!
+      upside: Aktienbroker veröffentlichen den ihrer Meinung nach fairen Wert für eine Aktie, genannt Kursziel. Unser Datenservice errechnet die Durchschnittsmeinung dieser Experten. Hier zeigen wir die prozentuelle Wertsteigerung zum Wall Street Kursziel. Achtung, es ist eine subjektive Meinung dieser Experten, keine objektive!
   user:
     fields:
       confirmPassword: Passwort bestätigen
@@ -1659,7 +1726,7 @@ de:
           projectedValue: 'Erwarteter Wert des Portfolios in 7 Jahren: %n'
         opinion:
           notWatchingStocks: Beobachten Sie ein paar Aktien, um ein Rating zu erhalten.
-          stars: Wir bewerten Ihr Portfolio mit %n Stars.
+          stars: Durchschnittlich %n Stars im Star-Rating.
           ws: Wall Street denkt, es ist ein %n.
       titles:
         alerts: Neueste Alarme
