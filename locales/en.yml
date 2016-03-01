@@ -1066,6 +1066,29 @@ en:
       link: Click here to see all stocks in %n
       title: Explore the Largest Stocks in %n
   landing:
+    china:
+      premium:
+        content:
+          heading: Stockflare China is launching soon
+          line_one: Stockflare is proud to work with Drivewealth to deliver the highest quality data and analytics to our users and partners in China.
+          line_two: Our service has 3 price tiers, including a free offering. Test drive Stockflare today!
+          tier_one: Silver
+          tier_two: Gold
+          tier_three: Platinum
+          analysis_one: Basic Analytics
+          analysis_two: Access to Full Analytics
+          pricing_one: End-of-Day Pricing
+          pricing_two: Pricing: 15 minute delayed
+          pricing_three: Real-time Pricing
+          markets_one: USA, China & Hong Kong
+          markets_two: All Markets
+          alerts_one: Basic Alerts
+          alerts_two: Smart Alerts
+          broker: Integrates with your Brokerage
+          price_one: Free
+          price_two: ¥ 30 per month
+          price_three: ¥ 65 / month
+          call_to_action: Test Drive 
     explore:
       content:
         copy: Everyone loves to explore new ideas.
