@@ -1321,6 +1321,9 @@ en:
       oneMonth: 1 Month
       oneWeek: 1 Week
       threeMonths: 3 Months
+      sixMonths: 6 Months
+      oneYear: 1 Year
+      fiveYears: 5 Years
     cheaper:
       cheaper:
         explanation: '%t(pe){PE Ratio} is lower than its competitors.'
