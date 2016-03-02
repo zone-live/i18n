@@ -1686,7 +1686,7 @@ en:
     percentChange: Percent Change
     breakdown:
       title: %n Portfolio Breakdown
-      empty: Get started by adding some stocks your watchlist below
+      empty: Get started by adding some stocks to your watchlist below
       columns:
         name: Name
         rating: Key Metrics
