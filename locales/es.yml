@@ -965,6 +965,9 @@ es:
         latest_market_value_usd: Valor de mercado
         latest_price: Precio
         latest_rating: Medidores clave
+        market_value_usd: Valor de mercado
+        price: Precio
+        rating: Medidores clave
     panel:
       description: Puedes aplicar varios filtros de entre las opciones para encontrar tus acciones perfectas.
       title: Aplicar filtros
@@ -1382,7 +1385,7 @@ es:
           name: Nombre de la compañía
           pe: Ratio de precio-beneficio
           rating: Medidores clave
-          ric: 
+          ric:
           upside: En alza
         titles:
           main: Competidores de la compañía
@@ -1401,10 +1404,10 @@ es:
               stock: Último
             labels:
               forecastedDividends: Previsión de dividendos
-              forecastedFcfYield: 
+              forecastedFcfYield:
               forecastedPe: Previsión de ratio precio-beneficio
               forecastedSales: Previsión de precio a ventas
-              historicBookValue: 
+              historicBookValue:
               historicDividends: Dividendos (histórico)
               historicEquity: Rentabilidad financiera (histórico)
               historicPe: Ratio de precio-beneficio (histórico)
@@ -1425,12 +1428,12 @@ es:
           percent: La liquidez neta es equivalente a %n del valor de mercado
           ratio: Los niveles de deuda neta son un %n del beneficio de explotación
           unavailable: Análisis de deuda/liquidez no disponible
-          upside: 
-          valuations: 
+          upside:
+          valuations:
           warning: Aviso
         volumes:
           daily: Volumen de compraventa diario
-          today: 
+          today:
       upside:
         title: Ratio precio-beneficio vs los 5 competidores más baratos.
       wallStreet:
@@ -1450,41 +1453,41 @@ es:
         title: Descripción de la compañía.
       dividends:
         description:
-          fallback: 
-          valid: 
+          fallback:
+          valid:
         title: Dividendos
       growth:
         description:
-          fallback: 
+          fallback:
           terms:
-            high: 
-            low: 
-          valid: 
+            high:
+            low:
+          valid:
         title: Crecimiento
       latest:
         description: Mira los últimos resultados de esta acción y obtén información financiera en Stockflare.
         title: Últimos resultados
       peers:
         description:
-          valid: 
+          valid:
         title: Lista de similares
       profitable:
         description:
-          fallback: 
-          valid: 
+          fallback:
+          valid:
         title: Beneficio / Pérdida
       stats:
         description:
           terms:
-            cheaper: 
-            expensive: 
-          valid: 
+            cheaper:
+            expensive:
+          valid:
         title: Datos clave
       upside:
         description:
-          fallback: 
+          fallback:
           terms:
-            cheap: 
+            cheap:
             expensive: caro
           valid: La acción se está vendiendo a %nx veces los beneficios y es %n frente a sus competidores. Averigua más en Stockflare.
         title: Barato o Caro
@@ -1525,7 +1528,7 @@ es:
         forecastPeWas: La previsón de %t(pe){PE Ratio} era de %nx.
         peToday: Hoy es %nx
         peWas: '%t(pe){PE} era %n.'
-        title: 
+        title:
       title: ¿Qué motiva el cambio en el precio?
       up: Sube
     profitable:
@@ -1534,22 +1537,22 @@ es:
       title: ¿Rentable?
     ratings:
       cheaper:
-        negative: 
-        positive: 
+        negative:
+        positive:
       dividends:
-        negative: 
-        positive: 
+        negative:
+        positive:
       high_growth:
-        negative: 
-        positive: 
+        negative:
+        positive:
       profitable:
-        negative: 
-        positive: 
+        negative:
+        positive:
       upside:
-        negative: 
-        neutral: 
-        positive: 
-        unknown: 
+        negative:
+        neutral:
+        positive:
+        unknown:
     social:
       email: Pásalo por email a un amigo
     stats:
@@ -1595,40 +1598,40 @@ es:
         growth:
           negative: 'Está previsto que el valor actual de %n baje a %n en un periodo de 7 años '
           positive: 'Está previsto que el valor actual de %n aumente a %n en un periodo de 7 años '
-        return: 
+        return:
       flash:
-        another: 
-        first: 
+        another:
+        first:
       footnote: Asumimos una tasa de crecimiento anual del 8% para los cálculos arriba.
       forecast:
-        title: 
+        title:
       inputs:
-        button: 
-        price: 
-        shares: 
-        watchlist: 
+        button:
+        price:
+        shares:
+        watchlist:
       result:
-        title: 
+        title:
       title: Lo que vale
       titles:
-        growth: 
-        return: 
+        growth:
+        return:
       today:
-        description: 
-        submitNotWatching: 
-        submitWatching: 
-        title: 
-        unsaved: 
+        description:
+        submitNotWatching:
+        submitWatching:
+        title:
+        unsaved:
   stocks:
-    apply: 
-    matches: 
+    apply:
+    matches:
     messages:
-      loadMore: 
-      loading: 
-      noMatches: 
-      noMoreMatches: 
+      loadMore:
+      loading:
+      noMatches:
+      noMoreMatches:
     og:
-      description: 
+      description:
       title: Escoge acciones fácilmente
     reset: Reinicia los filtros
   tooltip:
@@ -1640,12 +1643,12 @@ es:
       rating: Medidores clave
       ric: Código ticker de Reuters
     explanations:
-      downside: 
-      dps: 
-      eps: 
-      pe: 
-      recommendation: 
-      upside: 
+      downside:
+      dps:
+      eps:
+      pe:
+      recommendation:
+      upside:
   user:
     fields:
       confirmPassword: Confirma contraseña
@@ -1666,7 +1669,7 @@ es:
       language: Haz clic aquí para actualizar la página con tus preferencias de idioma
     options:
       logout: Finaliza sesión
-      settings: 
+      settings:
     validation:
       email:
         required: Email requerido
@@ -1687,17 +1690,17 @@ es:
     create:
       button: Crear Lista de Seguimiento
       fields:
-        name: 
+        name:
       points:
         infinite:
-          subtitle: 
-          title: 
+          subtitle:
+          title:
         monitor:
-          subtitle: 
-          title: 
+          subtitle:
+          title:
         positions:
-          subtitle: 
-          title: 
+          subtitle:
+          title:
       subtitle: Las Listas de Seguimiento de Stockflare son mucho más que el portafolios medio.
       title: Crea una Lista de Seguimiento
     defaultName: Mi Lista de Seguimiento
@@ -1707,50 +1710,50 @@ es:
     percentChange: Porcentaje de variación
     portfolioTable:
       difference: Una ganacia de %n dólares.
-      forecastGrowth: 
-      gain: 
-      name: 
-      price: 
-      projected: 
-      purchased: 
-      sevenYears: 
-      shares: 
-      total: 
-      usValue: 
-      value: 
+      forecastGrowth:
+      gain:
+      name:
+      price:
+      projected:
+      purchased:
+      sevenYears:
+      shares:
+      total:
+      usValue:
+      value:
     projected: Información detallada de mi portafolio.
     summary:
       summaries:
         gain:
-          notWatchingStocks: 
-          projectedGain: 
-          projectedValue: 
+          notWatchingStocks:
+          projectedGain:
+          projectedValue:
         opinion:
-          notWatchingStocks: 
-          stars: 
-          ws: 
+          notWatchingStocks:
+          stars:
+          ws:
       titles:
-        alerts: 
-        gain: 
-        opinion: 
+        alerts:
+        gain:
+        opinion:
     wallStreet:
-      title: 
+      title:
       upside:
-        missing: 
-        text: 
+        missing:
+        text:
     warningSubtitle: No pierdas tu lista de seguimiento. Sólo se ha guardado temporalmente. Regístrate o accede a tu cuenta para guardarla.
     warningTitle: Has visto acciones sin registrarte ni acceder a tu cuenta.
     watching: Total vistas
     watchingPhrase: '%n Compañías'
     worth: Valor total
   watchlists:
-    delete: 
-    pageTitle: 
+    delete:
+    pageTitle:
     titles:
-      actual: 
-      change: 
-      count: 
-      mover: 
-      rating: 
-      stocks: 
-      worth: 
+      actual:
+      change:
+      count:
+      mover:
+      rating:
+      stocks:
+      worth:

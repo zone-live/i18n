@@ -965,6 +965,9 @@ it:
         latest_market_value_usd: Valore di Mercato
         latest_price: Prezzo
         latest_rating: Classificazione a Stelle
+        market_value_usd: Valore di Mercato
+        price: Prezzo
+        rating: Classificazione a Stelle
     panel:
       description: Puoi selezionare tra le opzioni sotto i filtri da applicare per trovare le azioni perfette per te.
       title: Applica i Filtri

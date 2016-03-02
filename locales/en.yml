@@ -964,6 +964,9 @@ en:
         latest_market_value_usd: Market Value
         latest_price: Price
         latest_rating: Key Metrics
+        market_value_usd: Market Value
+        price: Price
+        rating: Key Metrics
     panel:
       description: You can apply many filters from the options below to find your perfect stock.
       title: Apply Filters
@@ -1078,7 +1081,7 @@ en:
           analysis_one: Basic Analytics
           analysis_two: Access to Full Analytics
           pricing_one: End-of-Day Pricing
-          pricing_two: Pricing: 15 minute delayed
+          pricing_two: 'Pricing: 15 minute delayed'
           pricing_three: Real-time Pricing
           markets_one: USA, China & Hong Kong
           markets_two: All Markets

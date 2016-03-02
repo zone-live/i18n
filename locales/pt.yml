@@ -781,16 +781,16 @@ pt:
           sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
         name: Tecnologia Saudável
       land-and-sea:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           country: usa,cad
           market_value_usd: 1000+
           sector_code: '5110102010,5110102011,5110102012,5110102013,5110102014,5320201018,5410201010,5410201011,5410201012,5410201013,5410201014,5410201015,5410201016,5410201017,5410201018,5410201019,5410201020,5410201021,5410201022,5410201023,5410201024,5410201025,5410201026,5410201027,5410201028,5410201029,5410203011'
         name: Terra & Mar
       legal-eagles:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           market_value_usd: 50+
           rating: 1+
@@ -798,46 +798,46 @@ pt:
           sector_code: '5220304011,5220304012,5220307015,5420103012,5420103013'
         name: Advogados Peritos
       renewables:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           rating: 3+
           region: amer
           sector_code: '5020101010,5020101011,5020101012,5020101013,5020101014,5020101015,5020101016,5020101017,5020101018,5020101019,5020101020,5020102010,5020102011,5020102012,5020102013,5020102014,5020102015,5910101011,5910102012'
         name: Renováveis
       ship-it:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           market_value_usd: 500+
           rating: 1+
           sector_code: '5010303014,5210205010,5210205011,5210205012,5320502011,5240502010,5240502011,5240502012,5240502013,5240602014,5240702010,5240702011,5240702012,5240702013'
         name: Envia-lo!
       space-race:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           market_value_usd: 100+
           sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
         name: Corrida ao espaço
       sporting-outdoors:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           market_value_usd: 100+
           rating: 1+
           sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
         name: Desportos Ao Ar Livre
       taking-it-easy:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           market_value_usd: 10000+
           sector_code: '5550104010,5550104011,5550104012'
         name: Nas Calmas
       tech-titans:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           financial: large
           market_value_usd: 10000+
@@ -845,8 +845,8 @@ pt:
           sector_code: '5710101010,5710101011,5710101012,5710101013,5710101014,5710101015,5710102010,5710102011,5710102012,5710102013,5710201010,5710201011,5710201012,5710201013,5710201014,5710201015,5710201016,5710201017,5710501010,5710501011,5710501012,5710501013,5710501014,5710501015,5710401010,5710401011,5710401012,5710401013,5710401014,5710601010,5710601011,5710601012,5710601013,5710601014,5710601015,5710601016,5710601017,5710601018,5710601019,5710602010,5710602011,5710602012,5710602013,5710602014,5710602015,5710603010,5710603011,5710603012,5710603013,5710603014,5720101010,5720101011,5720101012,5720101013,5720101014,5720101015,5720102010,5720102011,5720102012,5720102013,5720102014,5720102015,5720102016,5720102017,5720103010,5720103011,5720103012,5720103013,5720103014,5720103015,5720103016'
         name: Titãs da Tecnologia
       thirsty:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           country: usa
           market_value_usd: 500+
@@ -854,8 +854,8 @@ pt:
           sector_code: '5220102018,5410103014,5910301010,5910301011,5910301012,5910301013'
         name: Sede?
       timber:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           country: usa,cad
           market_value_usd: 100+
@@ -863,8 +863,8 @@ pt:
           sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
         name: Madeira!
       time-online:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           country: usa
           market_value_usd: 10000+
@@ -872,8 +872,8 @@ pt:
           sector_code: '5720103010,5720103011,5720103012,5720103013'
         name: Tempo Online
       vice-not-nice:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           country: usa
           market_value_usd: 500+
@@ -881,8 +881,8 @@ pt:
           sector_code: '5210101011,5330102011,5330103010,5330103011,5330103012,5330103013,5330203016,5340309025,5410101010,5410101011,5410102010,5410102011,5410102012,5410102013,5430102013,5430102015'
         name: Vício e Desperdício
       young-and-old:
-        description: 
-        disclaimer: 
+        description:
+        disclaimer:
         filters:
           country: usa
           market_value_usd: 1000+
@@ -890,20 +890,20 @@ pt:
           sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
         name: Miúdo & Graúdo
     filters: Os filtros por detrás de %n
-    pageDescription: 
+    pageDescription:
     pageTitle: Explore Stockflare
     popular: Maiores ações em %n
   filterBar:
     company_tags:
       descriptions:
-        growing: 
-        has_cash: 
-        high_growth: 
-        large: 
-        pays_dividends: 
-        profitable: 
-        small: 
-        turning_profitable: 
+        growing:
+        has_cash:
+        high_growth:
+        large:
+        pays_dividends:
+        profitable:
+        small:
+        turning_profitable:
       titles:
         default: Parâmetros de Negócios
         filters:
@@ -927,10 +927,10 @@ pt:
         default: País & Moeda
     direction:
       descriptions:
-        near_high: 
-        near_low: 
-        negative: 
-        positive: 
+        near_high:
+        near_low:
+        negative:
+        positive:
       titles:
         default: Direção de Preço
         filters:
@@ -940,20 +940,20 @@ pt:
           positive: Momento Positivo
     metrics:
       cheaper:
-        description: 
+        description:
         title: Barato
       dividends:
         description: A companhia paga dividendos?
         title: Paga Dividendos
       high_growth:
-        description: 
+        description:
         title: Alto Crescimento
       profitable:
         description: A companhia é rentável?
         title: Rentável
       title: Parâmetros Chave
       upside:
-        description: 
+        description:
         title: Tem Alta
     opinion:
       titles:
@@ -965,18 +965,21 @@ pt:
         latest_market_value_usd: Valor de Mercado
         latest_price: Preço
         latest_rating: Parâmetros Chave
+        market_value_usd: Valor de Mercado
+        price: Preço
+        rating: Parâmetros Chave
     panel:
-      description: 
+      description:
       title: Usar Filtros
     sector:
       titles:
         default: Setor
-    sectors: 
+    sectors:
     sentiment:
       descriptions:
-        hated: 
-        loved: 
-        unknown: 
+        hated:
+        loved:
+        unknown:
       titles:
         default: Opinião
         filters:
@@ -985,752 +988,752 @@ pt:
           unknown: Desconhecido pela Wall Street
     style:
       descriptions:
-        growth: 
-        quality: 
-        value: 
+        growth:
+        quality:
+        value:
       titles:
         default: Estilo de Investimento
         filters:
           growth: Alto Crescimento
           quality: Alta Qualidade
-          value: 
+          value:
     valuation:
       descriptions:
-        high_dividend: 
-        low_book_value: 
-        low_operating_profit: 
-        low_pe: 
-        low_sales: 
+        high_dividend:
+        low_book_value:
+        low_operating_profit:
+        low_pe:
+        low_sales:
       titles:
         default: Avaliação
         filters:
-          high_dividend: 
-          low_book_value: 
-          low_operating_profit: 
-          low_pe: 
-          low_sales: 
+          high_dividend:
+          low_book_value:
+          low_operating_profit:
+          low_pe:
+          low_sales:
   forgot:
     buttons:
       forgot: Restaure a minha senha
     copy:
-      explanation: 
+      explanation:
     errors:
       '404': Endereço de email não foi achado
       '500': Pedimos desculpa, houve um error no servidor
     og:
-      description: 
-      title: 
+      description:
+      title:
     pageTitle: Esqueci a Senha
     prompt:
       question: Lembra a sua senha?
-      register: 
+      register:
     titles:
-      forgot: 
-      sent: 
+      forgot:
+      sent:
   header:
     buttons:
       about: Sobre Stockflare
-      alerts: 
+      alerts:
       explore: Explore
       filters: Filtros
-      guestWatched: 
+      guestWatched:
       ideas: Escolha Ações
       search: Pesquisa
       watchlist: Minha Lista de Vigia
   home:
     explore:
-      link: 
+      link:
       title: Explore por Tema
-    pageDescription: 
+    pageDescription:
     pageTitle: Início
     sector:
-      link: 
-      title: 
+      link:
+      title:
   landing:
     explore:
       content:
-        copy: 
-        line: 
-        point: 
-        title: 
+        copy:
+        line:
+        point:
+        title:
     feed:
       content:
-        copy: 
-        point: 
-        title: 
+        copy:
+        point:
+        title:
     introduction:
       content:
-        copy: 
-        cta: 
-        point: 
-        title: 
+        copy:
+        cta:
+        point:
+        title:
       menu:
-        search: 
-        skip: 
+        search:
+        skip:
       stats:
-        analyzed: 
-        countries: 
-        stocks: 
+        analyzed:
+        countries:
+        stocks:
       tease: O que é a Stockflare?
     mobile:
       content:
-        copy: 
-        title: 
+        copy:
+        title:
     opinion:
       bubbles:
         buy: Compra
         hold: Deter
         sell: Venda
       content:
-        copy: 
-        point: 
-        title: 
-    pageTitle: 
+        copy:
+        point:
+        title:
+    pageTitle:
     question:
       content:
-        copy: 
+        copy:
         title: O que é Stockflare?
     rating:
       content:
-        copy: 
-        point: 
+        copy:
+        point:
         reveal:
-          notRevealing: 
-          revealing: 
-        title: 
+          notRevealing:
+          revealing:
+        title:
       ratings:
-        cheaper: 
-        dividends: 
-        growth: 
-        profitable: 
-        upside: 
+        cheaper:
+        dividends:
+        growth:
+        profitable:
+        upside:
     register:
       content:
-        copy: 
-        skip: 
+        copy:
+        skip:
         title: Se junte de gratuitamente
   login:
     buttons:
-      forgot: 
-      loading: 
-      login: 
-      resetOtp: 
-      social_login: 
+      forgot:
+      loading:
+      login:
+      resetOtp:
+      social_login:
     descriptions:
-      mfa: 
-    errors:
-      '401': 
-      '500': 
       mfa:
-        '401': 
-        '500': 
+    errors:
+      '401':
+      '500':
+      mfa:
+        '401':
+        '500':
     flash:
-      success: 
+      success:
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description:
+      title:
+    pageTitle:
     prompt:
       mfaInfo: Mais informação
-      question: 
-      register: 
+      question:
+      register:
     titles:
-      login: 
+      login:
       mfa: Conta Segura
-      social: 
+      social:
   onboard:
     controls:
-      complete: 
-      next: 
+      complete:
+      next:
       prev: Anterior
       skip: Pule
     subtitles:
-      pick: 
-      register: 
-      watchlist: 
+      pick:
+      register:
+      watchlist:
     titles:
-      pick: 
-      register: 
-      watchlist: 
+      pick:
+      register:
+      watchlist:
     watchlist:
       reasons:
-        alerts: 
-        analysis: 
-        multiples: 
-        unlimited: 
+        alerts:
+        analysis:
+        multiples:
+        unlimited:
   recover:
     buttons:
-      recover: 
+      recover:
     copy:
-      explanation: 
-      link: 
+      explanation:
+      link:
     errors:
-      '400': 
-      '403': 
+      '400':
+      '403':
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description:
+      title:
+    pageTitle:
     prompt:
-      question: 
-      register: 
+      question:
+      register:
     titles:
-      recover: 
-      sent: 
+      recover:
+      sent:
   recoverMfa:
     buttons:
-      recover: 
+      recover:
     copy:
-      explanation: 
-      link: 
+      explanation:
+      link:
     errors:
-      '400': 
-      '403': 
+      '400':
+      '403':
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description:
+      title:
+    pageTitle:
     prompt:
-      login: 
-      question: 
+      login:
+      question:
     titles:
-      recover: 
-      recovered: 
+      recover:
+      recovered:
   register:
     buttons:
-      loading: 
-      register: 
-    disclaimer: 
+      loading:
+      register:
+    disclaimer:
     flash:
-      success: 
+      success:
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description:
+      title:
+    pageTitle:
     prompt:
-      login: 
-      question: 
+      login:
+      question:
     success:
-      cta: 
-      loopback: 
-      title: 
+      cta:
+      loopback:
+      title:
     titles:
-      join: 
+      join:
   resetMfa:
     buttons:
-      reset: 
+      reset:
     copy:
-      explanation: 
+      explanation:
     errors:
-      '404': 
-      '500': 
+      '404':
+      '500':
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description:
+      title:
+    pageTitle:
     prompt:
-      login: 
-      question: 
+      login:
+      question:
     titles:
-      reset: 
-      sent: 
+      reset:
+      sent:
   search:
     none:
-      link: 
-      title: 
-    pageTitle: 
-    placeholder: 
+      link:
+      title:
+    pageTitle:
+    placeholder:
     searching:
-      description: 
-      title: 
-    searchingTitle: 
-    title: 
+      description:
+      title:
+    searchingTitle:
+    title:
   settings:
     buttons:
-      apply: 
-      delete: 
-      disableMfa: 
-      enableMfa: 
-      loading: 
+      apply:
+      delete:
+      disableMfa:
+      enableMfa:
+      loading:
     descriptions:
-      currency: 
-      delete: 
-      error: 
-      language: 
-      location: 
-      mfaDisable: 
-      mfaDisabled: 
-      mfaEnable: 
-      mfaEnabled: 
+      currency:
+      delete:
+      error:
+      language:
+      location:
+      mfaDisable:
+      mfaDisabled:
+      mfaEnable:
+      mfaEnabled:
     flash:
-      delete: 
-      deleteError: 
-      deleteInitiated: 
-      updated: 
+      delete:
+      deleteError:
+      deleteInitiated:
+      updated:
     groups:
-      password: 
-    pageTitle: 
+      password:
+    pageTitle:
     titles:
-      danger: 
-      header: 
-      mfa: 
+      danger:
+      header:
+      mfa:
   stock:
     buttons:
-      oneMonth: 
-      oneWeek: 
-      threeMonths: 
+      oneMonth:
+      oneWeek:
+      threeMonths:
     cheaper:
       cheaper:
-        explanation: 
-        title: 
+        explanation:
+        title:
       expensive:
-        explanation: 
-        title: 
+        explanation:
+        title:
     dividends:
-      forecastedDescription: 
-      latestDescription: 
-      title: 
-      yield: 
+      forecastedDescription:
+      latestDescription:
+      title:
+      yield:
     errors:
-      generic: 
-      loadError: 
+      generic:
+      loadError:
     graph:
-      price: 
-      volume: 
+      price:
+      volume:
     growth:
       strong:
-        explanation: 
-        title: 
+        explanation:
+        title:
       weak:
-        explanation: 
-        title: 
+        explanation:
+        title:
     header:
-      actualChange: 
-      percentChange: 
-      price: 
+      actualChange:
+      percentChange:
+      price:
     information:
-      breakdown: 
-      competitors: 
-      description: 
-      results: 
-      statistics: 
+      breakdown:
+      competitors:
+      description:
+      results:
+      statistics:
     inner:
       description:
         table:
-          name: 
-          sector: 
-          size: 
+          name:
+          sector:
+          size:
         titles:
-          competitors: 
-          main: 
+          competitors:
+          main:
       dividends:
         titles:
-          competitors: 
-          forecast: 
-          main: 
+          competitors:
+          forecast:
+          main:
       growth:
         titles:
-          comparison: 
-          growth: 
-          main: 
-          profit: 
-          sales: 
+          comparison:
+          growth:
+          main:
+          profit:
+          sales:
       labels:
-        forecasted: 
-        historic: 
+        forecasted:
+        historic:
       latest:
         forecasted:
-          dividend: 
-          eps: 
-          profit: 
-          sales: 
+          dividend:
+          eps:
+          profit:
+          sales:
         titles:
-          epsForecast: 
-          gross: 
-          main: 
-          operating: 
-          roe: 
-          salesForecast: 
+          epsForecast:
+          gross:
+          main:
+          operating:
+          roe:
+          salesForecast:
       panel:
-        description: 
-        title: 
+        description:
+        title:
       peers:
         table:
-          dps: 
-          eps: 
-          growth: 
-          name: 
-          pe: 
-          rating: 
-          ric: 
-          upside: 
+          dps:
+          eps:
+          growth:
+          name:
+          pe:
+          rating:
+          ric:
+          upside:
         titles:
-          main: 
+          main:
       profitable:
         titles:
-          epsForecast: 
-          main: 
-          profitForecast: 
+          epsForecast:
+          main:
+          profitForecast:
       stats:
         data:
           table:
-            cheaperOn: 
+            cheaperOn:
             headers:
-              cheaper: 
-              competitors: 
-              stock: 
+              cheaper:
+              competitors:
+              stock:
             labels:
-              forecastedDividends: 
-              forecastedFcfYield: 
-              forecastedPe: 
-              forecastedSales: 
-              historicBookValue: 
-              historicDividends: 
-              historicEquity: 
-              historicPe: 
-              historicProfit: 
-              historicSales: 
+              forecastedDividends:
+              forecastedFcfYield:
+              forecastedPe:
+              forecastedSales:
+              historicBookValue:
+              historicDividends:
+              historicEquity:
+              historicPe:
+              historicProfit:
+              historicSales:
         market:
-          cash: 
-          debt: 
-          enterprise: 
-          market: 
-          price: 
-          profit: 
-          shares: 
-          value: 
+          cash:
+          debt:
+          enterprise:
+          market:
+          price:
+          profit:
+          shares:
+          value:
         titles:
-          debt: 
-          key: 
-          percent: 
-          ratio: 
-          unavailable: 
-          upside: 
-          valuations: 
-          warning: 
+          debt:
+          key:
+          percent:
+          ratio:
+          unavailable:
+          upside:
+          valuations:
+          warning:
         volumes:
-          daily: 
-          today: 
+          daily:
+          today:
       upside:
-        title: 
+        title:
       wallStreet:
         titles:
-          competitors: 
-          main: 
-          oneMonth: 
-          oneWeek: 
-          recommendation: 
-          threeMonth: 
-          today: 
+          competitors:
+          main:
+          oneMonth:
+          oneWeek:
+          recommendation:
+          threeMonth:
+          today:
       worth:
-        title: 
+        title:
     innerTypes:
       description:
-        description: 
-        title: 
+        description:
+        title:
       dividends:
         description:
-          fallback: 
-          valid: 
-        title: 
+          fallback:
+          valid:
+        title:
       growth:
         description:
-          fallback: 
+          fallback:
           terms:
-            high: 
-            low: 
-          valid: 
-        title: 
+            high:
+            low:
+          valid:
+        title:
       latest:
-        description: 
-        title: 
+        description:
+        title:
       peers:
         description:
-          valid: 
-        title: 
+          valid:
+        title:
       profitable:
         description:
-          fallback: 
-          valid: 
-        title: 
+          fallback:
+          valid:
+        title:
       stats:
         description:
           terms:
-            cheaper: 
-            expensive: 
-          valid: 
-        title: 
+            cheaper:
+            expensive:
+          valid:
+        title:
       upside:
         description:
-          fallback: 
+          fallback:
           terms:
-            cheap: 
-            expensive: 
-          valid: 
-        title: 
+            cheap:
+            expensive:
+          valid:
+        title:
       wallStreet:
         description:
-          fallback: 
+          fallback:
           terms:
-            downside: 
-            upside: 
-          valid: 
-        title: 
+            downside:
+            upside:
+          valid:
+        title:
       worth:
         description:
-          fallback: 
+          fallback:
           terms:
-            gain: 
-            lose: 
-          valid: 
-        title: 
+            gain:
+            lose:
+          valid:
+        title:
     notification:
-      insufficientData: 
-      stale: 
-      updating: 
-      widgetUpdating: 
+      insufficientData:
+      stale:
+      updating:
+      widgetUpdating:
     og:
-      description: 
-      title: 
+      description:
+      title:
     priceChange:
-      down: 
+      down:
       price:
-        title: 
+        title:
       profitability:
-        epsToday: 
-        epsWas: 
-        forecastEpsWas: 
-        title: 
+        epsToday:
+        epsWas:
+        forecastEpsWas:
+        title:
       sentiment:
-        forecastPeWas: 
-        peToday: 
-        peWas: 
-        title: 
-      title: 
-      up: 
+        forecastPeWas:
+        peToday:
+        peWas:
+        title:
+      title:
+      up:
     profitable:
-      forecastedDescription: 
-      latestDescription: 
-      title: 
+      forecastedDescription:
+      latestDescription:
+      title:
     ratings:
       cheaper:
-        negative: 
-        positive: 
+        negative:
+        positive:
       dividends:
-        negative: 
-        positive: 
+        negative:
+        positive:
       high_growth:
-        negative: 
-        positive: 
+        negative:
+        positive:
       profitable:
-        negative: 
-        positive: 
+        negative:
+        positive:
       upside:
-        negative: 
-        neutral: 
-        positive: 
-        unknown: 
+        negative:
+        neutral:
+        positive:
+        unknown:
     social:
-      email: 
+      email:
     stats:
-      fifty_two_week: 
-      industry: 
-      value: 
+      fifty_two_week:
+      industry:
+      value:
     targetPrice:
-      decrease: 
-      description: 
-      equal: 
-      increase: 
+      decrease:
+      description:
+      equal:
+      increase:
       recommendations:
-        buy: 
-        hold: 
-        sell: 
-        strong_buy: 
-        strong_sell: 
-      title: 
+        buy:
+        hold:
+        sell:
+        strong_buy:
+        strong_sell:
+      title:
     worth:
       annotations:
-        annually: 
+        annually:
         gain:
-          negative: 
-          positive: 
-        growth: 
-        value: 
+          negative:
+          positive:
+        growth:
+        value:
       copy:
         absoluteGain:
-          negative: 
-          positive: 
+          negative:
+          positive:
         gainPerYear:
-          negative: 
-          positive: 
+          negative:
+          positive:
         relativeGain:
-          negative: 
-          positive: 
+          negative:
+          positive:
         sevenYearGain:
-          negative: 
-          positive: 
+          negative:
+          positive:
         value:
-          text: 
+          text:
       descriptions:
         growth:
-          negative: 
-          positive: 
-        return: 
+          negative:
+          positive:
+        return:
       flash:
-        another: 
-        first: 
-      footnote: 
+        another:
+        first:
+      footnote:
       forecast:
-        title: 
+        title:
       inputs:
-        button: 
-        price: 
-        shares: 
-        watchlist: 
+        button:
+        price:
+        shares:
+        watchlist:
       result:
-        title: 
-      title: 
+        title:
+      title:
       titles:
-        growth: 
-        return: 
+        growth:
+        return:
       today:
-        description: 
-        submitNotWatching: 
-        submitWatching: 
-        title: 
-        unsaved: 
+        description:
+        submitNotWatching:
+        submitWatching:
+        title:
+        unsaved:
   stocks:
-    apply: 
-    matches: 
+    apply:
+    matches:
     messages:
-      loadMore: 
-      loading: 
-      noMatches: 
-      noMoreMatches: 
+      loadMore:
+      loading:
+      noMatches:
+      noMoreMatches:
     og:
-      description: 
-      title: 
-    reset: 
+      description:
+      title:
+    reset:
   tooltip:
     acronyms:
-      dps: 
-      eps: 
-      growth: 
-      pe: 
-      rating: 
-      ric: 
+      dps:
+      eps:
+      growth:
+      pe:
+      rating:
+      ric:
     explanations:
-      downside: 
-      dps: 
-      eps: 
-      pe: 
-      recommendation: 
-      upside: 
+      downside:
+      dps:
+      eps:
+      pe:
+      recommendation:
+      upside:
   user:
     fields:
-      confirmPassword: 
-      currency: 
-      email: 
-      language: 
-      location: 
-      mfa: 
-      name: 
-      otpA: 
-      otpB: 
-      otpC: 
-      otpD: 
-      otpE: 
-      otpF: 
-      password: 
+      confirmPassword:
+      currency:
+      email:
+      language:
+      location:
+      mfa:
+      name:
+      otpA:
+      otpB:
+      otpC:
+      otpD:
+      otpE:
+      otpF:
+      password:
     messages:
-      language: 
+      language:
     options:
-      logout: 
-      settings: 
+      logout:
+      settings:
     validation:
       email:
-        required: 
-        validity: 
+        required:
+        validity:
       name:
-        validity: 
+        validity:
       otp:
-        length: 
-        required: 
+        length:
+        required:
       password:
-        mismatch: 
-        required: 
-        tooLong: 
-        tooShort: 
+        mismatch:
+        required:
+        tooLong:
+        tooShort:
   watchlist:
-    actualChange: 
-    breakdown: 
+    actualChange:
+    breakdown:
     create:
-      button: 
+      button:
       fields:
-        name: 
+        name:
       points:
         infinite:
-          subtitle: 
-          title: 
+          subtitle:
+          title:
         monitor:
-          subtitle: 
-          title: 
+          subtitle:
+          title:
         positions:
-          subtitle: 
-          title: 
-      subtitle: 
-      title: 
-    defaultName: 
-    footnote: 
-    pageDescription: 
-    pageTitle: 
-    percentChange: 
+          subtitle:
+          title:
+      subtitle:
+      title:
+    defaultName:
+    footnote:
+    pageDescription:
+    pageTitle:
+    percentChange:
     portfolioTable:
-      difference: 
-      forecastGrowth: 
-      gain: 
-      name: 
-      price: 
-      projected: 
-      purchased: 
-      sevenYears: 
-      shares: 
-      total: 
-      usValue: 
-      value: 
-    projected: 
+      difference:
+      forecastGrowth:
+      gain:
+      name:
+      price:
+      projected:
+      purchased:
+      sevenYears:
+      shares:
+      total:
+      usValue:
+      value:
+    projected:
     summary:
       summaries:
         gain:
-          notWatchingStocks: 
-          projectedGain: 
-          projectedValue: 
+          notWatchingStocks:
+          projectedGain:
+          projectedValue:
         opinion:
-          notWatchingStocks: 
-          stars: 
-          ws: 
+          notWatchingStocks:
+          stars:
+          ws:
       titles:
-        alerts: 
-        gain: 
-        opinion: 
+        alerts:
+        gain:
+        opinion:
     wallStreet:
-      title: 
+      title:
       upside:
-        missing: 
-        text: 
-    warningSubtitle: 
-    warningTitle: 
-    watching: 
-    watchingPhrase: 
-    worth: 
+        missing:
+        text:
+    warningSubtitle:
+    warningTitle:
+    watching:
+    watchingPhrase:
+    worth:
   watchlists:
-    delete: 
-    pageTitle: 
+    delete:
+    pageTitle:
     titles:
-      actual: 
-      change: 
-      count: 
-      mover: 
-      rating: 
-      stocks: 
-      worth: 
+      actual:
+      change:
+      count:
+      mover:
+      rating:
+      stocks:
+      worth:

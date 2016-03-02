@@ -964,6 +964,9 @@ de:
         latest_market_value_usd: Marktkapitalisierung
         latest_price: Kurs
         latest_rating: Star Rating
+        market_value_usd: Marktkapitalisierung
+        price: Kurs
+        rating: Star Rating
     panel:
       description: Wählen Sie mehrere Filter von den Optionen unterhalb auswählen, um Ihre perfekte Aktie zu finden.
       title: Filter anwenden

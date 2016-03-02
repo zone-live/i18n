@@ -964,6 +964,9 @@ fr:
         latest_market_value_usd: Valeur
         latest_price: Cours
         latest_rating: Notation par étoiles
+        market_value_usd: Valeur
+        price: Cours
+        rating: Notation par étoiles
     panel:
       description: Sélectionnez de nombreux filtres ci-dessous pour trouver votre parfaite action.
       title: Sélectionner des filtres

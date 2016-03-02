@@ -964,6 +964,9 @@ zh-CN:
         latest_market_value_usd: 市场价值
         latest_price: 股价
         latest_rating: 关键指标
+        market_value_usd: 市场价值
+        price: 股价
+        rating: 关键指标
     panel:
       description: 您可以使用以下众多选项，筛选出最适合您的股票。
       title: 应用筛选
