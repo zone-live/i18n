@@ -1159,16 +1159,10 @@ en:
       forgot: I've forgotten my password
       loading: Logging In
       login: Login
-      resetOtp: I've lost my MFA Device
       social_login: Login with
-    descriptions:
-      mfa: This account has been secured with an MFA device. Enter the code from the device to complete login.
     errors:
       '401': Invalid Username or Password
       '500': Sorry, there was a server error
-      mfa:
-        '401': Invalid Authentication Code
-        '500': Sorry, there was a server error
     flash:
       success: You are now logged in as %n
     og:
@@ -1176,12 +1170,10 @@ en:
       title: Login to Stockflare
     pageTitle: Login
     prompt:
-      mfaInfo: More Info
       question: Not a member?
       register: Sign up free here
     titles:
       login: Login to Stockflare
-      mfa: Secured Account
       social: Social Login (Coming Soon)
   onboard:
     controls:
@@ -1222,25 +1214,6 @@ en:
     titles:
       recover: Reset your Password
       sent: Password Reset
-  recoverMfa:
-    buttons:
-      recover: Reset MFA
-    copy:
-      explanation: Multi-Factor authentication has now been reset, and disabled for this account.
-      link: Click here to login
-    errors:
-      '400': Failed to reset MFA
-      '403': MFA reset token has expired. Please request another.
-    og:
-      description: Reset your Multi-Factor Authentication here.
-      title: Reset MFA for your Stockflare Account
-    pageTitle: Reset MFA
-    prompt:
-      login: Login here
-      question: Found your MFA device?
-    titles:
-      recover: Reset Multi-Factor Authentication
-      recovered: MFA Successfully Reset
   register:
     buttons:
       loading: Creating Account
@@ -1261,24 +1234,6 @@ en:
       title: Completed Registration
     titles:
       join: Join Stockflare
-  resetMfa:
-    buttons:
-      reset: Reset MFA
-    copy:
-      explanation: An email has been sent to the address you submitted, containing a link to safely reset MFA for this account. You will also need to provide the recovery codes that were sent to you when MFA was first activated.
-    errors:
-      '404': Email Address not found
-      '500': Sorry, there was a server error
-    og:
-      description: Lost your virtual MFA device? Reset it here.
-      title: Reset MFA for your Stockflare Account
-    pageTitle: Reset Multi-Factor Authentication
-    prompt:
-      login: Login here
-      question: Found your virtual MFA device?
-    titles:
-      reset: Reset Multi-Factor Authentication
-      sent: MFA Reset Request Sent
   search:
     none:
       link: Try %n instead?
@@ -1294,8 +1249,6 @@ en:
     buttons:
       apply: Apply Changes
       delete: Close Account
-      disableMfa: Disable MFA
-      enableMfa: Enable MFA
       loading: Updating Settings
     descriptions:
       currency: Watchlist projections and totals will be displayed in your preferred currency, using the most recent exchange rate.
@@ -1303,10 +1256,6 @@ en:
       error: 'Sorry, there was a problem updating your settings:'
       language: Set your preferred language to view Stockflare in.
       location: Your location is used to filter stocks when you do not have a Country filter applied.
-      mfaDisable: Disable MFA for your account by entering two valid codes below.
-      mfaDisabled: MFA provides an additional layer of security for your account.
-      mfaEnable: Enable MFA for your account by scanning the QR Code below, then entering two valid codes.
-      mfaEnabled: MFA is currently enabled for this account.
     flash:
       delete: Are you sure you wish to close your Stockflare account?
       deleteError: Sorry, there was an error closing your account, please contact info@stockflare.com
@@ -1318,7 +1267,6 @@ en:
     titles:
       danger: Danger Zone
       header: User Settings
-      mfa: Multi-Factor Authentication
   stock:
     buttons:
       oneMonth: 1 Month
@@ -1681,14 +1629,7 @@ en:
       email: Email Address
       language: Language
       location: Location
-      mfa: MFA Code
       name: Full Name
-      otpA: First Code
-      otpB: Second Code
-      otpC: Third Code
-      otpD: Fourth Code
-      otpE: Fifth Code
-      otpF: Sixth Code
       password: Password
     messages:
       language: Click here to reload the page with your preferred language settings
@@ -1701,9 +1642,6 @@ en:
         validity: Email Address is invalid
       name:
         validity: Your name is invalid
-      otp:
-        length: Invalid MFA code. Six digits are required
-        required: A valid MFA code is required
       password:
         mismatch: Passwords do not match
         required: Password is required
@@ -1711,6 +1649,19 @@ en:
         tooShort: Password is too short
   watchlist:
     actualChange: Actual Change (1 Day)
+    sector:
+      title: Concentration by Sector
+      tooltip: The value of your portfolio split by the 10 key sectors.
+    balance:
+      title: Concentration by Stocks
+      tooltip: 100% means that your portfolio is evenly allocated, in terms of value across your stocks. The further from 100% the more you concentrated your portfolio is an a few key stocks.
+      balance:
+        over: is over balanced by %n
+        under: is under balanced by %n
+      phrase:
+        positive: Balanced
+        neutral: Moderately Balanced
+        negative: Unbalanced
     breakdown: Watchlist Breakdown
     create:
       button: Create Watchlist
@@ -1733,19 +1684,26 @@ en:
     pageDescription: Your watchlist contains a summary of your portfolio as well as recent alerts from watched stocks.
     pageTitle: My Watchlist
     percentChange: Percent Change
-    portfolioTable:
-      difference: A gain of %n
-      forecastGrowth: Projected Gain *
-      gain: Annual gain of %n%
-      name: Company Name
-      price: Today
-      projected: In 7 Years %n
-      purchased: Purchased At
-      sevenYears: In 7 Years
-      shares: No. of Shares
-      total: Total %n
-      usValue: Value (USD)
-      value: Value
+    breakdown:
+      title: %n Portfolio Breakdown
+      empty: Get started by adding some stocks your watchlist below
+      columns:
+        name: Name
+        rating: Key Metrics
+        price: Today
+        purchased: Invested At
+        shares: Value & Shares
+        gain: 7 Year Forecast
+        actions: Actions
+      rows:
+        today:
+          change: %n today
+        purchased:
+          worth:
+            positive: A %n gain
+            negative: A %n loss
+        gain:
+          gain: %n pa
     projected: Detailed Portfolio Information
     summary:
       summaries:
