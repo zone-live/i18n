@@ -1532,6 +1532,7 @@ en:
       fifty_two_week: 52 Week High/Low
       industry: Industry
       value: Market Value
+      website: Company Website
     targetPrice:
       decrease: '%t(downside){downside}.'
       description: A %n on today's price.
@@ -1648,87 +1649,67 @@ en:
         tooLong: Password is too long
         tooShort: Password is too short
   watchlist:
-    actualChange: Actual Change (1 Day)
+    actualChange: "Actual Change (1 Day)"
     sector:
-      title: Concentration by Sector
-      tooltip: The value of your portfolio split by the 10 key sectors.
+      title: "Concentration by Sector"
+      tooltip: "The value of your portfolio split by the 10 key sectors."
     balance:
-      title: Concentration by Stocks
-      tooltip: 100% means that your portfolio is evenly allocated, in terms of value across your stocks. The further from 100% the more you concentrated your portfolio is an a few key stocks.
+      title: "Concentration by Stocks"
+      tooltip: "100% means that your portfolio is evenly allocated, in terms of value across your stocks. The further from 100% the more you concentrated your portfolio is an a few key stocks."
       balance:
-        over: is over balanced by %n
-        under: is under balanced by %n
+        over: "is over balanced by %n"
+        under: "is under balanced by %n"
       phrase:
-        positive: Balanced
-        neutral: Moderately Balanced
-        negative: Unbalanced
-    breakdown: Watchlist Breakdown
+        positive: "Balanced"
+        neutral: "Moderately Balanced"
+        negative: "Unbalanced"
     create:
-      button: Create Watchlist
+      button: "Create Watchlist"
       fields:
-        name: Watchlist Name
+        name: "Watchlist Name"
       points:
         infinite:
-          subtitle: There are absolutley no limits on our watchlists. Watch as many stocks as you like.
-          title: Infinite Size
+          subtitle: "There are absolutley no limits on our watchlists. Watch as many stocks as you like."
+          title: "Infinite Size"
         monitor:
-          subtitle: Determine your best & worst performing stocks using our data.
-          title: Monitor Performance
+          subtitle: "Determine your best & worst performing stocks using our data."
+          title: "Monitor Performance"
         positions:
-          subtitle: Add stock positions and purchase prices to get a realistic portfolio.
-          title: Add Positions
-      subtitle: Watchlists on Stockflare are so much more than the average portfolio.
-      title: Create a Watchlist
-    defaultName: My Watchlist
-    footnote: '* Where we have no data, we use an 8% growth rate.'
-    pageDescription: Your watchlist contains a summary of your portfolio as well as recent alerts from watched stocks.
-    pageTitle: My Watchlist
-    percentChange: Percent Change
+          subtitle: "Add stock positions and purchase prices to get a realistic portfolio."
+          title: "Add Positions"
+      subtitle: "Watchlists on Stockflare are so much more than the average portfolio."
+      title: "Create a Watchlist"
+    defaultName: "My Watchlist"
+    footnote: "* Where we have no data, we use an 8% growth rate."
+    pageDescription: "Your watchlist contains a summary of your portfolio as well as recent alerts from watched stocks."
+    pageTitle: "My Watchlist"
+    percentChange: "Percent Change"
     breakdown:
-      title: %n Portfolio Breakdown
-      empty: Get started by adding some stocks your watchlist below
+      title: "%n Portfolio Breakdown"
+      empty: "Get started by adding some stocks your watchlist below"
       columns:
-        name: Name
-        rating: Key Metrics
-        price: Today
-        purchased: Invested At
-        shares: Value & Shares
-        gain: 7 Year Forecast
-        actions: Actions
+        name: "Name"
+        rating: "Key Metrics"
+        price: "Today"
+        purchased: "Invested At"
+        shares: "Value & Shares"
+        gain: "7 Year Forecast"
+        actions: "Actions"
       rows:
         today:
-          change: %n today
+          change: "%n today"
         purchased:
           worth:
-            positive: A %n gain
-            negative: A %n loss
+            positive: "A %n gain"
+            negative: "A %n loss"
         gain:
-          gain: %n pa
-    projected: Detailed Portfolio Information
-    summary:
-      summaries:
-        gain:
-          notWatchingStocks: Watch some stocks to see the average growth data.
-          projectedGain: an annual gain of %n% from today's %n
-          projectedValue: Portfolio potentially worth %n in 7 years
-        opinion:
-          notWatchingStocks: Watch some stocks to get access to the key metrics.
-          stars: Average of %n key metrics.
-          ws: Wall Street thinks it's a %n.
-      titles:
-        alerts: Most Recent Alerts
-        gain: Seven Year Gain
-        opinion: Watchlist's Key Metrics
-    wallStreet:
-      title: Wall Street's Price Target & Recommendation
-      upside:
-        missing: N/A Upside
-        text: '%n% Upside'
-    warningSubtitle: Don't lose your watchlist. It's only saved temporarily. Register or Login to save it.
-    warningTitle: You've watched stocks, without registering or logging in!
-    watching: Total Watching
-    watchingPhrase: '%n Companies'
-    worth: Total Worth
+          gain: "%n pa"
+    projected: "Detailed Portfolio Information"
+    warningSubtitle: "Don't lose your watchlist. It's only saved temporarily. Register or Login to save it."
+    warningTitle: "You've watched stocks, without registering or logging in!"
+    watching: "Total Watching"
+    watchingPhrase: "%n Companies"
+    worth: "Total Worth"
   watchlists:
     delete: Are you sure you want to delete '%n'?
     pageTitle: My Watchlists
