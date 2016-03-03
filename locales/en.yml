@@ -1713,7 +1713,11 @@ en:
     worth: "Total Worth"
   watchlists:
     delete: Are you sure you want to delete '%n'?
-    pageTitle: My Watchlists
+    pageTitle: My Portfolio
+    subtitles:
+      connected: Connected Brokerages
+      watchlists: Watchlists
+    connect: New Brokerage
     titles:
       actual: Actual Change
       change: Percentage Change
@@ -1722,3 +1726,114 @@ en:
       rating: Key Metrics Test
       stocks: '%n Stocks'
       worth: Total Worth
+  brokerage:
+    brokerages:
+      td: TD
+      etrade: Etrade
+      scottrade: Scottrade
+      fidelity: Fidelity
+      schwab: Schwab
+      trade_station: Trade Station
+      robinhood: Robinhood
+      options_house: Options House
+      ib: IB
+      tradier: Tradier
+    portfolio:
+      headings:
+        power: Buying Power
+      table:
+        trades: Open Trades
+        status: Status
+        statuses:
+          filling: Filling
+          pending: Pending
+          completed: Completed
+    connect:
+      help:
+        assistance:
+          title: Need Assistance?
+          description: #TODO
+        faq:
+          title: Frequently Asked Questions
+          description: #TODO
+          questions:
+            secure: How secure is the connection?
+            fees: Are there any fees?
+            compare: How do different brokerages compare?
+        no_brokerage:
+          title: No brokerage? No problem.
+          description: #TODO
+      steps:
+        choose: Choose Brokerage
+        details: Your Details
+        security: Security Questions
+        final: Finish
+      title: Connect Brokerage
+      teaser:
+        trade:
+          title: Trade through Stockflare
+          description: #TODO
+        alerts:
+          title: Get Our Smart Alerts
+          description: #TODO
+        encryption:
+          title: Protected by Encryption
+          description: #TODO
+      details:
+        username: Brokerage Username
+        id: Brokerage User ID
+        password: Brokerage Password
+        conditions: By clicking "login" you're agreeing to the terms and conditions set out by Stockflare
+        button: 'Login & Connect'
+      security:
+        button: Finish
+      final:
+        title: Trading Activated
+        description: Below you can choose where to go next
+        to_stock: 'Back to %n'
+        to_portfolio: Go to Portfolio
+    trade:
+      title: 'Trade %n'
+      step_one:
+        title: Buying or Selling?
+        buying:
+          title: Buy
+          price: 'Priced at %n'
+        selling:
+          title: Sell
+          price: 'Selling at %n'
+      step_two:
+        title: Quantity & Price
+        price:
+          sell: Sell At
+          market: At Market Price #TODO
+          limit: #TODO
+          stop_limit: #TODO
+          stop_market: #TODO
+        quantity:
+          prompt: Quantity
+        advanced:
+          prompt: Show Advanced Settings
+          expiration:
+            prompt: Expiration
+            options:
+              day: Day
+              gtc: #TODO
+        button: Preview Order
+      step_three:
+        title: Order Preview
+        table:
+          return: Estimated Return
+          cost: Estimated Cost
+          fees: Estimated Fees
+          shares: Shares
+          ticker: Ticker
+          brokerage: Brokerage
+        button:
+          buy: 'Purchase Shares (%n)'
+          sell: 'Sell Shares (%n)'
+      purchasing:
+        title: Filling Sell Order
+        description: Your order is in the process of being filled
+        to_portfolio: Go to Portfolio
+        to_stocks: Go to Stocks
