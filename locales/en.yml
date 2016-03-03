@@ -1304,6 +1304,7 @@ en:
       actualChange: Actual Change
       percentChange: Percentage Change
       price: Stock Price
+      last_updated: 'Last Updated %n'
     information:
       breakdown: Key Metrics
       competitors: Competitors
