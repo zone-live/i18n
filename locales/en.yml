@@ -1753,7 +1753,7 @@ en:
         heading: n% Notes
       alerts:
         heading: n% Alerts
-      dangerzone:
+      danger_zone:
         warning: Disconnecting your brokerage account will remove all your data stored on our servers.
         button: Disconnect Account
     connect:
@@ -1795,7 +1795,7 @@ en:
         button: 'Login & Connect'
       security:
         button: Finish
-      brokerconnection:
+      broker_connection:
       login: Checking Login Details
       detail: We are creating a secure connection to your account
       connecting: Secure ... Now Connecting ... 
@@ -1809,6 +1809,7 @@ en:
       title: 'Trade %n'
       step_one:
         title: Buying or Selling?
+        tooltip: We default trades to limit-orders, not at market, with the limit price set at the bid-ask spread. If you want to buy/sell regardless or price, please use the Advanced Settings to change the order type. We also default trades to expire at the end of the day. If you want to keep an order open indefinitely, please use the Advanced Settings to choose "Good 'til Cancelled". Note: we are not offering: the following order types: "Buy to Cover" or "Sell Short". Nor do we provide "Stop Limit" or "Stop Market" orders. If you would like those options, please let us know.
         buying:
           title: Buy
           price: 'Currently at %n'
@@ -1818,12 +1819,13 @@ en:
       step_two:
         title: Quantity & Price
         price:
-          buy: Buy at / or cheaper than
+          buy: Buy at / or less than
           sell: Sell at / or higher than
           tooltip: this is a limit order, preset at the bid-ask spread. Click Advanced settings if you want to place a Market Order or a Limit order that is "good 'til close".
         quantity:
           prompt: Quantity
-          note: Today you own %n shares in %n
+          note_own_shares: Today you own %n shares in %n
+          note_no_shares: Currently, you do not own any shares in %n
         advanced:
           prompt: Show Advanced Settings
           unprompt: Hide Advanced Settings
@@ -1833,7 +1835,7 @@ en:
               options:
                 limit: Limit Order
                 market: At Market Order
-              
+              warning: If you choose an "At Market" order you will trade regardless of the price. i.e. you will not set a maximimum price to buy or a minimum price to sell.
           expiration:
             tooltip: we default trades to be valid for the day. You can switch this to (GTC) good 'til cancelled, if you wish. 
             prompt: Expiration
@@ -1841,14 +1843,13 @@ en:
               day: Expires at end of the day
               gtc: Order good until you cancel it
         button: Preview Order
-        error: You don't have sufficient funds available for this trade. Your Buying Power is too low. 
       step_three:
         title: Order Preview
         table:
           return: Estimated Proceeds
           cost: Estimated Cost
           fees: Estimated Fees
-          shares: No. of Shares
+          shares: Quantity of Shares
           ticker: Ticker
           brokerage: Brokerage
         button:
@@ -1863,6 +1864,6 @@ en:
         to_stocks: Go to Stocks
         update:
           success: Success. Your order is complete. The trade is done.
-          nosuccess: Your order is not compete yet. We'll email you once it's finished.
+          no_success: Your order is not compete yet. We'll email you once it's finished.
       tradeupdate:
         title: Update your order for %n
