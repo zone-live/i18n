@@ -1691,7 +1691,7 @@ en:
     pageTitle: "My Watchlist"
     percentChange: "Percent Change"
     breakdown:
-      title: %n Portfolio Breakdown
+      title: '%n Portfolio Breakdown'
       empty: Get started by adding some stocks to your watchlist below
       columns:
         name: "Name"
