@@ -1161,8 +1161,8 @@ en:
       login: Login
       social_login: Login with
     errors:
-      '401': Invalid Username or Password
-      '500': Sorry, there was a server error
+      error_403: Invalid Username or Password
+      error_500: Sorry, there was a server error
     flash:
       success: You are now logged in as %n
     og:
