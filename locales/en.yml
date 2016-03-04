@@ -1216,6 +1216,7 @@ en:
       sent: Password Reset
   register:
     errors:
+      error: 'Sorry, there was a problem with your registration:'
       error_409: Email address already registered.
       error_500: An server error occurred. Please try again later.
       error_400: A valid email and password of at least 6 characters is required.
