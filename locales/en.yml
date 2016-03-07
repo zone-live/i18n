@@ -1737,15 +1737,15 @@ en:
       inactive: '%n Inactive'
   brokerage:
     brokerages:
-      td: TD
-      etrade: Etrade
+      td: TD Ameritrade
+      etrade: E-Trade
       scottrade: Scottrade
       fidelity: Fidelity
       schwab: Schwab
       trade_station: Trade Station
       robinhood: Robinhood
       options_house: Options House
-      ib: IB
+      ib: Interactive Brokers
       tradier: Tradier
     portfolio:
       headings:
@@ -1757,21 +1757,29 @@ en:
           filling: Filling
           pending: Pending
           completed: Completed
+          failed: Failed
+      notes:
+        heading: n% Notes
+      alerts:
+        heading: n% Alerts
+      danger_zone:
+        warning: Disconnecting your brokerage account will remove all your data stored on our servers.
+        button: Disconnect Account
     connect:
       help:
         assistance:
           title: Need Assistance?
-          description: #TODO
+          description: Click here if you need our help connecting your account or have any questions about our service.
         faq:
           title: Frequently Asked Questions
-          description: #TODO
+          description: Here are a few of the most important questions we receive.
           questions:
             secure: How secure is the connection?
             fees: Are there any fees?
             compare: How do different brokerages compare?
         no_brokerage:
           title: No brokerage? No problem.
-          description: #TODO
+          description: Check out this article here we compare all the brokerage services we are connected into.
       steps:
         choose: Choose Brokerage
         details: Your Details
@@ -1781,68 +1789,90 @@ en:
       teaser:
         trade:
           title: Trade through Stockflare
-          description: #TODO
+          description: Find a great stock? Connect your brokerage account, then trade quickly and easily from inside Stockflare.
         alerts:
           title: Get Our Smart Alerts
-          description: #TODO
+          description: Not have enough time to track your portfolio? Let our smart alerts keep an eye on your investments for you.
         encryption:
           title: Protected by Encryption
-          description: #TODO
+          description: We encrypt all data at Stockflare and only work with the most security conscientious providers, like Amazon Web Services.
       details:
         username: Brokerage Username
         id: Brokerage User ID
         password: Brokerage Password
-        conditions: By clicking "login" you're agreeing to the terms and conditions set out by Stockflare
+        conditions: By clicking "Login & Connect" you are agreeing to Stockflare's Terms of Service. 
         button: 'Login & Connect'
       security:
         button: Finish
+      broker_connection:
+      login: Checking Login Details
+      detail: We are creating a secure connection to your account
+      connecting: Secure ... Now Connecting ... 
+      connected: Success! Your Account is Connected
       final:
         title: Trading Activated
-        description: Below you can choose where to go next
+        description: Do a trade immediately? Or check out our smart analysis of your portfolio?
         to_stock: 'Back to %n'
         to_portfolio: Go to Portfolio
     trade:
       title: 'Trade %n'
       step_one:
         title: Buying or Selling?
+        tooltip: We default trades to limit-orders, not at market, with the limit price set at the bid-ask spread. If you want to buy/sell regardless or price, please use the Advanced Settings to change the order type. We also default trades to expire at the end of the day. If you want to keep an order open indefinitely, please use the Advanced Settings to choose "Good 'til Cancelled". Note: we are not offering: the following order types: "Buy to Cover" or "Sell Short". Nor do we provide "Stop Limit" or "Stop Market" orders. If you would like those options, please let us know.
         buying:
           title: Buy
-          price: 'Priced at %n'
+          price: 'Currently at %n'
         selling:
           title: Sell
-          price: 'Selling at %n'
+          price: 'Currently at %n'
       step_two:
         title: Quantity & Price
         price:
-          sell: Sell At
-          market: At Market Price #TODO
-          limit: #TODO
-          stop_limit: #TODO
-          stop_market: #TODO
+          buy: Buy at / or less than
+          sell: Sell at / or higher than
+          tooltip: this is a limit order, preset at the bid-ask spread. Click Advanced settings if you want to place a Market Order or a Limit order that is "good 'til close".
         quantity:
           prompt: Quantity
+          note_own_shares: Today you own %n shares in %n
+          note_no_shares: Currently, you do not own any shares in %n
         advanced:
           prompt: Show Advanced Settings
+          unprompt: Hide Advanced Settings
+            ordertype: 
+              tooltip: The default setting is a limit order, but if you want to trade, at market, regardless of the price, you can choose that option here.
+              prompt: Order Type
+              options:
+                limit: Limit Order
+                market: At Market Order
+              warning: If you choose an "At Market" order you will trade regardless of the price. i.e. you will not set a maximimum price to buy or a minimum price to sell.
           expiration:
+            tooltip: we default trades to be valid for the day. You can switch this to (GTC) good 'til cancelled, if you wish. 
             prompt: Expiration
             options:
-              day: Day
-              gtc: #TODO
+              day: Expires at end of the day
+              gtc: Order good until you cancel it
         button: Preview Order
       step_three:
         title: Order Preview
         table:
-          return: Estimated Return
+          return: Estimated Proceeds
           cost: Estimated Cost
           fees: Estimated Fees
-          shares: Shares
+          shares: Quantity of Shares
           ticker: Ticker
           brokerage: Brokerage
         button:
           buy: 'Purchase Shares (%n)'
           sell: 'Sell Shares (%n)'
-      purchasing:
-        title: Filling Sell Order
+      thetrade:
+        title: 
+          buy: Filling Buy Order
+          sell: Filling Sell Order
         description: Your order is in the process of being filled
         to_portfolio: Go to Portfolio
         to_stocks: Go to Stocks
+        update:
+          success: Success. Your order is complete. The trade is done.
+          no_success: Your order is not compete yet. We'll email you once it's finished.
+      tradeupdate:
+        title: Update your order for %n
