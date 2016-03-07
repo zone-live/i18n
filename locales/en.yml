@@ -1,7 +1,7 @@
 en:
   errors:
     not_found: Woops, this page does not exist.
-    api_error: Shucks, there was an contacting our servers.
+    api_error: Shucks, there was an error contacting our servers.
   about:
     disclaimer: Stockflare provides information, not advice. Stockflare does not make recommendations. Any reference to “Buy”, “Sell”, “Hold”, or “Price Targets” for stocks, reflect the views of the “Wall Street” consensus.
     from: Select data from
@@ -1730,3 +1730,4 @@ en:
       rating: Key Metrics Test
       stocks: '%n Stocks'
       worth: Total Worth
+      inactive: '%n Inactive'
