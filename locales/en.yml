@@ -1267,7 +1267,7 @@ en:
     flash:
       delete: Are you sure you wish to close your Stockflare account?
       deleteError: Sorry, there was an error closing your account, please contact info@stockflare.com
-      deleteInitiated: Account closure request recieved. Please check your email inbox for further instructions.
+      deleteInitiated: Account closure request received. Please check your email inbox for further instructions.
       updated: Your settings have been updated
     groups:
       password: Change Password
@@ -1664,7 +1664,7 @@ en:
       tooltip: "The value of your portfolio split by the 10 key sectors."
     balance:
       title: "Concentration by Stocks"
-      tooltip: "100% means that your portfolio is evenly allocated, in terms of value across your stocks. The further from 100% the more you concentrated your portfolio is an a few key stocks."
+      tooltip: "100% means that your portfolio is evenly allocated, in terms of value across your stocks. The further from 100% the more you concentrated your portfolio is in a few key stocks."
       balance:
         over: "is over balanced by %n"
         under: "is under balanced by %n"
