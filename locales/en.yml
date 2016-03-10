@@ -718,178 +718,86 @@ en:
       big-and-cheap:
         description: There are lots of big companies with great brands that investors are choosing to ignore. Maybe they'll come back in favor, some day?
         disclaimer: The stocks in "Big and Cheap" are generated using a filter of every stock in the United States with a market value over $50 billion and is cheaper than its competitors using a price-to-earnings ratio.
-        filters:
-          country: usa
-          financial: large
-          market_value_usd: 50000+
-          valulation: low_pe
         name: Big & Cheap
       boring-businesses:
         description: Who says you have to invest in the next hot stock! Imagine talking to your friends about paint, plastics, batteries and ball bearings, sewage or sanitary product. There are testing companies, veterinary businesses and funeral homes. Take a look!
         disclaimer: 'The stocks in "Boring Businesses" are generated using a filter of every stock in the United States with a market value over $1 billion and has passed at least 1 key metric test (e.g. profitable, dividends, high growth, etc). We then look at the stocks that match this filter and are also in any of the following sectors: paint, plastics, batteries, ball bearings, sewage, sanitary product, testing companies, veterinary businesses and funeral homes.'
-        filters:
-          country: usa
-          market_value_usd: 1000+
-          rating: 1+
-          sector_code: '5110101011,5110101012,5210201013,5210201014,5210201015,5210201016,5210201017,5210203011,5210203012,5210203013,5210203014,5210203015,5210203016,5210203017,5220304020,5220301012,5310102013,5420102013,5420103018,5610102018,5610201016,5620104014,5710102010,5710102012,5710501013,5910301012'
         name: Boring Businesses
       cash-heavy:
         description: There are a few companies out there who've no debt and are busy paying out all the cashflow they generate to their shareholder. Are they both cash heavy and cash cows?
         disclaimer: The stocks in "Cash Heavy" are generated using a filter of every stock in the United States with a market value over $500 million that has a net cash position on its balance sheet and pays a significant dividend (i.e. yielding more than 4%).
-        filters:
-          country: usa
-          financial: has_cash
-          market_value_usd: 500+
-          valuation: high_dividend
         name: Cash Heavy
       coffee-cake:
         description: Invest in some of life's little pleasures, without the guilt trip if you overdose on the sugar.
         disclaimer: 'The stocks in "Coffee & Cake" are generated using a filter of every stock in the world with a market value over $500 million and has passed at least 2 key metric tests (e.g. profitable, pays dividends, etc). We then look at the stocks that match this filter and are also in any of the following sectors: cafes, coffee & sugarcane farming, cookie manufacturers, sweeteners & confectionary.'
-        filters:
-          market_value_usd: 500+
-          rating: 2+
-          sector_code: '5330102016,5410201015,5410201016,5410202014,5410202021,5410202022,5410202023'
         name: Coffee & Cake
       gem-stones:
         description: Are diamonds an investor's best friend? Diamonds, gemstones, pearl divers. All are options to dazzle the investor.
         disclaimer: 'The stocks in "Gem Stones" are generated using a filter of every stock in the world with a market value over $100 million and has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: diamond mining, semi-precious stones, pearls.'
-        filters:
-          market_value_usd: 100+
-          rating: 1+
-          sector_code: '5120101013,5120101014,5120101015'
         name: Gem Stones
       going-nuclear:
         description: Nuclear energy is hardly, clean, but when it comes to the post-oil world, its there with renewable energy, fighting to power our planet.
         disclaimer: 'The stocks in "Going Nuclear" are generated using a filter of every stock in the world with a market value over $100 million and has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: uranium, nuclear components & construction, nuclear utilities.'
-        filters:
-          market_value_usd: 100+
-          rating: 1+
-          sector_code: '5030101010,5030101011,5030101012,5210204016,5220102022,5910101013,5910102013'
         name: Going Nuclear
       hated-by-wall-street:
         description: If you are one of those cynics that distrust Wall Street and the herd-mentality, what could be better than investing in what Wall Street hates!
         disclaimer: The stocks in "Hated by Wall Street" are generated using a filter of every stock in the United States with a market value over $500 million that the consensus stockbroker recommendation is either a Sell or a Strong Sell.
-        filters:
-          country: usa
-          market_value_usd: 500+
-          sentiment: hated
         name: Hated By Wall Street
       healthy-tech:
         description: Biotech companies are making wonderful advances every day. Why not back the scientists who are solving the toughest issues in Healthcare?
         disclaimer: 'The stocks in "Healthy Tech" are generated using a filter of every stock in the United States with a market value over $1 billion that is in the following sectors: biopharmaceuticals, biotechnology and medical research.'
-        filters:
-          country: usa
-          market_value_usd: 1000+
-          sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
         name: Healthy Tech
       land-and-sea:
         description: We've all got to eat, eh? There are lots of companies that work in Agriculture, from the farmers, to the folks that make the machinery and the pesticides. Here's are the biggest player in the US.
         disclaimer: 'The stocks in "Land & Sea" are generated using a filter of every stock in the United States & Canada with a market value over $1 billion that is in the following sectors: agricultural chemicals, cotton farming, fishing & farming, tobacco farming.'
-        filters:
-          country: usa,cad
-          market_value_usd: 1000+
-          sector_code: '5110102010,5110102011,5110102012,5110102013,5110102014,5320201018,5410201010,5410201011,5410201012,5410201013,5410201014,5410201015,5410201016,5410201017,5410201018,5410201019,5410201020,5410201021,5410201022,5410201023,5410201024,5410201025,5410201026,5410201027,5410201028,5410201029,5410203011'
         name: Land & Sea
       legal-eagles:
         description: Lawyers and accountants are just a cost, you can invest in them too!
         disclaimer: 'The stocks in "Legal Eagles" are generated using a filter of every stock in the Americas region with a market value over $50 million and has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: accounting & legal services, legal & tax information providers.'
-        filters:
-          market_value_usd: 50+
-          rating: 1+
-          region: amer
-          sector_code: '5220304011,5220304012,5220307015,5420103012,5420103013'
         name: Legal Eagles
       renewables:
         description: If you want to invest in the post-oil world, there are many companies that work in the renewable energy market. Their technology and products range from Wind and Solar to Wave and Hydrogen. Here's a list of the leading player in the Americas.
         disclaimer: 'The stocks in "Renewables" are generated using a filter of every stock in the Americas region that has passed at least 3 key metric tests (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: renewable energy, renewable utilities.'
-        filters:
-          rating: 3+
-          region: amer
-          sector_code: '5020101010,5020101011,5020101012,5020101013,5020101014,5020101015,5020101016,5020101017,5020101018,5020101019,5020101020,5020102010,5020102011,5020102012,5020102013,5020102014,5020102015,5910101011,5910102012'
         name: Renewables
       ship-it:
         description: If you want to ship things in bulk, sea's the only way. Though you can invest in leisure boats as easily as super tankers.
         disclaimer: 'The stocks in "Ship It" are generated using a filter of every stock in the world with a market value over $500 million and has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: sea-borne tankers, shipbuilding, marine freight & logistics, yachts & motorboats, marine port services.'
-        filters:
-          market_value_usd: 500+
-          rating: 1+
-          sector_code: '5010303014,5210205010,5210205011,5210205012,5320502011,5240502010,5240502011,5240502012,5240502013,5240602014,5240702010,5240702011,5240702012,5240702013'
         name: Ship It
       space-race:
         description: Looking to the final frontier, there are rockets, satellite manufacturers & businesses that rely on satellites for their business to function.
         disclaimer: 'The stocks in "Space Race" are generated using a filter of every stock in the world with a market value over $100 million that is in the following sectors: satellite & spacecraft manufacturing, satellite networks & navigation, satellite operators.'
-        filters:
-          market_value_usd: 100+
-          sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
         name: Space Race
       sporting-outdoors:
         description: You can back a sports team on the stock market too. Or just wear their stripes or own the venue.
         disclaimer: 'The stocks in "Sporting Outdoors" are generated using a filter of every stock in the world that has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: outdoor clothing & footwear, outdoor goods, gyms, ski resorts, sports venues, golf courses, sporting goods stores, outdoor retailers.'
-        filters:
-          market_value_usd: 100+
-          rating: 1+
-          sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
         name: Sporting Outdoors
       taking-it-easy:
         description: Who says you have to pick stocks be be good at investing! You could always just choose an ETF, an exchange traded fund. Most track a famous index. So you'll do as well as the market, even if you don't beat it!
         disclaimer: 'The stocks in "Taking It Easy" are all ETFs (exchange traded funds), generated using a filter of every stock in the world with a market value over $10 billion that is in the following sector: Exchange Traded Funds.'
-        filters:
-          market_value_usd: 10000+
-          sector_code: '5550104010,5550104011,5550104012'
         name: Taking It Easy
       tech-titans:
         description: If "technology is eating the world", there are a select few companies enjoying their meal.
         disclaimer: 'The stocks in "Tech Titans" are generated using a filter of every stock in the world with a market value over $10 billion that has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sector: Technology.'
-        filters:
-          financial: large
-          market_value_usd: 10000+
-          rating: 1+
-          sector_code: '5710101010,5710101011,5710101012,5710101013,5710101014,5710101015,5710102010,5710102011,5710102012,5710102013,5710201010,5710201011,5710201012,5710201013,5710201014,5710201015,5710201016,5710201017,5710501010,5710501011,5710501012,5710501013,5710501014,5710501015,5710401010,5710401011,5710401012,5710401013,5710401014,5710601010,5710601011,5710601012,5710601013,5710601014,5710601015,5710601016,5710601017,5710601018,5710601019,5710602010,5710602011,5710602012,5710602013,5710602014,5710602015,5710603010,5710603011,5710603012,5710603013,5710603014,5720101010,5720101011,5720101012,5720101013,5720101014,5720101015,5720102010,5720102011,5720102012,5720102013,5720102014,5720102015,5720102016,5720102017,5720103010,5720103011,5720103012,5720103013,5720103014,5720103015,5720103016'
         name: Tech Titans
       thirsty:
         description: Few things are as essential as clean water. As the population grows, so too should the demand.
         disclaimer: 'The stocks in "Thirsty" are generated using a filter of every stock in the United States that has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: water & sewage construction, bottled water & ice, water utilities.'
-        filters:
-          country: usa
-          market_value_usd: 500+
-          rating: 1+
-          sector_code: '5220102018,5410103014,5910301010,5910301011,5910301012,5910301013'
         name: Thirsty?
       timber:
         description: Want to buy into forests, sawmills or the timber business? Here are the best players in the US and Canada
         disclaimer: 'The stocks in "Timber!" are generated using a filter of every stock in the United States & Canada with a market value over $100 million and has passed at least 2 key metric tests (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: paper & forest products, wood containers & packaging, paper packaging, timber REITs.'
-        filters:
-          country: usa,cad
-          market_value_usd: 100+
-          rating: 2+
-          sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
         name: Timber!
       time-online:
         description: With the internet capturing more and more time from TV, the leaders are already clear. Do you want to invest in the companies you use?
         disclaimer: 'The stocks in "Time Online" are generated using a filter of every stock in the United States with a market value over $10 billion that has passed at least 1 key metric test (e.g. profitable, etc). We then look at the stocks that are in any of the following sector: Internet Services.'
-        filters:
-          country: usa
-          market_value_usd: 10000+
-          rating: 1+
-          sector_code: '5720103010,5720103011,5720103012,5720103013'
         name: Time Online
       vice-not-nice:
         description: Forget your morals? Want to invest in drugs, alcohol, gambling, guns and other purveyors of vice?
         disclaimer: 'The stocks in "Vice, Not Nice" are generated using a filter of every stock in the United States with a market value over $500 million that has passed at least 2 key metric tests (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: arms manufacturing, pubs & nightclubs, casinos & gaming, adult entertainment and retailers, brewers & distilleries, beer & tobacco stores.'
-        filters:
-          country: usa
-          market_value_usd: 500+
-          rating: 2+
-          sector_code: '5210101011,5330102011,5330103010,5330103011,5330103012,5330103013,5330203016,5340309025,5410101010,5410101011,5410102010,5410102011,5410102012,5410102013,5430102013,5430102015'
         name: Vice, Not Nice
       young-and-old:
         description: From clothes to toys, regardless of age. There is an investment option for everyone.
         disclaimer: 'The stocks in "Young & Old" are generated using a filter of every stock in the United States with a market value over $1 billion that has passed at least 2 key metric tests (e.g. profitable, etc). We then look at the stocks that are in any of the following sectors: children''s clothing & footware, retirement homes, toys, cruise lines, children & teens retailers, baby food, birth control products, child care, funeral services, glasses & contact lenses, long-term care.'
-        filters:
-          country: usa
-          market_value_usd: 1000+
-          rating: 2+
-          sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
         name: Young & Old
     filters: The filters behind %n
     pageDescription: Need a little inspiration? Stockflare has created some great categories to help you get started.
@@ -920,6 +828,7 @@ en:
     country:
       titles:
         default: Country
+      search: Search by Country name
     country_currency:
       categories:
         country: Countries
@@ -1662,7 +1571,9 @@ en:
     sector:
       title: "Concentration by Sector"
       tooltip: "The value of your portfolio split by the 10 key sectors."
+      missing: 'Missing:'
     balance:
+      balanced: Your portfolio is balanced
       title: "Concentration by Stocks"
       tooltip: "100% means that your portfolio is evenly allocated, in terms of value across your stocks. The further from 100% the more you concentrated your portfolio is in a few key stocks."
       balance:
@@ -1688,6 +1599,10 @@ en:
           title: "Add Positions"
       subtitle: "Watchlists on Stockflare are so much more than the average portfolio."
       title: "Create a Watchlist"
+    danger:
+      title: Danger Zone
+      description: 'Deleting your watchlist will permanently remove all data that has been stored on our servers. This action cannot be undone.'
+      button: Delete Watchlist
     defaultName: "My Watchlist"
     footnote: "* Where we have no data, we use an 8% growth rate."
     pageDescription: "Your watchlist contains a summary of your portfolio as well as recent alerts from watched stocks."
@@ -1797,18 +1712,18 @@ en:
           title: Protected by Encryption
           description: 'We encrypt all data at Stockflare and only work with the most security conscientious providers, like Amazon Web Services.'
       details:
-        username: Brokerage Username
-        id: Brokerage User ID
-        password: Brokerage Password
-        conditions: 'By clicking "Login & Connect" you are agreeing to Stockflare's Terms of Service.'
+        username: 'Brokerage Username'
+        id: 'Brokerage User ID'
+        password: 'Brokerage Password'
+        conditions: 'By clicking "Login & Connect" you are agreeing to Stockflare Terms of Service.'
         button: 'Login & Connect'
       security:
         button: Finish
       broker_connection:
-      login: Checking Login Details
-      detail: We are creating a secure connection to your account
-      connecting: 'Secure ... Now Connecting ...'
-      connected: 'Success! Your Account is Connected'
+        login: Checking Login Details
+        detail: We are creating a secure connection to your account
+        connecting: 'Secure ... Now Connecting ...'
+        connected: 'Success! Your Account is Connected'
       final:
         title: Trading Activated
         description: 'Do a trade immediately? Or check out our smart analysis of your portfolio?'
@@ -1817,8 +1732,8 @@ en:
     trade:
       title: 'Trade %n'
       step_one:
-        title: Buying or Selling?
-        tooltip: 'We default trades to limit-orders, not at market, with the limit price set at the bid-ask spread. If you want to buy/sell regardless or price, please use the Advanced Settings to change the order type. We also default trades to expire at the end of the day. If you want to keep an order open indefinitely, please use the Advanced Settings to choose "Good 'til Cancelled". Note: we are not offering: the following order types: "Buy to Cover" or "Sell Short". Nor do we provide "Stop Limit" or "Stop Market" orders. If you would like those options, please let us know.'
+        title: "Buying or Selling?"
+        tooltip: 'We default trades to limit-orders, not at market, with the limit price set at the bid-ask spread. If you want to buy/sell regardless or price, please use the Advanced Settings to change the order type. We also default trades to expire at the end of the day. If you want to keep an order open indefinitely, please use the Advanced Settings to choose "Good until Cancelled". Note: we are not offering: the following order types: "Buy to Cover" or "Sell Short". Nor do we provide "Stop Limit" or "Stop Market" orders. If you would like those options, please let us know.'
         buying:
           title: Buy
           price: 'Currently at %n'
@@ -1830,7 +1745,7 @@ en:
         price:
           buy: 'Buy at / or less than'
           sell: 'Sell at / or higher than'
-          tooltip: 'This is a limit order, preset at the bid-ask spread. Click Advanced settings if you want to place a Market Order or a Limit order that is "good 'til close".'
+          tooltip: 'This is a limit order, preset at the bid-ask spread. Click Advanced settings if you want to place a Market Order or a Limit order that is "good until close".'
         quantity:
           prompt: Quantity
           note_own_shares: 'Today you own %n shares in %n'
@@ -1838,13 +1753,13 @@ en:
         advanced:
           prompt: Show Advanced Settings
           unprompt: Hide Advanced Settings
-            ordertype:
-              tooltip: 'The default setting is a limit order, but if you want to trade, at market, regardless of the price, you can choose that option here.'
-              prompt: Order Type
-              options:
-                limit: Limit Order
-                market: At Market Order
-              warning: 'If you choose an "At Market" order you will trade regardless of the price. i.e. you will not set a maximimum price to buy or a minimum price to sell.'
+          order_type:
+            tooltip: 'The default setting is a limit order, but if you want to trade, at market, regardless of the price, you can choose that option here.'
+            prompt: Order Type
+            options:
+              limit: Limit Order
+              market: At Market Order
+            warning: 'If you choose an "At Market" order you will trade regardless of the price. i.e. you will not set a maximimum price to buy or a minimum price to sell.'
           expiration:
             tooltip: "We default trades to be valid for the day. You can switch this to (GTC) good 'til cancelled, if you wish."
             prompt: Expiration
