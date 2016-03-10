@@ -1795,12 +1795,12 @@ en:
           description: "Not have enough time to track your portfolio? Let our smart alerts keep an eye on your investments for you."
         encryption:
           title: Protected by Encryption
-          description: "We encrypt all data at Stockflare and only work with the most security conscientious providers, like Amazon Web Services."
+          description: 'We encrypt all data at Stockflare and only work with the most security conscientious providers, like Amazon Web Services.'
       details:
         username: Brokerage Username
         id: Brokerage User ID
         password: Brokerage Password
-        conditions: "By clicking "Login & Connect" you are agreeing to Stockflare's Terms of Service."
+        conditions: 'By clicking "Login & Connect" you are agreeing to Stockflare's Terms of Service.'
         button: 'Login & Connect'
       security:
         button: Finish
