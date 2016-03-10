@@ -1768,17 +1768,17 @@ en:
     connect:
       help:
         assistance:
-          title: Need Assistance?
+          title: 'Need Assistance?'
           description: Click here if you need our help connecting your account or have any questions about our service.
         faq:
           title: Frequently Asked Questions
           description: Here are a few of the most important questions we receive.
           questions:
-            secure: How secure is the connection?
-            fees: Are there any fees?
-            compare: How do different brokerages compare?
+            secure: 'How secure is the connection?'
+            fees: 'Are there any fees?'
+            compare: 'How do different brokerages compare?'
         no_brokerage:
-          title: No brokerage? No problem.
+          title: 'No brokerage? No problem.'
           description: Check out this article here we compare all the brokerage services we are connected into.
       steps:
         choose: Choose Brokerage
