@@ -20,16 +20,16 @@ zh-CN:
       today: 今日提醒
     messages:
       gain:
-        negative: 预计长期收益已从%previous_gain%跌至%latest_gain%。
-        positive: 预计长期收益已从%previous_gain%增至%latest_gain%。
+        negative: 预测长期收益已从%previous_gain%跌至%latest_gain%。
+        positive: 预测长期收益已从%previous_gain%增至%latest_gain%。
       movement:
         negative: 股价已从%previous_price跌至%latest_price ，跌幅为%price_change%。
         positive: 股价已从%previous_price增至%latest_price ，增幅为%price_change%。
       none: 暂无提醒
       one_month_eps_sentiment:
-        positive: 上月，预计收益增速高于其股价增速。
+        positive: 上月，预测收益增速高于其股价增速。
       one_month_price_sentiment:
-        negative: 上月，股价跌幅高于其预计收益跌幅。
+        negative: 上月，股价跌幅高于其预测收益跌幅。
       rating:
         negative: 失去一个原有关键指标。股票现满足%latest_rating个指标。
         positive: 完成一个额外关键指标。股票现达成%latest_rating个指标。
@@ -37,9 +37,9 @@ zh-CN:
         negative: 华尔街已将%previous_recommendation_text降级为%latest_recommendation_text。
         positive: 华尔街已将%previous_recommendation_text升级为%latest_recommendation_text。
       three_month_eps_sentiment:
-        positive: 过去三个月内，预计收益增速高于其股价增速。
+        positive: 过去三个月内，预测收益增速高于其股价增速。
       three_month_price_sentiment:
-        negative: 过去三个月内，股价跌幅已超过其预计收益跌幅。
+        negative: 过去三个月内，股价跌幅已超过其预测收益跌幅。
       upside:
         positive: 现已超出指标价格%latest_upside。
       volume:
@@ -714,15 +714,15 @@ zh-CN:
     categories:
       big-and-cheap:
         description: 如今的投资人选择性忽略了许多拥有知名品牌的大公司。试想一下，可能有一天，这些公司会再度变得炙手可热？
-        disclaimer: “大而便宜”是通过筛选出在美国境内的每一只市场价值超过5百亿美元的股票而产生的，而且根据市盈率他们的价格比其竞争对手更低。
+        disclaimer: “知名企业且负担得起”是通过筛选出在美国境内的每一只市场价值超过5百亿美元的股票而产生的，而且根据市盈率他们的价格比其竞争对手更低。
         filters:
           country: usa
           financial: large
           market_value_usd: 50000+
           valulation: low_pe
-        name: 大而便宜
+        name: 知名企业且负担得起
       boring-businesses:
-        description: 谁规定只能在下一支热门股票上投资？想象一下跟您的朋友们谈油画、塑料、电池以及滚珠轴承、污水处理或者是卫浴产品。有兴趣的话，您甚至可以关注一下检测公司、兽医行业和殡仪馆业务！
+        description: 谁规定只能在下一支热门股票上投资？想象一下跟您的朋友们谈论绘画、塑料、电池以及滚珠轴承、污水处理或者是卫浴产品行业。有兴趣的话，您甚至可以关注一下检测公司、兽医和殡仪馆行业！
         disclaimer: “乏味生意”中显示的是美国境内，市场价值超过10亿美元，并且至少满足一项关键指标（比如盈利能力、股息收益率、高度增长率等）的股票。之后我们查看在以下行业中符合条件的股票：油漆、塑料、电池、滚珠轴承、污水处理、卫生用品、测试公司、兽医产业和殡仪馆业务。
         filters:
           country: usa
@@ -772,13 +772,13 @@ zh-CN:
           sentiment: hated
         name: 华尔街之敌
       healthy-tech:
-        description: 生物技术如今日益进步。何不考虑给予那些正在攻克生命科学难关的科学家以支持呢？
-        disclaimer: “高科技医药”中显示的是美国境内，市场价值超过10亿美元，并且处于以下行业的股票：生物制药、生物技术和医学研究。
+        description: 生物技术公司每天的发展日新月异。何不考虑给予那些正在攻克生命科学难关的科学家以支持呢？
+        disclaimer: “高科技医疗保健”中显示的是美国境内，市场价值超过10亿美元，并且处于以下行业的股票：生物制药、生物技术和医学研究。
         filters:
           country: usa
           market_value_usd: 1000+
           sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
-        name: 高科技医药
+        name: 高科技医疗保健
       land-and-sea:
         description: 俗话的好说，“人是铁，饭是钢”。农业市场巨大，不仅仅是农民，还包括生产农作机器的工人，甚至是农药厂的工人。这里列举了一些美国的农业巨头。
         disclaimer: “土地与海洋”中显示的是美国与加拿大范围内，市场价值超过10亿美元，并且处于以下行业的股票：农药、棉花种植、捕鱼业、农业和烟草种植。
@@ -797,7 +797,7 @@ zh-CN:
           sector_code: '5220304011,5220304012,5220307015,5420103012,5420103013'
         name: 法律与权威
       renewables:
-        description: 如果您有意在后石油时代做投资，现在有许多致力于可再生能源产业的公司。他们的研究与产品范畴不仅包括风能与太阳能，甚至是潮汐能和氢能源。这里列举了部分美国的新能源巨头。
+        description: 如果您有意在后石油时代做投资，现在有许多致力于可再生能源产业的公司。他们的技术与产品范畴不仅包括风能与太阳能，甚至是潮汐能和氢能源。这里列举了部分美国的新能源巨头。
         disclaimer: “可再生能源”中显示的是美国境内，满足至少3项关键指标（比如盈利能力等），并且致力于可再生能源或可再生公共事业的股票。
         filters:
           rating: 3+
@@ -806,12 +806,12 @@ zh-CN:
         name: 可再生能源
       ship-it:
         description: 当您需要大批量运输货物的时候，海运是唯一的选择。不过对于投资来说，休闲艇和巨型运输船一样轻松。
-        disclaimer: “发货啦”中显示的是全球范围内，市场价值超过5亿美元，满足至少一项关键指标（比如盈利能力等），并且处于任何以下行业的股票：邮轮海运、造船业、海上运输与物流、游艇与快艇和海港服务。
+        disclaimer: “运输”中显示的是全球范围内，市场价值超过5亿美元，满足至少一项关键指标（比如盈利能力等），并且处于任何以下行业的股票：邮轮海运、造船业、海上运输与物流、游艇与快艇和海港服务。
         filters:
           market_value_usd: 500+
           rating: 1+
           sector_code: '5010303014,5210205010,5210205011,5210205012,5320502011,5240502010,5240502011,5240502012,5240502013,5240602014,5240702010,5240702011,5240702012,5240702013'
-        name: 发货啦
+        name: 运输
       space-race:
         description: 展望投资的最遥远边界，火箭和卫星制造商，以及依靠卫星运作的产业都是不错的选择。
         disclaimer: “太空竞赛”中显示的是全球范围内，市场价值超过1亿美元，并且处于任何以下行业的股票：卫星与宇宙飞船制造、卫星网络与导航和卫星运营商。
@@ -828,7 +828,7 @@ zh-CN:
           sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
         name: 户外运动
       taking-it-easy:
-        description: 谁说您只能投资于股市呢？您总是可以选择EFT，即交易所交易基金。最多只需要跟踪观察一个有名的指数。因此，即使您在ETF的投资回报无法超越股市，也不会比它差。
+        description: 谁说您只有投资股票才是一个明智的投资决策呢？您也可以选择ETF，即交易所交易基金。最多只需要追踪一个著名的基金指数。因此，你将得到与股票市场同等的回报，最起码也不会比它差。
         disclaimer: “轻松投资”中显示的是全球范围内，市场价值超过100亿美元的交易所交易基金（ETFs）。
         filters:
           market_value_usd: 10000+
@@ -871,7 +871,7 @@ zh-CN:
           sector_code: '5720103010,5720103011,5720103012,5720103013'
         name: 网络时代
       vice-not-nice:
-        description: 摒弃道德？想要投资于毒品、酒精、枪支等“歪门邪道”？
+        description: 摒弃道德？想要投资于毒品、酒精、博彩、枪支等“歪门邪道”？
         disclaimer: “旁门左道”中显示的是美国境内，市场价值超过5亿美元，满足至少2项关键指标（比如盈利能力等），并且处于任何以下行业的股票：武器制造、酒吧与夜店、赌场与博彩、成人娱乐与零售、啤酒厂与酿酒厂、烟酒商店。
         filters:
           country: usa
@@ -880,7 +880,7 @@ zh-CN:
           sector_code: '5210101011,5330102011,5330103010,5330103011,5330103012,5330103013,5330203016,5340309025,5410101010,5410101011,5410102010,5410102011,5410102012,5410102013,5430102013,5430102015'
         name: 旁门左道
       young-and-old:
-        description: 从服饰到玩具，无论年纪，每个人都有各自的投资主见。
+        description: 从服饰到玩具，无论年纪，每个人都有一个投资选择。
         disclaimer: “新老交替”中显示的是美国境内，市场价值超过10亿美元，满足至少2项关键指标（比如盈利能力等），并且处于任何以下行业的股票：童装与童鞋、敬老院、玩具、邮轮公司、儿童与青少年产品零售、婴儿食物、计生产品、保育产品、殡葬服务、眼镜与隐形眼镜和长期护理。
         filters:
           country: usa
@@ -891,18 +891,18 @@ zh-CN:
     filters: '%n的后台默认筛选'
     pageDescription: 需要一点灵感火花吗？Stockflare制作了非常棒的分类检索，来帮助您寻找灵感。
     pageTitle: 随便逛逛
-    popular: '%n的最大股票'
+    popular: '%n相关的最大股票'
   filterBar:
     company_tags:
       descriptions:
-        growing: 与去年相比，今年每股销售与每股盈余将预计增长。
+        growing: 与去年相比，今年的销售额和每股收益预测将增长。
         has_cash: 现金与投资多于负债的公司
-        high_growth: 预计长期收益增长率将超过16%。
+        high_growth: 预测长期收益增长率将超过16%。
         large: 市值高于一百亿美元的公司
         pays_dividends: 向股东支付股息的公司
-        profitable: 去年与预计今年皆有盈余。
+        profitable: 去年及今年预测皆有盈利。
         small: 市值低于十亿美元的公司
-        turning_profitable: 去年遭受损失，今年预计盈利
+        turning_profitable: 在去年遭受损失之后，预测今年盈利
       titles:
         default: 业务指标
         filters:
@@ -940,20 +940,20 @@ zh-CN:
     metrics:
       cheaper:
         description: 这只股票比其竞争对手股价低吗？
-        title: 低廉
+        title: 低价股
       dividends:
         description: 此公司是否支付红利？
         title: 分红
       high_growth:
-        description: 这家公司是否比其竞争对手预计增长快？
-        title: 高增速
+        description: 这家公司是否比其竞争对手预测增长快？
+        title: 快速成长
       profitable:
         description: 这家公司是否盈利？
         title: 盈利
       title: 关键指标
       upside:
         description: 华尔街是否认为这支股票价值高于其现股价？
-        title: 占优势
+        title: 具潜力
     opinion:
       titles:
         default: 投资风格
@@ -989,7 +989,7 @@ zh-CN:
     - code: '56'
       name: 卫生保健
     - code: '57'
-      name: 电子信息
+      name: 技术行业
     - code: '58'
       name: 通信行业
     - code: '59'
@@ -1008,7 +1008,7 @@ zh-CN:
     style:
       descriptions:
         growth: 长期增长速度高于其竞争对手的公司。
-        quality: 现股价较低并且预计将强势增长的公司。
+        quality: 现股价较低并且预测将强势增长的公司。
         value: 股价低于其竞争对手的公司。
       titles:
         default: 投资风格
@@ -1309,7 +1309,7 @@ zh-CN:
         explanation: '%t(pe){市盈率}比其竞争对手高。'
         title: 昂贵
     dividends:
-      forecastedDescription: 预计%t(dps){每股股利}
+      forecastedDescription: 预测%t(dps){每股股利}
       latestDescription: 最新%t(dps){每股股利}
       title: 是否支付股息？
       yield: '%n%的股息收益率'
@@ -1321,10 +1321,10 @@ zh-CN:
       volume: 股价与市值
     growth:
       strong:
-        explanation: 长期增长率预计将高于其竞争对手。
+        explanation: 长期增长率预测将高于其竞争对手。
         title: 强势增长
       weak:
-        explanation: 长期增长率预计将低于其竞争对手。
+        explanation: 长期增长率预测将低于其竞争对手。
         title: 缓慢增长
     header:
       actualChange: 实际变化
@@ -1348,31 +1348,31 @@ zh-CN:
       dividends:
         titles:
           competitors: 支付股息的竞争对手
-          forecast: 预计短期股息
+          forecast: 预测短期股息
           main: 股息
       growth:
         titles:
-          comparison: 长、短期预计增长率的比较
-          growth: 预计长期增长率
+          comparison: 长、短期预测增长率的比较
+          growth: 预测长期增长率
           main: 与高增长的五个竞争对手间的增长率对比
-          profit: 预计短期利润
-          sales: 预计短期营业额
+          profit: 预测短期利润
+          sales: 预测短期营业额
       labels:
         forecasted: 预测
         historic: 过去12个月
       latest:
         forecasted:
-          dividend: 预计股息
-          eps: 预计每股盈余
-          profit: 预计净利润
-          sales: 预计营业额
+          dividend: 预测股息
+          eps: 预测每股盈余
+          profit: 预测净利润
+          sales: 预测营业额
         titles:
-          epsForecast: 预计每股盈余与股息收益率
+          epsForecast: 预测每股盈余与股息收益率
           gross: 与五个最大竞争对手的毛利率的比较
           main: 最新结果
           operating: 与五个最大竞争对手的营业利润率比较
           roe: 与五个最大竞争对手的净资产收益率的比较
-          salesForecast: 预计营业额与净利润
+          salesForecast: 预测营业额与净利润
       panel:
         description: 在这里您可以找到有关%n的详尽信息，包括同行之间关键指标的比较。
         title: 明细
@@ -1390,9 +1390,9 @@ zh-CN:
           main: 竞争对手
       profitable:
         titles:
-          epsForecast: 预计短期每股盈余
+          epsForecast: 预测短期每股盈余
           main: 有利可图
-          profitForecast: 预计短期利润
+          profitForecast: 预测短期利润
       stats:
         data:
           table:
@@ -1402,10 +1402,10 @@ zh-CN:
               competitors: 竞争对手
               stock: 最新
             labels:
-              forecastedDividends: （预计）股息
+              forecastedDividends: （预测）股息
               forecastedFcfYield: （历史）自由现金流收益率
-              forecastedPe: （预计）市盈率
-              forecastedSales: （预计）市销率
+              forecastedPe: （预测）市盈率
+              forecastedSales: （预测）市销率
               historicBookValue: （历史）市净率
               historicDividends: （历史）股息
               historicEquity: （历史）净资产收益率
@@ -1452,8 +1452,8 @@ zh-CN:
         title: 公司介绍
       dividends:
         description:
-          fallback: 华尔街预计这支股票将没有股息分红。在Stockflare上查看其原因。
-          valid: 华尔街预计这支股票的每股股利将为%n。在Stockflare网站上查看更多相关信息。
+          fallback: 华尔街预测这支股票将没有股息分红。在Stockflare上查看其原因。
+          valid: 华尔街预测这支股票的每股股利将为%n。在Stockflare网站上查看更多相关信息。
         title: 股息
       growth:
         description:
@@ -1461,7 +1461,7 @@ zh-CN:
           terms:
             high: 较强
             low: 较缓
-          valid: 这支股票的长期收益预计将会以每年%n%的速度增长。这比其竞争对手%n。在Stockflare网站上了解更多。
+          valid: 这支股票的长期收益预测将会以每年%n%的速度增长。这比其竞争对手%n。在Stockflare网站上了解更多。
         title: 增长
       latest:
         description: 在Stockflare网站上查看这支股票的最新业绩与财务数据。
@@ -1472,8 +1472,8 @@ zh-CN:
         title: 同行列表
       profitable:
         description:
-          fallback: 华尔街预计这支股票将没有每股盈余。在Stockflare网站上查看其原因。
-          valid: 华尔街预计这支股票的每股盈余将为%n。在Stockflare网站上查看更多相关信息。
+          fallback: 华尔街预测这支股票将没有每股盈余。在Stockflare网站上查看其原因。
+          valid: 华尔街预测这支股票的每股盈余将为%n。在Stockflare网站上查看更多相关信息。
         title: 盈亏
       stats:
         description:
@@ -1504,7 +1504,7 @@ zh-CN:
           terms:
             gain: 盈利
             lose: 亏损
-          valid: 未来七年内，这支股票预计将会以平均每年%n%的速度%n。
+          valid: 未来七年内，这支股票预测将会以平均每年%n%的速度%n。
         title: 它有多少价值？
     notification:
       insufficientData: 我们没有足够的数据以进行该项运算。
@@ -1521,17 +1521,17 @@ zh-CN:
       profitability:
         epsToday: 今日处于%n
         epsWas: '%t(eps){每股盈余}为%n。'
-        forecastEpsWas: 预计%t(eps){每股盈余}为%n。
+        forecastEpsWas: 预测%t(eps){每股盈余}为%n。
         title: 盈利前景有变？
       sentiment:
-        forecastPeWas: 预计%t(pe){市盈率}为%nx。
+        forecastPeWas: 预测%t(pe){市盈率}为%nx。
         peToday: 今日处于%nx。
         peWas: '%t(pe){市盈率}为%n。'
         title: 投资者情绪是否有变？
       title: 是什么在推动价格的变化？
       up: 上升
     profitable:
-      forecastedDescription: 预计%t(eps){每股盈余}
+      forecastedDescription: 预测%t(eps){每股盈余}
       latestDescription: 最新%t(eps){每股盈余}
       title: 有利可图？
     ratings:
@@ -1576,7 +1576,7 @@ zh-CN:
         gain:
           negative: 7年亏损
           positive: 7年收益
-        growth: 预计7年发展
+        growth: 7年增长预测
         value: 7年后的总价值
       copy:
         absoluteGain:
@@ -1595,13 +1595,13 @@ zh-CN:
           text: 股票价值%n
       descriptions:
         growth:
-          negative: '%n的现价值预计将在7年内减少%n。'
-          positive: '%n的现价值预计将在7年内增加%n。'
-        return: 由华尔街长期发展数据、预计股息以及现在价值分析所得的预测。
+          negative: '%n的现价值预测将在7年内减少%n。'
+          positive: '%n的现价值预测将在7年内增加%n。'
+        return: 由华尔街长期发展数据、预测股息以及现在价值分析所得的预测。
       flash:
         another: 已添加%n股，价格为@%n，股票代码为%n
         first: 已添加%n股，价格为@%n，股票代码为%n
-      footnote: 对于上述计算，我们预计年增长为8%。
+      footnote: 对于上述计算，我们预测年增长为8%。
       forecast:
         title: 被预测为
       inputs:
@@ -1614,7 +1614,7 @@ zh-CN:
       title: 它有多少价值
       titles:
         growth: 投资增长
-        return: 7年预计回报
+        return: 7年回报预测
       today:
         description: 在下面输入股数
         submitNotWatching: 加入关注列表
@@ -1637,7 +1637,7 @@ zh-CN:
     acronyms:
       dps: 每股股利
       eps: 每股盈余
-      growth: 预计长期增长
+      growth: 预测长期增长
       pe: 市盈率
       rating: 关键指标
       ric: 路透社股票代码
@@ -1726,7 +1726,7 @@ zh-CN:
         gain:
           notWatchingStocks: 关注一些股票并预测平均增长。
           projectedGain: 从今日的%n算起为%n%的年增长率
-          projectedValue: 投资组合7年后预计价值将为%n。
+          projectedValue: 投资组合7年后预测价值将为%n。
         opinion:
           notWatchingStocks: 关注一些股票并得到一个评级。
           stars: 平均满足%n个关键指标。
