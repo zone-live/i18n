@@ -1765,7 +1765,7 @@ en:
             prompt: Expiration
             options:
               day: Expires at end of the day
-              gtc: Order good until you cancel it
+              gtc: Order is good until you cancel it
         button: Preview Order
       step_three:
         title: Order Preview
