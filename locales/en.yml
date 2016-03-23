@@ -680,6 +680,8 @@ en:
         graph: Price Chart
         info: Key Metrics
         social: Share
+        trade: Buy or Sell %n
+        unavailable: Can only trade US Stocks
     unwatch: Unwatch
     wallStreetRecommendations:
       emptyCategory: You have no stocks in this category.
