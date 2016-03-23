@@ -1713,6 +1713,14 @@ en:
         encryption:
           title: Protected by Encryption
           description: 'We encrypt all data at Stockflare and only work with the most security conscientious providers, like Amazon Web Services.'
+      select:
+        titles:
+          new: Add New Brokerage
+          existing: Connect to Brokerage Account
+          sessions: Already Connected
+          buttons:
+            connect: Connect
+            use: Use
       details:
         username: 'Brokerage Username'
         id: 'Brokerage User ID'
