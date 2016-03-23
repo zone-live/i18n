@@ -54,6 +54,147 @@ zh-CN:
   appenders:
     watchlist:
       create: 新关注列表
+  brokerage:
+    brokerages:
+      etrade: E-Trade
+      fidelity: Fidelity
+      ib: Interactive Brokers
+      options_house: Options House
+      robinhood: Robinhood
+      schwab: Schwab
+      scottrade: Scottrade
+      td: TD Ameritrade
+      trade_station: Trade Station
+      tradier: Tradier
+    connect:
+      broker_connection:
+        connected: 成功了！您的帐户已连接
+        connecting: 保护中……现在连接……
+        detail: 我们正在与您的帐户创建一个安全的连接
+        login: 检查登录信息
+      details:
+        button: 登录&连接
+        conditions: 点击“登录&连接”意味着您已同意Stockflare的服务条款
+        id: 交易用户身份
+        password: 交易密码
+        username: 交易用户名
+      final:
+        description: 马上进行交易？还是先了解一下我们对您投资组合的智能分析？
+        title: 可进行交易
+        to_portfolio: 转去投资组合
+        to_stock: 返回至 %n
+      help:
+        assistance:
+          description: 如果您在连接帐户方面需要我们的帮助或者对我们的服务有任何疑问，请点击这里。
+          title: 需要协助吗？
+        faq:
+          description: 这里是一些我们收到的最重要的问题。
+          questions:
+            compare: 不同的经纪商如何比较？
+            fees: 有任何费用吗？
+            secure: 这个连接有多安全？
+          title: 常见问题
+        no_brokerage:
+          description: 阅读这篇文章以了解我们是如何对比我们连接到的所有经纪服务的。
+          title: 还没有经纪商？这不是问题。
+      security:
+        button: 完成
+      steps:
+        choose: 选择经纪商
+        details: 您的明细
+        final: 完成
+        security: 安全问题
+      teaser:
+        alerts:
+          description: 没有时间追踪您的投资组合？让我们的智能提醒功能帮助您随时关注您的投资。
+          title: 获得我们的智能提醒
+        encryption:
+          description: 我们对Stockflare的所有数据都会进行加密，并只与最安全谨慎的供应商合作，比如亚马逊网络服务。
+          title: 加密保护
+        trade:
+          description: 找到一支好股票？连接您的交易帐户，然后快速便捷地在Stockflare内部进行交易。
+          title: 通过Stockflare进行交易
+      title: 选择经纪商
+    portfolio:
+      alerts:
+        heading: n% 的提醒
+      danger_zone:
+        button: 断开帐户连接
+        warning: 断开您的交易帐户连接将清除您在我们服务器上保存的所有数据。
+      headings:
+        power: 购买能力
+      notes:
+        heading: n% 的记录
+      table:
+        status: 状态
+        statuses:
+          completed: 完成
+          failed: 失败
+          filling: 购买中
+          pending: 等待中
+        trades: 开放交易
+    trade:
+      step_one:
+        buying:
+          price: 目前在 %n
+          title: 购买
+        selling:
+          price: 目前在 %n
+          title: 出售
+        title: 购买还是出售？
+        tooltip: 我们预设所有交易为限价订单，即已买卖差价的定单，而非市场价定单。如果您想要无视价格进行买卖，请使用高级设置来更改定单类型。同时我们也预设交易仅当日有效。如果您想让一个定单永久开放，请选择高级设置中的“撤销前有效”选项。备注：我们不提供以下定单类型：“空单补回”或者“放空”定单，同时我们也不提供“止损单限价”或“止损单市场价”定单。但如果您想要此种类型定单，请联系我们。
+      step_three:
+        button:
+          buy: 购买股票 (%n)
+          sell: 出售股票 (%n)
+        table:
+          brokerage: 经纪商
+          cost: 预估花费
+          fees: 预估手续费
+          return: 预估所得
+          shares: 股票数目
+          ticker: 代号
+        title: 定单预览
+      step_two:
+        advanced:
+          expiration:
+            options:
+              day: 今天后定单过期
+              gtc: 您的定单仍在继续完成，除非您取消定单
+            prompt: 定单有效期
+            tooltip: 我们预设的是交易仅当日有效。如果需要，您也可以转成取消定单前有效（GTC）。
+          order_type:
+            options:
+              limit: 限价定单
+              market: 市场价定单
+            prompt: 定单类型
+            tooltip: 预设为限价定单，但如果您想要市场交易、不问价格，您可以在这里进行选择。
+            warning: 如果您选择“市场价”定单，您将无视价格进行交易，例如：您将设置一个最高买入价或最低卖出价
+          prompt: 显示高级设置
+          unprompt: 隐藏高级设置
+        button: 预览定单
+        price:
+          buy: 购买，当/少于
+          sell: 出售，当/高于
+          tooltip: 这是一个限价定单，带有预设的买卖差价。如果您想安排一个市场定单或者“撤销前有效”的限价定单，请点击高级设置。
+        quantity:
+          note_no_shares: 目前您不拥有任何 %n 的股票
+          note_own_shares: 今天您拥有 %n股%n的股票
+          prompt: 数量
+        title: 数量&价格
+      thetrade:
+        description: 您的定单正在完成
+        title:
+          buy: 完成购买定单
+          sell: 完成出售定单
+        to_portfolio: 转到投资组合
+        to_stocks: 转到股票市场
+        update:
+          no_success: 您的定单还未完成。完成后我们将用邮件通知您。
+          success: 成功。您的定单已经完成。交易结束。
+      title: 交易 %n
+      tradeupdate:
+        title: 更新您 %n 的定单
   common:
     countries:
       afg: 阿富汗
@@ -630,11 +771,17 @@ zh-CN:
         zwd: Z$%n
     defaultPageTitle: 轻松选股
     languages:
+      de: Deutsch
       de-DE: Deutsch
+      en: English
       en-US: English
+      es: Español
       es-ES: Español
+      fr: Français
       fr-FR: Français
+      it: Italiano
       it-IT: Italiano
+      ja: 日本語
       ja-JP: 日本語
       zh-CN: 中文
     loading: 加载中…
@@ -708,6 +855,9 @@ zh-CN:
     title: 法律事项时间！
     wallStreet: 这个表格呈现出您的关注列表内股票的股价高于“华尔街”共识指标价格以及对这些股票的推荐。但由于未来的不确定性，这个共识仅作为主观分析，而非客观事实。Stockflare并不为推崇“华尔街“的观点。我们展示这些数据，只为方便于我们的用户了解专家对任意一只股票的预期。
     worth: 这个表格结合了”华尔街“所达成共识的长期预计收益、预计股息收益率和预计市盈率复位平均值。因此预测的收益值是基于专家给出的主观分析，而非客观事实。Stockflare并不拥护”华尔街“的观点。我们展示这些数据，只为方便于我们的用户了解专家对任意一只股票的预期。鉴于未来不可预知，假如这些专家预测不正确，那么实际收益可能会与这里给出的数据出现重大偏差。
+  errors:
+    api_error: 天！联系伺服器时出现了一个错误。
+    not_found: 哎哟，此页面不存在。
   explore:
     all: 所有股票
     biLine: 需要一点灵感火花吗？
@@ -915,6 +1065,7 @@ zh-CN:
           small: 只看小公司
           turning_profitable: 扭亏为盈
     country:
+      search: 通过国家名搜索
       titles:
         default: 国家
     country_currency:
@@ -1069,6 +1220,29 @@ zh-CN:
       link: 点击此处浏览%n的所有股票
       title: 浏览%n内最强股票
   landing:
+    china:
+      premium:
+        content:
+          alerts_one: 基本警报
+          alerts_two: 智能警报
+          analysis_one: 基本分析数据
+          analysis_two: 访问全部分析数据
+          broker: 与您的经纪业务结合
+          call_to_action: 试用
+          heading: Stockflare即将在中国隆重发布
+          line_one: Stockflare很荣幸能够与Drivewealth合作，为我们在中国的用户与合作伙伴提供最高质量的资料和分析数据。
+          line_two: 我们的服务分为3个价格级别，包括一项免费服务。马上试用Stockflare！
+          markets_one: 美国、中国和香港
+          markets_two: 所有市场
+          price_one: 免费
+          price_three: 每月66元
+          price_two: 每月30元
+          pricing_one: 盘后定价
+          pricing_three: 实时定价
+          pricing_two: 定价：15分钟延迟
+          tier_one: 白银客户
+          tier_three: 白金客户
+          tier_two: 黄金客户
     explore:
       content:
         copy: 人人都爱发掘新点子。
@@ -1143,6 +1317,8 @@ zh-CN:
     errors:
       '401': 用户名或密码无效
       '500': 抱歉，服务器故障。
+      error_403: 无效用户名或密码
+      error_500: 抱歉，伺服器错误
       mfa:
         '401': 验证码无效
         '500': 抱歉，服务器故障。
@@ -1223,6 +1399,11 @@ zh-CN:
       loading: 创建账户
       register: 注册Stockflare账户
     disclaimer: 使用此网站或是点击"%n"即表示您接受我们的
+    errors:
+      error: 抱歉，您的注册出现了问题：
+      error_400: 必须要有一个有效的邮箱地址和至少六个字符的密码
+      error_409: 邮箱地址已被注册
+      error_500: 伺服器出现错误。请稍候再试。
     flash:
       success: 您已经成功以%n身份注册
     og:
@@ -1298,8 +1479,11 @@ zh-CN:
       mfa: 身份验证密钥
   stock:
     buttons:
+      fiveYears: 5年
       oneMonth: 1个月
       oneWeek: 1周
+      oneYear: 1年
+      sixMonths: 6个月
       threeMonths: 3个月
     cheaper:
       cheaper:
@@ -1328,6 +1512,7 @@ zh-CN:
         title: 缓慢增长
     header:
       actualChange: 实际变化
+      last_updated: 最新更新 %n
       percentChange: 百分比变化
       price: 股价
     information:
@@ -1558,6 +1743,7 @@ zh-CN:
       fifty_two_week: 52周高点/低点
       industry: 产业
       value: 市场价值
+      website: 公司网页
     targetPrice:
       decrease: '%t(downside){滑坡}'
       description: 今日价格体现出%n。
@@ -1685,7 +1871,37 @@ zh-CN:
         tooShort: 密码过短
   watchlist:
     actualChange: （1日）实际变化
-    breakdown: 关注列表明细
+    balance:
+      balance:
+        over: 超过平衡 %n
+        under: 低于平衡 %n
+      balanced: 您的投资组合处于平衡状态
+      phrase:
+        negative: 不平衡
+        neutral: 适度平衡
+        positive: 平衡
+      title: 股票集中
+      tooltip: 100%意味着您的证券投资组合在股票价值方面是均匀分配的。离100%越远说明您的证券投资组合越集中在几个关键的股票。
+    breakdown:
+      columns:
+        actions: 行动
+        gain: 7年预计回报
+        name: 公司名称
+        price: 今日
+        purchased: 投资
+        rating: 关键指标
+        shares: 价值与股份
+      empty: 向下方观察列表中添加一些股票以开始操作
+      rows:
+        gain:
+          gain: '%n 每年'
+        purchased:
+          worth:
+            negative: '%n 的亏损'
+            positive: '%n 的盈利'
+        today:
+          change: '%n 今日'
+      title: 我的证券投资组合分割
     create:
       button: 新建关注列表
       fields:
@@ -1702,6 +1918,10 @@ zh-CN:
           title: 添加仓位
       subtitle: Stockflare所提供的关注列表容量远远超过平均投资组合。
       title: 新建关注列表
+    danger:
+      button: 删除观察列表
+      description: 删除您的观察列表将永久删除您在我们伺服器上存储的所有数据。此过程将不可恢复。
+      title: 危险区域
     defaultName: 我的关注列表
     footnote: '* 当我们没有足够的数据时，我们默认为8%的增长率。'
     pageDescription: 您的关注列表包含了一份有关您投资组合的摘要与您所关注股票的最新提示。
@@ -1721,6 +1941,10 @@ zh-CN:
       usValue: （美元）价值
       value: 价值
     projected: 投资组合详细信息
+    sector:
+      missing: 未选：
+      title: 行业集中
+      tooltip: 您的证券投资组合分割在10个关键行业后的价值
     summary:
       summaries:
         gain:
@@ -1746,12 +1970,17 @@ zh-CN:
     watchingPhrase: '%n家公司'
     worth: 总价值
   watchlists:
+    connect: 新经纪商
     delete: 确认删除“%n”吗？
     pageTitle: 我的关注列表
+    subtitles:
+      connected: 联系经纪商
+      watchlists: 观察列表
     titles:
       actual: 实际变化
       change: '百分比变化 '
       count: 正在关注
+      inactive: '%n 支股票不活跃'
       mover: 最大浮动公司
       rating: 关键指标测试
       stocks: '%n支股票'

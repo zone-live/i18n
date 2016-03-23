@@ -54,6 +54,147 @@ ar:
   appenders:
     watchlist:
       create: 
+  brokerage:
+    brokerages:
+      etrade: E-Trade
+      fidelity: Fidelity
+      ib: Interactive Brokers
+      options_house: Options House
+      robinhood: Robinhood
+      schwab: Schwab
+      scottrade: Scottrade
+      td: TD Ameritrade
+      trade_station: Trade Station
+      tradier: Tradier
+    connect:
+      broker_connection:
+        connected: 
+        connecting: 
+        detail: 
+        login: 
+      details:
+        button: 
+        conditions: 
+        id: 
+        password: 
+        username: 
+      final:
+        description: 
+        title: 
+        to_portfolio: 
+        to_stock: 
+      help:
+        assistance:
+          description: 
+          title: 
+        faq:
+          description: 
+          questions:
+            compare: 
+            fees: 
+            secure: 
+          title: 
+        no_brokerage:
+          description: 
+          title: 
+      security:
+        button: 
+      steps:
+        choose: 
+        details: 
+        final: 
+        security: 
+      teaser:
+        alerts:
+          description: 
+          title: 
+        encryption:
+          description: 
+          title: 
+        trade:
+          description: 
+          title: 
+      title: 
+    portfolio:
+      alerts:
+        heading: 
+      danger_zone:
+        button: 
+        warning: 
+      headings:
+        power: 
+      notes:
+        heading: 
+      table:
+        status: 
+        statuses:
+          completed: 
+          failed: 
+          filling: 
+          pending: 
+        trades: 
+    trade:
+      step_one:
+        buying:
+          price: 
+          title: 
+        selling:
+          price: 
+          title: 
+        title: 
+        tooltip: 
+      step_three:
+        button:
+          buy: 
+          sell: 
+        table:
+          brokerage: 
+          cost: 
+          fees: 
+          return: 
+          shares: 
+          ticker: 
+        title: 
+      step_two:
+        advanced:
+          expiration:
+            options:
+              day: 
+              gtc: 
+            prompt: 
+            tooltip: 
+          order_type:
+            options:
+              limit: 
+              market: 
+            prompt: 
+            tooltip: 
+            warning: 
+          prompt: 
+          unprompt: 
+        button: 
+        price:
+          buy: 
+          sell: 
+          tooltip: 
+        quantity:
+          note_no_shares: 
+          note_own_shares: 
+          prompt: 
+        title: 
+      thetrade:
+        description: 
+        title:
+          buy: 
+          sell: 
+        to_portfolio: 
+        to_stocks: 
+        update:
+          no_success: 
+          success: 
+      title: 
+      tradeupdate:
+        title: 
   common:
     countries:
       afg: أفغانستان
@@ -630,13 +771,19 @@ ar:
         zwd: Z$%n
     defaultPageTitle: 
     languages:
-      de-DE: 
-      en-US: 
-      es-ES: 
-      fr-FR: 
-      it-IT: 
-      ja-JP: 
-      zh-CN: 
+      de: Deutsch
+      de-DE: Deutsch
+      en: English
+      en-US: English
+      es: Español
+      es-ES: Español
+      fr: Français
+      fr-FR: Français
+      it: Italiano
+      it-IT: Italiano
+      ja: 日本語
+      ja-JP: 日本語
+      zh-CN: 中文
     loading: 
     login: 
     pages:
@@ -694,6 +841,9 @@ ar:
     title: 
     wallStreet: 
     worth: 
+  errors:
+    api_error: 
+    not_found: 
   explore:
     all: 
     biLine: 
@@ -901,6 +1051,7 @@ ar:
           small: 
           turning_profitable: 
     country:
+      search: 
       titles:
         default: 
     country_currency:
@@ -950,6 +1101,9 @@ ar:
         latest_market_value_usd: 
         latest_price: 
         latest_rating: 
+        market_value_usd: 
+        price: 
+        rating: 
     panel:
       description: 
       title: 
@@ -1032,6 +1186,29 @@ ar:
       link: 
       title: 
   landing:
+    china:
+      premium:
+        content:
+          alerts_one: Basic Alerts
+          alerts_two: Smart Alerts
+          analysis_one: Basic Analytics
+          analysis_two: Access to Full Analytics
+          broker: Integrates with your Brokerage
+          call_to_action: Test Drive
+          heading: Stockflare China is launching soon
+          line_one: Stockflare is proud to work with Drivewealth to deliver the highest quality data and analytics to our users and partners in China.
+          line_two: Our service has 3 price tiers, including a free offering. Test drive Stockflare today!
+          markets_one: USA, China & Hong Kong
+          markets_two: All Markets
+          price_one: Free
+          price_three: ¥ 65 / month
+          price_two: ¥ 30 per month
+          pricing_one: End-of-Day Pricing
+          pricing_three: Real-time Pricing
+          pricing_two: 'Pricing: 15 minute delayed'
+          tier_one: Silver
+          tier_three: Platinum
+          tier_two: Gold
     explore:
       content:
         copy: 
@@ -1106,6 +1283,8 @@ ar:
     errors:
       '401': 
       '500': 
+      error_403: 
+      error_500: 
       mfa:
         '401': 
         '500': 
@@ -1186,6 +1365,11 @@ ar:
       loading: 
       register: 
     disclaimer: 
+    errors:
+      error: 
+      error_400: 
+      error_409: 
+      error_500: 
     flash:
       success: 
     og:
@@ -1261,8 +1445,11 @@ ar:
       mfa: 
   stock:
     buttons:
+      fiveYears: 
       oneMonth: 
       oneWeek: 
+      oneYear: 
+      sixMonths: 
       threeMonths: 
     cheaper:
       cheaper:
@@ -1291,6 +1478,7 @@ ar:
         title: 
     header:
       actualChange: 
+      last_updated: 
       percentChange: 
       price: 
     information:
@@ -1521,6 +1709,7 @@ ar:
       fifty_two_week: 
       industry: 
       value: 
+      website: 
     targetPrice:
       decrease: 
       description: 
@@ -1648,7 +1837,37 @@ ar:
         tooShort: 
   watchlist:
     actualChange: 
-    breakdown: 
+    balance:
+      balance:
+        over: 
+        under: 
+      balanced: 
+      phrase:
+        negative: 
+        neutral: 
+        positive: 
+      title: 
+      tooltip: 
+    breakdown:
+      columns:
+        actions: 
+        gain: 
+        name: 
+        price: 
+        purchased: 
+        rating: 
+        shares: 
+      empty: 
+      rows:
+        gain:
+          gain: 
+        purchased:
+          worth:
+            negative: 
+            positive: 
+        today:
+          change: 
+      title: 
     create:
       button: 
       fields:
@@ -1664,6 +1883,10 @@ ar:
           subtitle: 
           title: 
       subtitle: 
+      title: 
+    danger:
+      button: 
+      description: 
       title: 
     defaultName: 
     footnote: 
@@ -1684,6 +1907,10 @@ ar:
       usValue: 
       value: 
     projected: 
+    sector:
+      missing: 
+      title: 
+      tooltip: 
     summary:
       summaries:
         gain:
@@ -1709,12 +1936,17 @@ ar:
     watchingPhrase: 
     worth: 
   watchlists:
+    connect: 
     delete: 
     pageTitle: 
+    subtitles:
+      connected: 
+      watchlists: 
     titles:
       actual: 
       change: 
       count: 
+      inactive: 
       mover: 
       rating: 
       stocks: 

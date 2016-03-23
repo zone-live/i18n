@@ -54,6 +54,149 @@ es:
   appenders:
     watchlist:
       create: Nueva lista de seguimiento
+  brokerage:
+    brokerages:
+      etrade: E-Trade
+      fidelity: Fidelity
+      ib: Interactive Brokers
+      options_house: Options House
+      robinhood: Robinhood
+      schwab: Schwab
+      scottrade: Scottrade
+      td: TD Ameritrade
+      trade_station: Trade Station
+      tradier: Tradier
+    connect:
+      broker_connection:
+        connected: ¡Bien! Su cuenta está conectada.
+        connecting: Seguro… Conectando ahora...
+        detail: Estamos estableciendo una conexión segura para su cuenta.
+        login: Comprobando detalles de acceso
+      details:
+        button: Acceso & Conexión
+        conditions: Dando click sobre "Acceso & Conexión" acepta usted los Términos de Servicio de Stockflare.
+        id: ID de usuario de corretaje
+        password: Contraseña de corretaje
+        username: Nombre de usuario de corretaje
+      final:
+        description: |-
+          "¿Quiere hacer negocios inmediatamente?
+          ¿O quiere ver nuestro análisis inteligente de su cartera de inversiones?"
+        title: Compra-venta activada
+        to_portfolio: Ir a la cartera de inversiones
+        to_stock: Volver a %n
+      help:
+        assistance:
+          description: Pinche aquí si necesita ayuda para conectarse a su cuenta y si tiene preguntas sobre de nuestro servicio.
+          title: ¿Necesita ayuda?
+        faq:
+          description: Aquí están algunas de las preguntas más importantes que recibimos.
+          questions:
+            compare: ¿Cómo comparar diferentes corretajes?
+            fees: ¿Hay tasas?
+            secure: ¿Qué tan segura es la conexión?
+          title: Preguntas más frecuentes
+        no_brokerage:
+          description: Vea este artículo. Aquí comparamos todos los servicios de corretaje que ofrecemos.
+          title: ¿Ningún corretaje? No hay problema.
+      security:
+        button: Finalizar
+      steps:
+        choose: Seleccionar corretaje
+        details: Sus detalles
+        final: Finalizar
+        security: Preguntas de seguridad
+      teaser:
+        alerts:
+          description: ¿No dispone del tiempo suficiente para vigilar su cartera? Nuestro servicio inteligente de alerta echará un ojo a sus inversiones por usted.
+          title: Aproveche nuestras alertas inteligentes
+        encryption:
+          description: En Stockflare encriptamos todos los datos y solamente trabajamos con los proveedores de servicios de seguridad más rigurosos, como Amazon Web Services.
+          title: Protegido por encriptación
+        trade:
+          description: ¿Encontrar una acción fantástica? Conecte su cuenta de corretaje y haga negocios de forma rápida y fácil con Stockflare.
+          title: Hacer negocios con Stockflare
+      title: Seleccionar corretaje
+    portfolio:
+      alerts:
+        heading: n% alertas
+      danger_zone:
+        button: Desconectar cuenta
+        warning: Si desconecta su cuenta de corretaje se borrarán todos sus datos guardados en nuestros servidores.
+      headings:
+        power: Fondos disponibles
+      notes:
+        heading: n% notas
+      table:
+        status: Estado
+        statuses:
+          completed: Completado
+          failed: Fallado
+          filling: Comprando
+          pending: Pendiente
+        trades: Negocios abiertos
+    trade:
+      step_one:
+        buying:
+          price: Actualmente en %n
+          title: Comprar
+        selling:
+          price: Actualmente en %n
+          title: Vender
+        title: ¿Comprar o vender?
+        tooltip: "\"Por defecto se hace negocio con orden de compra limitada, no a orden de mercado con el precio limite fijado en el diferencial de compraventa. Si quiere comprar/vender independientemente del precio, por favor cambie el tipo de orden en la configuración avanzada. Por defecto negocios vencerán al final del día. Si quiere que una orden permanezca abierta indefinidamente por favor seleccione \"\"vigente hasta su cancelación\"\" en la configuración avanzada. \nNota: no ofrecemos los siguientes tipos de orden: \"\"comprar a plazos\"\" o \"\"vender en corto\"\". Tampoco ofrecemos ordenes \"\"stop con límite\"\" o \"\"stop mercado\"\". Si quiere tener dichas opciones por favor póngase en contacto con nosotros.\""
+      step_three:
+        button:
+          buy: Adquirir participaciones (%)
+          sell: Vender participaciones (%n)
+        table:
+          brokerage: Corretaje
+          cost: Precio estimado
+          fees: Tasas estimadas
+          return: 'Ganancias estimadas '
+          shares: Cantidad de participaciones
+          ticker: Teletipo de bolsa
+        title: Previsualización de la orden
+      step_two:
+        advanced:
+          expiration:
+            options:
+              day: Vence al final del día
+              gtc: Su orden está vigente hasta su cancelación.
+            prompt: Vencimiento
+            tooltip: Por defecto negocios son válidos el día en que se hagan. Puede cambiar esto a (GTC) vigente hasta su cancelación si lo desea.
+          order_type:
+            options:
+              limit: Orden limitada
+              market: A orden de mercado
+            prompt: Tipo de orden
+            tooltip: Por defecto una orden está limitada, pero si quiere hacer negocios en el mercado, independientemente del precio, puede seleccionar esa opción.
+            warning: Si selecciona una orden "de mercado" hará negocios independientemente del precio, por ejemplo no establecerá un precio máximo de compra o un precio mínimo de venta.
+          prompt: Ver configuración avanzada
+          unprompt: Esconder configuración avanzada
+        button: Previsualizar orden
+        price:
+          buy: Comprar a/o a menos de
+          sell: Vender a/o a menos de
+          tooltip: Esta es una orden limitada, configure los márgenes comprador-vendedor. Pinche en configuración avanzada si quiere colocar una orden de mercado o una orden limitada "vigente hasta su cancelación".
+        quantity:
+          note_no_shares: Actualmente, no posee participaciones de %n
+          note_own_shares: Hoy posee %n de participaciones de %n
+          prompt: Cantidad
+        title: Cantidad & Precio
+      thetrade:
+        description: Su orden está en proceso de compra.
+        title:
+          buy: Realizando orden de compra
+          sell: Realizando orden de venta
+        to_portfolio: Ir a la cartera de inversiones
+        to_stocks: Ir a participaciones
+        update:
+          no_success: Su orden aún no está completada. Le enviaremos un e-mail cuando esté finalizado.
+          success: Bien. Su orden ha sido completada. El negocio está hecho.
+      title: Hacer negocios con %n
+      tradeupdate:
+        title: Actualice su orden para %n
   common:
     countries:
       afg: Afganistán
@@ -630,11 +773,17 @@ es:
         zwd: Z$%n
     defaultPageTitle: Escoge acciones fácilmente
     languages:
+      de: Deutsch
       de-DE: Deutsch
+      en: English
       en-US: English
+      es: Español
       es-ES: Español
+      fr: Français
       fr-FR: Français
+      it: Italiano
       it-IT: Italiano
+      ja: 日本語
       ja-JP: 日本語
       zh-CN: 中文
     loading: Cargando...
@@ -709,6 +858,9 @@ es:
     wallStreet: Esta tabla presenta la parte alta del consenso de Wall Street sobre el precio y la recomendación para las acciones en tu lista de seguimiento. No hay datos futuros. Por lo tanto, el consenso en un análisis subjetivo. Stockflare no respalda las opiniones de Wall Street. Simplemente presentamos los datos para que nuestros usuarios puedan ver el sentimiento de los expertos con respecto a las acciones.
     worth: |
       Esta tabla las ganancias previstas a largo plazo según el consenso de Wall Street así como la previsión de dividendos y la media de la previsión del ratio precio-beneficio . Por lo tanto, los valores previstos son un análisis subjetivo basado en las predicciones de los expertos. Stockflare no respalda las opiniones de Wall Street. Simplemente presentamos los datos para que nuestros usuarios puedan ver el sentimiento de los expertos con respecto a las acciones. Si las predicciones no se cumplen, los beneficios pueden ser sensiblemente diferentes a los valores aquí expresados.
+  errors:
+    api_error: ¡Madre mía!, se ha producido un error al conectar nuestros servidores.
+    not_found: ¡Oh no!, esta página no existe.
   explore:
     all: Todas las acciones
     biLine: ¿Necesitas un poco de inspiración?
@@ -916,6 +1068,7 @@ es:
           small: Sólo compañías pequeñas
           turning_profitable: Se está volviendo rentable
     country:
+      search: Buscar por países
       titles:
         default: País
     country_currency:
@@ -1070,6 +1223,29 @@ es:
       link: Pulse aquí para ver las acciones en %n
       title: Explore las mayores acciones en %n
   landing:
+    china:
+      premium:
+        content:
+          alerts_one: Basic Alerts
+          alerts_two: Smart Alerts
+          analysis_one: Basic Analytics
+          analysis_two: Access to Full Analytics
+          broker: Integrates with your Brokerage
+          call_to_action: Test Drive
+          heading: Stockflare China is launching soon
+          line_one: Stockflare is proud to work with Drivewealth to deliver the highest quality data and analytics to our users and partners in China.
+          line_two: Our service has 3 price tiers, including a free offering. Test drive Stockflare today!
+          markets_one: USA, China & Hong Kong
+          markets_two: All Markets
+          price_one: Free
+          price_three: ¥ 65 / mes
+          price_two: ¥ 30 al mes
+          pricing_one: End-of-Day Pricing
+          pricing_three: Real-time Pricing
+          pricing_two: 'Pricing: 15 minute delayed'
+          tier_one: Silver
+          tier_three: Platinum
+          tier_two: Gold
     explore:
       content:
         copy: A todo el mundo le encanta explorar nuevas ideas.
@@ -1144,6 +1320,8 @@ es:
     errors:
       '401': Contraseña o nombre de usuario incorrectos
       '500': Lo sentimos, ha habido un error en el servidor
+      error_403: Nombre de usuario o contraseña inválida
+      error_500: Lo sentimos, se ha producido un error en el servidor.
       mfa:
         '401': Código de autentificación inválido.
         '500': Lo sentimos, ha habido un error en el servidor.
@@ -1224,6 +1402,11 @@ es:
       loading: Creando cuenta
       register: Regístrate en Stockflare
     disclaimer: Usando nuestra web or clicando '%n' aceptas nuestros
+    errors:
+      error: Lo sentimos, ha habido un problema en la creación de su cuenta.
+      error_400: Se requiere un e-mail válido y una contraseña de al menos 6 caracteres.
+      error_409: E-mail ya registrado.
+      error_500: Se ha producido un error en el servidor. Vuelva a intentarlo más tarde.
     flash:
       success: Te has registrado con éxito como %n
     og:
@@ -1299,8 +1482,11 @@ es:
       mfa: Código MFA
   stock:
     buttons:
+      fiveYears: 5 años
       oneMonth: 1 mes
       oneWeek: 1 semana
+      oneYear: 1 año
+      sixMonths: 6 meses
       threeMonths: 3 meses
     cheaper:
       cheaper:
@@ -1329,6 +1515,7 @@ es:
         title: Crecimiento débil
     header:
       actualChange: Cambio real
+      last_updated: Última actualización el %n
       percentChange: Cambio (en porcentaje)
       price: Precio de la acción
     information:
@@ -1385,7 +1572,7 @@ es:
           name: Nombre de la compañía
           pe: Ratio de precio-beneficio
           rating: Medidores clave
-          ric:
+          ric: RIC
           upside: En alza
         titles:
           main: Competidores de la compañía
@@ -1404,10 +1591,10 @@ es:
               stock: Último
             labels:
               forecastedDividends: Previsión de dividendos
-              forecastedFcfYield:
+              forecastedFcfYield: Liquidez libre (Histórico)
               forecastedPe: Previsión de ratio precio-beneficio
               forecastedSales: Previsión de precio a ventas
-              historicBookValue:
+              historicBookValue: Precio a valor contable (Histórico)
               historicDividends: Dividendos (histórico)
               historicEquity: Rentabilidad financiera (histórico)
               historicPe: Ratio de precio-beneficio (histórico)
@@ -1428,12 +1615,12 @@ es:
           percent: La liquidez neta es equivalente a %n del valor de mercado
           ratio: Los niveles de deuda neta son un %n del beneficio de explotación
           unavailable: Análisis de deuda/liquidez no disponible
-          upside:
-          valuations:
+          upside: En alza / bajada del máximo/mínimo de las últimas 52 semanas
+          valuations: Múltiplos de valoración
           warning: Aviso
         volumes:
           daily: Volumen de compraventa diario
-          today:
+          today: El volumen de hoy es
       upside:
         title: Ratio precio-beneficio vs los 5 competidores más baratos.
       wallStreet:
@@ -1453,41 +1640,41 @@ es:
         title: Descripción de la compañía.
       dividends:
         description:
-          fallback:
-          valid:
+          fallback: Wall Street no está previendo dividendos para esta acción. Descubre porqué en Stockflare.
+          valid: wall Street está previendo %n dividendos por acción para este valor. Descubre más en Stockflare.
         title: Dividendos
       growth:
         description:
-          fallback:
+          fallback: Esta acción tiene un crecimiento menor que sus competidores. Descubre porqué en Stockflare.
           terms:
-            high:
-            low:
-          valid:
+            high: mayor
+            low: menor
+          valid: 'Se prevee que las ganacias de esta acción crezcan un %n% por año en el largo plazo. Esto es un %n que sus competidores. Descubre más en Stockflare. '
         title: Crecimiento
       latest:
         description: Mira los últimos resultados de esta acción y obtén información financiera en Stockflare.
         title: Últimos resultados
       peers:
         description:
-          valid:
+          valid: Esta acción tiene %n competidores. Compara los medidores clave en Stockflare.
         title: Lista de similares
       profitable:
         description:
-          fallback:
-          valid:
+          fallback: Wall Street no está pronosticando ganancias para esta acción. Descubre porqué en Stockflare.
+          valid: Wall Street está pronosticando %n en ganancias para esta acción. Descubre más en Stockflare.
         title: Beneficio / Pérdida
       stats:
         description:
           terms:
-            cheaper:
-            expensive:
-          valid:
+            cheaper: más barato
+            expensive: caro
+          valid: Esta acción tiene un valor de mercado de %n y su valoración es %n basada en %n de nuestros 9 medidores. Descubre más en Stockflare.
         title: Datos clave
       upside:
         description:
-          fallback:
+          fallback: Esta acción está cara comparada con sus competidores.  Descubre más en Stockflare.
           terms:
-            cheap:
+            cheap: barato
             expensive: caro
           valid: La acción se está vendiendo a %nx veces los beneficios y es %n frente a sus competidores. Averigua más en Stockflare.
         title: Barato o Caro
@@ -1528,7 +1715,7 @@ es:
         forecastPeWas: La previsón de %t(pe){PE Ratio} era de %nx.
         peToday: Hoy es %nx
         peWas: '%t(pe){PE} era %n.'
-        title:
+        title: ¿Cambios en el sentimiento de los inversores?
       title: ¿Qué motiva el cambio en el precio?
       up: Sube
     profitable:
@@ -1537,28 +1724,29 @@ es:
       title: ¿Rentable?
     ratings:
       cheaper:
-        negative:
-        positive:
+        negative: Caro comparado con sus competidores
+        positive: Más barato que sus competidores
       dividends:
-        negative:
-        positive:
+        negative: No paga dividendos
+        positive: Paga dividendos
       high_growth:
-        negative:
-        positive:
+        negative: Crecimiento más moderado que sus competidores
+        positive: Crecimiento más fuerte que sus competidores
       profitable:
-        negative:
-        positive:
+        negative: Sin beneficios
+        positive: Compañía con beneficios
       upside:
-        negative:
-        neutral:
-        positive:
-        unknown:
+        negative: '%n inferior al precio objetivo'
+        neutral: Igual que el precio objetivo
+        positive: +%n mas alto que el precio objetivo
+        unknown: Precio objetivo desconocido
     social:
       email: Pásalo por email a un amigo
     stats:
       fifty_two_week: Máximo/mínimo de las últimas 52 semanas
       industry: Industria
       value: Valor de mercado
+      website: Web de la compañía
     targetPrice:
       decrease: '%t(downside){de caída}.'
       description: Un %n del precio de hoy.
@@ -1598,40 +1786,40 @@ es:
         growth:
           negative: 'Está previsto que el valor actual de %n baje a %n en un periodo de 7 años '
           positive: 'Está previsto que el valor actual de %n aumente a %n en un periodo de 7 años '
-        return:
+        return: Previsión estimada contando con los datos de Wall Street sobre el crecimiento a largo plazo, los dividendos esperados y la valoración actual
       flash:
-        another:
-        first:
+        another: Añadidas otras %n acciones @ %n para %n
+        first: Añadidas %n acciones @ %n para %n
       footnote: Asumimos una tasa de crecimiento anual del 8% para los cálculos arriba.
       forecast:
-        title:
+        title: está previsto que
       inputs:
-        button:
-        price:
-        shares:
-        watchlist:
+        button: Añade %n acciones a %n
+        price: Fija el precio de compra
+        shares: Fija el número de acciones
+        watchlist: Selecciona la lista de seguimiento
       result:
-        title:
+        title: Esto quiere decir
       title: Lo que vale
       titles:
-        growth:
-        return:
+        growth: Crecimiento en las inversiones
+        return: Rendimiento previsto a 7 años
       today:
-        description:
-        submitNotWatching:
-        submitWatching:
-        title:
-        unsaved:
+        description: Introduce el número de acciones aquí
+        submitNotWatching: Añadir posición a la lista de seguimiento
+        submitWatching: Actualizar posición en la lista de seguimiento
+        title: Hoy tengo
+        unsaved: Has efectuado cambios sin guardar
   stocks:
-    apply:
-    matches:
+    apply: Aplica filtros
+    matches: Acciones encontradas
     messages:
-      loadMore:
-      loading:
-      noMatches:
-      noMoreMatches:
+      loadMore: Carga más (%n restantes)
+      loading: Cargando acciones
+      noMatches: Lo sentimos, no hemos encontrado acciones que encajen con tus filtros
+      noMoreMatches: No hay más acciones disponibles
     og:
-      description:
+      description: Stockflare te ayuda a encontrar nuevas ideas. Busca ideas para acciones y mira si su perfil es bueno o no.
       title: Escoge acciones fácilmente
     reset: Reinicia los filtros
   tooltip:
@@ -1643,12 +1831,12 @@ es:
       rating: Medidores clave
       ric: Código ticker de Reuters
     explanations:
-      downside:
-      dps:
-      eps:
-      pe:
-      recommendation:
-      upside:
+      downside: Stockflare publica lo que se cree que es el valor justo de una acción, o el precio objetivo. Nuestro proveedor de datos calcula la media de varios de expertos. Aquí mostramos el porcentage de caída con respecto al precio de Wall Street de hoy para la acción. Ten en cuenta que esta es una opinón subjetiva de nuestros expertos.
+      dps: Las compañías pagan dividendos, al igual que los bancos pagan intereses. Los dividendos por acción es lo que recibes por cada una de tus acciones.
+      eps: Los beneficios de una compañía son de sus accionistas. Las ganancias por acción es lo que en teoría ganarías por cada acción que tengas.
+      pe: El ratio de precio-ganacias muestra el precio de la acción comparado con las ganacias por acción. Cuanto más alto sea este número más cara será la acción.
+      recommendation: Los brokers publican una recomendación de Comprar/Vender/Esperar para cada acción que analizan. Nuestro proveedor de datos, Thomson Reuters, calcula la media de estos expertos. Esto es un buen indicador del sentimiento de Wall Street, pero ten cuidado, esto es una opinión subjetiva.
+      upside: Los brokers publican lo que creen que es el valor justo de cada acción, lo que conocemos como Precio Objetivo. Nuestros proveedor de datos calcula la media de varios expertos. Aquí mostramos el porcentaje de incremento con respecto al precio de Wall Street para el precio de la acción hoy. Ten cuidad porque esto es sólo una opinión subjetiva de los expertos.
   user:
     fields:
       confirmPassword: Confirma contraseña
@@ -1669,7 +1857,7 @@ es:
       language: Haz clic aquí para actualizar la página con tus preferencias de idioma
     options:
       logout: Finaliza sesión
-      settings:
+      settings: Ajustes
     validation:
       email:
         required: Email requerido
@@ -1686,23 +1874,57 @@ es:
         tooShort: La contrseña es demasiado corta.
   watchlist:
     actualChange: Variación real (1 día)
-    breakdown: Desglose de la lista de seguimiento
+    balance:
+      balance:
+        over: está descompensado al alza un %n
+        under: está descompensado a la baja un %n
+      balanced: Su cartera está compensada.
+      phrase:
+        negative: Descompensado
+        neutral: Moderadamente compensado
+        positive: Compensado
+      title: Concentración por acción
+      tooltip: Un 100% significa que el valor de tus acciones en tu portafolio está bien repartido. Un porcentaje más bajo indica que tu portafolio está concentrado en un número menor de acciones.
+    breakdown:
+      columns:
+        actions: Acciones
+        gain: Rendimiento a 7 años
+        name: Nombre de la compañía
+        price: Hoy
+        purchased: Invertidas en
+        rating: Medidores clave
+        shares: Valores & acciones
+      empty: Empieza añadiendo acciones a la lista de seguimiento debajo.
+      rows:
+        gain:
+          gain: '%n por año'
+        purchased:
+          worth:
+            negative: Una pérdida de un %n
+            positive: Una subida de un %n
+        today:
+          change: '%n hoy'
+      title: '%n Desglose del portafolio'
     create:
       button: Crear Lista de Seguimiento
       fields:
-        name:
+        name: Nombre de la Lista de Seguimiento
       points:
         infinite:
-          subtitle:
-          title:
+          subtitle: No hay ningún limite a nuestras listas de seguimiento. Puedes ver tantas acciones como quieras.
+          title: Tamaño infinito
         monitor:
-          subtitle:
-          title:
+          subtitle: Determina las mejores y peores acciones con nuestros datos.
+          title: Controla el rendimiento
         positions:
-          subtitle:
-          title:
+          subtitle: Añade posiciones y precios de compra de acciones para obtener un portafolio realista.
+          title: Añade posiciones
       subtitle: Las Listas de Seguimiento de Stockflare son mucho más que el portafolios medio.
       title: Crea una Lista de Seguimiento
+    danger:
+      button: Borrar lista de observación
+      description: Si borra su lista de observación se eliminarán de forma permanente todos los datos guardados en nuestros servidos. Esta acción es irreversible.
+      title: Zona de riesgo
     defaultName: Mi Lista de Seguimiento
     footnote: '* Cuando no tenemos datos, utilizamos una tasa de crecimiento del 8%.'
     pageDescription: Tu lista de seguimiento contiene un resumen de tu portafolio además de avisos recientes de las acciones que has visitado.
@@ -1710,50 +1932,59 @@ es:
     percentChange: Porcentaje de variación
     portfolioTable:
       difference: Una ganacia de %n dólares.
-      forecastGrowth:
-      gain:
-      name:
-      price:
-      projected:
-      purchased:
-      sevenYears:
-      shares:
-      total:
-      usValue:
-      value:
+      forecastGrowth: Ganacias proyectadas *
+      gain: Ganacia anual de un %n%
+      name: Nombre de la compañía
+      price: Hoy
+      projected: En 7 años %n
+      purchased: Comprada a
+      sevenYears: En 7 años
+      shares: Número de acciones
+      total: Total %n
+      usValue: Valor (dólar EEUU)
+      value: Valor
     projected: Información detallada de mi portafolio.
+    sector:
+      missing: 'Falta:'
+      title: Concentración por sector
+      tooltip: El valor del portafolio repartido entre 10 sectores principales
     summary:
       summaries:
         gain:
-          notWatchingStocks:
-          projectedGain:
-          projectedValue:
+          notWatchingStocks: Observa algunas acciones para ver los datos medios de crecimiento.
+          projectedGain: 'Una ganancia anual de %n% con respecto al valor de hoy: %n'
+          projectedValue: El portafolio potencialmente valdrá %n en 7 años
         opinion:
-          notWatchingStocks:
-          stars:
-          ws:
+          notWatchingStocks: Observa algunas acciones para acceder a los medidores clave.
+          stars: Una media de %n en medidores clave.
+          ws: Wall Street piensa que es un %n.
       titles:
-        alerts:
-        gain:
-        opinion:
+        alerts: Avisos recientes
+        gain: Ganacias a 7 años
+        opinion: Medidores clave de la lista de seguimiento
     wallStreet:
-      title:
+      title: Precio objetivo y recomendación de Wall Street
       upside:
-        missing:
-        text:
+        missing: 'Subida no disponible '
+        text: '%n% en alza'
     warningSubtitle: No pierdas tu lista de seguimiento. Sólo se ha guardado temporalmente. Regístrate o accede a tu cuenta para guardarla.
     warningTitle: Has visto acciones sin registrarte ni acceder a tu cuenta.
     watching: Total vistas
     watchingPhrase: '%n Compañías'
     worth: Valor total
   watchlists:
-    delete:
-    pageTitle:
+    connect: Corretaje nuevo
+    delete: ¿Estás seguro de que quieres borrar '%n'?
+    pageTitle: Mis listas de seguimiento
+    subtitles:
+      connected: Corretajes conectados
+      watchlists: Lista de observación
     titles:
-      actual:
-      change:
-      count:
-      mover:
-      rating:
-      stocks:
-      worth:
+      actual: Cambio real
+      change: Porcentaje de cambio
+      count: Mirando
+      inactive: '%n inactivos'
+      mover: Mayor variación
+      rating: Test de medidores clave
+      stocks: '%n acciones'
+      worth: Valor total

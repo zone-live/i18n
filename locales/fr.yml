@@ -54,6 +54,147 @@ fr:
   appenders:
     watchlist:
       create: Nouvelle Liste
+  brokerage:
+    brokerages:
+      etrade: E-Trade
+      fidelity: Fidelity
+      ib: Interactive Brokers
+      options_house: Options House
+      robinhood: Robinhood
+      schwab: Schwab
+      scottrade: Scottrade
+      td: TD Ameritrade
+      trade_station: Trade Station
+      tradier: Tradier
+    connect:
+      broker_connection:
+        connected: Réussi ! Votre compte est connecté
+        connecting: Sécurisé... Connexion en cours...
+        detail: Nous créons une connexion sécurisée à votre compte
+        login: Vérification des détails de connexion
+      details:
+        button: Identification et connexion
+        conditions: En cliquant sur « Identification et connexion », vous acceptez les conditions d’utilisation de Stockflare.
+        id: ID utilisateur du compte de courtage
+        password: Mot de passe du compte de courtage
+        username: Nom d’utilisateur du compte de courtage
+      final:
+        description: Trader immédiatement ? Ou consultez notre analyse intelligente de votre portefeuille ?
+        title: Trading activé
+        to_portfolio: Aller au portefeuille
+        to_stock: Retourner à %n
+      help:
+        assistance:
+          description: Cliquez ici si vous avez besoin de notre aide pour vous connecter votre compte ou avez des questions à propos de notre service.
+          title: Besoin d’aide ?
+        faq:
+          description: 'Voici quelques unes des questions les plus fréquemment posées :'
+          questions:
+            compare: Que ressort-il de la comparaison des services de courtage ?
+            fees: Y a-t-il des frais ?
+            secure: La connexion est-elle sécurisée ?
+          title: Foire aux questions
+        no_brokerage:
+          description: Lisez cet article où nous comparons les différents services de courtage auxquels nous sommes connectés.
+          title: Pas de compte de courtage ? Aucun problème.
+      security:
+        button: Terminer
+      steps:
+        choose: Choisissez le service de courtage
+        details: Vos coordonnées
+        final: Terminer
+        security: Questions de sécurité
+      teaser:
+        alerts:
+          description: Vous n'avez pas suffisamment de temps pour faire le suivi de votre portefeuille ? Laissez nos alertes intelligentes garder un œil sur vos placements pour vous.
+          title: Recevez nos alertes intelligentes
+        encryption:
+          description: Nous cryptons toutes les données à Stockflare et travaillons uniquement avec les fournisseurs les plus consciencieux en matière de sécurité, comme Amazon Web Services.
+          title: Protégé par cryptage
+        trade:
+          description: Vous avez trouvé un super stock ? Connectez votre compte de courtage, puis tradez rapidement et facilement depuis Stockflare.
+          title: Trader via Stockflare
+      title: Choisissez le service de courtage
+    portfolio:
+      alerts:
+        heading: n% alertes
+      danger_zone:
+        button: Déconnectez le compte
+        warning: Déconnecter votre compte de courtage supprimera l’ensemble des données stockées sur nos serveurs.
+      headings:
+        power: 'Pouvoir d’achat '
+      notes:
+        heading: n% Notes
+      table:
+        status: Statut
+        statuses:
+          completed: Terminé
+          failed: Échoué
+          filling: Remplissage en cours
+          pending: En attente
+        trades: Trades ouverts
+    trade:
+      step_one:
+        buying:
+          price: Actuellement à %n
+          title: Acheter
+        selling:
+          price: Actuellement à %n
+          title: Vendre
+        title: Achat ou vente ?
+        tooltip: 'Par défaut les trades sont définis à ordres limités, non au-marché, avec un prix limite fixé à écart acheteur-vendeur. Si vous souhaitez acheter/vendre indépendamment du prix, veuillez utiliser les paramètres avancés pour modifier le type d’ordre. Nous avons également programmé les trades pour qu’ils expirent à la fin de la journée. Si vous voulez qu’un ordre reste ouvert indéfiniment, veuillez vous rendre aux paramètres avancés pour choisir « Valide jusqu’à annulation ». Note : nous ne proposons pas les types d’ordre suivants : « Achat de couverture » ou « vente à découvert ». Et nous ne fournissons pas non plus « d’ordres de limite » ou « d’ordres de stop au marché. » Si vous êtes intéressé par ces options, veuillez nous en informer.'
+      step_three:
+        button:
+          buy: Acheter des actions (%n)
+          sell: Vendre des actions (%n)
+        table:
+          brokerage: Compte de courtage
+          cost: Coût estimé
+          fees: Frais estimés
+          return: Recettes estimées
+          shares: Quantité d’actions
+          ticker: Ticker
+        title: Aperçu de l’ordre
+      step_two:
+        advanced:
+          expiration:
+            options:
+              day: Expire à la fin de la journée
+              gtc: Votre ordre est valide jusqu’à annulation
+            prompt: Expiration
+            tooltip: Par défaut, les trades sont valides un jour. Vous pouvez changer cela à (VJA) « valide jusqu’à annulation », si vous le souhaitez.
+          order_type:
+            options:
+              limit: Ordre limite
+              market: 'En ordre au marché '
+            prompt: Type d’ordre
+            tooltip: Le réglage par défaut est ordre limite, mais si vous souhaitez trader au marché, quel que soit le prix, vous pouvez choisir cette option ici.
+            warning: Si vous choisissez un ordre « Au marché », vous allez trader quel que soit le prix, c’est-à-dire que vous ne fixerez pas de prix maximum d’achat ou de prix minimum de vente
+          prompt: Afficher les paramètres avancés
+          unprompt: Masquer les paramètres avancés
+        button: Aperçu de l’ordre
+        price:
+          buy: Acheter à/ou moins de
+          sell: Vendre à/ou plus de
+          tooltip: Ceci est un ordre limite, prédéfini à écart acheteur-vendeur. Cliquez sur Paramètres avancés pour placer un ordre au marché ou un ordre limite « valide jusqu’à la annulation ».
+        quantity:
+          note_no_shares: Vous ne possédez pas d’actions dans %n pour le moment
+          note_own_shares: Aujourd’hui vous possédez % n actions dans %n
+          prompt: Quantité
+        title: Quantité et prix
+      thetrade:
+        description: Votre ordre est en train d’être rempli
+        title:
+          buy: Remplissage ordre d’achat
+          sell: Remplissage ordre de vente
+        to_portfolio: Aller au portefeuille
+        to_stocks: Aller aux stocks
+        update:
+          no_success: Votre ordre n’est pas encore prêt. Nous vous enverrons un e-mail une fois qu'il sera terminé.
+          success: Réussi. Votre ordre est prêt. Le trade est effectué.
+      title: Trader %n
+      tradeupdate:
+        title: Mettre à jour votre ordre pour %n
   common:
     countries:
       afg: Afghanistan
@@ -630,11 +771,17 @@ fr:
         zwd: Z$%n
     defaultPageTitle: Investir devient facile
     languages:
+      de: Deutsch
       de-DE: Deutsch
+      en: English
       en-US: English
+      es: Español
       es-ES: Español
+      fr: Français
       fr-FR: Français
+      it: Italiano
       it-IT: Italiano
+      ja: 日本語
       ja-JP: 日本語
       zh-CN: 中文
     loading: Chargement...
@@ -708,6 +855,9 @@ fr:
     title: 'Qu''en est-il maintenant de la légalité ! '
     wallStreet: Ce tableau présente le bon côté du prix cible du consensus de "Wall Street" et de la recommandation de consensus des stocks de votre liste de surveillance. Il n'existe pas de données sur l'avenir. Par conséquent, ce consensus est une analyse subjective, non objective. Stockflare ne cautionne pas les points de vue de "Wall Street". Nous présentons ces données, afin que nos utilisateurs puissent avoir l'avis des experts sur un stock.
     worth: Ce tableau combine les bénéfices à long terme des prévisions du consensus de "Wall Street", le rendement de dividende prévu et le retour à la moyenne du ratio cours-bénéfice prévu. Par conséquent, le chiffre de gain projeté est basé sur l'analyse subjective des professionnels, et ne constitue pas l'objectif. Stockflare ne cautionne pas les vues de "Wall Street". Nous présentons ces données, afin que nos utilisateurs puissent voir ce que le sentiment des experts est vers un stock. Il n'y a pas de données sur l'avenir. Si les prévisions des experts se trompent, le gain réel sera matériellement différents des chiffres présentés ici.
+  errors:
+    api_error: Oh là là, une erreur s’est produite lors de la liaison avec nos serveurs.
+    not_found: Oups, cette page n’existe pas.
   explore:
     all: Toutes les actions
     biLine: Besoin d'une inspiration ?
@@ -915,6 +1065,7 @@ fr:
           small: Petites entreprises uniquement
           turning_profitable: Devient rentable
     country:
+      search: Rechercher par pays
       titles:
         default: Pays
     country_currency:
@@ -1069,6 +1220,29 @@ fr:
       link: Cliquez ici pour voir tous les stocks dans %n
       title: Explorer les plus grands stocks dans %n
   landing:
+    china:
+      premium:
+        content:
+          alerts_one: Basic Alerts
+          alerts_two: Smart Alerts
+          analysis_one: Basic Analytics
+          analysis_two: Access to Full Analytics
+          broker: Integrates with your Brokerage
+          call_to_action: Test Drive
+          heading: Stockflare China is launching soon
+          line_one: Stockflare is proud to work with Drivewealth to deliver the highest quality data and analytics to our users and partners in China.
+          line_two: Our service has 3 price tiers, including a free offering. Test drive Stockflare today!
+          markets_one: USA, China & Hong Kong
+          markets_two: All Markets
+          price_one: Free
+          price_three: ¥ 65 / month
+          price_two: ¥ 30 per month
+          pricing_one: End-of-Day Pricing
+          pricing_three: Real-time Pricing
+          pricing_two: 'Pricing: 15 minute delayed'
+          tier_one: Silver
+          tier_three: Platinum
+          tier_two: Gold
     explore:
       content:
         copy: Tout le monde aime à explorer de nouvelles idées et technologies.
@@ -1143,6 +1317,8 @@ fr:
     errors:
       '401': Nom d'Utilisateur ou Mot de Passe Incorrect
       '500': Excusez-nous, une erreur de serveur est survenue
+      error_403: Nom d’utilisateur ou mot de passe invalide
+      error_500: Désolé, erreur du serveur
       mfa:
         '401': Code d'authentification invalide
         '500': Excusez-nous, une erreur de serveur est survenue.
@@ -1223,6 +1399,11 @@ fr:
       loading: Compte en cours de création
       register: Inscrivez-vous sur Stockflare
     disclaimer: En utilisant notre site ou en cliquant'%n' vous acceptez notre
+    errors:
+      error: 'Désolé, une erreur s’est produite lors de votre inscription :'
+      error_400: Une adresse e-mail et un mot de passe d’au moins 6 caractères sont requis
+      error_409: Adresse e-mail déjà enregistrée.
+      error_500: Une erreur de serveur est survenue. Veuillez réessayer plus tard.
     flash:
       success: Vous vous êtes inscrit avec succès en tant que %n
     og:
@@ -1298,8 +1479,11 @@ fr:
       mfa: Clé d'authentification MFA
   stock:
     buttons:
+      fiveYears: 5 ans
       oneMonth: 1 Mois
       oneWeek: 1 Semaine
+      oneYear: 1 année
+      sixMonths: 6 mois
       threeMonths: 3 Mois
     cheaper:
       cheaper:
@@ -1328,6 +1512,7 @@ fr:
         title: Faible Croissance
     header:
       actualChange: Évolution Réelle
+      last_updated: Dernière mise à jour
       percentChange: Pourcentage d'Évolution
       price: Cours de l'action
     information:
@@ -1559,6 +1744,7 @@ fr:
       fifty_two_week: Plus Haut/Bas Cours depuis 52 Semaines
       industry: Industrie
       value: Valeur
+      website: Site web de l'entreprise
     targetPrice:
       decrease: '%t(downside){de diminution}.'
       description: Une %n sur le cours du jour.
@@ -1687,7 +1873,37 @@ fr:
         tooShort: Ce mot de passe est trop court
   watchlist:
     actualChange: Variation Réelle (1 Jour)
-    breakdown: Détail de la Liste
+    balance:
+      balance:
+        over: est excédentaire de %n
+        under: est déficitaire de %n
+      balanced: Votre portefeuille est équilibré
+      phrase:
+        negative: En déséquilibre
+        neutral: Modérément équilibré
+        positive: Equilibré
+      title: Concentration des Actions
+      tooltip: '100 % signifie que le portefeuille est également réparti, en termes de valeur de vos actions. Plus vous vous éloignez des 100 % plus votre portefeuille est constitué de quelques grosses actions. '
+    breakdown:
+      columns:
+        actions: Actions
+        gain: Les gains en 7 ans
+        name: Nom de l'Entreprise
+        price: Aujourd'hui
+        purchased: 'Investi à '
+        rating: Notation par étoiles
+        shares: 'Valeur et Parts '
+      empty: 'Commencez par ajouter des actions à votre liste de surveillance ci-dessous '
+      rows:
+        gain:
+          gain: '%n par an'
+        purchased:
+          worth:
+            negative: Perte de %n
+            positive: Bénéfice de %n
+        today:
+          change: '%n aujourd''hui'
+      title: La Répartition de mon Portefeuille
     create:
       button: Créez la Liste
       fields:
@@ -1704,6 +1920,10 @@ fr:
           title: Ajouter la quantité d'actions
       subtitle: Les Listes sur Stockflare sont bien plus qu'un simple portefeuille.
       title: Créer une Liste
+    danger:
+      button: Supprimer la liste à suivre
+      description: Supprimer votre liste de surveillance supprimera définitivement toutes les données stockées sur nos serveurs. Cette action est irréversible.
+      title: Zone de danger
     defaultName: Ma Liste
     footnote: '* Lorsque nous n''avons pas de données, nous supposons un taux de croissance de 8%.'
     pageDescription: Votre liste contient un récapitulatif de votre portefeuille ainsi que les alertes récentes des actions figurant sur la liste.
@@ -1723,6 +1943,10 @@ fr:
       usValue: Valeur (USD)
       value: Valeur
     projected: Portefeuille projeté
+    sector:
+      missing: 'Manquant :'
+      title: Concentration par secteur
+      tooltip: La valeur de votre portefeuille réparti dans les 10 secteurs clé.
     summary:
       summaries:
         gain:
@@ -1748,12 +1972,17 @@ fr:
     watchingPhrase: '%n Entreprises'
     worth: Valeur Totale
   watchlists:
+    connect: Nouveau compte de courtage
     delete: Êtes-vous sûr de vouloir supprimer %n ?
     pageTitle: Mes Listes
+    subtitles:
+      connected: Comptes de courtage connectés
+      watchlists: Listes à suivre
     titles:
       actual: Évolution Réelle
       change: Pourcentage d'Évolution
       count: Sur votre Liste
+      inactive: '%n Inactifs'
       mover: Plus Gros Moteur
       rating: Avis sur ce Portefeuille
       stocks: '%n Actions'

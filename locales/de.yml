@@ -54,6 +54,147 @@ de:
   appenders:
     watchlist:
       create: Neue Watchlist
+  brokerage:
+    brokerages:
+      etrade: E-Trade
+      fidelity: Fidelity
+      ib: Interactive Brokers
+      options_house: Options House
+      robinhood: Robinhood
+      schwab: Schwab
+      scottrade: Scottrade
+      td: TD Ameritrade
+      trade_station: Trade Station
+      tradier: Tradier
+    connect:
+      broker_connection:
+        connected: Ihr Konto wurde erfolgreich verbunden!
+        connecting: Sicher… Stellt nun eine Verbindung her…
+        detail: Wir stellen eine sichere Verbindung zu Ihrem Konto her
+        login: Überprüfung der Anmeldedaten
+      details:
+        button: Anmelden & Verbinden
+        conditions: Durch Klicken auf „Anmelden & Verbinden“ stimmen Sie den Allgemeinen Geschäftsbedingungen von Stockflare zu.
+        id: Benutzer-ID Ihres Aktienhandelskontos
+        password: Passwort für Ihr Aktienhandelskonto
+        username: Benutzername für Ihr Aktienhandelskonto
+      final:
+        description: Wollen Sie sofort einen Aktienhandel tätigen? Oder sich vorher unsere clevere Analyse Ihres Portfolios anschauen?
+        title: Handel wurde aktiviert
+        to_portfolio: 'Gehen Sie auf „Portfolio“ '
+        to_stock: Zurück zu %n
+      help:
+        assistance:
+          description: Klicken Sie hier, wenn Sie Hilfe beim Verbinden Ihres Kontos brauchen oder Fragen zu unseren Dienstleistungen haben.
+          title: Brauchen Sie Hilfe?
+        faq:
+          description: Hier sind einige der wichtigsten Fragen aufgeführt, die uns gestellt werden.
+          questions:
+            compare: Wie vergleicht man verschiedene Brokerage-Dienstleistungen?
+            fees: Werden Gebühren berechnet?
+            secure: Wie sicher ist die Verbindung?
+          title: FAQ - Häufig gestellte Fragen
+        no_brokerage:
+          description: Sehen Sie sich diesen Artikel hier an, in dem wir alle Dienstleistungen von Wertpapierhändlern vergleichen, mit denen wir verbunden sind.
+          title: Sie möchten keine Brokerage-Dienstleistung? Kein Problem.
+      security:
+        button: Fertig stellen
+      steps:
+        choose: Wählen Sie eine Brokerage-Dienstleistung
+        details: Ihre Daten
+        final: Fertig stellen
+        security: Sicherheitsfragen
+      teaser:
+        alerts:
+          description: Haben Sie nicht genügend Zeit, Ihr Portfolio zu verfolgen? Lassen Sie Ihre Investitionen von unseren intelligenten Benachrichtigungen für Sie im Auge behalten.
+          title: Holen Sie sich unsere intelligenten Benachrichtigungen
+        encryption:
+          description: Wir verschlüsseln alle Daten auf Stockflare und arbeiten nur mit den sicherheitsbewusstesten Anbietern zusammen, darunter Amazon Web Services.
+          title: Durch Verschlüsselung geschützt
+        trade:
+          description: Haben Sie eine interessante Aktie gefunden? Dann verbinden Sie Ihr Aktienhandelskonto und tätigen Sie Ihren Handel schnell und einfach innerhalb von Stockflare.
+          title: Handel über Stockflare
+      title: Wählen Sie eine Brokerage-Dienstleistung
+    portfolio:
+      alerts:
+        heading: n% Benachrichtigungen
+      danger_zone:
+        button: Konto deaktivieren
+        warning: Durch Deaktivierung Ihres Aktienhandelskontos werden Ihre gesamten Daten gelöscht, die auf unseren Servern gespeichert sind.
+      headings:
+        power: Kaufkraft
+      notes:
+        heading: n% Notizen
+      table:
+        status: Status
+        statuses:
+          completed: Abgeschlossen
+          failed: Fehlgeschlagen
+          filling: Wird Ausgeführt
+          pending: Ausstehend
+        trades: Offene Transaktionen (Trades)
+    trade:
+      step_one:
+        buying:
+          price: Derzeit bei %n
+          title: Kaufen
+        selling:
+          price: Derzeit bei %n
+          title: Verkaufen
+        title: Kaufen oder verkaufen?
+        tooltip: 'Wir legen Transaktionen als Limit-Order und nicht als Bestensaufträge fest, wobei die Preisobergrenze von der „Geld-Brief-Spanne“ bestimmt wird. Wenn Sie unabhängig vom Aktienkurs kaufen/verkaufen wollen, können Sie über die „Erweiterten Einstellungen“ die Auftragsart ändern. Wir haben zudem standardmäßig festgelegt, dass Trades am Ende des Tages verfallen. Wenn Sie einen Auftrag für unbestimmte Zeit offen halten möchten, wählen Sie die Option „Gültig bis auf Widerruf“ in den „Erweiterten Einstellungen“. Hinweis: Wir bieten keine der folgenden Auftragsarten an: „Buy-to-Cover“ bzw. „Leerverkauf“. Zudem bieten wir keine „Stop-Limit-Aufträge“ bzw. „Stop-Market-Aufträge“ an. Falls Sie Interesse an diesen Optionen haben, teilen Sie uns dies bitte mit.'
+      step_three:
+        button:
+          buy: Aktien erwerben (%n)
+          sell: Aktien verkaufen (%n)
+        table:
+          brokerage: Aktienhandelkonto
+          cost: Geschätzte Kosten
+          fees: Geschätzte Gebühren
+          return: Geschätzter Erlös
+          shares: Anzahl der Aktien
+          ticker: Börsenkürzel bzw. Tickersymbol
+        title: Auftragsvorschau
+      step_two:
+        advanced:
+          expiration:
+            options:
+              day: Verfällt am Ende des Tages
+              gtc: Ihr Auftrag ist bis auf Widerruf gültig.
+            prompt: Ablauf
+            tooltip: Wir legen standardmäßig fest, dass Trades für einen Tag gültig sind. Sie können diese Einstellung auf Wunsch in „Gültig bis auf Widerruf“ ändern.
+          order_type:
+            options:
+              limit: Limit-Order
+              market: Bestensauftrag
+            prompt: Auftragsart
+            tooltip: Die Standardeinstellung ist eine Limit-Order. Wenn Sie jedoch einen Handel zum besten aktuellen Marktkurs (Bestensauftrag) unabhängig vom Preis abwickeln möchten, können Sie diese Option hier wählen.
+            warning: Wenn Sie einen „Bestensauftrag“ wählen, handeln Sie unabhängig vom Aktienpreis, d.h. Sie setzen keinen Höchstpreis für den Kauf bzw. Mindestpreis für den Verkauf fest.
+          prompt: Erweiterte Einstellungen anzeigen
+          unprompt: Erweiterte Einstellungen ausblenden
+        button: Auftragsvorschau
+        price:
+          buy: Kaufen bei/oder niedriger als
+          sell: Verkaufen bei/oder höher als
+          tooltip: Es handelt sich um eine Limit-Order. Klicken Sie auf „Erweiterte Einstellungen“, wenn Sie einen Bestensauftrag bzw. eine bis auf Widerruf gültige Limit-Order erteilen möchten.
+        quantity:
+          note_no_shares: Derzeit besitzen Sie keine Aktienanteile an %n.
+          note_own_shares: Heute besitzen Sie einen Aktienanteil von %n an %n.
+          prompt: Anzahl
+        title: Anzahl & Preis
+      thetrade:
+        description: Ihr Auftrag wird momentan ausgeführt.
+        title:
+          buy: Ausführung des Kaufauftrags
+          sell: Ausführung des Verkaufauftrags
+        to_portfolio: 'Gehen Sie auf „Portfolio“ '
+        to_stocks: 'Gehen Sie auf „Aktien“ '
+        update:
+          no_success: Ihr Auftrag ist noch nicht abgeschlossen. Wir senden Ihnen eine E-Mail, sobald der Auftrag abgeschlossen ist.
+          success: Ihr Auftrag wurde erfolgreich abgeschlossen. Die Transaktion wurde ausgeführt.
+      title: Handel mit Aktien von %n
+      tradeupdate:
+        title: Aktualisieren Sie Ihren Auftrag für %n.
   common:
     countries:
       afg: Afghanistan
@@ -630,11 +771,17 @@ de:
         zwd: Z$%n
     defaultPageTitle: Einfach Aktien finden
     languages:
+      de: Deutsch
       de-DE: Deutsch
+      en: English
       en-US: English
+      es: Español
       es-ES: Español
+      fr: Français
       fr-FR: Français
+      it: Italiano
       it-IT: Italiano
+      ja: 日本語
       ja-JP: 日本語
       zh-CN: 中文
     loading: Ladevorgang...
@@ -708,6 +855,9 @@ de:
     title: Zeit fürs Rechtliche!
     wallStreet: Diese Tabelle zeigt Ihnen die Wertsteigerung zum Kursziel und Empfehlung der "Wall Street" in Ihrer Watchlist. Es gibt keine 100 Prozent richtigen Daten für die Zukunft, deshalb beruhen diese Empfehlungen auf einer subjektiven Analyse, keiner objektiven. Stockflare unterstützt die Sichtweisen der "Wall Street" nicht. Wir präsentieren lediglich die Daten, damit Sie erkennen können, welches Gefühl die Experten für bestimmte Aktien ausdrücken.
     worth: Diese Tabelle kombiniert langfristige Gewinnprognose, die prognostizierte Dividendenrendite und eine Rückkehr zum Mittelwert des prognostiziertem Kurs-Gewinn-Verhältnis. Daher basieren diese Zahlen auf einer subjektiven Analyse von Experten. Stockflare unterstützt die Sichtweisen der "Wall Street" nicht. Wir präsentieren lediglich die Daten, damit Sie erkennen können, wie das allgemeine Gefühl zu bestimmten Aktien steht. Es gibt keine 100 Prozent richtigen Daten für die Zukunft. Wenn die Prognosen der Experten falsch sind, können sich die tatsächlichen Daten wesentlich unterscheiden.
+  errors:
+    api_error: Oh je! Es ist leider ein Fehler bei der Verbindungsherstellung zu unseren Servern aufgetreten.
+    not_found: Ups, diese Seite existiert nicht.
   explore:
     all: Alle Aktien
     biLine: Brauchen Sie Inspiration?
@@ -915,6 +1065,7 @@ de:
           small: Nur kleine Unternehmen
           turning_profitable: In der Gewinnzone
     country:
+      search: Suche nach Ländernamen
       titles:
         default: Land
     country_currency:
@@ -1069,6 +1220,29 @@ de:
       link: Hier klicken, um alle Aktien in %n zu sehen
       title: Erkunden Sie die größten Aktien in %n
   landing:
+    china:
+      premium:
+        content:
+          alerts_one: Basic Alerts
+          alerts_two: Smart Alerts
+          analysis_one: Basic Analytics
+          analysis_two: Access to Full Analytics
+          broker: Integrates with your Brokerage
+          call_to_action: Test Drive
+          heading: Stockflare China is launching soon
+          line_one: Stockflare is proud to work with Drivewealth to deliver the highest quality data and analytics to our users and partners in China.
+          line_two: Our service has 3 price tiers, including a free offering. Test drive Stockflare today!
+          markets_one: USA, China & Hong Kong
+          markets_two: All Markets
+          price_one: Free
+          price_three: ¥ 65 / month
+          price_two: ¥ 30 per month
+          pricing_one: End-of-Day Pricing
+          pricing_three: Real-time Pricing
+          pricing_two: 'Pricing: 15 minute delayed'
+          tier_one: Silver
+          tier_three: Platinum
+          tier_two: Gold
     explore:
       content:
         copy: Jeder liebt es, neue Ideen und Technologien zu erforschen.
@@ -1143,6 +1317,8 @@ de:
     errors:
       '401': Ungültiger Username oder Passwort
       '500': Tut uns leid, ein Serverfehler ist aufgetreten
+      error_403: Ungültiger Benutzername oder Passwort
+      error_500: Es tut uns leid. Es ist ein Serverfehler aufgetreten.
       mfa:
         '401': Ungültiger Authentifizierungscode
         '500': Tut uns leid, ein Fehler ist aufgetreten
@@ -1223,6 +1399,11 @@ de:
       loading: Account anlegen
       register: Registrieren Sie sich für Stockflare
     disclaimer: Mit dem Verwenden unserer Website oder einem Klick auf '%n' akzeptieren Sie unseren
+    errors:
+      error: 'Es tut uns leid. Es gab ein Problem mit Ihrer Registrierung:'
+      error_400: Es ist eine gültige E-Mail-Adresse und ein Passwort mit mindestens 6 Zeichen erforderlich.
+      error_409: Diese E-Mail-Adresse ist bereits registriert.
+      error_500: Es ist ein Serverfehler aufgetreten. Bitte versuchen Sie es später noch einmal.
     flash:
       success: Sie haben sich erfolgreich als %n registriert
     og:
@@ -1298,8 +1479,11 @@ de:
       mfa: Zwei-Faktor-Authentifizierung
   stock:
     buttons:
+      fiveYears: 5 Jahre
       oneMonth: 1 Monat
       oneWeek: 1 Woche
+      oneYear: 1 Jahr
+      sixMonths: 6 Monate
       threeMonths: 3 Monate
     cheaper:
       cheaper:
@@ -1328,6 +1512,7 @@ de:
         title: Schwaches Wachstum
     header:
       actualChange: Tatsächliche Änderung
+      last_updated: '%n letzte bericht'
       percentChange: Prozentuelle Änderung
       price: Aktienkurs
     information:
@@ -1558,6 +1743,7 @@ de:
       fifty_two_week: 52W Hoch/Tief
       industry: Industrie
       value: Marktwert
+      website: 'Firma Webseite '
     targetPrice:
       decrease: '%t(downside){Wertverlust}.'
       description: Ein %n auf den heutigen Kurs.
@@ -1599,7 +1785,7 @@ de:
           positive: Der aktuelle Wert von %n wird in 7 Jahren voraussichtlich um %n gestiegen sein.
         return: Berechnet nach der Prognose langfristige Wachstum der Experten, Vorhersage Dividenden und die aktuelle Bewertung.
       flash:
-        another: ''
+        another: Weitere %n Aktien @ %n für %n hinzugefügt
         first: '%n Aktien @ %n für %n hinzugefügt'
       footnote: Wir nehmen eine Wachstumsrate von 8% pro Jahr für die obrigen Berechnungen an.
       forecast:
@@ -1685,7 +1871,37 @@ de:
         tooShort: Passwort ist zu kurz
   watchlist:
     actualChange: Tatsächliche Änderung (1 Tag)
-    breakdown: Analyse der Watchlist
+    balance:
+      balance:
+        over: liegt %n darüber
+        under: liegt %n darunter
+      balanced: Ihr Portfolio ist ausgeglichen.
+      phrase:
+        negative: Unausgewogen
+        neutral: Mäßig ausgewogen
+        positive: Ausgewogen
+      title: Anteil nach Aktien
+      tooltip: '100 % bedeutet, dass die Werte Ihrer Aktien in Ihrem Portfolio ausgewogen verteilt sind. Je weiter der Wert von den 100 % abweicht, desto stärker verteilt sich Ihr Aktienbestand auf einige Hauptaktien. '
+    breakdown:
+      columns:
+        actions: Maßnahmen
+        gain: Gewinn laut 7-Jahres
+        name: Unternehmen
+        price: Heute
+        purchased: Angelegt bei
+        rating: Star Rating
+        shares: Werte & Aktien
+      empty: Beginnen Sie mit dem Hinzufügen von Aktien zu Ihrer unten stehenden Watchlist
+      rows:
+        gain:
+          gain: '%n pro Jahr'
+        purchased:
+          worth:
+            negative: Verlust von %n
+            positive: Steigerung von %n
+        today:
+          change: '%n heute'
+      title: Aufteilung meines Aktienbestandes
     create:
       button: Eine Watchlist erstellen
       fields:
@@ -1702,6 +1918,10 @@ de:
           title: Position hinzufügen
       subtitle: Watchlists auf Stockflare sind so viel mehr als die durschnittlichen Portfolios.
       title: Eine Watchlist erstellen
+    danger:
+      button: Watchlist löschen
+      description: Durch Löschen Ihrer Watchlist werden alle auf unseren Servern gespeicherten Daten unwiderruflich gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.
+      title: Gefahrenbereich
     defaultName: Meine Watchlist
     footnote: '* Wenn keine Daten vorhanden, gehen wir von einer 8%igen Wachstumsrate aus.'
     pageDescription: Ihre Watchlist enthält eine Zusammenfassung Ihres Portfolios und die neuesten Alarme für Ihre beobachteten Aktien.
@@ -1721,6 +1941,10 @@ de:
       usValue: Wert (USD)
       value: Wert
     projected: Abgebildetes Portfolio
+    sector:
+      missing: 'Es fehlen:'
+      title: Anteil nach Branche
+      tooltip: Die Werte Ihres Aktienbestands aufgeteilt auf die 10 wichtigsten Branchen.
     summary:
       summaries:
         gain:
@@ -1746,12 +1970,17 @@ de:
     watchingPhrase: '%n Unternehmen'
     worth: Gesamtwert
   watchlists:
+    connect: Neue Brokerage-Dienstleistung
     delete: Sind Sie sicher, dass Sie %n löschen möchten?
     pageTitle: Meine Watchlists
+    subtitles:
+      connected: Aktivierte Brokerage-Dienstleistungen
+      watchlists: Watchlisten
     titles:
       actual: Tatsächliche Änderung
       change: Prozentuelle Änderung
       count: Beobachten
+      inactive: '%n inaktive'
       mover: Biggest Mover
       rating: Watchlist Rating
       stocks: '%n Aktien'
