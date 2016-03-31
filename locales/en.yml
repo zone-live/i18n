@@ -2011,3 +2011,6 @@ en:
       rating: Key Metrics Test
       stocks: '%n Stocks'
       worth: Total Worth
+  account:
+    pageTitle: "My connected brokerage account"
+    pageDescription: "Your account page contains details of the stocks in your portfolio with the connected brokerage as well as details of all orders placed through Stockflare."
