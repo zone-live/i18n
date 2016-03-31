@@ -1779,6 +1779,9 @@ en:
         button:
           buy: 'Purchase Shares (%n)'
           sell: 'Sell Shares (%n)'
+        errors:
+          buying: your limit price %n is lower than the current ask price %n
+          selling: your limit price %n is higher than the current bid price %n
       thetrade:
         title:
           buy: Filling Buy Order
