@@ -1650,6 +1650,9 @@ en:
       stocks: '%n Stocks'
       worth: Total Worth
       inactive: '%n Inactive'
+  portfolios:
+    connected-brokerages: Connected Brokerages
+    watchlists: watchlists
   brokerage:
     brokerages:
       td: TD Ameritrade
