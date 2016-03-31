@@ -101,6 +101,14 @@ es:
           title: ¿Ningún corretaje? No hay problema.
       security:
         button: Finalizar
+      select:
+        titles:
+          buttons:
+            connect: Conectar
+            use: Utilizar
+          existing: Conectar a cuenta de corretaje
+          new: Añadir cuenta de corretaje nueva
+          sessions: Ya se ha establecido la conexión
       steps:
         choose: Seleccionar corretaje
         details: Sus detalles
@@ -149,13 +157,18 @@ es:
         button:
           buy: Adquirir participaciones (%)
           sell: Vender participaciones (%n)
+        errors:
+          buying: 
+          selling: 
         table:
           brokerage: Corretaje
           cost: Precio estimado
+          expiration: 
           fees: Tasas estimadas
           return: 'Ganancias estimadas '
           shares: Cantidad de participaciones
           ticker: Teletipo de bolsa
+          type: 
         title: Previsualización de la orden
       step_two:
         advanced:
@@ -785,6 +798,8 @@ es:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
+      pt: portugués
+      pt-PT: portugués
       zh-CN: 中文
     loading: Cargando...
     login: Accede
@@ -826,10 +841,15 @@ es:
         graph: Gráfica de precios
         info: Medidores clave
         social: Comparte
+        trade: Comprar o vender %n
+        unavailable: Solo puede gestionar acciones estadounidenses
     unwatch: Dejar de seguir
     wallStreetRecommendations:
       emptyCategory: No tienes acciones en esta categoría.
       missing: No aplicable
+      price: Precio
+      recommendation: Recomendación
+      target: Precio objetivo
       titles:
         buy: Compra
         hold: Mantén
@@ -1359,6 +1379,11 @@ es:
         analysis: Encuentra datos clave rápidamente
         multiples: Puedes crear varias listas de seguimiento fácilmente
         unlimited: Sigue un número ilimitado de acciones.
+  portfolios:
+    connected-brokerages: 
+    create:
+      button: 
+    watchlists: 
   recover:
     buttons:
       recover: Resetea mi contraseña
@@ -1504,6 +1529,7 @@ es:
       generic: Ha ocurrido un error
       loadError: Error cargando acción
     graph:
+      average: Promedio
       price: Precio
       volume: Precio y volumen
     growth:

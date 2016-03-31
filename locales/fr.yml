@@ -99,6 +99,14 @@ fr:
           title: Pas de compte de courtage ? Aucun problème.
       security:
         button: Terminer
+      select:
+        titles:
+          buttons:
+            connect: Connexion
+            use: Utilisation
+          existing: Connexion au compte de courtage
+          new: Ajout d'un nouveau compte de courtage
+          sessions: Déjà connecté
       steps:
         choose: Choisissez le service de courtage
         details: Vos coordonnées
@@ -147,13 +155,18 @@ fr:
         button:
           buy: Acheter des actions (%n)
           sell: Vendre des actions (%n)
+        errors:
+          buying: 
+          selling: 
         table:
           brokerage: Compte de courtage
           cost: Coût estimé
+          expiration: 
           fees: Frais estimés
           return: Recettes estimées
           shares: Quantité d’actions
           ticker: Ticker
+          type: 
         title: Aperçu de l’ordre
       step_two:
         advanced:
@@ -783,6 +796,8 @@ fr:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
+      pt: Portugais
+      pt-PT: Portugais
       zh-CN: 中文
     loading: Chargement...
     login: Se Connecter
@@ -824,10 +839,15 @@ fr:
         graph: Graphique
         info: 'Indicateurs clés '
         social: Partager
+        trade: Achat ou vente %n
+        unavailable: Vous ne pouvez négocier que des titres américains
     unwatch: Retirer de votre Liste
     wallStreetRecommendations:
       emptyCategory: Vous n'avez pas d'actions dans cette catégorie.
       missing: 'Pas de Recommandations '
+      price: Cours
+      recommendation: L'avis des professionnels
+      target: Cours Cible
       titles:
         buy: Renforcer
         hold: Conserver
@@ -1356,6 +1376,11 @@ fr:
         analysis: Quelle est la qualité de votre portefeuille ?
         multiples: Créez facilement de nombreuses Listes
         unlimited: Suivez un nombre illimité d'actions
+  portfolios:
+    connected-brokerages: 
+    create:
+      button: 
+    watchlists: 
   recover:
     buttons:
       recover: Réinitialiser mon Mot de Passe
@@ -1501,6 +1526,7 @@ fr:
       generic: Une erreur est survenue
       loadError: Erreur de chargement de l'action
     graph:
+      average: Moyenne
       price: Cours
       volume: Cours & Volume
     growth:

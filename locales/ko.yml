@@ -99,6 +99,14 @@ ko:
           title: 
       security:
         button: 
+      select:
+        titles:
+          buttons:
+            connect: 
+            use: 
+          existing: 
+          new: 
+          sessions: 
       steps:
         choose: 
         details: 
@@ -147,13 +155,18 @@ ko:
         button:
           buy: 
           sell: 
+        errors:
+          buying: 
+          selling: 
         table:
           brokerage: 
           cost: 
+          expiration: 
           fees: 
           return: 
           shares: 
           ticker: 
+          type: 
         title: 
       step_two:
         advanced:
@@ -783,6 +796,8 @@ ko:
       it-IT: 
       ja: 
       ja-JP: 
+      pt: 포르투갈 인
+      pt-PT: 포르투갈 인
       zh-CN: 
     loading: 
     login: 
@@ -810,10 +825,15 @@ ko:
         graph: 
         info: 
         social: 
+        trade: 
+        unavailable: 
     unwatch: 
     wallStreetRecommendations:
       emptyCategory: 
       missing: 
+      price: Price
+      recommendation: Recommendation
+      target: Target
       titles:
         buy: 
         hold: 
@@ -1322,6 +1342,11 @@ ko:
         analysis: 
         multiples: 
         unlimited: 
+  portfolios:
+    connected-brokerages: 
+    create:
+      button: 
+    watchlists: 
   recover:
     buttons:
       recover: 
@@ -1467,6 +1492,7 @@ ko:
       generic: 
       loadError: 
     graph:
+      average: Average
       price: 
       volume: 
     growth:

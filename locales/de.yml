@@ -99,6 +99,14 @@ de:
           title: Sie möchten keine Brokerage-Dienstleistung? Kein Problem.
       security:
         button: Fertig stellen
+      select:
+        titles:
+          buttons:
+            connect: Verbinden
+            use: Verwenden
+          existing: Mit Brokerage-Konto verbinden
+          new: Neues Brokerage-Konto hinzufügen
+          sessions: Bereits verbunden
       steps:
         choose: Wählen Sie eine Brokerage-Dienstleistung
         details: Ihre Daten
@@ -147,13 +155,18 @@ de:
         button:
           buy: Aktien erwerben (%n)
           sell: Aktien verkaufen (%n)
+        errors:
+          buying: 
+          selling: 
         table:
           brokerage: Aktienhandelkonto
           cost: Geschätzte Kosten
+          expiration: 
           fees: Geschätzte Gebühren
           return: Geschätzter Erlös
           shares: Anzahl der Aktien
           ticker: Börsenkürzel bzw. Tickersymbol
+          type: 
         title: Auftragsvorschau
       step_two:
         advanced:
@@ -783,6 +796,8 @@ de:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
+      pt: Portugiesisch
+      pt-PT: Portugiesisch
       zh-CN: 中文
     loading: Ladevorgang...
     login: Login
@@ -824,10 +839,15 @@ de:
         graph: Chart
         info: Star Rating
         social: Teilen
+        trade: '%n kaufen oder verkaufen'
+        unavailable: Sie können nur mit US-Aktien handeln
     unwatch: Löschen
     wallStreetRecommendations:
       emptyCategory: Sie haben keine Aktien in dieser Kategorie
       missing: nicht verfügbar
+      price: Kurs
+      recommendation: Empfehlung
+      target: Kursziel
       titles:
         buy: Kaufen
         hold: Halten
@@ -1356,6 +1376,11 @@ de:
         analysis: Zu den Schlüsselkennzahlen. Mit Lichtgeschwindigkeit!
         multiples: Sie können einfach mehrere Watchlists anlegen
         unlimited: Verfolgen Sie unbegrenzt viele Aktien
+  portfolios:
+    connected-brokerages: 
+    create:
+      button: 
+    watchlists: 
   recover:
     buttons:
       recover: Rasswort zurücksetzen
@@ -1501,6 +1526,7 @@ de:
       generic: Ein Fehler ist aufgetreten
       loadError: Beim Laden ist ein Fehler aufgetreten
     graph:
+      average: Durchschnitt
       price: Kurs
       volume: Kurs & Volumen
     growth:

@@ -99,6 +99,14 @@ it:
           title: Nessuna intermediazione? Nessun problema.
       security:
         button: Completato
+      select:
+        titles:
+          buttons:
+            connect: Connettiti
+            use: Utilizza
+          existing: Connettiti al conto di intermediazione
+          new: Aggiungi nuovo conto di intermediazione
+          sessions: Già connesso
       steps:
         choose: Scegli l'intermediazione
         details: I tuoi dati
@@ -147,13 +155,18 @@ it:
         button:
           buy: Compra azioni (%n)
           sell: Vendi azioni (%n)
+        errors:
+          buying: 
+          selling: 
         table:
           brokerage: Conto di intermediazione
           cost: Investimento stimato
+          expiration: 
           fees: Commissioni stimate
           return: Ricavi stimati
           shares: Quantità di azioni
           ticker: Sigla di negoziazione
+          type: 
         title: Anteprima dell'ordine
       step_two:
         advanced:
@@ -784,6 +797,8 @@ it:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
+      pt: portoghese
+      pt-PT: portoghese
       zh-CN: 中文
     loading: Sto caricando...
     login: Login
@@ -825,10 +840,15 @@ it:
         graph: Grafico dei Prezzi
         info: Parametri Chiave (Stelle)
         social: Azione
+        trade: Acquista o vendi %n
+        unavailable: 'Puoi scambiare solo azioni americane '
     unwatch: Non seguire più
     wallStreetRecommendations:
       emptyCategory: Non hai azioni per questa categoria.
       missing: Nessun Suggerimento
+      price: Prezzo
+      recommendation: Consigli
+      target: Prezzo target
       titles:
         buy: Compra
         hold: Tieni
@@ -1357,6 +1377,11 @@ it:
         analysis: Ottieni rapidamente le informazioni pricipali.
         multiples: È possibile creare più Liste in modo facile.
         unlimited: Puoi seguire un numero illimitato di azioni
+  portfolios:
+    connected-brokerages: 
+    create:
+      button: 
+    watchlists: 
   recover:
     buttons:
       recover: Reimposta la Password
@@ -1502,6 +1527,7 @@ it:
       generic: C'è stato un errore
       loadError: Errore nel caricamento dell'azione
     graph:
+      average: Media
       price: Prezzo
       volume: Prezzo & Volume
     growth:

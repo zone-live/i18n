@@ -99,6 +99,14 @@ zh-CN:
           title: 还没有经纪商？这不是问题。
       security:
         button: 完成
+      select:
+        titles:
+          buttons:
+            connect: 连接
+            use: 使用
+          existing: 连接至经纪帐户
+          new: 添加新的经纪帐户
+          sessions: 已经连接
       steps:
         choose: 选择经纪商
         details: 您的明细
@@ -147,13 +155,18 @@ zh-CN:
         button:
           buy: 购买股票 (%n)
           sell: 出售股票 (%n)
+        errors:
+          buying: 
+          selling: 
         table:
           brokerage: 经纪商
           cost: 预估花费
+          expiration: 
           fees: 预估手续费
           return: 预估所得
           shares: 股票数目
           ticker: 代号
+          type: 
         title: 定单预览
       step_two:
         advanced:
@@ -783,6 +796,10 @@ zh-CN:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
+      pt: |2-
+
+        葡萄牙語
+      pt-PT: 葡萄牙語
       zh-CN: 中文
     loading: 加载中…
     login: 登录
@@ -824,10 +841,15 @@ zh-CN:
         graph: 股价图
         info: 关键指标
         social: 股份
+        trade: 买入或卖出 %n 股票
+        unavailable: 您只能交易美股
     unwatch: 取消关注
     wallStreetRecommendations:
       emptyCategory: 您不持有这个分类下的股票。
       missing: 本项不适用
+      price: 股价
+      recommendation: 建议
+      target: 目标价格
       titles:
         buy: 买入
         hold: 持有
@@ -1356,6 +1378,11 @@ zh-CN:
         analysis: 关键数据唾手可得
         multiples: 轻松建立多个关注列表
         unlimited: 跟踪观察无限量的股票
+  portfolios:
+    connected-brokerages: 
+    create:
+      button: 
+    watchlists: 
   recover:
     buttons:
       recover: 重置我的密码
@@ -1501,6 +1528,7 @@ zh-CN:
       generic: 出现了一个错误
       loadError: 加载股票信息时出现错误
     graph:
+      average: 平均价格
       price: 股价
       volume: 股价与市值
     growth:
