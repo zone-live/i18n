@@ -1586,7 +1586,7 @@ en:
         neutral: "Moderately Balanced"
         negative: "Unbalanced"
     create:
-      button: "Create Watchlist"
+      button: "New Watchlist"
       fields:
         name: "Watchlist Name"
       points:
@@ -1652,6 +1652,11 @@ en:
       stocks: '%n Stocks'
       worth: Total Worth
       inactive: '%n Inactive'
+  portfolios:
+    connected-brokerages: Connected Brokerages
+    watchlists: Watchlists
+    create:
+      button: New Brokerage
   brokerage:
     brokerages:
       td: TD Ameritrade
@@ -1789,6 +1794,9 @@ en:
         button:
           buy: 'Purchase Shares (%n)'
           sell: 'Sell Shares (%n)'
+        errors:
+          buying: your limit price %n is lower than the current ask price %n
+          selling: your limit price %n is higher than the current bid price %n
       thetrade:
         title:
           buy: Filling Buy Order
