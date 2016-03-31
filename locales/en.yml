@@ -1652,7 +1652,7 @@ en:
       inactive: '%n Inactive'
   portfolios:
     connected-brokerages: Connected Brokerages
-    watchlists: watchlists
+    watchlists: Watchlists
   brokerage:
     brokerages:
       td: TD Ameritrade
