@@ -1584,7 +1584,7 @@ en:
         neutral: "Moderately Balanced"
         negative: "Unbalanced"
     create:
-      button: "Create Watchlist"
+      button: "New Watchlist"
       fields:
         name: "Watchlist Name"
       points:
