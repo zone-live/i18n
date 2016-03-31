@@ -1653,6 +1653,8 @@ en:
   portfolios:
     connected-brokerages: Connected Brokerages
     watchlists: Watchlists
+    create:
+      button: New Brokerage
   brokerage:
     brokerages:
       td: TD Ameritrade
