@@ -2017,5 +2017,5 @@ en:
     power: "Buying Power"
     danger:
       title: "Danger Zone"
-      description: "Unlinking your account will delete you broker details held at Stockflare.  We will delete all position information that we hold, however we will retain details of any orders you placed through Stockflare for Audit purposes."
-      button: "Unlink account"
+      description: "Unlinking your broker will delete your broker details held at Stockflare.  We will delete all accounts and positions information that we hold, however we will retain details of any orders you placed through Stockflare for Audit purposes."
+      button: "Unlink broker"
