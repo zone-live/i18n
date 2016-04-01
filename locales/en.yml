@@ -82,7 +82,7 @@ en:
         description: Do a trade immediately? Or check out our smart analysis of your portfolio?
         title: Trading Activated
         to_portfolio: Go to Portfolio
-        to_stock: Back to %n
+        to_stock: Trade %n?
       help:
         assistance:
           description: Click here if you need our help connecting your account or have any questions about our service.
