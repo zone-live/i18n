@@ -2014,4 +2014,8 @@ en:
   account:
     pageTitle: "My connected brokerage account"
     pageDescription: "Your account page contains details of the stocks in your portfolio with the connected brokerage as well as details of all orders placed through Stockflare."
-    power: Buying Power
+    power: "Buying Power"
+    danger:
+      title: "Danger Zone"
+      description: "Unlinking your account will delete you broker details held at Stockflare.  We will delete all position information that we hold, however we will retain details of any orders you placed through Stockflare for Audit purposes."
+      button: "Unlink account"
