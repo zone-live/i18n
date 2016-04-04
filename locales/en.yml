@@ -2035,6 +2035,7 @@ en:
           gain: Gain
     orders:
       title: "Trades"
+      empty: "No orders in this account"
       columns:
         name: Name
         purchased: "Purchase Price"
