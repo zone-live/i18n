@@ -2023,6 +2023,7 @@ en:
     breakdown:
       title: "Portfilio Breakdown"
       empty: "No stocks in your account"
+      refresh: "Refresh account positions"
       columns:
         name: Name
         rating: "Star Rating"
@@ -2043,3 +2044,6 @@ en:
         sell: "Sell Price"
         shares: "No. Shares"
         total: "Total"
+    broker:
+      unlink: "Unlink broker %n and delete account information"
+      unlinkError: "Cound not unlink your account"
