@@ -2033,3 +2033,11 @@ en:
       rows:
         gain:
           gain: Gain
+    orders:
+      title: "Trades"
+      columns:
+        name: Name
+        purchased: "Purchase Price"
+        sell: "Sell Price"
+        shares: "No. Shares"
+        total: "Total"
