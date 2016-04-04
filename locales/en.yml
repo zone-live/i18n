@@ -841,6 +841,7 @@ en:
         social: Share
         trade: Buy or Sell %n
         unavailable: Can only trade US Stocks
+        missing: "Instrument is not on Stockflare"
     unwatch: Unwatch
     wallStreetRecommendations:
       emptyCategory: You have no stocks in this category.
