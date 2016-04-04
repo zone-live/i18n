@@ -2019,3 +2019,17 @@ en:
       title: "Danger Zone"
       description: "Unlinking your broker will delete your broker details held at Stockflare.  We will delete all accounts and positions information that we hold, however we will retain details of any orders you placed through Stockflare for Audit purposes."
       button: "Unlink broker"
+    breakdown:
+      title: "Portfilio Breakdown"
+      empty: "No stocks in your account"
+      columns:
+        name: Name
+        rating: "Star Rating"
+        price: Today
+        purchased: "Purchase Price"
+        shares: "No. Shares"
+        gain: "7 Year Gain"
+        actions: Actions
+      rows:
+        gain:
+          gain: Gain
