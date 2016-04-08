@@ -2022,7 +2022,7 @@ en:
       description: "Unlinking your broker will delete your broker details held at Stockflare.  We will delete all accounts and positions information that we hold, however we will retain details of any orders you placed through Stockflare for Audit purposes."
       button: "Unlink broker"
     breakdown:
-      title: "Portfilio Breakdown"
+      title: "Portfolio Breakdown"
       empty: "No stocks in your account"
       refresh: "Refresh account positions"
       columns:
