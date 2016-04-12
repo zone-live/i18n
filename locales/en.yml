@@ -1497,6 +1497,7 @@ en:
       error: 'Sorry, there was a problem updating your settings:'
       language: Set your preferred language to view Stockflare in.
       location: Your location is used to filter stocks when you do not have a Country filter applied.
+      current: Please enter your current password to make this change
       mfaDisable: Disable MFA for your account by entering two valid codes below.
       mfaDisabled: MFA provides an additional layer of security for your account.
       mfaEnable: Enable MFA for your account by scanning the QR Code below, then entering two valid codes.
