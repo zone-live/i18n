@@ -2057,11 +2057,3 @@ en:
     broker:
       unlink: "Unlink broker %n and delete account information"
       unlinkError: "Cound not unlink your account"
-  mobile:
-    homepage:
-      headline: "Pick your stock easily"
-      headlineText: "Pick and Browse stocks easily with our unique system"
-      explore: "Explore"
-      login: "Login"
-      createAccount: "Create Free Account"
-      about: "About"
