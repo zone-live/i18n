@@ -812,6 +812,15 @@ en:
     social:
       email: Email to a friend
     time:
+      periods:
+        day: '%n Day'
+        days: '%n Days'
+        week: '%n Week'
+        weeks: '%n Weeks'
+        month: '%n Month'
+        months: '%n Months'
+        year: '%n Year'
+        years: '%n Years'
       dateFormat: '%m/%d/%y'
       daysOfWeek:
       - Sunday
