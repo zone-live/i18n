@@ -800,6 +800,7 @@ en:
       pt-PT: Portuguese
       zh-CN: 中文
     loading: Loading...
+    empty: Empty
     login: Login
     pages:
       privacy_policy: Privacy Policy
