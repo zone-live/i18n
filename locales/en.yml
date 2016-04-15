@@ -880,7 +880,7 @@ en:
     main:
       first: Stockflare is an information service. We do not provide advice and do not make recommendations. We are a research tool for self-directed investors.
       fourth: Stockflare's 5 key metrics, are a way to compare the quality of any group of stocks. They look at the profitability, dividends, growth, valuation, and "Wall Street" opinion on any stock. We stress, these are a quality metric and research tool. They are in not an explicit or implicit recommendation.
-      second: Stockflare sources its underlying data from Thomson Reuters, one of the world's leading financial data providers.
+      second: End-of-day pricing data, fundamentals and estimates provided by Thomson Reuters. Delayed pricing data for BATS, AMEX, NYSE, and NASDAQ provided by Barchart and is at least 10 minutes delayed, for more information visit their site. 
       third: We present the "Wall Street" consensus forecasts and recommendations on our website. This includes reference to “Buy”, “Sell”, “Hold”, & “Price Targets” for stocks. Like other information services, Stockflare does not endorse these forecasts. Sadly, there is no data on the future. The views of Wall Street are subjective, not objective.
       fifth: Stockflare is operated by Stockflare Limited, a company based in the United Kingdom. Our whole-owned subsidiary in the United States, Stockflare USA, Inc. is an SEC registered investement advisor. 
     metrics: The 5 key metrics cover profitability, dividends, growth, valuation, and sentiment. They are not a recommendation but a way to compare the quality of stocks and highlight key risks.
