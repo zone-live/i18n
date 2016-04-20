@@ -2064,7 +2064,7 @@ en:
     homepage:
       title: "Pick stock easily"
       subtitle: "Pick and Browse stocks easily with our unique system"
-      createAccount: "Create Free Account "
+      createAccount: "Create Free Account"
       viewMore:
         stocks: "View more stocks"
         themes: "View more themes"
@@ -2078,19 +2078,19 @@ en:
             positive: "Cheap"
             negative: "Expensive"
           na: "No PE Ratio"
-          text: %nx PE vs. competitors on %nx
+          text: '%nx PE vs. competitors on %nx'
         stronger:
           title:
             positive: "Stronger"
             negative: "Weaker"
           na: "No growth forecasts"
-          text: "%n% growth vs. competitors with %n%"
+          text: '%n% growth vs. competitors with %n%'
         expert:
           title: "Expert Opinion"
           na: "No research from experts"
           noChanges: "No difference to price target"
-          upside: "%n% upside to price target"
-          upside: "%n% downside to price target"
+          upside: '%n% upside to price target'
+          upside: '%n% downside to price target'
         profitbale:
           title:
             positive: "Profitable"
@@ -2102,5 +2102,5 @@ en:
           negative:
             text: "Not paying dividends"
           positive:
-            text: "Dividend %n. Yield of %n%"
+            text: 'Dividend %n. Yield of %n%'
           na: No forecasts available
