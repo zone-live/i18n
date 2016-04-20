@@ -878,7 +878,7 @@ en:
       error: An error has occurred
   disclaimers:
     main:
-      first: Stockflare is operated by %_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490}, a company based in the United Kingdom. Stockflare is primarily an information service. We do not provide advice and do not make recommendations. We are a research tool for self-directed investors. 
+      first: Stockflare is operated by %_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490}, a company based in the United Kingdom. Stockflare is primarily an information service. We do not provide advice and do not make recommendations. We are a research tool for self-directed investors.
       fifth: Stockflare's 5 star metrics, are a way to compare the quality of any group of stocks. They look at the profitability, dividends, growth, valuation, and "Wall Street" opinion on any stock. We stress, these are a quality metric and research tool. They are in not an explicit or implicit recommendation.
       third: End-of-day pricing data, fundamentals and estimates are provided by Thomson Reuters. Delayed pricing data for BATS, AMEX, NYSE, and NASDAQ are provided by Barchart and is at least 10 minutes delayed, for more information visit %_blank(their website){http://www.barchart.com/agreement.php}. Integration for US brokerage firms is powered by %_blank(Trading Ticket Inc.){https://www.trade.it/}
       fourth: We present the "Wall Street" consensus forecasts and recommendations on our website. This includes reference to “Buy”, “Sell”, “Hold”, & “Price Targets” for stocks. Stockflare does not endorse these forecasts. Sadly, there is no data on the future. The views of Wall Street are subjective, not objective. i.e. They get it wrong, regularly.
@@ -2060,3 +2060,47 @@ en:
     broker:
       unlink: "Unlink broker %n and delete account information"
       unlinkError: "Cound not unlink your account"
+  mobile:
+    homepage:
+      title: "Pick stock easily"
+      subtitle: "Pick and Browse stocks easily with our unique system"
+      createAccount: "Create Free Account "
+      viewMore:
+        stocks: "View more stocks"
+        themes: "View more themes"
+    stock:
+      keyStats:
+        title: "Key Stats"
+      starRating:
+        title: "Star Rating"
+        cheap:
+          title:
+            positive: "Cheap"
+            negative: "Expensive"
+          na: "No PE Ratio"
+          text: %nx PE vs. competitors on %nx
+        stronger:
+          title:
+            positive: "Stronger"
+            negative: "Weaker"
+          na: "No growth forecasts"
+          text: "%n% growth vs. competitors with %n%"
+        expert:
+          title: "Expert Opinion"
+          na: "No research from experts"
+          noChanges: "No difference to price target"
+          upside: "%n% upside to price target"
+          upside: "%n% downside to price target"
+        profitbale:
+          title:
+            positive: "Profitable"
+            negative: "Not Profitable"
+          na: "No forecasts available"
+          text: "EPS forecast"
+        dividends:
+          title: "Forecast"
+          negative:
+            text: "Not paying dividends"
+          positive:
+            text: "Dividend %n. Yield of %n%"
+          na: No forecasts available
