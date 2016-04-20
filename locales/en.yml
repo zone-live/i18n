@@ -2068,6 +2068,9 @@ en:
       viewMore:
         stocks: "View more stocks"
         themes: "View more themes"
+      logged:
+        title: "Welcome back"
+        subtitle: "You can now browse alerts and watchlist"
     stock:
       keyStats:
         title: "Key Stats"
@@ -2090,8 +2093,8 @@ en:
           na: "No research from experts"
           noChanges: "No difference to price target"
           upside: '%n% upside to price target'
-          upside: '%n% downside to price target'
-        profitbale:
+          downside: '%n% downside to price target'
+        profitable:
           title:
             positive: "Profitable"
             negative: "Not Profitable"
@@ -2102,5 +2105,7 @@ en:
           negative:
             text: "Not paying dividends"
           positive:
-            text: 'Dividend %n. Yield of %n%'
+            text:
+              dividend: 'Dividend'
+              yeldOf: Yield of %n%
           na: No forecasts available
