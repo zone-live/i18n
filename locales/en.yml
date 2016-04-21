@@ -95,7 +95,7 @@ en:
             secure: How secure is the connection?
           title: Frequently Asked Questions
         no_brokerage:
-          description: Check out this article here we compare all the brokerage services we are connected into.
+          description: Check out %_blank(this article){https://medium.com/simple-but-not-easy/going-to-the-market-how-to-pick-your-online-broker-16e9a231ed91} where we compare all the brokerage services we are connected into.
           title: No brokerage? No problem.
       security:
         button: Finish
