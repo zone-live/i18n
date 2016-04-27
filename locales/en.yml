@@ -733,7 +733,7 @@ en:
         pgk: K%n
         php: ₱%n
         pkr: ₨%n
-        pln: zł%n
+        pln: '%nzł'
         pyg: Gs%n
         qar: ﷼%n
         ron: lei%n
