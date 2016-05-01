@@ -2062,7 +2062,7 @@ en:
       unlinkError: "Cound not unlink your account"
   mobile:
     homepage:
-      title: "Pick stock easily"
+      title: "Pick stocks easily"
       subtitle: "Pick and Browse stocks easily with our unique system"
       createAccount: "Create Free Account"
       viewMore:
@@ -2107,5 +2107,5 @@ en:
           positive:
             text:
               dividend: 'Dividend'
-              yeldOf: Yield of %n%
+              yieldOf: Yield of %n%
           na: No forecasts available
