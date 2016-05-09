@@ -14,6 +14,47 @@ hi:
       tos: 
     pricingData: 
     title: 
+  account:
+    breakdown:
+      columns:
+        actions: 
+        gain: 
+        name: 
+        price: 
+        purchased: 
+        rating: 
+        shares: 
+      empty: 
+      refresh: 
+      rows:
+        gain:
+          gain: 
+      title: 
+    broker:
+      unlink: 
+      unlinkError: 
+    danger:
+      button: 
+      description: 
+      title: 
+    orders:
+      buying: 
+      columns:
+        action: 
+        name: 
+        purchased: 
+        sell: 
+        shares: 
+        total: 
+      empty: 
+      limit: 
+      market: 
+      selling: 
+      shares: 
+      title: 
+    pageDescription: 
+    pageTitle: 
+    power: 
   alerts:
     count: 
     headers:
@@ -56,16 +97,18 @@ hi:
       create: 
   brokerage:
     brokerages:
-      etrade: 
-      fidelity: 
-      ib: 
-      options_house: 
-      robinhood: 
-      schwab: 
-      scottrade: 
-      td: 
-      trade_station: 
-      tradier: 
+      drivewealth: Drivewealth
+      etrade: E-Trade
+      fidelity: Fidelity
+      ib: Interactive Brokers
+      options_house: Options House
+      robinhood: Robinhood
+      schwab: Schwab
+      scottrade: Scottrade
+      td: TD Ameritrade
+      trade_king: Trade King
+      trade_station: Trade Station
+      tradier: Tradier
     connect:
       broker_connection:
         connected: 
@@ -123,11 +166,20 @@ hi:
           description: 
           title: 
       title: 
+    flash:
+      positions_not_refreshed: 
+      positions_refreshed: 
+      positions_refreshing: 
     portfolio:
       alerts:
         heading: 
       danger_zone:
         button: 
+        cancel: 
+        cancel_confirm: 
+        canceled: 
+        canceled_error: 
+        cancelling: 
         warning: 
       headings:
         power: 
@@ -141,6 +193,8 @@ hi:
           filling: 
           pending: 
         trades: 
+      unsupported: 
+      untracked: 
     trade:
       step_one:
         buying:
@@ -617,11 +671,11 @@ hi:
         zar: 
         zmw: 
       symbols:
-        aed: 
-        afn: 
-        all: 
-        amd: 
-        ang: 
+        aed: '%nد.إ'
+        afn: ؋%n
+        all: Lek%n
+        amd: '%ndram'
+        ang: ƒ%n
         aoa: 
         ars: 
         aud: 
@@ -733,7 +787,7 @@ hi:
         pgk: 
         php: 
         pkr: 
-        pln: 
+        pln: '%n zł'
         pyg: 
         qar: 
         ron: 
@@ -783,22 +837,23 @@ hi:
         zmw: 
         zwd: 
     defaultPageTitle: 
+    empty: 
     languages:
-      de: 
-      de-DE: 
-      en: 
-      en-US: 
-      es: 
-      es-ES: 
-      fr: 
-      fr-FR: 
-      it: 
-      it-IT: 
-      ja: 
-      ja-JP: 
-      pt: पुर्तगाली
-      pt-PT: पुर्तगाली
-      zh-CN: 
+      de: Deutsch
+      de-DE: Deutsch
+      en: English
+      en-US: English
+      es: Español
+      es-ES: Español
+      fr: Français
+      fr-FR: Français
+      it: Italiano
+      it-IT: Italiano
+      ja: 日本語
+      ja-JP: 日本語
+      pt: Português
+      pt-PT: Português
+      zh-CN: 中文
     loading: 
     login: 
     pages:
@@ -814,6 +869,15 @@ hi:
     time:
       dateFormat: 
       daysOfWeek: 
+      periods:
+        day: 
+        days: 
+        month: 
+        months: 
+        week: 
+        weeks: 
+        year: 
+        years: 
       shortDateFormat: 
       shortDaysOfWeek: 
     tooltips:
@@ -824,6 +888,7 @@ hi:
         alerts: 
         graph: 
         info: 
+        missing: 
         social: 
         trade: 
         unavailable: 
@@ -853,6 +918,7 @@ hi:
       error: 
   disclaimers:
     main:
+      fifth: 
       first: 
       fourth: 
       second: 
@@ -864,6 +930,7 @@ hi:
   errors:
     api_error: 
     not_found: 
+    stock_not_tradeable: 
   explore:
     all: 
     biLine: 
@@ -872,177 +939,177 @@ hi:
         description: 
         disclaimer: 
         filters:
-          country: 
-          financial: 
-          market_value_usd: 
-          valulation: 
+          country: usa
+          financial: large
+          market_value_usd: 50000+
+          valulation: low_pe
         name: 
       boring-businesses:
         description: 
         disclaimer: 
         filters:
-          country: 
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          country: usa
+          market_value_usd: 1000+
+          rating: 1+
+          sector_code: '5110101011,5110101012,5210201013,5210201014,5210201015,5210201016,5210201017,5210203011,5210203012,5210203013,5210203014,5210203015,5210203016,5210203017,5220304020,5220301012,5310102013,5420102013,5420103018,5610102018,5610201016,5620104014,5710102010,5710102012,5710501013,5910301012'
         name: 
       cash-heavy:
         description: 
         disclaimer: 
         filters:
-          country: 
-          financial: 
-          market_value_usd: 
-          valuation: 
+          country: usa
+          financial: has_cash
+          market_value_usd: 500+
+          valuation: high_dividend
         name: 
       coffee-cake:
         description: 
         disclaimer: 
         filters:
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5330102016,5410201015,5410201016,5410202014,5410202021,5410202022,5410202023'
         name: 
       gem-stones:
         description: 
         disclaimer: 
         filters:
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5120101013,5120101014,5120101015'
         name: 
       going-nuclear:
         description: 
         disclaimer: 
         filters:
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5030101010,5030101011,5030101012,5210204016,5220102022,5910101013,5910102013'
         name: 
       hated-by-wall-street:
         description: 
         disclaimer: 
         filters:
-          country: 
-          market_value_usd: 
-          sentiment: 
+          country: usa
+          market_value_usd: 500+
+          sentiment: hated
         name: 
       healthy-tech:
         description: 
         disclaimer: 
         filters:
-          country: 
-          market_value_usd: 
-          sector_code: 
+          country: usa
+          market_value_usd: 1000+
+          sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
         name: 
       land-and-sea:
         description: 
         disclaimer: 
         filters:
-          country: 
-          market_value_usd: 
-          sector_code: 
+          country: usa,cad
+          market_value_usd: 1000+
+          sector_code: '5110102010,5110102011,5110102012,5110102013,5110102014,5320201018,5410201010,5410201011,5410201012,5410201013,5410201014,5410201015,5410201016,5410201017,5410201018,5410201019,5410201020,5410201021,5410201022,5410201023,5410201024,5410201025,5410201026,5410201027,5410201028,5410201029,5410203011'
         name: 
       legal-eagles:
         description: 
         disclaimer: 
         filters:
-          market_value_usd: 
-          rating: 
-          region: 
-          sector_code: 
+          market_value_usd: 50+
+          rating: 1+
+          region: amer
+          sector_code: '5220304011,5220304012,5220307015,5420103012,5420103013'
         name: 
       renewables:
         description: 
         disclaimer: 
         filters:
-          rating: 
-          region: 
-          sector_code: 
+          rating: 3+
+          region: amer
+          sector_code: '5020101010,5020101011,5020101012,5020101013,5020101014,5020101015,5020101016,5020101017,5020101018,5020101019,5020101020,5020102010,5020102011,5020102012,5020102013,5020102014,5020102015,5910101011,5910102012'
         name: 
       ship-it:
         description: 
         disclaimer: 
         filters:
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5010303014,5210205010,5210205011,5210205012,5320502011,5240502010,5240502011,5240502012,5240502013,5240602014,5240702010,5240702011,5240702012,5240702013'
         name: 
       space-race:
         description: 
         disclaimer: 
         filters:
-          market_value_usd: 
-          sector_code: 
+          market_value_usd: 100+
+          sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
         name: 
       sporting-outdoors:
         description: 
         disclaimer: 
         filters:
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          market_value_usd: 100+
+          rating: 1+
+          sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
         name: 
       taking-it-easy:
         description: 
         disclaimer: 
         filters:
-          market_value_usd: 
-          sector_code: 
+          market_value_usd: 10000+
+          sector_code: '5550104010,5550104011,5550104012'
         name: 
       tech-titans:
         description: 
         disclaimer: 
         filters:
-          financial: 
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          financial: large
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5710101010,5710101011,5710101012,5710101013,5710101014,5710101015,5710102010,5710102011,5710102012,5710102013,5710201010,5710201011,5710201012,5710201013,5710201014,5710201015,5710201016,5710201017,5710501010,5710501011,5710501012,5710501013,5710501014,5710501015,5710401010,5710401011,5710401012,5710401013,5710401014,5710601010,5710601011,5710601012,5710601013,5710601014,5710601015,5710601016,5710601017,5710601018,5710601019,5710602010,5710602011,5710602012,5710602013,5710602014,5710602015,5710603010,5710603011,5710603012,5710603013,5710603014,5720101010,5720101011,5720101012,5720101013,5720101014,5720101015,5720102010,5720102011,5720102012,5720102013,5720102014,5720102015,5720102016,5720102017,5720103010,5720103011,5720103012,5720103013,5720103014,5720103015,5720103016'
         name: 
       thirsty:
         description: 
         disclaimer: 
         filters:
-          country: 
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          country: usa
+          market_value_usd: 500+
+          rating: 1+
+          sector_code: '5220102018,5410103014,5910301010,5910301011,5910301012,5910301013'
         name: 
       timber:
         description: 
         disclaimer: 
         filters:
-          country: 
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          country: usa,cad
+          market_value_usd: 100+
+          rating: 2+
+          sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
         name: 
       time-online:
         description: 
         disclaimer: 
         filters:
-          country: 
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          country: usa
+          market_value_usd: 10000+
+          rating: 1+
+          sector_code: '5720103010,5720103011,5720103012,5720103013'
         name: 
       vice-not-nice:
         description: 
         disclaimer: 
         filters:
-          country: 
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          country: usa
+          market_value_usd: 500+
+          rating: 2+
+          sector_code: '5210101011,5330102011,5330103010,5330103011,5330103012,5330103013,5330203016,5340309025,5410101010,5410101011,5410102010,5410102011,5410102012,5410102013,5430102013,5430102015'
         name: 
       young-and-old:
         description: 
         disclaimer: 
         filters:
-          country: 
-          market_value_usd: 
-          rating: 
-          sector_code: 
+          country: usa
+          market_value_usd: 1000+
+          rating: 2+
+          sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
         name: 
     filters: 
     pageDescription: 
@@ -1319,9 +1386,63 @@ hi:
       question: 
       register: 
     titles:
+      expired: 
       login: 
       mfa: 
       social: 
+  mobile:
+    homepage:
+      createAccount: 
+      logged:
+        subtitle: 
+        title: 
+      subtitle: 
+      title: 
+      viewMore:
+        stocks: 
+        themes: 
+    stock:
+      keyStats:
+        title: 
+      starRating:
+        cheap:
+          na: 
+          text: 
+          title:
+            negative: 
+            positive: 
+        dividends:
+          na: 
+          negative:
+            text: 
+          positive:
+            text: 
+          title: 
+        expert:
+          downside: 
+          na: 
+          noChanges: 
+          title: 
+          upside: 
+        profitable:
+          na: 
+          text: 
+          title:
+            negative: 
+            positive: 
+        profitbale:
+          na: 
+          text: 
+          title:
+            negative: 
+            positive: 
+        stronger:
+          na: 
+          text: 
+          title:
+            negative: 
+            positive: 
+        title: 
   onboard:
     controls:
       complete: 
@@ -1448,6 +1569,7 @@ hi:
       loading: 
     descriptions:
       currency: 
+      current: 
       delete: 
       error: 
       language: 
@@ -1456,6 +1578,7 @@ hi:
       mfaDisabled: 
       mfaEnable: 
       mfaEnabled: 
+      password: 
     flash:
       delete: 
       deleteError: 
@@ -1468,6 +1591,8 @@ hi:
       danger: 
       header: 
       mfa: 
+      properties: 
+      protected: 
   stock:
     buttons:
       fiveYears: 
@@ -1493,6 +1618,7 @@ hi:
       loadError: 
     graph:
       average: Average
+      empty: 
       price: 
       volume: 
     growth:
@@ -1513,6 +1639,7 @@ hi:
       description: 
       results: 
       statistics: 
+      view_all_competitors: 
     inner:
       description:
         table:
@@ -1830,6 +1957,7 @@ hi:
     fields:
       confirmPassword: 
       currency: 
+      current: 
       email: 
       language: 
       location: 
@@ -1975,5 +2103,6 @@ hi:
       inactive: 
       mover: 
       rating: 
+      return: 
       stocks: 
       worth: 

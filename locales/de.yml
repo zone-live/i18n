@@ -14,6 +14,47 @@ de:
       tos: Servicebedinungen
     pricingData: Alle Kursdaten vom gestrigen Schlusskurs.
     title: Über Stockflare
+  account:
+    breakdown:
+      columns:
+        actions: Aktionen
+        gain: 7-Jahres-Wachstum
+        name: Unternehmen
+        price: Heute
+        purchased: Preis der Aktien
+        rating: Star Rating
+        shares: Aktienanzahl
+      empty: Keine Aktien in Ihrem Account
+      refresh: Ihr Konto aktualisieren
+      rows:
+        gain:
+          gain: wächst
+      title: Aufteilung meines Aktienbestandes
+    broker:
+      unlink: Aktienhandelskonto deaktivieren und alle Kontodaten löschen
+      unlinkError: Wir konnten die Deaktivierung Ihres Kontos nicht ausführen
+    danger:
+      button: Aktienhandelskonto deaktivieren
+      description: Durch Deaktivierung Ihres Aktienhandelskontos werden Ihre bei Stockflare hinterlegten Kontodaten gelöscht. Wir löschen alle bei uns hinterlegten Kontodaten und Auftragspositionen. Wir speichern jedoch zu Prüfungszwecken Angaben zu Aufträgen, die Sie auf Stockflare erteilt haben.
+      title: Gefahrenzone
+    orders:
+      buying: Kaufen zu %n
+      columns:
+        action: Aktionen
+        name: Unternehmen
+        purchased: Preis der Aktien
+        sell: Verkaufskurs
+        shares: Aktienanzahl
+        total: Gesamt
+      empty: Es gibt keine Aufträge in diesem Konto
+      limit: Höchster Kaufpreis %n
+      market: Aussteigen bei %n
+      selling: Verkaufen bei %n
+      shares: '%n Aktien'
+      title: Transaktionen
+    pageDescription: Ihre Kontoseite enthält Angaben zu den Aktien in Ihrem Portfolio im Zusammenhang mit der Brokerage-Dienstleistung sowie Informationen zu allen auf Stockflare erteilten Aufträgen.
+    pageTitle: Mein verbundenes Aktienhandelskonto
+    power: Kaufkraft
   alerts:
     count: '%n Alarme'
     headers:
@@ -56,6 +97,7 @@ de:
       create: Neue Watchlist
   brokerage:
     brokerages:
+      drivewealth: Drivewealth
       etrade: E-Trade
       fidelity: Fidelity
       ib: Interactive Brokers
@@ -64,6 +106,7 @@ de:
       schwab: Schwab
       scottrade: Scottrade
       td: TD Ameritrade
+      trade_king: Trade King
       trade_station: Trade Station
       tradier: Tradier
     connect:
@@ -82,7 +125,7 @@ de:
         description: Wollen Sie sofort einen Aktienhandel tätigen? Oder sich vorher unsere clevere Analyse Ihres Portfolios anschauen?
         title: Handel wurde aktiviert
         to_portfolio: 'Gehen Sie auf „Portfolio“ '
-        to_stock: Zurück zu %n
+        to_stock: Handel mit Aktien von %n ?
       help:
         assistance:
           description: Klicken Sie hier, wenn Sie Hilfe beim Verbinden Ihres Kontos brauchen oder Fragen zu unseren Dienstleistungen haben.
@@ -123,11 +166,20 @@ de:
           description: Haben Sie eine interessante Aktie gefunden? Dann verbinden Sie Ihr Aktienhandelskonto und tätigen Sie Ihren Handel schnell und einfach innerhalb von Stockflare.
           title: Handel über Stockflare
       title: Wählen Sie eine Brokerage-Dienstleistung
+    flash:
+      positions_not_refreshed: Wir konnten Ihren Broker zur Aktualisierung Ihrer Auftragspositionen nicht erreichen.
+      positions_refreshed: Die Auftragspositionen Ihres Portfolios wurden aktualisiert
+      positions_refreshing: Die Auftragspositionen Ihres Portfolios werden aktualisiert
     portfolio:
       alerts:
         heading: n% Benachrichtigungen
       danger_zone:
         button: Konto deaktivieren
+        cancel: 
+        cancel_confirm: 
+        canceled: 
+        canceled_error: 
+        cancelling: 
         warning: Durch Deaktivierung Ihres Aktienhandelskontos werden Ihre gesamten Daten gelöscht, die auf unseren Servern gespeichert sind.
       headings:
         power: Kaufkraft
@@ -141,6 +193,8 @@ de:
           filling: Wird Ausgeführt
           pending: Ausstehend
         trades: Offene Transaktionen (Trades)
+      unsupported: '%n nicht unterstützt'
+      untracked: Nicht von Stockflare unterstützt
     trade:
       step_one:
         buying:
@@ -156,17 +210,17 @@ de:
           buy: Aktien erwerben (%n)
           sell: Aktien verkaufen (%n)
         errors:
-          buying: 
-          selling: 
+          buying: Der von Ihnen angegebene höchste Kaufkurs von %n ist niedriger als der aktuelle Briefkurs von %n
+          selling: Der von Ihnen angegebene höchste Kaufkurs von %n ist höher als der aktuelle Geldkurs von %n
         table:
           brokerage: Aktienhandelkonto
           cost: Geschätzte Kosten
-          expiration: 
+          expiration: Ablauf
           fees: Geschätzte Gebühren
           return: Geschätzter Erlös
           shares: Anzahl der Aktien
           ticker: Börsenkürzel bzw. Tickersymbol
-          type: 
+          type: Auftragsart
         title: Auftragsvorschau
       step_two:
         advanced:
@@ -733,7 +787,7 @@ de:
         pgk: K%n
         php: ₱%n
         pkr: ₨%n
-        pln: zł%n
+        pln: '%n zł'
         pyg: Gs%n
         qar: ﷼%n
         ron: lei%n
@@ -783,6 +837,7 @@ de:
         zmw: ZK%n
         zwd: Z$%n
     defaultPageTitle: Einfach Aktien finden
+    empty: Leer
     languages:
       de: Deutsch
       de-DE: Deutsch
@@ -796,8 +851,8 @@ de:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
-      pt: Portugiesisch
-      pt-PT: Portugiesisch
+      pt: Português
+      pt-PT: Português
       zh-CN: 中文
     loading: Ladevorgang...
     login: Login
@@ -821,6 +876,15 @@ de:
       - Donnerstag
       - Freitag
       - Samstag
+      periods:
+        day: '%n Tag'
+        days: '%n Tage'
+        month: '%n monat'
+        months: '%n monate'
+        week: '%n woche'
+        weeks: '%n wochen'
+        year: '%n Jahr'
+        years: '%n Jahre'
       shortDateFormat: '%d/%m'
       shortDaysOfWeek:
       - So
@@ -838,6 +902,7 @@ de:
         alerts: Aktien Alarme
         graph: Chart
         info: Star Rating
+        missing: Dieses Wertpapier ist nicht auf Stockflare vorhanden
         social: Teilen
         trade: '%n kaufen oder verkaufen'
         unavailable: Sie können nur mit US-Aktien handeln
@@ -867,10 +932,11 @@ de:
       error: Ein Fehler ist aufgetreten
   disclaimers:
     main:
-      first: Stockflare stellt Informationen zu Verfügung. Wir geben werder Ratschläge, noch Empfehlungen ab. Wir sind ein Werkzeug zur Recherche für selbsttätige Investoren.
-      fourth: Stockflares 5 Star-Rating bietet eine Möglichkeit, um die Qualität jeder Gruppe von Aktie zu vergleichen. Sie berücksichtigen Dividende, Wachstum, Wert und die Meinung der "Wall Street". Wir betonen, dieses ist ein Qualitätsparameter und Recherchewerkzeug, keine expliziten oder impliziten Empfehlungen.
-      second: Stockflare bezieht seine Daten von Thomson Reuters, einer der führenden Daten-Provider der Finanzindustrie.
-      third: Wir zeigen Ihnen die Prognosen und Empfehlungen der "Wall Street". Diese beinhalten Empfehlungen wie "Kaufen", "Verkaufen", "Halten" und "Kursziele" für Aktien. Wie viele andere Services, die Informationen zur Verfügung stellen, stimmt Stockflare diesen Prognosen nicht explizit zu. Leider gibt es keine zu 100 Prozent richtigen Daten für die Zunkunft. Weiters sind die Sichtweisen der Wall Street subjektiv, nicht objektiv.
+      fifth: Stockflares 5 Star-Rating bietet eine Möglichkeit, um die Qualität jeder Gruppe von Aktie zu vergleichen. Sie berücksichtigen Dividende, Wachstum, Wert und die Meinung der "Wall Street". Wir betonen, dieses ist ein Qualitätsparameter und Recherchewerkzeug, keine expliziten oder impliziten Empfehlungen.
+      first: Stockflare wird von %_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490} betrieben, einer in Großbritannien ansässigen Firma. Stockflare ist in erster Linie ein Informationsdienstleister. Wir geben weder Ratschläge noch Empfehlungen. Wir sind ein Recherche-Tool für selbsttätige Investoren.
+      fourth: Auf unserer Internetseite präsentieren wir die „Wall Street" Konsensprognosen und Empfehlungen. Dies beinhaltet Bezugnahme auf das „Kaufen", „Verkaufen", „Halten" und die „Preisziele" für Aktien. Stockflare unterstützt diese Prognosen nicht. Leider gibt es keine Daten über die Zukunft. Die Ansichten von Wall Street sind subjektiv, nicht objektiv. Dies bedeutet, dass Wall Street sich regelmäßig irrt.
+      second: Anlageberatung ist eine regulierte Dienstleistung. Bei dem sich vollständig in unserer Hand befindlichen Tochterunternehmen in den Vereinigten Staaten, %_blank(Stockflare USA, Inc.){http://www.adviserinfo.sec.gov/IAPD/IAPDFirmSummary.aspx?ORG_PK=242787}, handelt es sich um eine SEC-registrierte Anlageberatung. Bei Interesse an ihren Dienstleistungen können Sie sich in der%_blank(Kundenbroschüre){http://www.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=371069} näher zu Stockflare USA informieren.
+      third: Preisdaten am Tagesende, Fundamentaldaten und Schätzungen werden von Thomson Reuter zur Verfügung gestellt. Verzögerte Preisangaben für die Indexe BATS, AMEX, NYSE und NASDAQ werden von Barchart zur Verfügung gestellt mit einer Verzögerung von mindestens 10 Minuten. Nähere Informationen sind auf der Internetseite von %_blank(Barchart){http://www.barchart.com/agreement.php} zu finden. Die Integration für US-amerikanische Broker wird unterstützt durch %_blank(Trading Ticket Inc.){https://www.trade.it/}
     metrics: Das Star Rating entählt Profitabilität, Dividenten, Wachstum, Wert und Meinung der "Wall Street". Es bietet keine Empfehlung, sondern eine Möglichkeit, die Qualität von Aktien zu vergleichen und Risiken hervorzuheben.
     title: Zeit fürs Rechtliche!
     wallStreet: Diese Tabelle zeigt Ihnen die Wertsteigerung zum Kursziel und Empfehlung der "Wall Street" in Ihrer Watchlist. Es gibt keine 100 Prozent richtigen Daten für die Zukunft, deshalb beruhen diese Empfehlungen auf einer subjektiven Analyse, keiner objektiven. Stockflare unterstützt die Sichtweisen der "Wall Street" nicht. Wir präsentieren lediglich die Daten, damit Sie erkennen können, welches Gefühl die Experten für bestimmte Aktien ausdrücken.
@@ -878,6 +944,7 @@ de:
   errors:
     api_error: Oh je! Es ist leider ein Fehler bei der Verbindungsherstellung zu unseren Servern aufgetreten.
     not_found: Ups, diese Seite existiert nicht.
+    stock_not_tradeable: Wir bitten um Entschuldigung. Diese Aktie kann momentan nicht gehandelt werden.
   explore:
     all: Alle Aktien
     biLine: Brauchen Sie Inspiration?
@@ -1353,9 +1420,63 @@ de:
       question: Noch kein Mitglied?
       register: Gratis registrieren
     titles:
+      expired: Ihre Sitzung ist abgelaufen.
       login: Login
       mfa: Gesicherter Account
       social: Social Login (in Kürze)
+  mobile:
+    homepage:
+      createAccount: Richten Sie Ihr kostenloses Trading-Konto ein
+      logged:
+        subtitle: Sehen Sie sich jetzt Alerts und Watch-Listen an
+        title: Schön, Sie wiederzusehen
+      subtitle: Einfaches Auswählen und Ansehen von Aktien dank unseres einzigartigen Systems
+      title: Einfach Aktien auswählen
+      viewMore:
+        stocks: Mehr Aktien ansehen
+        themes: Mehr Themen ansehen
+    stock:
+      keyStats:
+        title: Kennzahlen
+      starRating:
+        cheap:
+          na: Kein KGV
+          text: '%nx KGV Konkurrenten bei %nx'
+          title:
+            negative: Teuer
+            positive: Billiger
+        dividends:
+          na: Keine Prognosen verfügbar
+          negative:
+            text: Zahlt derzeit keine Dividenden
+          positive:
+            text: Dividende %n. Gewinn von %n%
+          title: Prognose
+        expert:
+          downside: '%n% Abwärtspotential zum Zielpreis'
+          na: Keine Expertenstudien
+          noChanges: Kein Unterschied zum Zielpreis
+          title: Gutachten
+          upside: '%n % Aufwärtspotential zum Zielpreis'
+        profitable:
+          na: Keine Prognosen verfügbar
+          text: Prognostizierte Aktienrendite
+          title:
+            negative: Nicht gewinnbringend
+            positive: Gewinnbringend
+        profitbale:
+          na: Keine Prognosen verfügbar
+          text: Prognostizierte Aktienrendite
+          title:
+            negative: Nicht gewinnbringend
+            positive: Gewinnbringend
+        stronger:
+          na: Keine Wachstumsprognose
+          text: '%n% Wachstum gegenüber Konkurrenten mit %n%'
+          title:
+            negative: schwächer
+            positive: stärker
+        title: Star Rating
   onboard:
     controls:
       complete: Vollständlig
@@ -1377,10 +1498,10 @@ de:
         multiples: Sie können einfach mehrere Watchlists anlegen
         unlimited: Verfolgen Sie unbegrenzt viele Aktien
   portfolios:
-    connected-brokerages: 
+    connected-brokerages: Aktivierte Brokerage-Dienstleistungen
     create:
-      button: 
-    watchlists: 
+      button: Neue Brokerage-Dienstleistung
+    watchlists: Watchlisten
   recover:
     buttons:
       recover: Rasswort zurücksetzen
@@ -1482,6 +1603,7 @@ de:
       loading: Einstellungen werden aktualisiert
     descriptions:
       currency: Liste Projektionen und Werte werden in Ihre bevorzugte Währung angezeigt, auf der jüngsten Wechselkurs.
+      current: Bitten geben Sie Ihr aktuelles Passwort ein, um diese Änderung vorzunehmen
       delete: Wenn Sie Ihren Account löschen, werden Ihre gesamten persönlichen Daten permanent von unseren Systemen gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.
       error: 'Tut uns leid, beim Aktualisieren der Einstellungen ist ein Problem aufgetreten: '
       language: Wählen Sie Ihre Sprache aus.
@@ -1490,6 +1612,7 @@ de:
       mfaDisabled: Die Zwei-Faktor-Authentifizierung bietet zusätzliche Sicherheit für Ihren Account.
       mfaEnable: Um die Zwei-Faktor-Authentifizierung zu aktivieren, scannen Sie den QR Code und geben Sie anschließend zwei gültige Codes ein.
       mfaEnabled: Die Zwei-Faktor-Authentifizierung ist für diesen Account aktiviert.
+      password: Freilassen, wenn Sie Ihr Passwort nicht ändern möchten
     flash:
       delete: Sind Sie sicher, Ihren Stockflare Account permanent zu löschen?
       deleteError: Tut uns leid, beim Löschen Ihres Accounts ist ein Fehler aufgetreten. Bitte kontaktieren Sie info@stockflare.com
@@ -1502,6 +1625,8 @@ de:
       danger: Gefahrenzone
       header: Einstellungen
       mfa: Zwei-Faktor-Authentifizierung
+      properties: Meine Informationen
+      protected: Geschützt detailliert
   stock:
     buttons:
       fiveYears: 5 Jahre
@@ -1527,6 +1652,7 @@ de:
       loadError: Beim Laden ist ein Fehler aufgetreten
     graph:
       average: Durchschnitt
+      empty: noch keine Daten verfügbar zu diesem Diagramm
       price: Kurs
       volume: Kurs & Volumen
     growth:
@@ -1547,6 +1673,7 @@ de:
       description: Unternehmensbeschreibung
       results: Neueste Ergebnisse
       statistics: Kennzahlen
+      view_all_competitors: Alle anzeigen
     inner:
       description:
         table:
@@ -1864,6 +1991,7 @@ de:
     fields:
       confirmPassword: Passwort bestätigen
       currency: Währung
+      current: Aktuelles Passwort
       email: E-Mail-Adresse
       language: Sprache
       location: Ort
@@ -2009,5 +2137,6 @@ de:
       inactive: '%n inaktive'
       mover: Biggest Mover
       rating: Watchlist Rating
+      return: Gesamtgewinn
       stocks: '%n Aktien'
       worth: Absoluter Wert

@@ -1,61 +1,104 @@
 ja:
   about:
-    disclaimer: 
-    from: 
+    disclaimer: ストックフレアはアドバイスではなく情報を提供しています。'買う' '売る' 'ホールド' かストックの 'プライスターゲット'はウォール ストリート のビューです。
+    from: データはこの中からセレクト
     links:
-      about: 
+      about: 私たちについて
       blog: ブログ
       faq: よくある質問
-      jobs: 
-      landing: 
-      learn: 
-      playground: 
-      privacy: 
-      tos: 
-    pricingData: 
+      jobs: リクルート
+      landing: 初めての方
+      learn: 習う
+      playground: プレイグランド
+      privacy: 個人情報保護方針
+      tos: 利用規約
+    pricingData: 昨日のクローズでの全部のプライシングデータ
     title: ストックフレアについて
+  account:
+    breakdown:
+      columns:
+        actions: アクション
+        gain: ７年ゲイン
+        name: 名前
+        price: 今日
+        purchased: パーチェース値段
+        rating: 星の評価
+        shares: 株式はありません
+      empty: アカウントにはストックはありません
+      refresh: アカウントのポジションをリフレッシュする
+      rows:
+        gain:
+          gain: ゲイン
+      title: ポートフォリオブレークダウン
+    broker:
+      unlink: ％n ブローカとのリンクを外すしてアカウントの情報を消す
+      unlinkError: アカウントのリンクを外すことができませんでした　
+    danger:
+      button: ブローカとのリンクを外す
+      description: ブローカのリンクを外すしたらあなたがストックフレアで持ってるブローカの情報わ消えます。私たちが持ってるアカウントとポジション情報は全部消しますがオーダーのの情報は監査のためホールドします。
+      title: 危険なゾーン
+    orders:
+      buying: '%n で買う'
+      columns:
+        action: アクション
+        name: |
+          名前
+        purchased: パーチェース値段
+        sell: 売る値段
+        shares: 株式わはありません
+        total: トータル
+      empty: このアカウントにはオーダーは入ってません
+      limit: 指値 %n
+      market: ' 逆指値 %n'
+      selling: '%n で売ってる'
+      shares: '%n 株式'
+      title: トレード
+    pageDescription: あなたのアカウントページはポートフォリオに入ってるストックの情報とコネクトブローカー業務とストックフレアでとうしたオーダーが乗っています。
+    pageTitle: 私のコネクトブローカー業務アカウント
+    power: ' 購買力'
   alerts:
-    count: 
+    count: '%n アラート'
     headers:
-      today: 
+      today: 今日のアラート
     messages:
       gain:
-        negative: 
-        positive: 
+        negative: ロングタームゲインの予報は%previous_gain%から%latest_gain%まで落ちました
+        positive: ロングタームゲインの予報は%latest_gain%から%previous_gain%まで増えました
       movement:
-        negative: 
-        positive: 
-      none: 
+        negative: 価格は%price_change%落ちました、%previous_priceから%latest_priceまで
+        positive: 価格は%price_change%上がりました、%previous_priceから%latest_priceまで
+      none: 今はアラートはありません
       one_month_eps_sentiment:
-        positive: 
+        positive: この一ヶ月、予想アーニングはスットクの値段より早く上がりました。
       one_month_price_sentiment:
-        negative: 
+        negative: この一ヶ月、スットクの価格は予想アーニングより早く下がります。
       rating:
-        negative: 
-        positive: 
+        negative: キーメトリックを失いました。現在のキーメトリックは%latest_ratingです。
+        positive: 追加のキーメトリックがありました。現在のキーメトリックは%latest_ratingです。
       recommendation:
-        negative: 
-        positive: 
+        negative: ウォール街が%previous_recommendation_text から %latest_recommendation_textまで下がりました。
+        positive: ウォール街が%previous_recommendation_text から %latest_recommendation_textまで上がりました。
       three_month_eps_sentiment:
-        positive: 
+        positive: この三ヶ月、予想アーニングはスットクの値段より早く上がりました。
       three_month_price_sentiment:
-        negative: 
+        negative: この三ヶ月、スットクの価格が予想アーニングより早く下がりました。
       upside:
-        positive: 
+        positive: '%latest_upside利点が株価目標に今ある'
       volume:
-        negative: 
-    pageTitle: 
-    timeAgo: 
+        negative: トレーディングの量が普通よりい高いです。
+    pageTitle: 私のアラート
+    timeAgo: '%n時間前'
   appender:
-    add: 
-    noMatches: 
-    pressEnter: 
-    search: 
+    add: ストックをたす
+    noMatches: マッチ 0
+    pressEnter: たすためにはエンターを押してください
+    search: サーチ
   appenders:
     watchlist:
-      create: 
+      create: 新しいウォッチリスト
   brokerage:
     brokerages:
+      drivewealth: Drivewealth
       etrade: E-Trade
       fidelity: Fidelity
       ib: Interactive Brokers
@@ -64,150 +107,166 @@ ja:
       schwab: Schwab
       scottrade: Scottrade
       td: TD Ameritrade
+      trade_king: Trade King
       trade_station: Trade Station
       tradier: Tradier
     connect:
       broker_connection:
-        connected: 
-        connecting: 
-        detail: 
-        login: 
+        connected: サクセス! あなたのアカウントはコネクトできました
+        connecting: セーフ...コネクトしてます
+        detail: |
+          あなたのアカウントとセーフなコネクションを作っています
+        login: ログイン情報をチェックしてます
       details:
-        button: 
-        conditions: 
-        id: 
-        password: 
-        username: 
+        button: ログインとコネクト
+        conditions: ローグインとコネクトをクリックするためストックフレアの利用規約に同意しています
+        id: ブローカー業務ユーザーID
+        password: ブローカー業務パスワード
+        username: ブローカー業務ユーザ名
       final:
-        description: 
-        title: 
-        to_portfolio: 
-        to_stock: 
+        description: すぐにトーレドする？かポートフォリオの分析をチェックする？
+        title: トレードを活性化しました
+        to_portfolio: ポートフォリオを見る
+        to_stock: トレード %n?
       help:
         assistance:
-          description: 
-          title: 
+          description: アカウントをコネクトしたい？サービスに対して質問がある？ここにクリックしてください。
+          title: アシストが必要？
         faq:
-          description: 
+          description: 私たちによく聞かれる大切な質問
           questions:
-            compare: 
-            fees: 
-            secure: 
-          title: 
+            compare: 別のブローカー業務はどう違う？
+            fees: 手数料はありますか？
+            secure: コネクションはどのぐらいセーフなんですか？
+          title: よくある質問
         no_brokerage:
-          description: 
-          title: 
+          description: '%_blank(this article){https://medium.com/simple-but-not-easy/going-to-the-market-how-to-pick-your-online-broker-16e9a231ed91}この記事には私たちがコネクトしている全部のブローカー業務サービスを比べてます'
+          title: ブローカー業務がない？問題ない
       security:
-        button: 
+        button: 終わりです
       select:
         titles:
           buttons:
-            connect: 
-            use: 
-          existing: 
-          new: 
-          sessions: 
+            connect: コネクト
+            use: 使い方
+          existing: ブローカー業務アカウントにコネクトする
+          new: 新しいブローカー業務をたす
+          sessions: もうコネクトしています
       steps:
-        choose: 
-        details: 
-        final: 
-        security: 
+        choose: ブローカー業務を選ぶ
+        details: あなたの情報
+        final: 終わりです
+        security: セキュリティ質問
       teaser:
         alerts:
-          description: 
-          title: 
+          description: ポートフォリオをトラックする時間がない？私たちのアラートであなたの投資を見とくことができます
+          title: 私たちのアラートをゲットする
         encryption:
-          description: 
-          title: 
+          description: ストックフレアでは全部のデータを暗号しています。それからAmazon Web Services みたいにセキュリティをよく考えているプロバイダーしか一緒に仕事をしていません
+          title: 暗号でプロテクトしています
         trade:
-          description: 
-          title: 
-      title: 
+          description: いいストックを見つけた？ブローカー業務アカウントをコネクトして、早く簡単にストックフレアの中からトーランドする
+          title: ストックフレアでトーレドする
+      title: ブローカー業務をコネクト
+    flash:
+      positions_not_refreshed: ポジションをリフレッシュするためブローカー業務にコネクトすることができませんでした
+      positions_refreshed: ポートフォリオのポジションがアップデイトされました
+      positions_refreshing: ポートフォリオのポジションをリフレッシュしています
     portfolio:
       alerts:
-        heading: 
+        heading: アラート%n
       danger_zone:
-        button: 
-        warning: 
+        button: アカウントをディスコネクトする
+        cancel: 
+        cancel_confirm: 
+        canceled: 
+        canceled_error: 
+        cancelling: 
+        warning: ブローカー業務アカウントをディスコネクトするとサーバに乗ってるデータは全部消えます。
       headings:
-        power: 
+        power: 購買力
       notes:
-        heading: 
+        heading: n% ノート
       table:
-        status: 
+        status: 状態
         statuses:
-          completed: 
-          failed: 
-          filling: 
-          pending: 
-        trades: 
+          completed: 完成しました
+          failed: フェイルしました
+          filling: 入力
+          pending: ペンディング
+        trades: オープントレード
+      unsupported: '%n支持されていません'
+      untracked: ストックフレアは支持されていません
     trade:
       step_one:
         buying:
-          price: 
-          title: 
+          price: |
+            今は%n
+          title: 買う
         selling:
-          price: 
-          title: 
-        title: 
-        tooltip: 
+          price: 現在 %n
+          title: 売る
+        title: 買うか売る？
+        tooltip: ビッドアスクに設定された限定価格ではなく、市場で注文を制限するための取引がデフォルトとして設定されています。購入または販売を行いたい場合、注文タイプを詳細設定から変更することができます。さらに、日付が変わる時に期限が切れるようにデフォルト設定されています。無期限に変更したい場合、詳細設定から”キャンセルせずに維持”を選択してください。ヒント：”この範囲を購入”、”ショート販売”の注文タイプに対応しています。”リミート停止”や”市場停止”には対応していません。
       step_three:
         button:
-          buy: 
-          sell: 
+          buy: |
+            株式を購入する（％n)
+          sell: 株式を売る
         errors:
-          buying: 
-          selling: 
+          buying: 指値%nが今の売り呼び値%nより低いです
+          selling: 指値%nは現在の買値%nより高いです
         table:
-          brokerage: 
-          cost: 
-          expiration: 
-          fees: 
-          return: 
-          shares: 
-          ticker: 
-          type: 
-        title: 
+          brokerage: ブローカー業務
+          cost: 見積もり金額
+          expiration: 期限切れ
+          fees: 予想の手数料
+          return: 予想の収入
+          shares: 株式の量
+          ticker: 株式相場表示板
+          type: タイプ
+        title: オーダープレビュー
       step_two:
         advanced:
           expiration:
             options:
-              day: 
-              gtc: 
-            prompt: 
-            tooltip: 
+              day: 今日期限が切れます
+              gtc: キャンセルするまでこのオーダーはいい
+            prompt: 期限切れ
+            tooltip: 取引の期限は1日がデフォルトとして設定されています。ご希望の場合は設定を切り替えることができます。
           order_type:
             options:
-              limit: 
-              market: 
-            prompt: 
-            tooltip: 
-            warning: 
-          prompt: 
-          unprompt: 
-        button: 
+              limit: アーダーのリミット
+              market: 成行注文
+            prompt: オーダーのタイプ
+            tooltip: デフォルト設定はリミート注文となっていますが、市場価格での取引をご希望の場合、ここで設定を変更することができます。
+            warning: ”市場”での注文を選択した場合、市場価格での取引が行われます。例えば、最大値の時の販売や最低値の購入は設定できません。
+          prompt: |
+            アドバンスドセティングを見る
+          unprompt: アドバンスドセティングを隠す
+        button: オーダーをプレビューする
         price:
-          buy: 
-          sell: 
-          tooltip: 
+          buy: この価格かこの価格より低い値段で買う
+          sell: この価格かこの価格より高い値段で売る
+          tooltip: リミート注文であるため、ビッドアスクスプレッドが設定されています。詳細設定をクリックして、市場注文や”閉じても良い”に設定することが可能です。
         quantity:
-          note_no_shares: 
-          note_own_shares: 
-          prompt: 
-        title: 
+          note_no_shares: 今%nには株式は持ってません
+          note_own_shares: あなたは今日%n株式を%nで持っています
+          prompt: 量
+        title: 量と値段
       thetrade:
-        description: 
+        description: 現在、この注文は充填中です
         title:
-          buy: 
-          sell: 
-        to_portfolio: 
-        to_stocks: 
+          buy: 充填して購入
+          sell: 充填して販売
+        to_portfolio: ポートフォリオを見る
+        to_stocks: ストックを見る
         update:
-          no_success: 
-          success: 
-      title: 
+          no_success: あなたのオーダはまだコンプリートしてません。終わったら私たちがメールします
+          success: 成功しました！あなたのオーダはコンプリートしました。トレードできました。
+      title: トレード%n
       tradeupdate:
-        title: 
+        title: '%n のためオーダーをアップデイトする'
   common:
     countries:
       afg: アフガニスタン
@@ -733,7 +792,7 @@ ja:
         pgk: K%n
         php: ₱%n
         pkr: ₨%n
-        pln: zł%n
+        pln: '%n zł'
         pyg: Gs%n
         qar: ﷼%n
         ron: lei%n
@@ -782,7 +841,9 @@ ja:
         zar: R%n
         zmw: ZK%n
         zwd: Z$%n
-    defaultPageTitle: 
+    defaultPageTitle: |
+      ストックを簡単に選ぶ
+    empty: から
     languages:
       de: Deutsch
       de-DE: Deutsch
@@ -796,415 +857,451 @@ ja:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
-      pt: ポルトガル語
-      pt-PT: ポルトガル語
+      pt: Português
+      pt-PT: Português
       zh-CN: 中文
-    loading: 
-    login: 
+    loading: ローディング
+    login: ログイン
     pages:
-      privacy_policy: 
-      tos: 
+      privacy_policy: 低い成長率
+      tos: 利用規約
     regions:
-      amer: 
-      apac: 
-      emea: 
-    register: 
+      amer: 米州
+      apac: アジア太平
+      emea: ヨーロッパ、中東とアフリカ
+    register: 無料でサインアップ
     social:
-      email: 
+      email: |
+        友達にメールする
     time:
-      dateFormat: 
-      daysOfWeek: 
-      shortDateFormat: 
-      shortDaysOfWeek: 
+      dateFormat: '%m/%d/%y'
+      daysOfWeek: "--- \nー日曜日\nー月曜日\nー火曜日\nー水曜日\nー木曜日\nー金曜日\nー土曜日\n\n"
+      periods:
+        day: '%n 日'
+        days: '%n 日'
+        month: '%n 月'
+        months: '%n 月'
+        week: '%n 週間'
+        weeks: |
+          %n 週間
+        year: '%n 年間'
+        years: '%n 年間'
+      shortDateFormat: '%m/%d'
+      shortDaysOfWeek: "--- \nー日\nー月\nー火\nー水\nー木\nー金\nー土"
     tooltips:
       watch:
-        unwatch: 
-        watch: 
+        unwatch: ウォッチリストから消す
+        watch: ウォッチリストにたす
       widget:
-        alerts: 
-        graph: 
-        info: 
-        social: 
-        trade: 
-        unavailable: 
-    unwatch: 
+        alerts: ストックのアラート
+        graph: 価格チャート
+        info: 主要計数
+        missing: 器具はストックフレアにはありません
+        social: シェア
+        trade: 買うか売る
+        unavailable: 米国ストックしかトレードできません
+    unwatch: ウォッチしない
     wallStreetRecommendations:
-      emptyCategory: 
-      missing: 
-      price: Price
-      recommendation: Recommendation
-      target: Target
+      emptyCategory: このカテゴリーにわストックはありません
+      missing: 無
+      price: 価格
+      recommendation: 勧め
+      target: ターゲット
       titles:
-        buy: 
-        hold: 
-        sell: 
-        strong_buy: 
-        strong_sell: 
-        unknown: 
-    watch: 
+        buy: 買う
+        hold: ホールド
+        sell: 売る
+        strong_buy: 仕入れに強い
+        strong_sell: 強い売り
+        unknown: 無
+    watch: ウォッチ
   delete:
     copy:
-      deleted: 
-      deleting: 
-      error: 
+      deleted: あなたのアカウントは削除されました。全部の情報はシステムから消されました。このアクションを戻すことはできません
+      deleting: あなたのアカウントは今消されています
+      error: アカウントを削除してる間エラーが起こりました。support@stockflare.comをコンタクトしてください。
     titles:
-      deleted: 
-      deleting: 
-      error: 
+      deleted: アカウントを消しました
+      deleting: アカウントを消しています
+      error: エラーが発生しました
   disclaimers:
     main:
-      first: 
-      fourth: 
-      second: 
-      third: 
-    metrics: 
-    title: 
-    wallStreet: 
-    worth: 
+      fifth: ストックフレアの5つ星メトリックスは、株式グループの品質を表す指標です。すべての株式に対する収益、配当、成長、そして”ウォールストリート”の意見をご覧いただけます。これらは品質指標と研究ツールであるため、明示的または暗黙的な勧告ではありません。
+      first: ストックフレアはイギリスに拠点%_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490}を置く会社が運営しています。ストックフレアは自主的投資家のための研究ツールであり、情報を提供するサービスです。アドバイスや勧告などはありません。
+      fourth: 当社ウェブサイトでは、「ウォールストリート」のコンセンサス予想と推奨を公開しています。これには、株式の「買い」、「売り」、「待ち」、および「価格目標」が含まれます。Stockflareはこうした予測内容を保証してはおりません。残念ながら、未来に基づいたデータというのは存在しないのです。ウォールストリートの意見は主観的なものであり、客観的なものではありません。言い方を変えるならば、しばしばその意見は間違うこともあるのです。
+      second: 投資アドバイスとは管理されたサービスです。アメリカの当社全額出資子会%_blank(Stockflare USA, Inc.){http://www.adviserinfo.sec.gov/IAPD/IAPDFirmSummary.aspx?ORG_PK=242787}は、証券取引委員会の登録投資アドバイザーです。Stockflare USA, Inc.からのアドバイスを希望する場合は、%_blank(client brochure){http://www.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=371069}をご参照下さい。
+      third: トムソン・ロイターから1日の終値価格データ、ファンダメンタルズ、予測内容が提供されます。BATS、AMEX、NYSE、およびNASDAQの遅延価格データがBarchartから提供され、少なくとも10分の遅れとなります。詳細情報は%_blank(同社ウェブサイト){http://www.barchart.com/agreement.php}をお訪ね下さい。アメリカの証券会社の統合情報は%_blank(Trading Ticket Inc.){https://www.trade.it/}によって提供されています。
+    metrics: 5つの主要メトリックスには、収益性、配当金、成長性、評価、市場人気が含まれます。これらは推奨ではありませんが、株式の質の比較と、主要なリスクを明らかにする方法の一つです。
+    title: 法定投資の時間です!
+    wallStreet: この表は、「ウォールストリート」の目標株価コンセンサスの上昇傾向と、あなたのウォッチリスト上の株式のコンセンサス推奨を示しています。未来に基づいたデータはありません。つまりこのコンセンサスは主観的な分析であり、客観的なものではありません。Stockflareは「ウォールストリート」の意見を保証いたしません。当社はこのデータを示すことで、当社のユーザーが専門家の株式に対しての機運がどういったものかを調べられるようにしています。
+    worth: この表は「ウォールストリート」のコンセンサスからの長期収益予想、将来配当利回り、および将来株価収益率の平均回帰を組み合わせたものです。そのため、予想利得数値は専門家の主観的な分析に基づいたものであり客観的なものではありません。Stockflareは「ウォールストリート」の意見を保証致しません。当社はこのデータを示すことで、当社のユーザーが専門家の株式に対しての機運がどういったものか調べられるようにしています。未来に基づいたデータはないのです。専門家の予測が間違っていた場合、実際の利得はここに表示される数値と著しく異なる事があります。
   errors:
-    api_error: 
-    not_found: 
+    api_error: ごめんなさい！サーバーエラーが起こりました。
+    not_found: すみませんこのページはありません
+    stock_not_tradeable: |
+      すみません、今このストックをトレードすることはできません。
   explore:
-    all: 
-    biLine: 
+    all: 全部のストック
+    biLine: ちょっとしたインスピレーションが必要ですか?
     categories:
       big-and-cheap:
-        description: 
-        disclaimer: 
+        description: 大きなブランド力を持った、投資家が無視することを選んだ大企業がたくさんあります。いつの日か投資家たちの支持が回復するはずですよね?
+        disclaimer: 「安くて大きい」の株式は、米国内の全ての株式において、500億ドル以上の市場価値を有しており、株価収益率を用いて競合よりも価格の安い株式に限定するフィルターをかけて表示されます。
         filters:
           country: usa
           financial: large
           market_value_usd: 50000+
           valulation: low_pe
-        name: 
+        name: 大きくて安い
       boring-businesses:
-        description: 
-        disclaimer: 
+        description: 次の話題の株式へ投資しなくてはいけないと誰が言ったのでしょう!塗料やプラスティック、電池やボールベアリング、下水や生理用品について友人に話すことを想像して下さい。試験実施を行う企業や獣医学に関するビジネス、葬儀場もございます。一度ご覧になってみてください!
+        disclaimer: 「つまらないビジネス」の株式は、米国内の全ての株式において、10億ドル以上の市場価値を有しており、少なくとも1つの主要メトリックテスト(例:収益性、配当金、高成長など)に合格した株式に限定するフィルターをかけて表示されます。その後このフィルターにマッチする株式で、下記セクターに分類される株式が対象となります。:塗料、プラスチック、電池、ボールベアリング、下水、生理用品、試験実施企業、獣医学に関するビジネス、葬儀場。
         filters:
           country: usa
           market_value_usd: 1000+
           rating: 1+
           sector_code: '5110101011,5110101012,5210201013,5210201014,5210201015,5210201016,5210201017,5210203011,5210203012,5210203013,5210203014,5210203015,5210203016,5210203017,5220304020,5220301012,5310102013,5420102013,5420103018,5610102018,5610201016,5620104014,5710102010,5710102012,5710501013,5910301012'
-        name: 
+        name: つまらないビジネス
       cash-heavy:
-        description: 
-        disclaimer: 
+        description: 当社が一切の疑いをもたない、株主に対してキャッシュフローを支払うのに忙しい企業がいくつかあります。大金を動かす、金のなる木なのでしょうか?
+        disclaimer: 「大金を動かす」の株式は、米国内の全ての株式において、5億ドル以上の市場価値を有しており、貸借対照表上での純現金持ち高を保有し、多額の配当金を支払う(4%以上の支払い)株式に限定するフィルターをかけて表示されます。
         filters:
           country: usa
           financial: has_cash
           market_value_usd: 500+
           valuation: high_dividend
-        name: 
+        name: 大金を動かす
       coffee-cake:
-        description: 
-        disclaimer: 
+        description: 甘いモノをとりすぎたら、急がずに人生のちょっとした楽しみに投資しましょう。
+        disclaimer: 「コーヒーとケーキ」の株式は、世界中の全ての株式において、5億ドル以上の市場価値を有しており、少なくとも2つの主要メトリックステスト(例:収益性、配当金の支払いなど)に合格した株式に限定するフィルターをかけて表示されます。その後このフィルターにマッチする株式で、下記セクターに分類される株式が対象となります。:カフェ、コーヒー、サトウキビ栽培、クッキーメーカー、甘味料および製菓。
         filters:
           market_value_usd: 500+
           rating: 2+
           sector_code: '5330102016,5410201015,5410201016,5410202014,5410202021,5410202022,5410202023'
-        name: 
+        name: コーヒーとケーキ
       gem-stones:
-        description: 
-        disclaimer: 
+        description: ダイアモンドは投資家の最良の友なのでしょうか?ダイアモンド、宝石、真珠貝採りの潜水作業員。あらゆる選択肢が投資家を誘惑します。
+        disclaimer: 「宝石群」の株式は、世界中の全ての株式において、1億ドル以上の市場価値を有しており、少なくとも1つの主要メトリックステスト(例:収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後下記セクターに分類される株式が対象となります。:ダイアモンド採掘、半貴石、真珠。
         filters:
           market_value_usd: 100+
           rating: 1+
           sector_code: '5120101013,5120101014,5120101015'
-        name: 
+        name: 宝石
       going-nuclear:
-        description: 
-        disclaimer: 
+        description: 原子力は決してキレイとはいえませんが、ポスト石油世界においては、再生可能エネルギーとともにわたしたちの地球に力を与えるべく戦っています。
+        disclaimer: 「原子力推進」の株式は、世界中の全ての株式において、1億ドル以上の市場価値を有しており、少なくとも1つの主要メトリックステスト(収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後下記セクターに分類される株式が対象となります。:ウラン、核成分および核構造、原子力の一般使用。
         filters:
           market_value_usd: 100+
           rating: 1+
           sector_code: '5030101010,5030101011,5030101012,5210204016,5220102022,5910101013,5910102013'
-        name: 
+        name: 核?
       hated-by-wall-street:
-        description: 
-        disclaimer: 
+        description: あなたがウォールストリートや周りの考えを信用しない皮肉屋なら、ウォールストリートが嫌う株式に投資するのが最高です!
+        disclaimer: 「ウォールストリートの嫌われ者」の株式は、アメリカの全ての株式において5億ドル以上の市場価値を有しており、株式ブローカーのコンセンサス推奨が「売り」または「強い売り」のどちらかであるものが対象です。
         filters:
           country: usa
           market_value_usd: 500+
           sentiment: hated
-        name: 
+        name: ウォール街が嫌い
       healthy-tech:
-        description: 
-        disclaimer: 
+        description: バイオテクノロジー企業は日々素晴らしい進歩を遂げています。ヘルスケア領域で最も難しい問題を解決している科学者たちを支援するのはどうですか?
+        disclaimer: 「ヘルシーテクノロジー」の株式は、アメリカの全ての株式において、10億ドル以上の市場価値を有しており、下記セクターに分類される株式が対象となります。:バイオ医薬品、バイオテクノロジー、医療研究。
         filters:
           country: usa
           market_value_usd: 1000+
           sector_code: '5620104012,5620201010,5620201011,5620201012,5620201013'
-        name: 
+        name: 健康な技術
       land-and-sea:
-        description: 
-        disclaimer: 
+        description: 私たちはみな食べなくてはいけませんよね?農家から機械や農薬を作る人々にいたるまで、農業の領域で活躍する企業はたくさんあります。アメリカ最大のプレイヤーはこちらです。
+        disclaimer: 「農地と海」の株式は、アメリカおよびカナダの全ての株式において、1億ドル以上の市場価値を有しており、下記セクターに分類される株式が表示されます。:農薬、綿花栽培、漁業および農業、タバコ栽培。
         filters:
           country: usa,cad
           market_value_usd: 1000+
           sector_code: '5110102010,5110102011,5110102012,5110102013,5110102014,5320201018,5410201010,5410201011,5410201012,5410201013,5410201014,5410201015,5410201016,5410201017,5410201018,5410201019,5410201020,5410201021,5410201022,5410201023,5410201024,5410201025,5410201026,5410201027,5410201028,5410201029,5410203011'
-        name: 
+        name: 土地と海
       legal-eagles:
-        description: 
-        disclaimer: 
+        description: 法律家や会計士は単なるコストですが、彼らに投資することもできるのです!
+        disclaimer: 「リーガルイーグルス」の株式は、アメリカ地域の全ての株式において、5,000万ドル以上の市場価値を有しており、少なくとも1つの主要メトリックステスト(収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後、下記セクターに分類される株式が対象となります。:会計および法律関連サービス、法律および税に関する情報提供者。
         filters:
           market_value_usd: 50+
           rating: 1+
           region: amer
           sector_code: '5220304011,5220304012,5220307015,5420103012,5420103013'
-        name: 
+        name: リーガルイーグルス
       renewables:
-        description: 
-        disclaimer: 
+        description: ポスト石油世界に関して投資をしたければ、再生可能エネルギー市場で活躍する企業がたくさんあります。そのテクノロジーや製品は、風力から太陽光、波力から水素までに幅広く存在しています。こちらがアメリカ地域で活躍するリーディングプレイヤーのリストです。
+        disclaimer: 「再生可能」の株式は、アメリカ地域の全ての株式において、少なくとも3つの主要メトリックステスト(例:収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後、下記セクターに分類される株式が対象となります。:再生可能エネルギー、再生可能公益事業。
         filters:
           rating: 3+
           region: amer
           sector_code: '5020101010,5020101011,5020101012,5020101013,5020101014,5020101015,5020101016,5020101017,5020101018,5020101019,5020101020,5020102010,5020102011,5020102012,5020102013,5020102014,5020102015,5910101011,5910102012'
-        name: 
+        name: 再生可能エネルギー
       ship-it:
-        description: 
-        disclaimer: 
+        description: 大量に輸送したければ、海上輸送が唯一の手段です。ただ、スーパータンカーと同じくらい簡単にレジャー用ボートに投資することもできます。
+        disclaimer: 「輸送」の株式は、世界中の全ての株式において5億ドル以上の市場価値を有しており、少なくとも1つの主要メトリックステスト(例:収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後、下記セクターに分類される株式が対象となります。:海上タンカー、造船、海上輸送および物流、ヨットおよびモーターボート、港湾サービス。
         filters:
           market_value_usd: 500+
           rating: 1+
           sector_code: '5010303014,5210205010,5210205011,5210205012,5320502011,5240502010,5240502011,5240502012,5240502013,5240602014,5240702010,5240702011,5240702012,5240702013'
-        name: 
+        name: 海で送る
       space-race:
-        description: 
-        disclaimer: 
+        description: 最後のフロンティアを探せば、ロケット、人工衛星メーカー、人工衛星を使って事業を行う企業がみつかります。
+        disclaimer: 「スペースレース」の株式は、世界中の全ての株式において、1億ドル以上の市場価値を有しており、下記セクターに分類される株式に限定するフィルターをかけて表示されます。:人工衛星および宇宙船製造業、人工衛星ネットワークおよびナビゲーション、人工衛星オペレーター。
         filters:
           market_value_usd: 100+
           sector_code: '5210101016,5210101017,5710201016,5710602012,5810102012'
-        name: 
+        name: 宇宙開発競争
       sporting-outdoors:
-        description: 
-        disclaimer: 
+        description: 株式市場でスポーツチームを支援することもできます。そうでなければ、チームの応援Tシャツを着るか、試合会場を保有しましょう。
+        disclaimer: 「スポーツアウトドア」の株式は、世界中の全ての株式において少なくとも1つの主要メトリックステスト(例:収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後下記セクターに分類される株式が対象となります。:アウトドア用衣服および靴、アウトドアグッズ、ジム、スキーリゾート、スポーツ場、ゴルフコース、スポーツグッズ店、アウトドア商品小売店。
         filters:
           market_value_usd: 100+
           rating: 1+
           sector_code: '5320202014,5320203014,5320502013,5330104016,5330104017,5330104018,5330104019,5330104020,5340309023,5340304019'
-        name: 
+        name: スポーツアウトドア
       taking-it-easy:
-        description: 
-        disclaimer: 
+        description: 投資に得意になるためには株式を選ばなくてはいけないと誰が言ったのでしょう!常にただETF、上場投信信託を選ぶだけでよいのです。大半がすばらしい指数を出しています。勝たなかったとしても、市場と同じくらいうまくやれるのです!
+        disclaimer: 「気楽に投資」の株式は、すべてのETF (上場投信信託)で、世界中の全ての株式において100億ドル以上の市場価値を有しており、下記セクターに分類される株式に限定するフィルターをかけて表示されます。:上場投信信託。
         filters:
           market_value_usd: 10000+
           sector_code: '5550104010,5550104011,5550104012'
-        name: 
+        name: 気楽に投資
       tech-titans:
-        description: 
-        disclaimer: 
+        description: もし「テクノロジーが世界を食い尽くしている」のであれば、その食事を楽しんでいる企業がいくつかあります。
+        disclaimer: 「テクノロジーの巨人たち」の株式は、世界中の全ての株式において100億ドル以上の市場価値を有しており、少なくとも1つの主要メトリックステスト(例:収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後、下記セクターに分類される株式が対象となります。:テクノロジー
         filters:
           financial: large
           market_value_usd: 10000+
           rating: 1+
           sector_code: '5710101010,5710101011,5710101012,5710101013,5710101014,5710101015,5710102010,5710102011,5710102012,5710102013,5710201010,5710201011,5710201012,5710201013,5710201014,5710201015,5710201016,5710201017,5710501010,5710501011,5710501012,5710501013,5710501014,5710501015,5710401010,5710401011,5710401012,5710401013,5710401014,5710601010,5710601011,5710601012,5710601013,5710601014,5710601015,5710601016,5710601017,5710601018,5710601019,5710602010,5710602011,5710602012,5710602013,5710602014,5710602015,5710603010,5710603011,5710603012,5710603013,5710603014,5720101010,5720101011,5720101012,5720101013,5720101014,5720101015,5720102010,5720102011,5720102012,5720102013,5720102014,5720102015,5720102016,5720102017,5720103010,5720103011,5720103012,5720103013,5720103014,5720103015,5720103016'
-        name: 
+        name: テクノロジーの巨人たち
       thirsty:
-        description: 
-        disclaimer: 
+        description: きれいな水ほど重要なものはそう多くありません。人口が増大していくにつれ、水に対する需要も高まっていくのです。
+        disclaimer: 「乾き」の株式は、アメリカの全ての株式において少なくとも1つの主要メトリックステスト(例:収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後、下記セクターに分類される株式が対象となります。:上水および下水道事業、ボトルウォーターおよび氷、水道施設。
         filters:
           country: usa
           market_value_usd: 500+
           rating: 1+
           sector_code: '5220102018,5410103014,5910301010,5910301011,5910301012,5910301013'
-        name: 
+        name: 喉が渇いた？
       timber:
-        description: 
-        disclaimer: 
+        description: 森林や製材所、または木材関連事業の株式購入がご希望ですか?アメリカとカナダのベストプレイヤーはこちらです。
+        disclaimer: 「木材関連」の株式は、アメリカおよびカナダの全ての株式において1億ドル以上の市場価値を有しており、少なくとも2つの主要メトリックステスト(例:収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後、下記セクターに分類される株式が対象となります。:紙および林産品、木製容器および梱包、紙包装、木材関連REIT。
         filters:
           country: usa,cad
           market_value_usd: 100+
           rating: 2+
           sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
-        name: 
+        name: 木材
       time-online:
-        description: 
-        disclaimer: 
+        description: テレビからインターネットへ、費やす時間はどんどん移行していっており、業界リーダーはすでに明らかになっています。あなたが利用する企業へ投資をご希望ですか?
+        disclaimer: 「オンラインの時間」の株式は、アメリカの全ての株式において100億ドル以上の市場価値を有しており、少なくとも1つの主要メトリックステスト(例:収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後、下記セクターに分類される株式が対象となります。:インターネットサービス
         filters:
           country: usa
           market_value_usd: 10000+
           rating: 1+
           sector_code: '5720103010,5720103011,5720103012,5720103013'
-        name: 
+        name: オンラインの時間
       vice-not-nice:
-        description: 
-        disclaimer: 
+        description: モラルを失ってしまいましたか?薬、お酒、ギャンブル、銃、その他の悪徳業者に投資をご希望ですか?
+        disclaimer: 「善行でなく悪行」の株式は、アメリカの全ての株式において5億ドル以上の市場価値を有しており、少なくとも2つの主要メトリックステスト(例:収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後、下記セクターに分類される株式が対象となります。:兵器製造、パブおよびナイトクラブ、カジノおよびギャンブル、大人向けエンターテイメントおよび小売業者、醸造社および蒸留酒製造所、ビールおよびタバコ販売店。
         filters:
           country: usa
           market_value_usd: 500+
           rating: 2+
           sector_code: '5210101011,5330102011,5330103010,5330103011,5330103012,5330103013,5330203016,5340309025,5410101010,5410101011,5410102010,5410102011,5410102012,5410102013,5430102013,5430102015'
-        name: 
+        name: 善行でなく悪行
       young-and-old:
-        description: 
-        disclaimer: 
+        description: 服からおもちゃ、年齢関係なく投資 のオプションは誰にもある
+        disclaimer: 「ヤング&オールド」の株式は、アメリカの全ての株式において10億ドル以上の市場価値を有しており、少なくとも2つの主要メトリックステスト(例:収益性など)に合格した株式に限定するフィルターをかけて表示されます。その後、下記セクターに分類される株式が対象となります。:子供用衣服および靴、老人ホーム、おもちゃ、船旅事業、子ども向けおよび若者向け小売業者、避妊製品、チャイルドケア、葬祭サービス、メガネおよびコンタクトレンズ、長期ケア。
         filters:
           country: usa
           market_value_usd: 1000+
           rating: 2+
           sector_code: '5320202013,5320203013,5320301015,5320501010,5320501011,5320501012,5320501013,5320501014,5320501015,5320501016,5330101012,5340304015,5340304016,5410202027,5420102015,5420103015,5420103018,5610102016,5610201012'
-        name: 
-    filters: 
-    pageDescription: 
-    pageTitle: 
-    popular: 
+        name: 若者と老人
+    filters: '%nにかけられたフィルター'
+    pageDescription: ちょっとしたインスピレーションが必要ですか? Stockflareはあなたが株式投資を始めるのに役立つ素晴らしいカテゴリーをいくつか作成しました。
+    pageTitle: ストックフレアを探検する
+    popular: '%nに一番大きなストック'
   filterBar:
     company_tags:
       descriptions:
-        growing: 
-        has_cash: 
-        high_growth: 
-        large: 
-        pays_dividends: 
-        profitable: 
-        small: 
-        turning_profitable: 
+        growing: 去年と比べ、今年はセールスと1株当たり利益は予想では上がります。
+        has_cash: 債務より キャッシュと投資が多い会社
+        high_growth: 予想では１６％より早くアーニング は上がります、長期
+        large: 10億米ドルより値が高い会社
+        pays_dividends: 配当金を株主に支払う会社。
+        profitable: 去年も今年の予想でも収益率が高い。
+        small: 10億米ドルより値が低い会社
+        turning_profitable: 予想では今年は収益率が高い、今日はロスでした。
       titles:
-        default: 
+        default: ビジネス指標
         filters:
-          growing: 
-          has_cash: 
-          high_growth: 
-          large: 
-          pays_dividends: 
-          profitable: 
-          small: 
-          turning_profitable: 
+          growing: 成長
+          has_cash: キャッシュと投資がある
+          high_growth: |2
+             高い成長だけ
+          large: 大きな会社だけ
+          pays_dividends: 配当金しか支払いますせん。
+          profitable: 今日収益率の高い
+          small: 小さな会社だけ
+          turning_profitable: 収益率が高くなっています。
     country:
-      search: 
+      search: 国の名前でサーチする
       titles:
-        default: 
+        default: 国
     country_currency:
       categories:
-        country: 
-        currency: 
-        regions: 
+        country: 国
+        currency: メジャーカレンシー
+        regions: 地域
       titles:
-        default: 
+        default: 国とカレンシー
     direction:
       descriptions:
-        near_high: 
-        near_low: 
-        negative: 
-        positive: 
+        near_high: 52週高値の5%以内の株式
+        near_low: 52週安値の5%以内の株式
+        negative: 十日の平均よりい低いストック
+        positive: 十日の平均よりい高いストック
       titles:
-        default: 
+        default: 価格の方向
         filters:
-          near_high: 
-          near_low: 
-          negative: 
-          positive: 
+          near_high: 52週間ハイに近い
+          near_low: 52週間ローに近い
+          negative: 下降方向モメンタム
+          positive: 上昇方向モメンタム
     metrics:
       cheaper:
-        description: 
-        title: 
+        description: このスットクは競合他社より安いでしょうか？
+        title: 安い
       dividends:
-        description: 
-        title: 
+        description: この会社は配当は支払いますか？
+        title: 配当を払う
       high_growth:
-        description: 
-        title: 
+        description: この会社は競合他社より早く増加する予想がありますか？
+        title: 高い成長
       profitable:
-        description: 
-        title: 
-      title: 
+        description: 収益率の高い会社？
+        title: 収益率が高い
+      title: 主要計数
       upside:
-        description: 
-        title: 
+        description: ウォールストリートは現在の株価よりも株式の価値があると考えているのでしょうか
+        title: '  利点がある'
     opinion:
       titles:
-        default: 
+        default: 投資スタイル
     order:
-      ascending: 
-      descending: 
+      ascending: 低いから高い
+      descending: 高いから低い
       orders:
-        latest_market_value_usd: 
-        latest_price: 
-        latest_rating: 
-        market_value_usd: 
-        price: 
-        rating: 
+        latest_market_value_usd: 市場価値
+        latest_price: 価格
+        latest_rating: 主要計数
+        market_value_usd: 市場価値
+        price: 価格
+        rating: 主要計数
     panel:
-      description: 
-      title: 
+      description: したのオプションからいろんなフィルターをつけてパーフェクトなスットクを見つけることができる
+      title: フィルターを適用する
     sector:
       titles:
-        default: 
-    sectors: 
+        default: セクタ
+    sectors:
+    - code: '50'
+      name: 石油とガス
+    - code: '51'
+      name: 鉱業および鉱物
+    - code: '52'
+      name: 工業
+    - code: '54'
+      name: コンシューマー (食品や家庭)
+    - code: '53'
+      name: コンシューマー (他)
+    - code: '55'
+      name: 財務
+    - code: '56'
+      name: 健康管理
+    - code: '57'
+      name: 技術
+    - code: '58'
+      name: 電気通信
+    - code: '59'
+      name: ユーティリティー
     sentiment:
       descriptions:
-        hated: 
-        loved: 
-        unknown: 
+        hated: ウォール街の目標価格が今日の価格より低いスットク。
+        loved: ウォール街の目標価格が今日の価格より高いスットク。
+        unknown: ウォール街が価格にオピニオンがないストック。
       titles:
-        default: 
+        default: 感情
         filters:
-          hated: 
-          loved: 
-          unknown: 
+          hated: ウォール街が嫌い
+          loved: ウォール街が大好き
+          unknown: ウォール街が知らない
     style:
       descriptions:
-        growth: 
-        quality: 
-        value: 
+        growth: 競合他社より早く成長する会社、長期。
+        quality: 安い、予想では強く成長するする会社。
+        value: 競合他社より安い会社。
       titles:
-        default: 
+        default: 投資スタイル
         filters:
-          growth: 
-          quality: 
-          value: 
+          growth: 高い成長
+          quality: ' 高品質の'
+          value: 割安
     valuation:
       descriptions:
-        high_dividend: 
-        low_book_value: 
-        low_operating_profit: 
-        low_pe: 
-        low_sales: 
+        high_dividend: 配当金の支払による安いスットク
+        low_book_value: 純資産額による安いスットク
+        low_operating_profit: 営業利益によるストック
+        low_pe: 利益による安いストック
+        low_sales: 価格からセールスによるスットク
       titles:
-        default: 
+        default: 株価評価
         filters:
-          high_dividend: 
-          low_book_value: 
-          low_operating_profit: 
-          low_pe: 
-          low_sales: 
+          high_dividend: 配当利回り4%以上
+          low_book_value: 簿価より低いトレーディングをしてます
+          low_operating_profit: 営業利益7倍以下
+          low_pe: 株価収益率 10x より低い
+          low_sales: 1x より低いセールス
   forgot:
     buttons:
-      forgot: 
+      forgot: パスワードを取り戻す
     copy:
-      explanation: 
+      explanation: 提出したメールアドレスにメールが送られました。パスワードをリセットするためこのメールにリンクがあります。
     errors:
-      '404': 
-      '500': 
+      '404': メールアドレスが見つかりません
+      '500': すみません、サーバーエラーが起こりました。
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description: パスワードを忘れた？ここで回復する
+      title: ストックフレアのパスワードを回復する
+    pageTitle: パスワードを忘れた
     prompt:
-      question: 
-      register: 
+      question: パスワード覚えてますか？
+      register: ここでログイン
     titles:
-      forgot: 
-      sent: 
+      forgot: パスワードを忘れた
+      sent: パスワードリセット送りました
   header:
     buttons:
-      about: 
-      alerts: 
-      explore: 
-      filters: 
-      guestWatched: 
-      ideas: 
-      search: 
-      watchlist: 
+      about: ストックフレアについて
+      alerts: 私のアラート
+      explore: 探検する
+      filters: フィルター
+      guestWatched: ウォッチリストをセーブする
+      ideas: ストックを選ぶ
+      search: サーチ
+      watchlist: 私のウォッチリスト
   home:
     explore:
-      link: 
-      title: 
-    pageDescription: 
-    pageTitle: 
+      link: 全部のテーマを探すためここにクリックする
+      title: テーマで探す
+    pageDescription: 世界のスットクを探す
+    pageTitle: ホーム
     sector:
-      link: 
-      title: 
+      link: 全部のストックを%nで見るためここをクリック
+      title: '%nでの最大なスットクを尋ねる'
   landing:
     china:
       premium:
@@ -1220,7 +1317,7 @@ ja:
           line_two: Our service has 3 price tiers, including a free offering. Test drive Stockflare today!
           markets_one: USA, China & Hong Kong
           markets_two: All Markets
-          price_one: Free
+          price_one: 無料
           price_three: ¥ 65 / month
           price_two: ¥ 30 per month
           pricing_one: End-of-Day Pricing
@@ -1231,749 +1328,842 @@ ja:
           tier_two: Gold
     explore:
       content:
-        copy: 
-        line: 
-        point: 
-        title: 
+        copy: 誰も新アイディアをサーチすることは好き。
+        line: 当社の探索セクションでは素敵な方法で株式の宇宙にフィルターをかけます。
+        point: リサーチをしてもっといい方法で投資する。
+        title: ストックを新方法で探検する
     feed:
       content:
-        copy: 
-        point: 
-        title: 
+        copy: フィルターを使って、数千のスットクを早く見る。
+        point: ストックフレアはあなたのリサーチを早くするために手伝ってくれる。
+        title: ノイズをカット
     introduction:
       content:
-        copy: 
-        cta: 
-        point: 
-        title: 
+        copy: いいストックをポートフォリオのために選ぶ
+        cta: 100%無料
+        point: もっといい方法で投資する。
+        title: 簡単にストックを選ぶ
       menu:
-        search: 
-        skip: 
+        search: ストックを探す
+        skip: スキップ
       stats:
-        analyzed: 
-        countries: 
-        stocks: 
-      tease: 
+        analyzed: ストックトータル
+        countries: 国
+        stocks: 全部五の主要計数
+      tease: ストックフレアとは？
     mobile:
       content:
-        copy: 
-        title: 
+        copy: なんのスットクでも、どこでもいる時、ストックフレアはモバイルとタブレットバージョンがあります。
+        title: 株を持ち歩きましょう!
     opinion:
       bubbles:
-        buy: 
-        hold: 
-        sell: 
+        buy: 買う
+        hold: ホールド
+        sell: 売る
       content:
-        copy: 
-        point: 
-        title: 
-    pageTitle: 
+        copy: 専門家の助言を得ましょう。彼らは買い手、それとも売り手なのでしょうか? 全株式に対しての目標株価がございます。
+        point: プロの提言。いつもただ。
+        title: 専門家は何を買ってるの？
+    pageTitle: 簡単にストックを選ぶ
     question:
       content:
-        copy: 
-        title: 
+        copy: 株式に関する調査は複雑である必要はありません。Stockflareが世界中のどんな株式に対しても主要メトリックスをすぐさま提供します。
+        title: ストックフレアとは？
     rating:
       content:
-        copy: 
-        point: 
+        copy: 金融の専門家があなたに投げかけるあらゆる専門用語にたじろいでしまいませんか? あらゆる株式に対する主要メトリックスを提供いたします。ノイズをカットして、真実を掴みましょう。
+        point: 簡単にストックをリサーチし、もっと良い方法で投資する。
         reveal:
-          notRevealing: 
-          revealing: 
-        title: 
+          notRevealing: ％n を見てね！
+          revealing: '%nが%nの主要メトリックステストに合格しました'
+        title: 早く重要な情報を取る。
       ratings:
-        cheaper: 
-        dividends: 
-        growth: 
-        profitable: 
-        upside: 
+        cheaper: 高いか安い？
+        dividends: |
+          配当金は支払いますか？
+        growth: 高い成長ですか？
+        profitable: ' これは収益率の高い？'
+        upside: ウォール街のオピニオンは？
     register:
       content:
-        copy: 
-        skip: 
-        title: 
+        copy: お気に入りのスットクをトラックするため今登録する。
+        skip: ストックにスキップする
+        title: ただでジョインする
   login:
     buttons:
-      forgot: 
-      loading: 
-      login: 
-      resetOtp: 
-      social_login: 
+      forgot: パスワードを忘れた
+      loading: ログーインしてます
+      login: ログイン
+      resetOtp: MFAのデバイスをなくした
+      social_login: ＊＊でログイン
     descriptions:
-      mfa: 
+      mfa: このアカウントは多要素認証デバイスで安全に保護されています。ログインを完了するにはデバイスからコードを入力して下さい。
     errors:
-      '401': 
-      '500': 
-      error_403: 
-      error_500: 
+      '401': このユーザ名かパスワードは無効です
+      '500': すみませんサーバーエラーが起こりました
+      error_403: このユーザ名かパスワードは無効です
+      error_500: すみませんサーバーエラーが起こりました
       mfa:
-        '401': 
-        '500': 
+        '401': 不正な認証コード
+        '500': すみません、サーバーエラーが起こりました。
     flash:
-      success: 
+      success: ％n でログーインしてます
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description: アカウントはある？ここでストックフレアにログーインする
+      title: ストックフレアにログインする
+    pageTitle: ログイン
     prompt:
-      mfaInfo: 
-      question: 
-      register: 
+      mfaInfo: もっとの情報
+      question: メンバゃでわない？
+      register: ここで無料でサインアップする
     titles:
-      login: 
-      mfa: 
-      social: 
+      expired: セッションが期限切れました
+      login: |
+        ストックフレアにログーインする
+      mfa: 保護されたアカウント
+      social: ソーシャルログイン (近日利用開始)
+  mobile:
+    homepage:
+      createAccount: |
+        ただでアカウントを作る
+      logged:
+        subtitle: アラートとウォッチリストをブラウズすることができました。
+        title: お帰りなさい!
+      subtitle: 私たちのシステムでストックを簡単に選んでブラウズする。
+      title: 簡単にストックを選ぶ
+      viewMore:
+        stocks: もっとストックを見る
+        themes: もっとテーマを見る
+    stock:
+      keyStats:
+        title: 基本統計
+      starRating:
+        cheap:
+          na: ' 株価収益率がありません'
+          text: '%nx PE vs. 競合他社は %nx'
+          title:
+            negative: 高い
+            positive: 安い
+        dividends:
+          na: 予報は利用できません
+          negative:
+            text: 配当支払いがありません
+          positive:
+            text: 配当%n。利回りは％n%。
+          title: 予報
+        expert:
+          downside: 株価目標の否定的側面%n%
+          na: 専門家のリサーチはありません
+          noChanges: 目標価格は変わりません。
+          title: 専門家のオピニオン
+          upside: 株価目標に%n%利点
+        profitable:
+          na: 予報は利用できません
+          text: EPSの予報
+          title:
+            negative: 収益率が高くない
+            positive: 収益率が高い
+        profitbale:
+          na: 予測は利用できません
+          text: EPSの予測
+          title:
+            negative: 収益率が高くない
+            positive: 収益率が高い
+        stronger:
+          na: 増加予報はありません
+          text: |
+            %n%増加 vs. 競合他社は%n%
+          title:
+            negative: 弱わい
+            positive: 強い
+        title: 星の評価
   onboard:
     controls:
-      complete: 
-      next: 
-      prev: 
-      skip: 
+      complete: 完成
+      next: 次
+      prev: 前
+      skip: スキップ
     subtitles:
-      pick: 
-      register: 
-      watchlist: 
+      pick: 米国でのメジャーな会社。ウォッチリストに足してみたら？
+      register: 良い特徴に全部アクセスできるようにする。
+      watchlist: ウォッチリストはあなたが持ってるかトラックしているストック
     titles:
-      pick: 
-      register: 
-      watchlist: 
+      pick: 試してみましょう
+      register: 今無料で登録する
+      watchlist: ウォッチリストはすごく便利。その理由は？
     watchlist:
       reasons:
-        alerts: 
-        analysis: 
-        multiples: 
-        unlimited: 
+        alerts: ストックに対する重要なアラートを村う。
+        analysis: |
+          早く重要なデータを見る
+        multiples: 簡単にいくつかのウォッチリストをセットする
+        unlimited: いくつでものスットクをトラックする
   portfolios:
-    connected-brokerages: 
+    connected-brokerages: コネクトされているブローカー業務
     create:
-      button: 
-    watchlists: 
+      button: 新ブローカー業務
+    watchlists: ウォッチリスト
   recover:
     buttons:
-      recover: 
+      recover: パスワードをリセットする
     copy:
-      explanation: 
-      link: 
+      explanation: パスワードをリセットしました
+      link: ログインするためここにクリックしてください
     errors:
-      '400': 
-      '403': 
+      '400': パスワードをリセットできませんでした
+      '403': パスワードのリセットトークン期限が切れました。
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description: パスワードをここで回復する
+      title: ストックフレアのパスワードをリセットする
+    pageTitle: パスワードをリセットする
     prompt:
-      question: 
-      register: 
+      question: パスワードを覚えた？
+      register: ここでログイン
     titles:
-      recover: 
-      sent: 
+      recover: パスワードをリセットする
+      sent: パスワードをリセットしました
   recoverMfa:
     buttons:
-      recover: 
+      recover: MFAをリセットする
     copy:
-      explanation: 
-      link: 
+      explanation: 多要素認証がリセットされ、このアカウントに対して無効となりました。
+      link: ここをクリックしてログーインする
     errors:
-      '400': 
-      '403': 
+      '400': MFAをリセットできませんでした
+      '403': MFAリセットトークン期限が切れました。またお願いしてください。
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description: こちらから多要素認証をリセットして下さい。
+      title: ストックフレアのアカウントのためMFAをリセットする
+    pageTitle: MFAをリセットする
     prompt:
-      login: 
-      question: 
+      login: ここでログイン
+      question: MFAのデバイスが見つかった？
     titles:
-      recover: 
-      recovered: 
+      recover: 多要素認証をリセット
+      recovered: MFAがリセットされました
   register:
     buttons:
-      loading: 
-      register: 
-    disclaimer: 
+      loading: アカウントを作る
+      register: ストックフレアに登録する
+    disclaimer: '私たちのウエブサイトを使うか''%n''にクィックするため、これに同意しています:'
     errors:
-      error: 
-      error_400: 
-      error_409: 
-      error_500: 
+      error: すみません、登録についての問題がありました。
+      error_400: 有効なメールアドレスと6文字のパスワードが必要です。
+      error_409: このメールアドレスはもう登録しています
+      error_500: サーバーエラーが起こりました。またトライしてください。
     flash:
-      success: 
+      success: '%nで登録できました。'
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description: まだアカウントは持ってない？ここでストックフレアに登録する
+      title: ストックフレアで新アカウントを登録する
+    pageTitle: 登録
     prompt:
-      login: 
-      question: 
+      login: ここでログーイン
+      question: もうメンバである？
     success:
-      cta: 
-      loopback: 
-      title: 
+      cta: ストックに行く
+      loopback: ローディング
+      title: 登録完成
     titles:
-      join: 
+      join: ストックフレアをジョインする
   resetMfa:
     buttons:
-      reset: 
+      reset: MFAをリセットする
     copy:
-      explanation: 
+      explanation: あなたが送信したメールアドレスに、このアカウントの多要素認証を安全にリセットするためのリンクを含んだメールが送信されました。多要素認証が最初に有効にされた時に送られたリカバリーコードも入力する必要があります。
     errors:
-      '404': 
-      '500': 
+      '404': メールアドレスが見つかりません
+      '500': すみません、サーバーエラーが起こりました。
     og:
-      description: 
-      title: 
-    pageTitle: 
+      description: バーチャルのMFAデバイスをなくした？ここでリセット。
+      title: ストックフレアのアカウントのためMFAをリセットする。
+    pageTitle: 多要素認証をリセット
     prompt:
-      login: 
-      question: 
+      login: |
+        ここでログイン
+      question: バーチャルのMFAデバイスが見つかった？
     titles:
-      reset: 
-      sent: 
+      reset: 多要素認証をリセット
+      sent: MFAリセットのリクェストを送りました。
   search:
     none:
-      link: 
-      title: 
-    pageTitle: 
-    placeholder: 
+      link: '%nを代わりに試す？'
+      title: '''%n''にマッチするストックは見つかりません'
+    pageTitle: サーチ
+    placeholder: 会社名かティッカーでサーチする。。。
     searching:
-      description: 
-      title: 
-    searchingTitle: 
-    title: 
+      description: 世界中の旅に行く！
+      title: |
+        45,000以上のスットクをサーチしてます
+    searchingTitle: '%nを探しています'
+    title: '%nを探しています'
   settings:
     buttons:
-      apply: 
-      delete: 
-      disableMfa: 
-      enableMfa: 
-      loading: 
+      apply: |
+        変更をアプライする
+      delete: アカウントを閉じる
+      disableMfa: MFAを無効にする
+      enableMfa: MFAを有効にする
+      loading: セティングをアップデイトする
     descriptions:
-      currency: 
-      delete: 
-      error: 
-      language: 
-      location: 
-      mfaDisable: 
-      mfaDisabled: 
-      mfaEnable: 
-      mfaEnabled: 
+      currency: ウォッチリストの予想と合計が、最も最近の為替レートであなたの優先通貨で表示されます。
+      current: |
+        これを変化するため今のパスワードを入れてください
+      delete: アカウントを閉めると全部のデータがシステムから消されます。このアクションを戻すことはできません。
+      error: すみません、セティングズをアップデイトするエラーが起こりました。
+      language: ストックフレアを見る言語をセットする。
+      location: 国のフィルターがない時、ロケーションを使ってストックをフィルターします。
+      mfaDisable: 以下の2つの有効コードを入力してあなたのアカウントの多要素認証を無効にしてください。
+      mfaDisabled: 多要素認証であなたのアカウントのセキュリティをさらに保護することができます。
+      mfaEnable: 下記のQRコードをスキャンし、その後2つの有効コードを入力してあなたのアカウントの多要素認証を有効化して下さい。
+      mfaEnabled: 現在このアカウントの多要素認証が有効になっています。
+      password: パスワードを変えたくなかったら何も書かないでください
     flash:
-      delete: 
-      deleteError: 
-      deleteInitiated: 
-      updated: 
+      delete: 本当にスットクフレアのアカウントをクローズしたいですか？
+      deleteError: すみません、アカウントを消すエラーが起こりました、info@stockflare.comをコンタクトしてください。
+      deleteInitiated: アカウントを閉めるリクエストがあります。インボクスをチェックしてください。
+      updated: セティングがアップデイトされました。
     groups:
-      password: 
-    pageTitle: 
+      password: パスワードを変える
+    pageTitle: セティング
     titles:
-      danger: 
-      header: 
-      mfa: 
+      danger: 危険区域
+      header: ユーザーセティング
+      mfa: 多要素認証
+      properties: 私の詳細
+      protected: 保護されている詳細
   stock:
     buttons:
-      fiveYears: 
-      oneMonth: 
-      oneWeek: 
-      oneYear: 
-      sixMonths: 
-      threeMonths: 
+      fiveYears: |
+        ５年
+      oneMonth: 一ヶ月
+      oneWeek: 一週間
+      oneYear: 一年
+      sixMonths: 6ヶ月
+      threeMonths: ３ヶ月
     cheaper:
       cheaper:
-        explanation: 
-        title: 
+        explanation: '%t(pe){株価収益率}は競合他社より低い。'
+        title: |
+          安い
       expensive:
-        explanation: 
-        title: 
+        explanation: '%t(pe){株価収益率}は競合他社より高い。'
+        title: 高い
     dividends:
-      forecastedDescription: 
-      latestDescription: 
-      title: 
-      yield: 
+      forecastedDescription: ' 予報%t(dps){株式1株当たり配当金}.'
+      latestDescription: 最新%t(dps){株式1株当たり配当金}.
+      title: 配当金は支払いますか？
+      yield: '%n%の利回り'
     errors:
-      generic: 
-      loadError: 
+      generic: エラーが起こりました
+      loadError: スットクローディングエラー
     graph:
-      average: Average
-      price: 
-      volume: 
+      average: 平均
+      empty: このグラフはまだデータがありません
+      price: 価格
+      volume: 値段とボリューム
     growth:
       strong:
-        explanation: 
-        title: 
+        explanation: 予報では長期成長率は競合他社より高い。
+        title: 高い伸び
       weak:
-        explanation: 
-        title: 
+        explanation: 長期成長は競合他社より低い予想があります。
+        title: 低い成長率
     header:
-      actualChange: 
-      last_updated: 
-      percentChange: 
-      price: 
+      actualChange: 実変動
+      last_updated: 最終更新 %n
+      percentChange: パーセンテージ変化
+      price: ストックの価格
     information:
-      breakdown: 
-      competitors: 
-      description: 
-      results: 
-      statistics: 
+      breakdown: 主要計数
+      competitors: 競合他社
+      description: 会社の説明
+      results: 最新の結果
+      statistics: 基本統計
+      view_all_competitors: 全部を見る
     inner:
       description:
         table:
-          name: 
-          sector: 
-          size: 
+          name: 名前
+          sector: セクター
+          size: サイズ
         titles:
-          competitors: 
-          main: 
+          competitors: 競合他社は誰？
+          main: 会社の説明
       dividends:
         titles:
-          competitors: 
-          forecast: 
-          main: 
+          competitors:  配当を払ってる競合他社
+          forecast:  短期配当予報
+          main: 配当
       growth:
         titles:
-          comparison: 
-          growth: 
-          main: 
-          profit: 
-          sales: 
+          comparison: 長期の予報と短期の予報を比べています。
+          growth: 長期成長予報
+          main: 成長率 vs. 成長が早いトップ５競合他社
+          profit: 短期利益情報
+          sales: |
+            短期セールス情報
       labels:
-        forecasted: 
-        historic: 
+        forecasted: 予報
+        historic: 前の12ヶ月
       latest:
         forecasted:
-          dividend: 
-          eps: 
-          profit: 
-          sales: 
+          dividend: 配当の予報
+          eps: EPSの予報
+          profit: 純利益情報
+          sales: セールスの予報
         titles:
-          epsForecast: 
-          gross: 
-          main: 
-          operating: 
-          roe: 
-          salesForecast: 
+          epsForecast: EPS情報と配当利回り
+          gross: グロス・マージン(%) vs. トップ５大き競合他社
+          main: 最新の結果
+          operating: 営業利益率 (%) vs. トップ５大き競合他社
+          roe: 株主資本利益率 (%) vs. トップ５大き競合他社
+          salesForecast: 予報セールスと純利益
       panel:
-        description: 
-        title: 
+        description: ここには%nに対する詳しい情報があります。主要計数のピアの比較もあります。
+        title: 内訳
       peers:
         table:
-          dps: 
-          eps: 
-          growth: 
-          name: 
-          pe: 
-          rating: 
-          ric: 
-          upside: 
+          dps: １株当たり配当
+          eps: |
+            EPS
+          growth: 増加
+          name: 会社の名前
+          pe: 株価収益率
+          rating: 主要計数
+          ric: RIC
+          upside: ' 利点'
         titles:
-          main: 
+          main: 会社の競合他社
       profitable:
         titles:
-          epsForecast: 
-          main: 
-          profitForecast: 
+          epsForecast: 短期EPS予報
+          main: 収益率が高い
+          profitForecast: 短期利益予報
       stats:
         data:
           table:
-            cheaperOn: 
+            cheaperOn: 10基準中%nにおいて同業者よりも安価
             headers:
-              cheaper: 
-              competitors: 
-              stock: 
+              cheaper: 安い？
+              competitors: 競合他社
+              stock: 最新
             labels:
-              forecastedDividends: 
-              forecastedFcfYield: 
-              forecastedPe: 
-              forecastedSales: 
-              historicBookValue: 
-              historicDividends: 
-              historicEquity: 
-              historicPe: 
-              historicProfit: 
-              historicSales: 
+              forecastedDividends: 配当利回り （予報）
+              forecastedFcfYield: フリーキャッシュフロー利回り (過去のもの)
+              forecastedPe: 株価収益率（予報）
+              forecastedSales: 値段からセールス（予報）
+              historicBookValue: |
+                価格から帳簿価額（歴史的)
+              historicDividends: 配当利回り（歴史的）
+              historicEquity: 株主資本利益率（歴史的）
+              historicPe: 株価収益率 （歴史的）
+              historicProfit: ' 値段から保険料収入　（歴史的）'
+              historicSales: 値段からセールス（歴史的）
         market:
-          cash: 
-          debt: 
-          enterprise: 
-          market: 
-          price: 
-          profit: 
-          shares: 
-          value: 
+          cash: ネットキャッシュ
+          debt: 純有利子負債
+          enterprise: ' 企業価値'
+          market: 市場価値
+          price: 株価
+          profit: 保険料収入
+          shares: 普通株式
+          value: 市場価値
         titles:
-          debt: 
-          key: 
-          percent: 
-          ratio: 
-          unavailable: 
-          upside: 
-          valuations: 
-          warning: 
+          debt: キャッシュ / 債務レベル はなんですか？
+          key: 基本統計
+          percent: ネットキャッシュは%nの市場価値と同じ
+          ratio: ' 純負債'
+          unavailable: キャッシュ / 債務の分析がありません
+          upside: 52週間の利点 / 否定的側面　
+          valuations: 評価倍数
+          warning: 警告
         volumes:
-          daily: 
-          today: 
+          daily: 毎日の取引量
+          today: 今日の量は
       upside:
-        title: 
+        title: 株価収益率 vs. トップ５最も安い競合他社
       wallStreet:
         titles:
-          competitors: 
-          main: 
-          oneMonth: 
-          oneWeek: 
-          recommendation: 
-          threeMonth: 
-          today: 
+          competitors: 競合企業の勧告
+          main: 利点 vs. トップ５ 利点が高い競合他社
+          oneMonth: 1ヶ月前
+          oneWeek: 一週間前
+          recommendation: ウォール街の勧めが変わりました
+          threeMonth: 三ヶ月前
+          today: 今日
       worth:
-        title: 
+        title: なんの価値がある
     innerTypes:
       description:
-        description: 
-        title: 
+        description: このスットクの会社の説明と重要なデータをスットクフレアで読む。
+        title: 会社の説明
       dividends:
         description:
-          fallback: 
-          valid: 
-        title: 
+          fallback: ウォール街はこのスットクのため1株当たり配当は予想してません。スットクフレアで理由を知りましょう。
+          valid: ウォール街はこのスットクのため%n1株当たり配当を予想しています。スットクフレアでもっと知りましょう。
+        title: 配当
       growth:
         description:
-          fallback: 
+          fallback: このスットクは競合他社より低い成長率が低い。スットクフレアで理由を知りましょう。
           terms:
-            high: 
-            low: 
-          valid: 
-        title: 
+            high: 強い
+            low: 弱い
+          valid: この株式の利回りは長期的に見て年%n%の成長をすると予測されています。つまり、競合と比べ%n高い成長率となります。Stockflareでさらに詳しい情報を手に入れましょう。
+        title: 増加
       latest:
-        description: 
-        title: 
+        description: Stockflareでこの株式の最新の結果を見て、財務データを入手しましょう。
+        title: 最新の結果
       peers:
         description:
-          valid: 
-        title: 
+          valid: このスットクは%nの競合他社があります。 主要計数をスットクフレアで比べる。
+        title: ピアリスト
       profitable:
         description:
-          fallback: 
-          valid: 
-        title: 
+          fallback: ウォール街はこのスットクのため1株当たり利益は予想してません。理由はスットクフレアで尋ねてみましょう。
+          valid: 1株当たり利益
+        title: |
+          損益
       stats:
         description:
           terms:
-            cheaper: 
-            expensive: 
-          valid: 
-        title: 
+            cheaper: 安い
+            expensive: 高い
+          valid: この株式は　%nの市場価値を有しており、その評価額は9基準の%nに基づき%nとなっています。Stockflareでさらに詳しい情報を手に入れましょう。
+        title: 基本統計
       upside:
         description:
-          fallback: 
+          fallback: このストックは競合他社と比べると高い。ストックフレアを使ってもっと知りましょう。
           terms:
-            cheap: 
-            expensive: 
-          valid: 
-        title: 
+            cheap: 安い
+            expensive: 高い
+          valid: この株式は%n倍の利回りで取引されており、競合と比べて%nとなっています。Stockflareでさらに詳しい情報を手に入れましょう。
+        title: 安いか高い
       wallStreet:
         description:
-          fallback: 
+          fallback: ウォール街はこのスットクに対してオピニオンは持ってません。ストックフレアで理由を知りましょう。
           terms:
-            downside: 
-            upside: 
-          valid: 
-        title: 
+            downside: '  マイナス面'
+            upside: 利点
+          valid: ウォールストリートではこの株式に対して%nの目標株価で%nの推奨を出しています。これは、%n%の%nを意味します。Stockflareでさらに詳しい情報を手に入れましょう。
+        title: ウォール街のオピニオン
       worth:
         description:
-          fallback: 
+          fallback: ストックフレアでこのスットクは予想で今後7年間何をゲインか失うかを尋ねる。
           terms:
-            gain: 
-            lose: 
-          valid: 
-        title: 
+            gain: ゲイン
+            lose: 失う
+          valid: この株式は次の7年間で、年間%n% n%すると予測されています。
+        title: 価値は何？
     notification:
-      insufficientData: 
-      stale: 
-      updating: 
-      widgetUpdating: 
+      insufficientData: この計算をするため、データが少なすぎます。
+      stale: |
+        このスットクのデータは10日アップデイトされてませんのでもう古いかもしれません。
+      updating: 今このスットクの情報をアップデイトしてます。15分にまたチェックしてください。
+      widgetUpdating: 計算をアップデイトしています。
     og:
-      description: 
-      title: 
+      description: このスットクは今%nの主要計数テストをパスしています。スットクフレアでもっと知りましょう。
+      title: ストックフレアで％nに対する情報
     priceChange:
-      down: 
+      down: ダウン
       price:
-        title: 
+        title: 価格の変化
       profitability:
-        epsToday: 
-        epsWas: 
-        forecastEpsWas: 
-        title: 
+        epsToday: |
+          今日は%n
+        epsWas: '%t(eps){EPS} は %nでした'
+        forecastEpsWas: '%t(eps){EPS} の予報は%nでした'
+        title: 収益性が変わった？
       sentiment:
-        forecastPeWas: 
-        peToday: 
-        peWas: 
-        title: 
-      title: 
-      up: 
+        forecastPeWas: '%t(pe){PE Ratio}の予報は%nxでした'
+        peToday: |
+          今日は％nx
+        peWas: '%t(pe){PE} は %nでした'
+        title: 投資家の地合いが変わった？
+      title: 何が価格変化を変化しているの？
+      up: アップ
     profitable:
-      forecastedDescription: 
-      latestDescription: 
-      title: 
+      forecastedDescription: 予報%t(eps){1株当たり利益}.
+      latestDescription: 最新%t(eps){1株当たり利益}.
+      title: 収益率が高い？
     ratings:
       cheaper:
-        negative: 
-        positive: 
+        negative: 競合他社より高い
+        positive: 競合他社より安い
       dividends:
-        negative: 
-        positive: 
+        negative: 配当金を支払うあない
+        positive: 配当金を支払う
       high_growth:
-        negative: 
-        positive: 
+        negative: 競合他社より低い成長率
+        positive: 競合他社より高い伸び
       profitable:
-        negative: 
-        positive: 
+        negative: 収益率が高くない
+        positive: 収益率の高い会社
       upside:
-        negative: 
-        neutral: 
-        positive: 
-        unknown: 
+        negative: 株価目標から%n否定的側面
+        neutral: 株価目標は変わりません
+        positive: |
+          株価目標から+%n利点
+        unknown: 株価目標がわかりません
     social:
-      email: 
+      email: 友達にメールする
     stats:
-      fifty_two_week: 
-      industry: 
-      value: 
-      website: 
+      fifty_two_week: '５２週間のハイ・アンド・ロー型 '
+      industry: 業界
+      value: 市場価値
+      website: 会社のウェブサイト
     targetPrice:
-      decrease: 
-      description: 
-      equal: 
-      increase: 
+      decrease: '%t(否定的側面){否定的側面}.'
+      description: 今日の価格は%n
+      equal: 変わってません
+      increase: '%t(利点){利点}.'
       recommendations:
-        buy: 
-        hold: 
-        sell: 
-        strong_buy: 
-        strong_sell: 
-      title: 
+        buy: ウォール街の%t(勧め){勧め}は買う
+        hold: ウォール街の%t(勧告){勧告}はホールドする
+        sell: ウォール街の%t(勧め){勧め}は売る。
+        strong_buy: ウォールストリートの%t(推奨){推奨} は強い買いです。
+        strong_sell: ウォールストリートの%t(推奨){推奨} は強い売りです。
+      title: ウォール街の目標価格
     worth:
       annotations:
-        annually: 
+        annually: 各年
         gain:
-          negative: 
-          positive: 
-        growth: 
-        value: 
+          negative: 7年間でのロス
+          positive: 7年間でのゲイン
+        growth: 7年間予想増加
+        value: 7年間ごの総価値
       copy:
         absoluteGain:
-          negative: 
-          positive: 
+          negative: |
+            7年間で%nは%nまで下がる
+          positive: 7年間で%nは%nまで上がる
         gainPerYear:
-          negative: 
-          positive: 
+          negative: 毎年%nロス
+          positive: 毎年%nゲイン
         relativeGain:
-          negative: 
-          positive: 
+          negative: 7年間でのロス%n
+          positive: |
+            7年間でゲイン%n
         sevenYearGain:
-          negative: 
-          positive: 
+          negative: 7年間でのロス%n
+          positive: 7年間でゲイン%n
         value:
-          text: 
+          text: '%n値のシェア'
       descriptions:
         growth:
-          negative: 
-          positive: 
-        return: 
+          negative: 今の値%nは7年間で%n下がると予想があります。
+          positive: 今の値%nは7年間で%n上がると予想があります。
+        return: ウォールストリートの長期成長データによる予測では、配当金と現在の価値を予測しています。
       flash:
-        another: 
-        first: 
-      footnote: 
+        another: '%nのため%nの株式を％nまた足しました。'
+        first: '%nのため%nの株式を％n足しました。'
+      footnote: 上の計算対して8%の年成長率を仮定してます。
       forecast:
-        title: 
+        title: は予報では
       inputs:
-        button: 
-        price: 
-        shares: 
-        watchlist: 
+        button: '%nの株式を%nたす'
+        price: 購入代金をセットする
+        shares: 株式の量をセットする
+        watchlist: ウォッチリストをセレクトする
       result:
-        title: 
-      title: 
+        title: つまり
+      title: その価値
       titles:
-        growth: 
-        return: 
+        growth: 投資の伸び率
+        return: 7年間予想リターン
       today:
-        description: 
-        submitNotWatching: 
-        submitWatching: 
-        title: 
-        unsaved: 
+        description: シェアの量を下にエンターしてください
+        submitNotWatching: ポジションをウォッチリストにたす
+        submitWatching: ポジションをウォッチリストでアップデイトする
+        title: 今日自分の
+        unsaved: 変更をセーブしてません
   stocks:
-    apply: 
-    matches: 
+    apply: フィルタを適用する
+    matches: ストックが見つかりました
     messages:
-      loadMore: 
-      loading: 
-      noMatches: 
-      noMoreMatches: 
+      loadMore: もっとローデする (%n remaining)
+      loading: ストックをローディングしてます
+      noMatches: すみません、フィルターにマッチするストックはありません
+      noMoreMatches: ストックはもう利用できません
     og:
-      description: 
-      title: 
-    reset: 
+      description: ストックフレアはあなたが新アイディアを見つけるためアシストする。ストックのアイディアを探してポートフォリオが良いかどうかを見る。
+      title: 簡単にストックを選ぶ
+    reset: フィルタをリセットする
   tooltip:
     acronyms:
-      dps: 
-      eps: 
-      growth: 
-      pe: 
-      rating: 
-      ric: 
+      dps: 1株当たり配当金
+      eps: 1株当たり利益
+      growth: 長期成長予想
+      pe: 株価収益率
+      rating: 主要計数
+      ric: ロイターのティッカーコード
     explanations:
-      downside: 
-      dps: 
-      eps: 
-      pe: 
-      recommendation: 
-      upside: 
+      downside: 株式のブローカーは、彼らの信じる公平な株式の価値を公表し、それは目標株価と呼ばれます。当社のデータベンダーはこうした専門家からの平均値を計算します。こちらは、今日の株価からウォール・ストリートの目標価格に対する下落率を示しています。これは専門家からの主観的な意見であり、客観的なものではないことに注意して下さい。
+      dps: 銀行が利子を支払うように、企業は配当金を支払います。1株あたり配当とは、あなたが保有する株式1株ずつにたいしてあなたが得ることの出来る配当のことを意味します。
+      eps: 企業の利益はその株主によって保有されます。1株あたり利益とは、理論的にあなたが保有する株式1株ずつに対してあなたが得られる利益のことを意味します。
+      pe: 株価収益率は、1株あたり利益に対する株価を示します。数値が高ければ高いほど、その株式が高価であることを意味します。
+      recommendation: 株式のブローカーは、ブローカーが分析する各株に対する買い/売り/待ち推奨を公表します。当社のデータベンダーであるトムソン・ロイターはこうした専門家からの平均値を計算します。この平均値は、「ウォール・ストリートの」地合いの優れた指針となります。ただし、これは主観的な意見であり、客観的なものではないことに注意して下さい。
+      upside: |-
+        "株式のブローカーは、彼らの信じる公平な株式の価値を公表し、それは目標株価と呼ばれます。当社のデータベンダーはこうした専門家からの平均値を計算します。
+        こちらは、今日の株価からウォール・ストリートの目標価格に対する上昇率を示しています。これは専門家からの主観的な意見であり、客観的なものではないことに注意して下さい。"
   user:
     fields:
-      confirmPassword: 
-      currency: 
-      email: 
-      language: 
-      location: 
-      mfa: 
-      name: 
-      otpA: 
-      otpB: 
-      otpC: 
-      otpD: 
-      otpE: 
-      otpF: 
-      password: 
+      confirmPassword: パスワードを確認してください
+      currency: カレンシー
+      current: 今のパスワード
+      email: メールアドレス
+      language: 言語
+      location: ロケーション
+      mfa: MFAコード
+      name: フルネーム
+      otpA: コード一番
+      otpB: コード二番
+      otpC: コード三番
+      otpD: コード四番
+      otpE: 第五コード
+      otpF: 第六コード
+      password: パスワード
     messages:
-      language: 
+      language: このページを自分の言語セッティングでリロードするため、ここにクリックしてください
     options:
-      logout: 
-      settings: 
+      logout: ログアウト
+      settings: |
+        セティング
     validation:
       email:
-        required: 
-        validity: 
+        required: メールアドレスが必要です
+        validity: メールアドレスが無効です
       name:
-        validity: 
+        validity: 名前が無効です
       otp:
-        length: 
-        required: 
+        length: MFAのコードが無効です
+        required: 有効なMFAコードが必要です
       password:
-        mismatch: 
-        required: 
-        tooLong: 
-        tooShort: 
+        mismatch: パスワードが合わせれません
+        required: パスワードが必要です
+        tooLong: パスワードが長すぎます
+        tooShort: パスワードが短すぎます
   watchlist:
-    actualChange: 
+    actualChange: 実変動 (1日)
     balance:
       balance:
-        over: 
-        under: 
-      balanced: 
+        over: '%n高いバランス'
+        under: '%n低いバランス'
+      balanced: ポートフォリオのバランスがとれました
       phrase:
-        negative: 
-        neutral: 
-        positive: 
-      title: 
-      tooltip: 
+        negative: バランスがとれません
+        neutral: 適度なバランス
+        positive: バランスがとれました
+      title: 株式ごとの集中
+      tooltip: 100%とは、あなたの株式全体の価値において、あなたのポートフォリオが均等に分配されているということを意味します。あなたがあなたのポートフォリオ内のいくつかの主要株式に集中すればするほど、100%を上回ってゆきます。
     breakdown:
       columns:
-        actions: 
-        gain: 
-        name: 
-        price: 
-        purchased: 
-        rating: 
-        shares: 
-      empty: 
+        actions: アクション
+        gain: 7年間の予想
+        name: 名前
+        price: 今日
+        purchased: 出資で
+        rating: 主要計数
+        shares: 値と株式
+      empty: はじめにスットクを自分のウォッチリストに足してみましょう
       rows:
         gain:
-          gain: 
+          gain: '%n pa'
         purchased:
           worth:
-            negative: 
-            positive: 
+            negative: '%n ロス'
+            positive: '%nゲイン'
         today:
-          change: 
-      title: 
+          change: |
+            今日%n
+      title: |
+        %nポートフォリオブレークダウン
     create:
-      button: 
+      button: 新ウォッチリスト
       fields:
-        name: 
+        name: ウォッチリスト名前
       points:
         infinite:
-          subtitle: 
-          title: 
+          subtitle: ウォッチリストのリミットはありません。スットクはいくらでも見てください。
+          title: 無限の規模
         monitor:
-          subtitle: 
-          title: 
+          subtitle: 当社のデータを利用して、あなたの保有するパフォーマンスの最も良い株式、および最も悪い株式を決定しましょう。
+          title: |
+            パフォーマンスをモニターする
         positions:
-          subtitle: 
-          title: 
-      subtitle: 
-      title: 
+          subtitle: スットクのポジションと仕入れた価格を足してもっとリアリスティックなポートフォリオを作る。
+          title: ポジションをたす
+      subtitle: スットクフレアのウォッチリストは普通のポートフォリオより色々あります。
+      title: ウォッチリストを作る
     danger:
-      button: 
-      description: 
-      title: 
-    defaultName: 
-    footnote: 
-    pageDescription: 
-    pageTitle: 
-    percentChange: 
+      button: ウォッチリストを削除する
+      description: ウォッチリストを消したら全部のデータはサーバから消されます。このアクションを戻すことはできません。
+      title: 危険区域
+    defaultName: 私のウォッチリスト
+    footnote: データがない時、8%の成長率を使っています。
+    pageDescription: ウォッチリストはポートフォリオの概要と最近見てるスットクのアラートが入っています。
+    pageTitle: 私のウォッチリスト
+    percentChange: パーセント変化
     portfolioTable:
-      difference: 
-      forecastGrowth: 
-      gain: 
-      name: 
-      price: 
-      projected: 
-      purchased: 
-      sevenYears: 
-      shares: 
-      total: 
-      usValue: 
-      value: 
-    projected: 
+      difference: '%nゲイン'
+      forecastGrowth: 予想ゲイン
+      gain: 年率ゲイン%n%
+      name: 会社の名前
+      price: 今日
+      projected: |
+        7年間で%n
+      purchased: 購入日
+      sevenYears: 7年間ごに
+      shares: 株式の数
+      total: |+
+        トータル%n
+
+      usValue: 値 (USD)
+      value: 値
+    projected: 詳しいポートフォリオ情報
     sector:
-      missing: 
-      title: 
-      tooltip: 
+      missing: '不足:'
+      title: セクターごとの集中
+      tooltip: 10の主要セクターに分割したあなたのポートフォリオの価値。
     summary:
       summaries:
         gain:
-          notWatchingStocks: 
-          projectedGain: 
-          projectedValue: 
+          notWatchingStocks: 平均成長データを見るため、いくつかの株式をウォッチしましょう。
+          projectedGain: 今日の%nから%n%の年間利得
+          projectedValue: 7年以内に%nの価値を持つ可能性のあるポートフォリオ
         opinion:
-          notWatchingStocks: 
-          stars: 
-          ws: 
+          notWatchingStocks: キースットクを見て主要計数をアクセスする
+          stars: 平均%n主要計数
+          ws: ウォール街は%nと思っています。
       titles:
-        alerts: 
-        gain: 
-        opinion: 
+        alerts: 最近のアラート
+        gain: 7年ゲイン
+        opinion: |
+          ウォッチリストの主要計数
     wallStreet:
-      title: 
+      title: ウォール街の株価目標とお勧め
       upside:
-        missing: 
-        text: 
-    warningSubtitle: 
-    warningTitle: 
-    watching: 
-    watchingPhrase: 
-    worth: 
+        missing: 利点はありません
+        text: '%n%利点'
+    warningSubtitle: ウォッチリストをなくさないで。セーブするため登録かログインしてください。
+    warningTitle: 登録とログインをせずストックを見ました
+    watching: 見てるトータル
+    watchingPhrase: '%n 会社'
+    worth: 合計価値
   watchlists:
-    connect: 
-    delete: 
-    pageTitle: 
+    connect: 新ブローカー業務
+    delete: 本当に'%n'を消したいですか？
+    pageTitle: 私のポートフォリオ
     subtitles:
-      connected: 
-      watchlists: 
+      connected: コネクトしたるブローカー業務
+      watchlists: ウォッチリスト
     titles:
-      actual: 
-      change: 
-      count: 
-      inactive: 
-      mover: 
-      rating: 
-      stocks: 
-      worth: 
+      actual: 実変動
+      change: パーセンテージ変化
+      count: 見てる
+      inactive: '%n非アクティブ'
+      mover: 最大の動きを持つもの
+      rating: 主要計数テスト
+      return: トータルリターン
+      stocks: '%n ストック'
+      worth: トータル値打ち

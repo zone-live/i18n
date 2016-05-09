@@ -14,6 +14,47 @@ zh-CN:
       tos: 使用条款
     pricingData: 所有的价格数据均更新至前一天收市时。
     title: 关于Stockflare
+  account:
+    breakdown:
+      columns:
+        actions: 操作
+        gain: 七年收益
+        name: 公司名称
+        price: 今日
+        purchased: 买入价
+        rating: 关键指标
+        shares: 股票数目
+      empty: 您的账户已无股票
+      refresh: 刷新您的账户
+      rows:
+        gain:
+          gain: 盈利
+      title: 我的证券投资组合分割
+    broker:
+      unlink: 取消经纪账户链接并删除所有账户信息
+      unlinkError: 我们无法取消您的账户链接
+    danger:
+      button: 取消经纪账户链接
+      description: 取消您的经纪账户链接将删除您在Stockflare保存的所有经纪信息。我们将删除所有我们保存的账户与位置信息，但是我们仍会保留所有您通过Stockflare产生的订单细节，以供审计之用。
+      title: 危险区
+    orders:
+      buying: 买入价格%n美元
+      columns:
+        action: 操作
+        name: 公司名称
+        purchased: 买入价
+        sell: 出售价格
+        shares: 股票数目
+        total: 总
+      empty: 此账户中没有订单
+      limit: 限定价格%n美元
+      market: 限损价格%n美元
+      selling: 卖出价格%n美元
+      shares: '%n股'
+      title: 交易
+    pageDescription: 您的账户页面包含您的投资组合中股票的细节，连同与股票连接的经纪和所有通过Stockflare产生的订单细节。
+    pageTitle: 我连接的经纪账户
+    power: 购买能力
   alerts:
     count: '%n条提醒'
     headers:
@@ -56,6 +97,7 @@ zh-CN:
       create: 新关注列表
   brokerage:
     brokerages:
+      drivewealth: Drivewealth
       etrade: E-Trade
       fidelity: Fidelity
       ib: Interactive Brokers
@@ -64,6 +106,7 @@ zh-CN:
       schwab: Schwab
       scottrade: Scottrade
       td: TD Ameritrade
+      trade_king: Trade King
       trade_station: Trade Station
       tradier: Tradier
     connect:
@@ -82,7 +125,7 @@ zh-CN:
         description: 马上进行交易？还是先了解一下我们对您投资组合的智能分析？
         title: 可进行交易
         to_portfolio: 转去投资组合
-        to_stock: 返回至 %n
+        to_stock: 交易 %n?
       help:
         assistance:
           description: 如果您在连接帐户方面需要我们的帮助或者对我们的服务有任何疑问，请点击这里。
@@ -123,11 +166,20 @@ zh-CN:
           description: 找到一支好股票？连接您的交易帐户，然后快速便捷地在Stockflare内部进行交易。
           title: 通过Stockflare进行交易
       title: 选择经纪商
+    flash:
+      positions_not_refreshed: 我们无法联系您的经纪人更新您的仓位
+      positions_refreshed: 您的投资组合仓位已更新
+      positions_refreshing: 正在刷新您的投资组合仓位
     portfolio:
       alerts:
         heading: n% 的提醒
       danger_zone:
         button: 断开帐户连接
+        cancel: 
+        cancel_confirm: 
+        canceled: 
+        canceled_error: 
+        cancelling: 
         warning: 断开您的交易帐户连接将清除您在我们服务器上保存的所有数据。
       headings:
         power: 购买能力
@@ -141,6 +193,8 @@ zh-CN:
           filling: 购买中
           pending: 等待中
         trades: 开放交易
+      unsupported: '%n个股票不支持'
+      untracked: Stockflare不支持
     trade:
       step_one:
         buying:
@@ -156,17 +210,17 @@ zh-CN:
           buy: 购买股票 (%n)
           sell: 出售股票 (%n)
         errors:
-          buying: 
-          selling: 
+          buying: 您的限定买入价 %n 比当前卖价 %n 要低
+          selling: 您的限定卖出价 %n 比当前报价 %n 要高
         table:
           brokerage: 经纪商
           cost: 预估花费
-          expiration: 
+          expiration: 定单有效期
           fees: 预估手续费
           return: 预估所得
           shares: 股票数目
           ticker: 代号
-          type: 
+          type: 定单类型
         title: 定单预览
       step_two:
         advanced:
@@ -733,7 +787,7 @@ zh-CN:
         pgk: K%n
         php: ₱%n
         pkr: ₨%n
-        pln: zł%n
+        pln: '%n zł'
         pyg: Gs%n
         qar: ﷼%n
         ron: lei%n
@@ -783,6 +837,7 @@ zh-CN:
         zmw: ZK%n
         zwd: Z$%n
     defaultPageTitle: 轻松选股
+    empty: 空
     languages:
       de: Deutsch
       de-DE: Deutsch
@@ -796,10 +851,8 @@ zh-CN:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
-      pt: |2-
-
-        葡萄牙語
-      pt-PT: 葡萄牙語
+      pt: Português
+      pt-PT: Português
       zh-CN: 中文
     loading: 加载中…
     login: 登录
@@ -823,6 +876,15 @@ zh-CN:
       - 星期四
       - 星期五
       - 星期六
+      periods:
+        day: '%n 天'
+        days: '%n 天'
+        month: '%n 个月'
+        months: '%n 个月'
+        week: '%n 周'
+        weeks: '%n 周'
+        year: '%n 年'
+        years: '%n 年'
       shortDateFormat: '%m月%d日'
       shortDaysOfWeek:
       - 日
@@ -840,6 +902,7 @@ zh-CN:
         alerts: 股市提醒
         graph: 股价图
         info: 关键指标
+        missing: 债券
         social: 股份
         trade: 买入或卖出 %n 股票
         unavailable: 您只能交易美股
@@ -869,10 +932,11 @@ zh-CN:
       error: 出现一个错误
   disclaimers:
     main:
-      first: Stockflare是一个信息服务平台。我们不提供任何建议或做出任何推荐。我们是一个面向个人投资者的研究工具。
-      fourth: Stockflare使用五项关键指标以衡量各种类型股票的质量，包括：盈利能力、股息分红、发展前景、价格分析以及华尔街对其观点。我们强调，这些只是衡量股票健康度的指标和研究工具，而不可作为直接或间接的意见。
-      second: Stockflare从Thomsom Reuters采集相关资料，此机构世界领先的金融数据提供商之一。
-      third: 我们在自己的网站上向您呈现华尔街所达成共识的预测和意见。这包括涉及到股票的“买入”、“卖出”、“持有”和“指标价格”。和其他的信息服务平台一样，Stockflare并不为推崇这些预测。可惜的是，未来并不可预知。这些来自华尔街的观点只是主观判断，而非客观现实。
+      fifth: Stockflare使用五项关键指标以衡量各种类型股票的质量，包括：盈利能力、股息分红、发展前景、价格分析以及华尔街对其观点。我们强调，这些只是衡量股票健康度的指标和研究工具，而不可作为直接或间接的意见。
+      first: Stockflare由总部位于英国的%_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490}公司运营。Stockflare的主要业务是信息服务。我们不提供建议，并且不作出推荐。我们为自我指导的投资者提供研究工具。
+      fourth: 我们在我们网站上提供“华尔街”共识预测和建议。其中包括各种股票的“买入”、“卖出”、“持仓”和“目标价格”等参考。Stockflare并不认可或赞同此类预测。不幸的是，我们无法提供来自未来的数据。华尔街的观点都属于个人主观观点，而非客观观点。也就是说，他们也经常犯错误。
+      second: 投资建议是一项受管制的服务。我们在美国的全资子公司%_blank(Stockflare USA, Inc.){http://www.adviserinfo.sec.gov/IAPD/IAPDFirmSummary.aspx?ORG_PK=242787}是一家在美国证交会（SEC）注册的投资咨询公司。如果您希望从%_blank(Stockflare USA){http://www.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=371069}获得建议，请参考客户手册。
+      third: 各种收盘价数据、基本面和预测信息均由路透社提供。BATS交易所、美国证券交易所（AMEX）和纳斯达克（NASDAQ）的延迟价格数据均以柱状图形式提供，并且最少会存在10分钟延迟。如需更多信息，请访问相关网站。美国经纪公司信息整合由%_blank(Trading Ticket Inc.){https://www.trade.it/}提供技术支持。
     metrics: 这五项关键指标包括：盈利能力、股息分红、发展前景、价格分析以及市场氛围。这些并非推荐信息，而是作为一种对比股票质量与强调关键风险的途径。
     title: 法律事项时间！
     wallStreet: 这个表格呈现出您的关注列表内股票的股价高于“华尔街”共识指标价格以及对这些股票的推荐。但由于未来的不确定性，这个共识仅作为主观分析，而非客观事实。Stockflare并不为推崇“华尔街“的观点。我们展示这些数据，只为方便于我们的用户了解专家对任意一只股票的预期。
@@ -880,6 +944,7 @@ zh-CN:
   errors:
     api_error: 天！联系伺服器时出现了一个错误。
     not_found: 哎哟，此页面不存在。
+    stock_not_tradeable: 十分抱歉，此股票当前无法交易。
   explore:
     all: 所有股票
     biLine: 需要一点灵感火花吗？
@@ -1355,9 +1420,63 @@ zh-CN:
       question: 尚未注册？
       register: 免费在此注册
     titles:
+      expired: 您的交易时段已过期
       login: 登录
       mfa: 安全账户
       social: 使用社交账户登录（即将推出）
+  mobile:
+    homepage:
+      createAccount: 创建免费账户
+      logged:
+        subtitle: 您现在可以浏览各种警报通知和监视列表。
+        title: 欢迎回来
+      subtitle: 在我们独特的系统内轻松选择并查看各个股票
+      title: 轻松选股
+      viewMore:
+        stocks: 查看更多股票
+        themes: 查看更多主题
+    stock:
+      keyStats:
+        title: 关键数据
+      starRating:
+        cheap:
+          na: 无PE比率
+          text: '%n倍PE对比竞争对手的%n倍'
+          title:
+            negative: 昂贵
+            positive: 便宜
+        dividends:
+          na: 无可用预测
+          negative:
+            text: 不支付红利
+          positive:
+            text: 红利%n美元收益率%n%
+          title: 预测
+        expert:
+          downside: 比目标价格低%n%
+          na: 无专家调研
+          noChanges: 与目标价格无差异
+          title: 专家意见
+          upside: 比目标价格高%n%
+        profitable:
+          na: 无可用预测
+          text: 预测每股盈余
+          title:
+            negative: 无投资组合
+            positive: 盈利
+        profitbale:
+          na: 无可用预测
+          text: 预测每股盈余
+          title:
+            negative: 无投资组合
+            positive: 盈利
+        stronger:
+          na: 无增长预测
+          text: '%n%的增长对比竞争对手的%n%'
+          title:
+            negative: 较缓
+            positive: 较强
+        title: 关键指标
   onboard:
     controls:
       complete: 已完成
@@ -1379,10 +1498,10 @@ zh-CN:
         multiples: 轻松建立多个关注列表
         unlimited: 跟踪观察无限量的股票
   portfolios:
-    connected-brokerages: 
+    connected-brokerages: 联系经纪商
     create:
-      button: 
-    watchlists: 
+      button: 新经纪商
+    watchlists: 观察列表
   recover:
     buttons:
       recover: 重置我的密码
@@ -1484,6 +1603,7 @@ zh-CN:
       loading: 正在更新设置
     descriptions:
       currency: 关注列表内的预期值和总价将在使用最新汇率兑换之后，以您的首选汇率显示。
+      current: 请输入您的当前密码以执行此更改
       delete: 关闭您的账号将从我们的系统内永久删除您的个人数据。此操作不可恢复。
       error: 抱歉，更新您的设置时出现错误。
       language: 设置您浏览Stockflare时的首选语言。
@@ -1492,6 +1612,7 @@ zh-CN:
       mfaDisabled: 多重身份验证将为您的账户带来额外的安全保护。
       mfaEnable: 扫描二维码，并输入两个相关代码，为您的账户启用多重身份验证。
       mfaEnabled: 多重身份验证当前已为账户启用。
+      password: 如果您不希望更改您的密码，请保留空白
     flash:
       delete: 确认关闭Stockflare账号？
       deleteError: 抱歉，关闭您的账号时出现错误，请联系info@stockflare.com。
@@ -1504,6 +1625,8 @@ zh-CN:
       danger: 危险区
       header: 用户设置
       mfa: 身份验证密钥
+      properties: 我的详细信息
+      protected: 受保护详细信息
   stock:
     buttons:
       fiveYears: 5年
@@ -1529,6 +1652,7 @@ zh-CN:
       loadError: 加载股票信息时出现错误
     graph:
       average: 平均价格
+      empty: 此图标尚无数据
       price: 股价
       volume: 股价与市值
     growth:
@@ -1549,6 +1673,7 @@ zh-CN:
       description: 公司介绍
       results: 最新结果
       statistics: 关键数据
+      view_all_competitors: 查看所有
     inner:
       description:
         table:
@@ -1866,6 +1991,7 @@ zh-CN:
     fields:
       confirmPassword: 确认密码
       currency: 货币
+      current: 当前密码
       email: 邮箱地址
       language: 语言
       location: 地区
@@ -2011,5 +2137,6 @@ zh-CN:
       inactive: '%n 支股票不活跃'
       mover: 最大浮动公司
       rating: 关键指标测试
+      return: 总计收益
       stocks: '%n支股票'
       worth: 总价值

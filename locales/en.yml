@@ -14,6 +14,47 @@ en:
       tos: Terms of Service
     pricingData: All pricing data as of yesterday's close.
     title: About Stockflare
+  account:
+    breakdown:
+      columns:
+        actions: Actions
+        gain: 7 Year Gain
+        name: Name
+        price: Today
+        purchased: Purchase Price
+        rating: Star Rating
+        shares: No. Shares
+      empty: No stocks in your account
+      refresh: Refresh account positions
+      rows:
+        gain:
+          gain: Gain
+      title: Portfolio Breakdown
+    broker:
+      unlink: Unlink broker %n and delete account information
+      unlinkError: Cound not unlink your account
+    danger:
+      button: Unlink broker
+      description: Unlinking your broker will delete your broker details held at Stockflare.  We will delete all accounts and positions information that we hold, however we will retain details of any orders you placed through Stockflare for Audit purposes.
+      title: Danger Zone
+    orders:
+      buying: Buying at %n
+      columns:
+        action: Action
+        name: Name
+        purchased: Purchase Price
+        sell: Sell Price
+        shares: No. Shares
+        total: Total
+      empty: No orders in this account
+      limit: Limit Price %n
+      market: Stop Price %n
+      selling: Selling at %n
+      shares: '%n Shares'
+      title: Trades
+    pageDescription: Your account page contains details of the stocks in your portfolio with the connected brokerage as well as details of all orders placed through Stockflare.
+    pageTitle: My connected brokerage account
+    power: Buying Power
   alerts:
     count: '%n Alerts'
     headers:
@@ -56,6 +97,7 @@ en:
       create: New Watchlist
   brokerage:
     brokerages:
+      drivewealth: Drivewealth
       etrade: E-Trade
       fidelity: Fidelity
       ib: Interactive Brokers
@@ -64,6 +106,7 @@ en:
       schwab: Schwab
       scottrade: Scottrade
       td: TD Ameritrade
+      trade_king: Trade King
       trade_station: Trade Station
       tradier: Tradier
     connect:
@@ -95,7 +138,7 @@ en:
             secure: How secure is the connection?
           title: Frequently Asked Questions
         no_brokerage:
-          description: Check out %_blank(this article){http://bitly.com/ComparingBrokers} where we compare all the brokerage services we are connected into.
+          description: Check out %_blank(this article){https://medium.com/simple-but-not-easy/going-to-the-market-how-to-pick-your-online-broker-16e9a231ed91} where we compare all the brokerage services we are connected into.
           title: No brokerage? No problem.
       security:
         button: Finish
@@ -123,11 +166,20 @@ en:
           description: Find a great stock? Connect your brokerage account, then trade quickly and easily from inside Stockflare.
           title: Trade through Stockflare
       title: Connect Brokerage
+    flash:
+      positions_not_refreshed: We couldn't contact your brokerage to refresh your positions
+      positions_refreshed: Your portfolio positions have been updated
+      positions_refreshing: Refreshing your portfolio positions
     portfolio:
       alerts:
         heading: n% Alerts
       danger_zone:
         button: Disconnect Account
+        cancel: Cancel Order
+        cancel_confirm: Are you sure you wish to cancel your order?
+        canceled: Successfully canceled your order of %n
+        canceled_error: Could not cancel your order of %n
+        cancelling: Cancelling your order of %n
         warning: Disconnecting your brokerage account will remove all your data stored on our servers.
       headings:
         power: Buying Power
@@ -141,6 +193,8 @@ en:
           filling: Filling
           pending: Pending
         trades: Open Trades
+      unsupported: '%n Unsupported'
+      untracked: Unsupported by Stockflare
     trade:
       step_one:
         buying:
@@ -733,7 +787,7 @@ en:
         pgk: K%n
         php: ₱%n
         pkr: ₨%n
-        pln: '%nzł'
+        pln: zł%n
         pyg: Gs%n
         qar: ﷼%n
         ron: lei%n
@@ -783,6 +837,7 @@ en:
         zmw: ZK%n
         zwd: Z$%n
     defaultPageTitle: Pick Stocks Easily
+    empty: Empty
     languages:
       de: Deutsch
       de-DE: Deutsch
@@ -800,7 +855,6 @@ en:
       pt-PT: Portuguese
       zh-CN: 中文
     loading: Loading...
-    empty: Empty
     login: Login
     pages:
       privacy_policy: Privacy Policy
@@ -813,15 +867,6 @@ en:
     social:
       email: Email to a friend
     time:
-      periods:
-        day: '%n Day'
-        days: '%n Days'
-        week: '%n Week'
-        weeks: '%n Weeks'
-        month: '%n Month'
-        months: '%n Months'
-        year: '%n Year'
-        years: '%n Years'
       dateFormat: '%m/%d/%y'
       daysOfWeek:
       - Sunday
@@ -831,6 +876,15 @@ en:
       - Thursday
       - Friday
       - Saturday
+      periods:
+        day: '%n Day'
+        days: '%n Days'
+        month: '%n Month'
+        months: '%n Months'
+        week: '%n Week'
+        weeks: '%n Weeks'
+        year: '%n Year'
+        years: '%n Years'
       shortDateFormat: '%m/%d'
       shortDaysOfWeek:
       - Sun
@@ -848,10 +902,10 @@ en:
         alerts: Stock Alerts
         graph: Price Chart
         info: Key Metrics
+        missing: Instrument is not on Stockflare
         social: Share
         trade: Buy or Sell %n
         unavailable: Can only trade US Stocks
-        missing: "Instrument is not on Stockflare"
     unwatch: Unwatch
     wallStreetRecommendations:
       emptyCategory: You have no stocks in this category.
@@ -878,11 +932,11 @@ en:
       error: An error has occurred
   disclaimers:
     main:
-      first: Stockflare is operated by %_blank(Stockflare Limited){http://bitly.com/StockflareCH}, a company based in the United Kingdom. Stockflare is primarily an information service. We do not provide advice and do not make recommendations. We are a research tool for self-directed investors.
       fifth: Stockflare's 5 star metrics, are a way to compare the quality of any group of stocks. They look at the profitability, dividends, growth, valuation, and "Wall Street" opinion on any stock. We stress, these are a quality metric and research tool. They are in not an explicit or implicit recommendation.
-      third: End-of-day pricing data, fundamentals and estimates are provided by Thomson Reuters. Delayed pricing data for BATS, AMEX, NYSE, and NASDAQ are provided by Barchart and is at least 10 minutes delayed, for more information visit %_blank(their website){http://bitly.com/BarchartNotes}. Integration for US brokerage firms is powered by %_blank(Trading Ticket Inc.){http://bitly.com/TradeIT}
+      first: Stockflare is operated by %_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490}, a company based in the United Kingdom. Stockflare is primarily an information service. We do not provide advice and do not make recommendations. We are a research tool for self-directed investors.
       fourth: We present the "Wall Street" consensus forecasts and recommendations on our website. This includes reference to “Buy”, “Sell”, “Hold”, & “Price Targets” for stocks. Stockflare does not endorse these forecasts. Sadly, there is no data on the future. The views of Wall Street are subjective, not objective. i.e. They get it wrong, regularly.
-      second: Investment advice is a regulated service. Our whole-owned subsidiary in the United States, %_blank(Stockflare USA, Inc.){http://bitly.com/StockflareSECdoc} is an SEC registered investment advisor. Please see the %_blank(client brochure){http://bitly.com/SECbrochure} should you wish to receive advice from Stockflare USA, Inc.
+      second: Investment advice is a regulated service. Our whole-owned subsidiary in the United States, %_blank(Stockflare USA, Inc.){http://www.adviserinfo.sec.gov/IAPD/IAPDFirmSummary.aspx?ORG_PK=242787} is an SEC registered investment advisor. Please see the %_blank(client brochure){http://www.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=371069} should you wish to receive advice from Stockflare USA, Inc.
+      third: End-of-day pricing data, fundamentals and estimates are provided by Thomson Reuters. Delayed pricing data for BATS, AMEX, NYSE, and NASDAQ are provided by Barchart and is at least 10 minutes delayed, for more information visit %_blank(their website){http://www.barchart.com/agreement.php}. Integration for US brokerage firms is powered by %_blank(Trading Ticket Inc.){https://www.trade.it/}
     metrics: The 5 key metrics cover profitability, dividends, growth, valuation, and sentiment. They are not a recommendation but a way to compare the quality of stocks and highlight key risks.
     title: Time for the legals!
     wallStreet: This table presents the upside to the "Wall Street" consensus price target and the consensus recommendation for the stocks in your Watchlist. There is no data on the future. Therefore this consensus is subjective analysis, not objective. Stockflare doesn't endorse the views of "Wall Street". We present this data, so our users can see what the sentiment of the experts is towards any stock.
@@ -890,6 +944,7 @@ en:
   errors:
     api_error: Shucks, there was an error contacting our servers.
     not_found: Woops, this page does not exist.
+    stock_not_tradeable: Sorry, this stock cannot be traded at the moment.
   explore:
     all: All Stocks
     biLine: Need a little inspiration?
@@ -1365,10 +1420,63 @@ en:
       question: Not a member?
       register: Sign up free here
     titles:
-      login: Login to Stockflare
       expired: Your session has expired
+      login: Login to Stockflare
       mfa: Secured Account
       social: Social Login (Coming Soon)
+  mobile:
+    homepage:
+      createAccount: Create Free Account
+      logged:
+        subtitle: You can now browse alerts and watchlist
+        title: Welcome back
+      subtitle: Pick and Browse stocks easily with our unique system
+      title: Pick stock easily
+      viewMore:
+        stocks: View more stocks
+        themes: View more themes
+    stock:
+      keyStats:
+        title: Key Stats
+      starRating:
+        cheap:
+          na: No PE Ratio
+          text: '%nx PE vs. competitors on %nx'
+          title:
+            negative: Expensive
+            positive: Cheap
+        dividends:
+          na: No forecasts available
+          negative:
+            text: Not paying dividends
+          positive:
+            text: Dividend %n. Yield of %n%
+          title: Forecast
+        expert:
+          downside: '%n% downside to price target'
+          na: No research from experts
+          noChanges: No difference to price target
+          title: Expert Opinion
+          upside: '%n% upside to price target'
+        profitable:
+          na: No forecasts available
+          text: EPS forecast
+          title:
+            negative: Not Profitable
+            positive: Profitable
+        profitbale:
+          na: No forecasts available
+          text: EPS forecast
+          title:
+            negative: Not Profitable
+            positive: Profitable
+        stronger:
+          na: No growth forecasts
+          text: '%n% growth vs. competitors with %n%'
+          title:
+            negative: Weaker
+            positive: Stronger
+        title: Star Rating
   onboard:
     controls:
       complete: Complete
@@ -1495,15 +1603,16 @@ en:
       loading: Updating Settings
     descriptions:
       currency: Watchlist projections and totals will be displayed in your preferred currency, using the most recent exchange rate.
+      current: Please enter your current password to make this change
       delete: Closing your account will permanently delete all of your personal data from our systems. This action cannot be undone.
       error: 'Sorry, there was a problem updating your settings:'
       language: Set your preferred language to view Stockflare in.
       location: Your location is used to filter stocks when you do not have a Country filter applied.
-      current: Please enter your current password to make this change
       mfaDisable: Disable MFA for your account by entering two valid codes below.
       mfaDisabled: MFA provides an additional layer of security for your account.
       mfaEnable: Enable MFA for your account by scanning the QR Code below, then entering two valid codes.
       mfaEnabled: MFA is currently enabled for this account.
+      password: Leave blank if you do not wish to change your password
     flash:
       delete: Are you sure you wish to close your Stockflare account?
       deleteError: Sorry, there was an error closing your account, please contact info@stockflare.com
@@ -1516,6 +1625,8 @@ en:
       danger: Danger Zone
       header: User Settings
       mfa: Multi-Factor Authentication
+      properties: My Details
+      protected: Protected Details
   stock:
     buttons:
       fiveYears: 5 Years
@@ -1541,6 +1652,7 @@ en:
       loadError: Error loading stock
     graph:
       average: Average
+      empty: No data for this graph yet
       price: Price
       volume: Price & Volume
     growth:
@@ -1561,6 +1673,7 @@ en:
       description: Company Description
       results: Latest Results
       statistics: Key Statistics
+      view_all_competitors: View All
     inner:
       description:
         table:
@@ -1878,6 +1991,7 @@ en:
     fields:
       confirmPassword: Confirm Password
       currency: Currency
+      current: Current Password
       email: Email Address
       language: Language
       location: Location
@@ -2023,89 +2137,6 @@ en:
       inactive: '%n Inactive'
       mover: Biggest Mover
       rating: Key Metrics Test
+      return: Total Return
       stocks: '%n Stocks'
       worth: Total Worth
-  account:
-    pageTitle: "My connected brokerage account"
-    pageDescription: "Your account page contains details of the stocks in your portfolio with the connected brokerage as well as details of all orders placed through Stockflare."
-    power: "Buying Power"
-    danger:
-      title: "Danger Zone"
-      description: "Unlinking your broker will delete your broker details held at Stockflare.  We will delete all accounts and positions information that we hold, however we will retain details of any orders you placed through Stockflare for Audit purposes."
-      button: "Unlink broker"
-    breakdown:
-      title: "Portfolio Breakdown"
-      empty: "No stocks in your account"
-      refresh: "Refresh account positions"
-      columns:
-        name: Name
-        rating: "Star Rating"
-        price: Today
-        purchased: "Purchase Price"
-        shares: "No. Shares"
-        gain: "7 Year Gain"
-        actions: Actions
-      rows:
-        gain:
-          gain: Gain
-    orders:
-      title: "Trades"
-      empty: "No orders in this account"
-      columns:
-        name: Name
-        purchased: "Purchase Price"
-        sell: "Sell Price"
-        shares: "No. Shares"
-        total: "Total"
-    broker:
-      unlink: "Unlink broker %n and delete account information"
-      unlinkError: "Cound not unlink your account"
-  mobile:
-    homepage:
-      title: "Pick stocks easily"
-      subtitle: "Pick and Browse stocks easily with our unique system"
-      createAccount: "Create Free Account"
-      viewMore:
-        stocks: "View more stocks"
-        themes: "View more themes"
-      logged:
-        title: "Welcome back"
-        subtitle: "You can now browse alerts and watchlist"
-    stock:
-      keyStats:
-        title: "Key Stats"
-      starRating:
-        title: "Star Rating"
-        cheap:
-          title:
-            positive: "Cheap"
-            negative: "Expensive"
-          na: "No PE Ratio"
-          text: '%nx PE vs. competitors on %nx'
-        stronger:
-          title:
-            positive: "Stronger"
-            negative: "Weaker"
-          na: "No growth forecasts"
-          text: '%n% growth vs. competitors with %n%'
-        expert:
-          title: "Expert Opinion"
-          na: "No research from experts"
-          noChanges: "No difference to price target"
-          upside: '%n% upside to price target'
-          downside: '%n% downside to price target'
-        profitable:
-          title:
-            positive: "Profitable"
-            negative: "Not Profitable"
-          na: "No forecasts available"
-          text: "EPS forecast"
-        dividends:
-          title: "Forecast"
-          negative:
-            text: "Not paying dividends"
-          positive:
-            text:
-              dividend: 'Dividend'
-              yieldOf: Yield of %n%
-          na: No forecasts available

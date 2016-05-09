@@ -14,6 +14,47 @@ it:
       tos: Condizioni Generali
     pricingData: Tutti i prezzi di chiusura di ieri.
     title: Su Stockflare
+  account:
+    breakdown:
+      columns:
+        actions: Azioni eseguibili
+        gain: Guadagno sui 7 Anni
+        name: Nome della Compagnia
+        price: Oggi
+        purchased: il Prezzo d'Acquisto
+        rating: Classificazione a Stelle
+        shares: numero di azioni
+      empty: Nel conto non sono presenti azioni
+      refresh: aggiorna il tuo conto
+      rows:
+        gain:
+          gain: guadagno
+      title: Disaggregazione del mio portafoglio
+    broker:
+      unlink: scollega il conto intermediario e cancella tutte le informazioni relative al conto
+      unlinkError: non è stato possibile scollegare il tuo conto
+    danger:
+      button: 'scollega l''intermediario '
+      description: Se scolleghi il tuo intermediario verranno eliminati i relativi dettagli archiviati su Stockflare. Cancelleremo tutte le informazioni relative ai conti e alle posizioni, tuttavia conserveremo i dettagli di tutti gli ordini che hai piazzato tramite Stockflare ai fini di eventuali controlli.
+      title: Danger Zone
+    orders:
+      buying: Acquisto a %n
+      columns:
+        action: Azioni eseguibili
+        name: Nome della Compagnia
+        purchased: il Prezzo d'Acquisto
+        sell: Prezzo di vendita
+        shares: numero di azioni
+        total: Totale
+      empty: Non esistono ordini in questo conto
+      limit: Prezzo limite %n
+      market: Prezzo stop %n
+      selling: Vendita a %n
+      shares: '%n quote'
+      title: Negoziazioni
+    pageDescription: Nella pagina del tuo conto sono riportati i dettagli dei titoli presenti nel tuo portafoglio e le intermediazioni connesse, così come i dettagli di tutti gli ordini piazzati tramite Stockflare.
+    pageTitle: Il mio conto di intermediazione collegato
+    power: Potere d'Acquisto
   alerts:
     count: '%n Avvisi'
     headers:
@@ -56,6 +97,7 @@ it:
       create: Nuova Lista
   brokerage:
     brokerages:
+      drivewealth: Drivewealth
       etrade: E-Trade
       fidelity: Fidelity
       ib: Interactive Brokers
@@ -64,6 +106,7 @@ it:
       schwab: Schwab
       scottrade: Scottrade
       td: TD Ameritrade
+      trade_king: Trade King
       trade_station: Trade Station
       tradier: Tradier
     connect:
@@ -82,7 +125,7 @@ it:
         description: Vuoi compiere subito un'operazione? O eseguire l'analisi intelligente del tuo portafoglio?
         title: Negoziazioni attivate
         to_portfolio: Vai al Portafoglio
-        to_stock: Ritorna a %n
+        to_stock: Negozia %n ?
       help:
         assistance:
           description: Se hai bisogno di aiuto per collegare il tuo conto, o se hai domande sul nostro servizio, clicca qui.
@@ -123,11 +166,20 @@ it:
           description: Hai trovato un grande titolo? Connetti il tuo conto di intermediazione e procedi alle operazioni direttamente da Stockflare in modo facile e veloce.
           title: Opera tramite Stockflare
       title: Scegli l'intermediazione
+    flash:
+      positions_not_refreshed: Non è stato possibile contattare il vostro intermediario per aggiornare i vostri titoli
+      positions_refreshed: I vostri titoli di portafoglio sono stati aggiornati
+      positions_refreshing: Aggiornamento dei titoli di portafoglio
     portfolio:
       alerts:
         heading: n% notifiche
       danger_zone:
         button: Disconnetti il conto
+        cancel: 
+        cancel_confirm: 
+        canceled: 
+        canceled_error: 
+        cancelling: 
         warning: La disconnessione del tuo conto di intermediazione eliminerà tutti i tuoi dati archiviati sui nostri server.
       headings:
         power: Potere d'Acquisto
@@ -141,6 +193,8 @@ it:
           filling: In lavorazione
           pending: In attesa
         trades: Negoziazioni in corso
+      unsupported: '%n non supportate'
+      untracked: Non supportato da Stockflare
     trade:
       step_one:
         buying:
@@ -156,17 +210,17 @@ it:
           buy: Compra azioni (%n)
           sell: Vendi azioni (%n)
         errors:
-          buying: 
-          selling: 
+          buying: il prezzo limite di acquisto da te indicato di %n è più basso del prezzo di vendita corrente di %n
+          selling: il prezzo limite di vendita da te indicato di %n è più alto del prezzo di acquisto corrente di %n
         table:
           brokerage: Conto di intermediazione
           cost: Investimento stimato
-          expiration: 
+          expiration: Scadenza
           fees: Commissioni stimate
           return: Ricavi stimati
           shares: Quantità di azioni
           ticker: Sigla di negoziazione
-          type: 
+          type: Tipo di ordine
         title: Anteprima dell'ordine
       step_two:
         advanced:
@@ -734,7 +788,7 @@ it:
         pgk: K%n
         php: ₱%n
         pkr: ₨%n
-        pln: zł%n
+        pln: '%n zł'
         pyg: Gs%n
         qar: ﷼%n
         ron: lei%n
@@ -784,6 +838,7 @@ it:
         zmw: ZK%n
         zwd: Z$%n
     defaultPageTitle: Investire Diventa Facile
+    empty: Vuoto
     languages:
       de: Deutsch
       de-DE: Deutsch
@@ -797,8 +852,8 @@ it:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
-      pt: portoghese
-      pt-PT: portoghese
+      pt: Português
+      pt-PT: Português
       zh-CN: 中文
     loading: Sto caricando...
     login: Login
@@ -822,6 +877,15 @@ it:
       - Giovedì
       - Venerdì
       - Sabato
+      periods:
+        day: '%n giorno'
+        days: '%n giorni'
+        month: '%n mese'
+        months: '%n mesi'
+        week: '%n settimana'
+        weeks: '%n settimane'
+        year: '%n anno'
+        years: '%n anni'
       shortDateFormat: '%d/%m'
       shortDaysOfWeek:
       - Dom
@@ -839,6 +903,7 @@ it:
         alerts: Avvisi sulle Azioni
         graph: Grafico dei Prezzi
         info: Parametri Chiave (Stelle)
+        missing: Questo titolo non è disponibile su Stockflare
         social: Azione
         trade: Acquista o vendi %n
         unavailable: 'Puoi scambiare solo azioni americane '
@@ -868,10 +933,11 @@ it:
       error: Si è verificato un errore
   disclaimers:
     main:
-      first: Stockflare è un servizio che fornisce informazioni. Non diamo né consigli né raccomandazioni. Siamo uno strumento di ricerca per investitori indipendenti.
-      fourth: I 5 parametri chiave di Stockflare, chiamati stelle, sono un modo per confrontare la qualità di un gruppo qualsiasi di stock. Questi parametri vogliono riassumere l'analisi delle azioni riguardo profittabilità, dividendi, crescita, valore e l'opinione di "Wall Street" su ciascuno stock. Sottolineiamo che sono dei parametri per misurare la qualità e sono strumenti di ricerca, non raccomandazioni esplicite o implicite.
-      second: Stockflare prende i dati che utilizza per il servizio da Thomson Reuters, uno dei provider di dati finanziari più importanti nel mondo.
-      third: Presentiamo le previsioni e i consigli di "Wall Street" nel nostro sito. Queste includono riferimenti a "Compra", "Vendi", "Tieni" e "Target Price" per le azioni. Come altri servizi di informazione, Stockflare non conferma queste previsioni, dato che "di doman non c'è certezza". Le opinioni di Wall Street sono soggettive, non oggettive.
+      fifth: I 5 parametri chiave di Stockflare, chiamati stelle, sono un modo per confrontare la qualità di un gruppo qualsiasi di stock. Questi parametri vogliono riassumere l'analisi delle azioni riguardo profittabilità, dividendi, crescita, valore e l'opinione di "Wall Street" su ciascuno stock. Sottolineiamo che sono dei parametri per misurare la qualità e sono strumenti di ricerca, non raccomandazioni esplicite o implicite.
+      first: Stockflare è operato da %_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490}, azienda con sede nel Regno Unito. Stockflare è prima di tutto in servizio d'informazione. Non forniamo consigli né dispensiamo raccomandazioni. Siamo uno strumento di ricerca per investitori autonomi.
+      fourth: Forniamo le previsioni di consenso e le raccomandazioni di "Wall Street" sul nostro sito, inlcusi gli indicatori per "compra" "vendi", "tieni" e  "prezzi obiettivo" per le azioni. Stockflare non valuta le stime. Sfortunatamente, non esistono stime relative al futuro. Le indicazioni di Wall Street sono soggettive, non oggettive, il che significa che sono normalmente erronee.
+      second: I consigli sugli investimenti sono un servizio regolamentato. La nostra filiale statunitense di cui siamo interi proprietari, %_blank(Stockflare USA, Inc.){http://www.adviserinfo.sec.gov/IAPD/IAPDFirmSummary.aspx?ORG_PK=242787}, è una consulente agli investimenti registrata presso la SEC. Se si desidera ricevere una consulenza da StockflareUSA, dare un'occhiata alla %_blank(brochure clienti){http://www.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=371069}.
+      third: I dati sui prezzi di fine giornata, i fondamentali e le stime sono forniti dalla Thomson Reuters. Eventuali dati sui prezzi pervenuti in ritardo per BATS, AMEX, NYSE, e NASDAQ sono forniti da %_blank(Barchart){http://www.barchart.com/agreement.php} e hanno un ritardo di almeno 10 minuti (per ulteriori informazioni visitare il loro sito). Le integrazioni per aziende di intermediazione americane sono effettuate da %_blank(Trading Ticket Inc.){https://www.trade.it/}
     metrics: I 5 test a stelle (parametri chiave) comprendono prefittabilità, dividendi, crescita, valore e il "sentimento" dei prefessionisti di Wall Street. Non sono raccomandazioni ma un modo per confrontare la qualità delle azioni ed evidenziare i rischi principali.
     title: Dettagli legali
     wallStreet: Questa tabella presenta l'upside al prezzo di "Wall Street" e i consigli per le azioni nella tua Lista. Non esistono dati ceri sul futuro, quindi il "consensus" di Wall Street è un'analisi soggettiva, non oggettiva, che Stockflare non può approvare. Noi presentiamo i dati, così i nostri utenti possono leggere cosa pensano gli esperti riguardo un qualsiasi stock.
@@ -879,6 +945,7 @@ it:
   errors:
     api_error: Ops! C'è stato un errore durante la connessione ai nostri server.
     not_found: Diamine! Questa pagina non esiste.
+    stock_not_tradeable: Ci dispiace, ma questo titolo attualmente non è negoziabile.
   explore:
     all: Tutte le Azioni
     biLine: Bisogno di una piccola ispirazione?
@@ -1354,9 +1421,63 @@ it:
       question: Non sei ancora un membro?
       register: Registrati gratis qui
     titles:
+      expired: La tua sessione è scaduta
       login: Login a Stockflare
       mfa: Account Sicuro
       social: Login con un Account Social (Presto Disponibile)
+  mobile:
+    homepage:
+      createAccount: Crea un account gratuito
+      logged:
+        subtitle: Ora è possibile visualizzare gli avvisi e gli incagli
+        title: Bentornato
+      subtitle: Scegli e visualizza le azioni comodamente con il nostro sistema unico
+      title: Investire Diventa Facile
+      viewMore:
+        stocks: Visualizza altre azioni
+        themes: Visualizza più ambiti
+    stock:
+      keyStats:
+        title: Statistiche Chiave
+      starRating:
+        cheap:
+          na: Nessun rapporto PE
+          text: PE %nx vs. concorrenti di %nx
+          title:
+            negative: Più Caro
+            positive: Più Economico
+        dividends:
+          na: Non ci sono previsioni disponibili
+          negative:
+            text: Senza pagamento dividendi
+          positive:
+            text: Dividendo %n. Rendimento del %n%
+          title: Previsione
+        expert:
+          downside: '%n% di downside rispetto al prezzo obiettivo'
+          na: Non sono disponibili ricerche di esperti
+          noChanges: Non ci sono differenze rispetto al prezzo obiettivo
+          title: Opinione degli esperti
+          upside: '%n% di upside rispetto al prezzo obiettivo'
+        profitable:
+          na: Non ci sono previsioni disponibili
+          text: Previsione sugli Utili per Azione (EPS)
+          title:
+            negative: Non redditizio
+            positive: Redditizio
+        profitbale:
+          na: Non ci sono previsioni disponibili
+          text: Previsione sugli Utili per Azione (EPS)
+          title:
+            negative: Non redditizio
+            positive: Redditizio
+        stronger:
+          na: Non ci sono previsioni di crescita
+          text: '%n% di crescita vs. concorrenti con %n%'
+          title:
+            negative: più debole
+            positive: più forte
+        title: Classificazione a Stelle
   onboard:
     controls:
       complete: Finito
@@ -1378,10 +1499,10 @@ it:
         multiples: È possibile creare più Liste in modo facile.
         unlimited: Puoi seguire un numero illimitato di azioni
   portfolios:
-    connected-brokerages: 
+    connected-brokerages: Intermediazioni collegate
     create:
-      button: 
-    watchlists: 
+      button: Nuova intermediazione
+    watchlists: Liste di osservazione
   recover:
     buttons:
       recover: Reimposta la Password
@@ -1483,6 +1604,7 @@ it:
       loading: Aggiornamento delle impostazioni
     descriptions:
       currency: Proiezioni e i valori per la tua Lista sono indicate nella tua valuta preferita usando il tasso di cambio più recente.
+      current: Per effettuare questa modifica sei pregato di inserire la tua password
       delete: Cancellare l'account rimuoverà tutti i tuoi dati personali dai nostri sistemi. Questa azione è irrevocabile.
       error: Spiacenti, c'è stato un problema nell'aggiornamento delle impostazioni.
       language: Seleziona la lingua che preferisci per utilizzare Stockflare.
@@ -1491,6 +1613,7 @@ it:
       mfaDisabled: MFA fornisce un livello ulteriore di sicurezza per il tuo account.
       mfaEnable: Attiva il tuo metodo di autentificazione MFA inserendo due codici validi dopo aver scansionato il codice QR.
       mfaEnabled: Il metodo di autentificazione MFA è attualmente attivo per questo account.
+      password: Lasciare il campo vuoto se non si vuole cambiare la password
     flash:
       delete: Sei sicuro di voler chiudere il tuo account Stockflare?
       deleteError: Spiacenti, c'è stato un errore durante la chiusura dell'account, prego contattare info@stockflare.com
@@ -1503,6 +1626,8 @@ it:
       danger: Danger Zone
       header: Impostazini dell'Utente
       mfa: Metodo di Autentificazione MFA
+      properties: I miei dati
+      protected: Informazioni protette
   stock:
     buttons:
       fiveYears: 5 Anni
@@ -1528,6 +1653,7 @@ it:
       loadError: Errore nel caricamento dell'azione
     graph:
       average: Media
+      empty: Non ci sono ancora dati per questo grafico
       price: Prezzo
       volume: Prezzo & Volume
     growth:
@@ -1548,6 +1674,7 @@ it:
       description: Descrizione della Compagnia
       results: Ultimi Risultati
       statistics: Statistiche Chiave
+      view_all_competitors: Visualizza tutto
     inner:
       description:
         table:
@@ -1865,6 +1992,7 @@ it:
     fields:
       confirmPassword: Conferma la Password
       currency: Valuta
+      current: Password attuale
       email: Indirizzo Email
       language: Lingua
       location: Localizzazione
@@ -2010,5 +2138,6 @@ it:
       inactive: '%n titoli fermi'
       mover: Variazione più forte
       rating: Rating del portafoglio
+      return: Rendimento totale
       stocks: '%n Azioni'
       worth: Valore Totale

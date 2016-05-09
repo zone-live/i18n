@@ -14,6 +14,47 @@ ar:
       tos: 
     pricingData: 
     title: 
+  account:
+    breakdown:
+      columns:
+        actions: 
+        gain: 
+        name: 
+        price: 
+        purchased: 
+        rating: 
+        shares: 
+      empty: 
+      refresh: 
+      rows:
+        gain:
+          gain: 
+      title: 
+    broker:
+      unlink: 
+      unlinkError: 
+    danger:
+      button: 
+      description: 
+      title: 
+    orders:
+      buying: 
+      columns:
+        action: 
+        name: 
+        purchased: 
+        sell: 
+        shares: 
+        total: 
+      empty: 
+      limit: 
+      market: 
+      selling: 
+      shares: 
+      title: 
+    pageDescription: 
+    pageTitle: 
+    power: 
   alerts:
     count: 
     headers:
@@ -56,6 +97,7 @@ ar:
       create: 
   brokerage:
     brokerages:
+      drivewealth: Drivewealth
       etrade: E-Trade
       fidelity: Fidelity
       ib: Interactive Brokers
@@ -64,6 +106,7 @@ ar:
       schwab: Schwab
       scottrade: Scottrade
       td: TD Ameritrade
+      trade_king: Trade King
       trade_station: Trade Station
       tradier: Tradier
     connect:
@@ -123,11 +166,20 @@ ar:
           description: 
           title: 
       title: 
+    flash:
+      positions_not_refreshed: 
+      positions_refreshed: 
+      positions_refreshing: 
     portfolio:
       alerts:
         heading: 
       danger_zone:
         button: 
+        cancel: 
+        cancel_confirm: 
+        canceled: 
+        canceled_error: 
+        cancelling: 
         warning: 
       headings:
         power: 
@@ -141,6 +193,8 @@ ar:
           filling: 
           pending: 
         trades: 
+      unsupported: 
+      untracked: 
     trade:
       step_one:
         buying:
@@ -733,7 +787,7 @@ ar:
         pgk: K%n
         php: ₱%n
         pkr: ₨%n
-        pln: zł%n
+        pln: '%n zł'
         pyg: Gs%n
         qar: ﷼%n
         ron: lei%n
@@ -783,6 +837,7 @@ ar:
         zmw: ZK%n
         zwd: Z$%n
     defaultPageTitle: 
+    empty: 
     languages:
       de: Deutsch
       de-DE: Deutsch
@@ -796,8 +851,10 @@ ar:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
-      pt: البرتغالية
-      pt-PT: البرتغالية
+      pt: |2-
+
+        Português
+      pt-PT: Português
       zh-CN: 中文
     loading: 
     login: 
@@ -814,6 +871,15 @@ ar:
     time:
       dateFormat: 
       daysOfWeek: 
+      periods:
+        day: 
+        days: 
+        month: 
+        months: 
+        week: 
+        weeks: 
+        year: 
+        years: 
       shortDateFormat: 
       shortDaysOfWeek: 
     tooltips:
@@ -824,6 +890,7 @@ ar:
         alerts: 
         graph: 
         info: 
+        missing: 
         social: 
         trade: 
         unavailable: 
@@ -853,6 +920,7 @@ ar:
       error: 
   disclaimers:
     main:
+      fifth: 
       first: 
       fourth: 
       second: 
@@ -864,6 +932,7 @@ ar:
   errors:
     api_error: 
     not_found: 
+    stock_not_tradeable: 
   explore:
     all: 
     biLine: 
@@ -1319,9 +1388,63 @@ ar:
       question: 
       register: 
     titles:
+      expired: 
       login: 
       mfa: 
       social: 
+  mobile:
+    homepage:
+      createAccount: 
+      logged:
+        subtitle: 
+        title: 
+      subtitle: 
+      title: 
+      viewMore:
+        stocks: 
+        themes: 
+    stock:
+      keyStats:
+        title: 
+      starRating:
+        cheap:
+          na: 
+          text: 
+          title:
+            negative: 
+            positive: 
+        dividends:
+          na: 
+          negative:
+            text: 
+          positive:
+            text: 
+          title: 
+        expert:
+          downside: 
+          na: 
+          noChanges: 
+          title: 
+          upside: 
+        profitable:
+          na: 
+          text: 
+          title:
+            negative: 
+            positive: 
+        profitbale:
+          na: 
+          text: 
+          title:
+            negative: 
+            positive: 
+        stronger:
+          na: 
+          text: 
+          title:
+            negative: 
+            positive: 
+        title: 
   onboard:
     controls:
       complete: 
@@ -1448,6 +1571,7 @@ ar:
       loading: 
     descriptions:
       currency: 
+      current: 
       delete: 
       error: 
       language: 
@@ -1456,6 +1580,7 @@ ar:
       mfaDisabled: 
       mfaEnable: 
       mfaEnabled: 
+      password: 
     flash:
       delete: 
       deleteError: 
@@ -1468,6 +1593,8 @@ ar:
       danger: 
       header: 
       mfa: 
+      properties: 
+      protected: 
   stock:
     buttons:
       fiveYears: 
@@ -1493,6 +1620,7 @@ ar:
       loadError: 
     graph:
       average: Average
+      empty: 
       price: 
       volume: 
     growth:
@@ -1513,6 +1641,7 @@ ar:
       description: 
       results: 
       statistics: 
+      view_all_competitors: 
     inner:
       description:
         table:
@@ -1830,6 +1959,7 @@ ar:
     fields:
       confirmPassword: 
       currency: 
+      current: 
       email: 
       language: 
       location: 
@@ -1975,5 +2105,6 @@ ar:
       inactive: 
       mover: 
       rating: 
+      return: 
       stocks: 
       worth: 

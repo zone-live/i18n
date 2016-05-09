@@ -14,6 +14,47 @@ fr:
       tos: Conditions Générales
     pricingData: Toutes les données correspondent à la fermeture d'hier.
     title: À propos de Stockflare
+  account:
+    breakdown:
+      columns:
+        actions: Opérations
+        gain: Gain sur 7 Ans
+        name: Nom de l'Entreprise
+        price: Aujourd'hui
+        purchased: prix d'achat
+        rating: Notation par étoiles
+        shares: nombre d'actions
+      empty: Pas d'intérêts sur votre compte
+      refresh: rafraîchir votre compte
+      rows:
+        gain:
+          gain: gagne
+      title: La Répartition de mon Portefeuille
+    broker:
+      unlink: dissocier le compte de courtier et supprimer toutes les informations de compte
+      unlinkError: Impossible de dissocier le compte
+    danger:
+      button: dissocier le courtier
+      description: Dissocier le courtier supprimera les informations de courtage renseignées auprès de Stockflare. Nous supprimerons tous les comptes et les renseignements de position en notre possession mais conserverons les informations concernant les ordres placées auprès de Stockflare à des fins d'audit.
+      title: Zone de Danger
+    orders:
+      buying: Acheter à %n
+      columns:
+        action: Opérations
+        name: Nom de l'Entreprise
+        purchased: prix d'achat
+        sell: Prix de vente
+        shares: nb. d'actions
+        total: Totale
+      empty: Aucun ordre dans ce compte
+      limit: Prix limite %n
+      market: Prix stop %n
+      selling: Vente à %n
+      shares: '%n actions'
+      title: Trades
+    pageDescription: La page de votre compte contient des données concernant les actions de votre portefeuille avec le courtage associé ainsi que des informations concernant tous les ordres placés auprès de Stockflare
+    pageTitle: Mon compte de courtage connecté
+    power: Pouvoir d’achat
   alerts:
     count: '%n Alertes'
     headers:
@@ -56,6 +97,7 @@ fr:
       create: Nouvelle Liste
   brokerage:
     brokerages:
+      drivewealth: Drivewealth
       etrade: E-Trade
       fidelity: Fidelity
       ib: Interactive Brokers
@@ -64,6 +106,7 @@ fr:
       schwab: Schwab
       scottrade: Scottrade
       td: TD Ameritrade
+      trade_king: Trade King
       trade_station: Trade Station
       tradier: Tradier
     connect:
@@ -82,7 +125,7 @@ fr:
         description: Trader immédiatement ? Ou consultez notre analyse intelligente de votre portefeuille ?
         title: Trading activé
         to_portfolio: Aller au portefeuille
-        to_stock: Retourner à %n
+        to_stock: Trader %n ?
       help:
         assistance:
           description: Cliquez ici si vous avez besoin de notre aide pour vous connecter votre compte ou avez des questions à propos de notre service.
@@ -123,11 +166,20 @@ fr:
           description: Vous avez trouvé un super stock ? Connectez votre compte de courtage, puis tradez rapidement et facilement depuis Stockflare.
           title: Trader via Stockflare
       title: Choisissez le service de courtage
+    flash:
+      positions_not_refreshed: Nous n'avons pu contacter votre courtage pour renouveller vos positions
+      positions_refreshed: Les positions de votre portefeuille ont été mis à jour
+      positions_refreshing: Renouvellement des positions de votre portefeuille
     portfolio:
       alerts:
         heading: n% alertes
       danger_zone:
         button: Déconnectez le compte
+        cancel: 
+        cancel_confirm: 
+        canceled: 
+        canceled_error: 
+        cancelling: 
         warning: Déconnecter votre compte de courtage supprimera l’ensemble des données stockées sur nos serveurs.
       headings:
         power: 'Pouvoir d’achat '
@@ -141,6 +193,8 @@ fr:
           filling: Remplissage en cours
           pending: En attente
         trades: Trades ouverts
+      unsupported: '%n non vérifiés'
+      untracked: Non vérifié par Stockflare
     trade:
       step_one:
         buying:
@@ -156,17 +210,17 @@ fr:
           buy: Acheter des actions (%n)
           sell: Vendre des actions (%n)
         errors:
-          buying: 
-          selling: 
+          buying: votre prix maximal de %n est inférieur au cours vendeur de %n
+          selling: votre prix maximal de %n est supérieur au cours acheteur actuel de de %n
         table:
           brokerage: Compte de courtage
           cost: Coût estimé
-          expiration: 
+          expiration: Expiration
           fees: Frais estimés
           return: Recettes estimées
           shares: Quantité d’actions
           ticker: Ticker
-          type: 
+          type: Type d’ordre
         title: Aperçu de l’ordre
       step_two:
         advanced:
@@ -733,7 +787,7 @@ fr:
         pgk: K%n
         php: ₱%n
         pkr: ₨%n
-        pln: zł%n
+        pln: '%n zł'
         pyg: Gs%n
         qar: ﷼%n
         ron: lei%n
@@ -783,6 +837,7 @@ fr:
         zmw: ZK%n
         zwd: Z$%n
     defaultPageTitle: Investir devient facile
+    empty: Vide
     languages:
       de: Deutsch
       de-DE: Deutsch
@@ -796,8 +851,8 @@ fr:
       it-IT: Italiano
       ja: 日本語
       ja-JP: 日本語
-      pt: Portugais
-      pt-PT: Portugais
+      pt: Português
+      pt-PT: Português
       zh-CN: 中文
     loading: Chargement...
     login: Se Connecter
@@ -821,6 +876,15 @@ fr:
       - Jeudi
       - Vendredi
       - Samedi
+      periods:
+        day: '%n jour'
+        days: '%n jours'
+        month: '%n mois'
+        months: '% mois'
+        week: '%n semaine'
+        weeks: '%n semaines'
+        year: '%n année'
+        years: '%n ans'
       shortDateFormat: '%d/%m'
       shortDaysOfWeek:
       - Dim
@@ -838,6 +902,7 @@ fr:
         alerts: Alertes des actions
         graph: Graphique
         info: 'Indicateurs clés '
+        missing: Ce titre n'est pas sur Stockflare
         social: Partager
         trade: Achat ou vente %n
         unavailable: Vous ne pouvez négocier que des titres américains
@@ -867,10 +932,11 @@ fr:
       error: Une erreur est survenue
   disclaimers:
     main:
-      first: Stockflare est un service d'informations. Nous ne fournissons pas de conseils ni ne faisons de recommandations. Nous sommes un outil de recherche dédié aux investisseurs autonomes.
-      fourth: Les 5 indicateurs clés de Stockflare, sont un moyen de comparer la qualité de n'importe quel groupe de stocks. Ils s'occupent de ce qui a trait à la rentabilité, des dividendes, de la croissance, de l'évaluation, et de l'opinion de "Wall Street"  sur un stock. Nous soulignons que ce sont des outils de mesure de qualité et de recherche. Ils ne sont pas absolument une recommandation explicite ou implicite.
-      second: Stockflare tire ses données de base de Thomson Reuters, l'un des principaux fournisseurs de données financières du monde.
-      third: Nous présentons les prévisions et les recommandations du consensus de "Wall Street" sur notre site. Ceci inclut la référence à "l'Achat", à la "Vente" au "Maintien ", et aux "Prix cibles" des stocks. À l'instar d'autres services d'informations, Stockflare ne cautionne pas ces prévisions. Malheureusement, il n'existe pas de données sur l'avenir. Les points de vue de Wall Street sont subjectifs, et non objectifs.
+      fifth: Les 5 indicateurs clés de Stockflare, sont un moyen de comparer la qualité de n'importe quel groupe de stocks. Ils s'occupent de ce qui a trait à la rentabilité, des dividendes, de la croissance, de l'évaluation, et de l'opinion de "Wall Street"  sur un stock. Nous soulignons que ce sont des outils de mesure de qualité et de recherche. Ils ne sont pas absolument une recommandation explicite ou implicite.
+      first: Stockflare est exploité par %_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490}, une entreprise située au Royaume-Uni.Stockflare est avant tout un service d'informations. Nous ne donnons pas de conseils et ne faisons aucune recommandation. Nous sommes un outil de recherche pour les investisseurs autonomes.
+      fourth: Nous diffusons les consensus et les recommendations de "Wall Street" sur notre site web. Ce qui inclut les références "Acheter", "Vendre", "Détenir" et "Objectifs de Prix" pour les actions. Stockflare n'est pas responsable de ces prévisions. Malheureusement il n'existe aucune donnée concernant l'avenir. Les visions de Wall Sreet sont subjectives, pas objectives. Par exemple, ils se trompent, régulièrement.
+      second: Le conseil en investissement est un service réglementé. Notre filiale dont nous sommes les propriétaires exclusifs aux Etats-Unis, %_blank(Stockflare USA, Inc.){http://www.adviserinfo.sec.gov/IAPD/IAPDFirmSummary.aspx?ORG_PK=242787} est un conseiller en investissement enregistrée à la SEC. Veuillez vous référer à la %_blank(brochure){http://www.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=371069} du client si vous souhaitez recevoir des conseils de Stockflare USA.
+      third: Les données sur les prix à la clôture, les fondamentaux et les estimations sont fournies par Tomson Reuters. Les données sur les prix différées pour BATS, AMEX, NYSE et le Nasdaq sont fournies par %_blank(Barchart){http://www.barchart.com/agreement.php} avec au moins 10 minutes de décalage ; pour plus d'informations, veuillez vous rendre sur leur site web. L'intégration pour les sociétés de courtage est effectuée par %_blank(Trading Ticket Inc.){https://www.trade.it/}.
     metrics: Les 5 indicateurs clés couvrent la rentabilité, les dividendes, la croissance, la valorisation et les indicateurs psychologiques. Ils ne sont pas une recommandation, mais un moyen de comparer la qualité des stocks et de mettre en évidence les principaux risques.
     title: 'Qu''en est-il maintenant de la légalité ! '
     wallStreet: Ce tableau présente le bon côté du prix cible du consensus de "Wall Street" et de la recommandation de consensus des stocks de votre liste de surveillance. Il n'existe pas de données sur l'avenir. Par conséquent, ce consensus est une analyse subjective, non objective. Stockflare ne cautionne pas les points de vue de "Wall Street". Nous présentons ces données, afin que nos utilisateurs puissent avoir l'avis des experts sur un stock.
@@ -878,6 +944,7 @@ fr:
   errors:
     api_error: Oh là là, une erreur s’est produite lors de la liaison avec nos serveurs.
     not_found: Oups, cette page n’existe pas.
+    stock_not_tradeable: Désolé, impossible de négocier ceci pour le moment.
   explore:
     all: Toutes les actions
     biLine: Besoin d'une inspiration ?
@@ -1353,9 +1420,63 @@ fr:
       question: Pas encore membre ?
       register: Inscrivez-vous gratuitement ici
     titles:
+      expired: Votre session a expiré
       login: Connectez-vous à Stockflare
       mfa: Compte Sécurisé
       social: Login avec votre compte de Réseau Social (Bientôt Disponible)
+  mobile:
+    homepage:
+      createAccount: Créez un compte gratuitement
+      logged:
+        subtitle: Vous pouvez maintenant parcourir les alertes et les listes de surveillance
+        title: Bienvenue de nouveau
+      subtitle: Vous pouvez maintenant accéder aux actions et naviguer grâce à notre système unique
+      title: Investir devient facile
+      viewMore:
+        stocks: Voir plus d'actions
+        themes: Voir plus de thèmes
+    stock:
+      keyStats:
+        title: Chiffres Clés
+      starRating:
+        cheap:
+          na: Pas de ratio cours sur bénéfices
+          text: '%nx de ratio cours sur bénéfices contre %nx pour les concurrents '
+          title:
+            negative: Plus Cher
+            positive: Moins Cher
+        dividends:
+          na: Aucune prévision disponible
+          negative:
+            text: Pas de paiement de dividendes
+          positive:
+            text: '%n de dividende. Rendement de %n%'
+          title: Prévision
+        expert:
+          downside: Objectif de prix en baisse de %n%
+          na: Aucune recherche par les experts
+          noChanges: Pas de différence dans l'objectif de prix
+          title: Opinion d'experts
+          upside: Objectif de prix en hausse de %n%
+        profitable:
+          na: Aucune prévision disponible
+          text: Prévision de bénéfices par action
+          title:
+            negative: Non rentable
+            positive: Rentable
+        profitbale:
+          na: Aucune prévision disponible
+          text: Prévision de bénéfices par action
+          title:
+            negative: Non rentable
+            positive: Rentable
+        stronger:
+          na: Aucune croissance prévue
+          text: '%n% de croissance contre %n% pour les concurrents'
+          title:
+            negative: plus faible
+            positive: plus forte
+        title: Notation par étoiles
   onboard:
     controls:
       complete: Terminé
@@ -1377,10 +1498,10 @@ fr:
         multiples: Créez facilement de nombreuses Listes
         unlimited: Suivez un nombre illimité d'actions
   portfolios:
-    connected-brokerages: 
+    connected-brokerages: Comptes de courtage connectés
     create:
-      button: 
-    watchlists: 
+      button: Nouveau compte de courtage
+    watchlists: Listes à suivre
   recover:
     buttons:
       recover: Réinitialiser mon Mot de Passe
@@ -1482,6 +1603,7 @@ fr:
       loading: Mettre les Réglages à jour
     descriptions:
       currency: Projections et des valeurs Liste sont indiqués dans votre devise préférée, à taux de change le plus récent.
+      current: Veuillez saisir votre mot de passe actuel pour cette modification
       delete: Résilier votre compte supprimera vos données personnelles de nos systèmes. Cette action est irrévocable.
       error: 'Excusez-nous, nous avons rencontré un problème en mettant à jour vos réglages :'
       language: Sélectionnez la langue dans laquelle vous préférez utiliser Stockflare.
@@ -1490,6 +1612,7 @@ fr:
       mfaDisabled: Une clé d'authentification MFA un niveau de sécurité supplémentaire pour votre compte.
       mfaEnable: Activez votre clé d'authentification MFA pour votre compte en scannant le code QR ci-dessous, puis en entrant deux codes valides.
       mfaEnabled: Une clé d'authentification MFA est actuellement activée pour ce compte.
+      password: Laissez vierge si vous ne souhaitez pas changer votre mot de passe
     flash:
       delete: Êtes vous sûrs de vouloir résilier votre compte Stockflare ?
       deleteError: Excusez-nous, une erreur est survenue pendant la résiliation de votre compte, veuillez contacter info@stockflare.com
@@ -1502,6 +1625,8 @@ fr:
       danger: Zone de Danger
       header: Réglages d'Utilisateur
       mfa: Clé d'authentification MFA
+      properties: Mon compte
+      protected: Données protégées
   stock:
     buttons:
       fiveYears: 5 ans
@@ -1527,6 +1652,7 @@ fr:
       loadError: Erreur de chargement de l'action
     graph:
       average: Moyenne
+      empty: Aucune donnée sur ce graphique pour l'instant
       price: Cours
       volume: Cours & Volume
     growth:
@@ -1547,6 +1673,7 @@ fr:
       description: Description de l'Entreprise
       results: Derniers Résultats
       statistics: Chiffres Clés
+      view_all_competitors: Tout voir
     inner:
       description:
         table:
@@ -1866,6 +1993,7 @@ fr:
     fields:
       confirmPassword: Confirmez le mot de passe
       currency: Devise
+      current: Mot de passe actuel
       email: Adresse email
       language: Langue
       location: Localisation
@@ -2011,5 +2139,6 @@ fr:
       inactive: '%n Inactifs'
       mover: Plus Gros Moteur
       rating: Avis sur ce Portefeuille
+      return: Revenu total
       stocks: '%n Actions'
       worth: Valeur Totale
