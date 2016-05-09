@@ -2061,6 +2061,23 @@ en:
       unlink: "Unlink broker %n and delete account information"
       unlinkError: "Cound not unlink your account"
   mobile:
+    alerts:
+      title: Alerts
+      subtitle: "Here are your alerts for the stocks you're currently watching"
+    common:
+      delete:
+        confirmation: Are you sure you want to delete '%n'?
+      cancel: Cancel
+      confirm: Yes
+      ok: OK
+      complete: Complete
+      form:
+        email: Email Address
+        password: 'Password'
+        newPassword: Desired Password
+    explore:
+      title: Explore stocks
+      subtitle: Explore our stocks that we've put into convenient buckets
     homepage:
       title: "Pick stocks easily"
       subtitle: "Pick and Browse stocks easily with our unique system"
@@ -2071,29 +2088,41 @@ en:
       logged:
         title: "Welcome back"
         subtitle: "You can now browse alerts and watchlist"
+    forgotPassword:
+      button: Request New Password
+      sent: Password sent
+      confirmation: Please check your registered email address
+      backButton: Back Home
+    search:
+      title: Searching 53,000 Stocks
+      subtitle: "We'are going on an adventure"
+      noResults: Sorry we can't find anything
     stock:
+      latest: Latest results
+      visit: Visit
+      million: million
       keyStats:
-        title: "Key Stats"
+        title: Key Stats
       starRating:
-        title: "Star Rating"
+        title: Star Rating
         cheap:
           title:
-            positive: "Cheap"
-            negative: "Expensive"
-          na: "No PE Ratio"
-          text: '%nx PE vs. competitors on %nx'
+            positive: Cheap
+            negative: Expensive
+          na: No PE Ratio
+          text: "%nx PE vs. competitors on %nx"
         stronger:
           title:
             positive: "Stronger"
             negative: "Weaker"
           na: "No growth forecasts"
-          text: '%n% growth vs. competitors with %n%'
+          text: "%n% growth vs. competitors with %n%"
         expert:
           title: "Expert Opinion"
           na: "No research from experts"
           noChanges: "No difference to price target"
-          upside: '%n% upside to price target'
-          downside: '%n% downside to price target'
+          upside: "%n% upside to price target"
+          downside: "%n% downside to price target"
         profitable:
           title:
             positive: "Profitable"
@@ -2106,6 +2135,10 @@ en:
             text: "Not paying dividends"
           positive:
             text:
-              dividend: 'Dividend'
+              dividend: Dividend
               yieldOf: Yield of %n%
           na: No forecasts available
+    watchlist:
+      newWatchlist: Create Watchlist
+      selectWatchlist: Select watchlist
+      subtitle: "Your watchlists are listed by Market Value"
