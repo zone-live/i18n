@@ -2183,8 +2183,8 @@ en:
       delete:
         confirmation: "Are you sure you want to delete '%n'?"
       cancel: Cancel
-      confirm: Yes
-      ok: Ok
+      confirm: "Yes"
+      ok: "Ok"
       complete: Complete
       form:
         email: Email Address
