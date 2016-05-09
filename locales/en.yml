@@ -2140,3 +2140,123 @@ en:
       return: Total Return
       stocks: '%n Stocks'
       worth: Total Worth
+<<<<<<< HEAD
+=======
+  account:
+    pageTitle: "My connected brokerage account"
+    pageDescription: "Your account page contains details of the stocks in your portfolio with the connected brokerage as well as details of all orders placed through Stockflare."
+    power: "Buying Power"
+    danger:
+      title: "Danger Zone"
+      description: "Unlinking your broker will delete your broker details held at Stockflare.  We will delete all accounts and positions information that we hold, however we will retain details of any orders you placed through Stockflare for Audit purposes."
+      button: "Unlink broker"
+    breakdown:
+      title: "Portfolio Breakdown"
+      empty: "No stocks in your account"
+      refresh: "Refresh account positions"
+      columns:
+        name: Name
+        rating: "Star Rating"
+        price: Today
+        purchased: "Purchase Price"
+        shares: "No. Shares"
+        gain: "7 Year Gain"
+        actions: Actions
+      rows:
+        gain:
+          gain: Gain
+    orders:
+      title: "Trades"
+      empty: "No orders in this account"
+      columns:
+        name: Name
+        purchased: "Purchase Price"
+        sell: "Sell Price"
+        shares: "No. Shares"
+        total: "Total"
+    broker:
+      unlink: "Unlink broker %n and delete account information"
+      unlinkError: "Cound not unlink your account"
+  mobile:
+    alerts:
+      title: Alerts
+      subtitle: "Here are your alerts for the stocks you're currently watching"
+    common:
+      delete:
+        confirmation: Are you sure you want to delete '%n'?
+      cancel: Cancel
+      confirm: Yes
+      ok: OK
+      complete: Complete
+      form:
+        email: Email Address
+        password: 'Password'
+        newPassword: Desired Password
+    explore:
+      title: Explore stocks
+      subtitle: Explore our stocks that we've put into convenient buckets
+    homepage:
+      title: "Pick stocks easily"
+      subtitle: "Pick and Browse stocks easily with our unique system"
+      createAccount: "Create Free Account"
+      viewMore:
+        stocks: "View more stocks"
+        themes: "View more themes"
+      logged:
+        title: "Welcome back"
+        subtitle: "You can now browse alerts and watchlist"
+    forgotPassword:
+      button: Request New Password
+      sent: Password sent
+      confirmation: Please check your registered email address
+      backButton: Back Home
+    search:
+      title: Searching 53,000 Stocks
+      subtitle: "We'are going on an adventure"
+      noResults: Sorry we can't find anything
+    stock:
+      latest: Latest results
+      visit: Visit
+      million: million
+      keyStats:
+        title: Key Stats
+      starRating:
+        title: Star Rating
+        cheap:
+          title:
+            positive: Cheap
+            negative: Expensive
+          na: No PE Ratio
+          text: "%nx PE vs. competitors on %nx"
+        stronger:
+          title:
+            positive: "Stronger"
+            negative: "Weaker"
+          na: "No growth forecasts"
+          text: "%n% growth vs. competitors with %n%"
+        expert:
+          title: "Expert Opinion"
+          na: "No research from experts"
+          noChanges: "No difference to price target"
+          upside: "%n% upside to price target"
+          downside: "%n% downside to price target"
+        profitable:
+          title:
+            positive: "Profitable"
+            negative: "Not Profitable"
+          na: "No forecasts available"
+          text: "EPS forecast"
+        dividends:
+          title: "Forecast"
+          negative:
+            text: "Not paying dividends"
+          positive:
+            text:
+              dividend: Dividend
+              yieldOf: Yield of %n%
+          na: No forecasts available
+    watchlist:
+      newWatchlist: Create Watchlist
+      selectWatchlist: Select watchlist
+      subtitle: "Your watchlists are listed by Market Value"
+>>>>>>> 2f2e7d81322c7eb19ec237f30e4e4c8ef67f6e8b
