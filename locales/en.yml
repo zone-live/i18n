@@ -2181,14 +2181,14 @@ en:
       subtitle: "Here are your alerts for the stocks you're currently watching"
     common:
       delete:
-        confirmation: Are you sure you want to delete '%n'?
+        confirmation: "Are you sure you want to delete '%n'?"
       cancel: Cancel
       confirm: Yes
-      ok: OK
+      ok: Ok
       complete: Complete
       form:
         email: Email Address
-        password: 'Password'
+        password: Password
         newPassword: Desired Password
     explore:
       title: Explore stocks
@@ -2209,9 +2209,9 @@ en:
       confirmation: Please check your registered email address
       backButton: Back Home
     search:
-      title: Searching 53,000 Stocks
+      title: "Searching 53,000 Stocks"
       subtitle: "We'are going on an adventure"
-      noResults: Sorry we can't find anything
+      noResults: "Sorry we can't find anything"
     stock:
       latest: Latest results
       visit: Visit
@@ -2249,9 +2249,8 @@ en:
           negative:
             text: "Not paying dividends"
           positive:
-            text:
-              dividend: Dividend
-              yieldOf: Yield of %n%
+            dividend: Dividend
+            yieldOf: "Yield of %n%"
           na: No forecasts available
     watchlist:
       newWatchlist: Create Watchlist
