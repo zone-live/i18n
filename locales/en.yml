@@ -2134,9 +2134,8 @@ en:
           negative:
             text: "Not paying dividends"
           positive:
-            text:
-              dividend: Dividend
-              yieldOf: "Yield of %n%"
+            dividend: Dividend
+            yieldOf: "Yield of %n%"
           na: No forecasts available
     watchlist:
       newWatchlist: Create Watchlist
