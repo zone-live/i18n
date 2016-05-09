@@ -2140,8 +2140,6 @@ en:
       return: Total Return
       stocks: '%n Stocks'
       worth: Total Worth
-<<<<<<< HEAD
-=======
   account:
     pageTitle: "My connected brokerage account"
     pageDescription: "Your account page contains details of the stocks in your portfolio with the connected brokerage as well as details of all orders placed through Stockflare."
