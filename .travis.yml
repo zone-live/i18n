@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+- 2.2.2
+before_script: gem install localeapp
+script: localeapp push locales/en.yml --api-key $LOCALEAPP_API_KEY
+notifications:
+  flowdock:
+    secure: ZKLsJyGGgZQkSO9LvGwUJd4kJdS9LJEazUOfVDcm0ImNipp35nHj2N4QxVsNp/hfka9cTv7q7MstYdDUNXVTpl5CqcuVpSjqlk+yDeFeol5SrpMJ0WFfwszxgU7ERyTJyeqAsfVCO2jCL9lTEgBFpdfEk8WmheWrU9K168mU/Zo=
+env:
+  global:
+    secure: XsVmdtGViJ0Q8MjKogqKkTPl+Q4jM++xZeLCGy4CZziKX/t2D7VPj/nNoit2r48u68xQuYohL4Qpxf7KUSzDWV1xcKwiY7fhrHOX2NIv5sZ3hsod0Jwk28kCbs8i7r+qLn+j4lCy4DlBjaQ6PnuSTTgflRLP2XF1WBKHwRkMpII=
+branches:
+  only:
+    - master
