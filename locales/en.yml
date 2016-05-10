@@ -2190,6 +2190,20 @@ en:
         email: Email Address
         password: Password
         newPassword: Desired Password
+    connect:
+      connecting:
+        title: Loggin In
+        subtitle: These are your brokerage details so we can fetch your portolio
+        status: Connecting
+      connected:
+        title: Trading Activiated
+        subtitle: Below you can choose where to go to
+        portfolioLabel: Go to Portfolio
+      form:
+        username: "Username / Email"
+        connectBtn: "Login to %n"
+      noAccount: "I don't have a brokerage"
+      info: "By clicking 'login' you're agreeing to the terms and conditions set out by Stockflare"
     explore:
       title: Explore stocks
       subtitle: Explore our stocks that we've put into convenient buckets
