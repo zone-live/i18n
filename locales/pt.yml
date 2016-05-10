@@ -7,41 +7,41 @@ pt:
       blog: Blog
       faq: FAQ
       jobs: Ofertas de emprego
-      landing: Primeira vez aqui ?
+      landing: Primeira vez aqui?
       learn: Aprenda
       playground: Recreação
       privacy: Política de Privacidade
       tos: Condições de Utilização
-    pricingData: Todos os preços consoante o fechamento de ontem.
-    title: Acerca de Stockflare
+    pricingData: Todos os preços consoante o fecho de ontem.
+    title: Acerca do Stockflare
   account:
     breakdown:
       columns:
         actions: Atividades
         gain: Ganho Em Sete Anos
-        name: Nome de Companhia
+        name: Nome da Empresa
         price: Hoje
         purchased: Preço de Compra
-        rating: Parâmetros Chave
+        rating: Indicadores Chave
         shares: Quantidade de ações
-      empty: Não há ações em sua conta
-      refresh: Atualizar sua conta
+      empty: Não existem ações na sua conta
+      refresh: Atualizar a sua conta
       rows:
         gain:
           gain: ganho
       title: Detalhes do Portfólio
     broker:
-      unlink: Desvincular a conta de corretor e deletar todas informações da conta
+      unlink: Desvincular a conta do corretor e eliminar todas as informações da conta
       unlinkError: Não foi possível desvincular a sua conta
     danger:
       button: Desvincular corretor
-      description: Ao desvincular seu corretor, você deletará os detalhes de corretor armazenados no Stockflare. Nós deletaremos todas as contas e informações de posições que temos, mas manteremos os detalhes de todos os pedidos que você fez pelo Stockflare, para o caso de uma auditoria.
+      description: Ao desvincular o seu corretor, irá ileminar os detalhes do corretor armazenados no Stockflare. Eliminamos todas as contas e informações de posições que temos, mas mantemos os detalhes de todos os pedidos que fez pelo Stockflare, para o caso de uma auditoria.
       title: Zona de Perigo
     orders:
-      buying: Comprando a %n
+      buying: A comprar a %n
       columns:
         action: Atividades
-        name: Nome de Companhia
+        name: Nome da Empresa
         purchased: Preço de Compra
         sell: Preço de venda
         shares: Quantidade de ações
@@ -49,11 +49,11 @@ pt:
       empty: Não há nenhum pedido nesta conta
       limit: Preço limite %n
       market: Preço Stop %n
-      selling: Vendendo a %n
+      selling: A vender a %n
       shares: '%n ações'
       title: Transações
     pageDescription: A página da sua conta contém detalhes dos títulos no seu portfólio com a corretora conectada, assim como os detalhes de todos os pedidos feitos pelo Stockflare
-    pageTitle: Minha conta de corretor conectada
+    pageTitle: A minha conta de corretor conectada
     power: Poder de Compra
   alerts:
     count: '%n Avisos'
@@ -72,8 +72,8 @@ pt:
       one_month_price_sentiment:
         negative: 'Durante o mês passado o preço da ação diminuiu mais rápido do que os dividendos previstos. '
       rating:
-        negative: Parâmetro chave perdida. Atualmente passa os parâmetros chave %latest_rating.
-        positive: Parâmetro chave passado. Atualmente passa os parâmetros chave %latest_rating.
+        negative: Indicador chave perdido. Atualmente passa os Indicadores chave %latest_rating.
+        positive: Indicador chave passado. Atualmente passa os Indicadores chave %latest_rating.
       recommendation:
         negative: Wall Street rebaixou %previous_recommendation_text para %latest_recommendation_text.
         positive: Wall Street promoveu %previous_recommendation_text para %latest_recommendation_text.
@@ -112,33 +112,33 @@ pt:
     connect:
       broker_connection:
         connected: Sucesso! A sua conta está conectada!
-        connecting: 'Seguro ... Conectando ... '
+        connecting: 'Seguro ... A conectar ... '
         detail: Estamos a criar uma conexâo segura para a sua conta.
-        login: Verificando os Detalhes de Login
+        login: A verificar os Detalhes de Login
       details:
         button: Login & Conecte
-        conditions: Ao selecionar "Login & Conecte" está concordando com os Termos de Serviço de Stockflare.
-        id: ID de Usuário de Corretagem
+        conditions: Ao selecionar "Login & Conecte" está a acordar com os Termos de Serviço de Stockflare.
+        id: ID de Utilizador de Corretagem
         password: Password
-        username: Nome de Usuário de Coretagem
+        username: Nome de Utilizador de Coretagem
       final:
-        description: Fazer uma transação imediatamente? Ou dar um olhada na nossa análise esperta do seu portfólio?
+        description: Realizar uma transação imediatamente? Ou ver primeiro a nossa análise inteligente do seu portfólio?
         title: Comércio Ativado
         to_portfolio: Abrir Portfólio
         to_stock: Negoceie %n ?
       help:
         assistance:
-          description: Clique aqui se precisar de nossa ajuda para conectar a sua conta ou se tiver alguma pergunta sobre o nosso serviço.
+          description: Clique aqui se precisar da nossa ajuda para conectar a sua conta ou se tiver alguma pergunta sobre o nosso serviço.
           title: Precisa de assistência?
         faq:
           description: Aqui estão algumas das perguntas mais importantes que recebemos.
           questions:
-            compare: Como se comparam diferentes companhias de corretagem?
+            compare: Como comparar diferentes Empresas de corretagem?
             fees: Tem alguma taxa?
             secure: Quão segura é a conexâo?
           title: Perguntas Frequentemente Feitas
         no_brokerage:
-          description: 'Dê uma olhada neste artigo, nós comparamos todos os serviços de corretagem a que estamos conectados. '
+          description: 'Dê uma vista de olhos neste artigo, comparamos todos os serviços de corretagem a que estamos conectados. '
           title: Não há corretagem? Não há problema.
       security:
         button: Terminar
@@ -152,24 +152,24 @@ pt:
           sessions: 'Já Está Conectado '
       steps:
         choose: Escolha a Corretagem
-        details: Seus Detalhes
+        details: Detalhes Pessoais
         final: Terminar
         security: Perguntas de Segurança
       teaser:
         alerts:
-          description: 'Não tem tempo suficiente para monitorar o seu portfólio? Deixe que os nossos alertas inteligentes mantenham debaixo de olho os seus investimentos por si. '
+          description: 'Não tem tempo suficiente para monitorizar o seu portfólio? Deixe que sejam os nossos alertas inteligentes a manter debaixo de olho os seus investimentos. '
           title: Arranje Os Nossos Alertas Inteligentes
         encryption:
-          description: 'Nós codificamos todos os dados em Stockflare e colaboramos com os fornecedores de segurança mais conscienciosos, como os Amazon Web Services. '
+          description: 'Codificamos todos os dados em Stockflare e colaboramos com os fornecedores de segurança mais conscienciosos, como os Amazon Web Services. '
           title: Protegido por Criptografia
         trade:
-          description: Encontrou uma boa ação? Conecte a sua conta de corretagem, depois negoceie rapidamente e facilmente por meio de Stockflare.
-          title: Negoceie através de Stockflare
+          description: Encontrou uma boa ação? Conecte a sua conta de corretagem, depois negoceie rapidamente e facilmente através da Stockflare.
+          title: Negoceie através da Stockflare
       title: Conectar Corretagem
     flash:
-      positions_not_refreshed: Nós não conseguimos contatar seu corretor para atualizar suas posições
+      positions_not_refreshed: Não conseguimos contactar o seu corretor para atualizar as suas posições
       positions_refreshed: As posiçõoes do seu portofolio foram atualizadas
-      positions_refreshing: Atualizando as posiçõoes de seu portofolio
+      positions_refreshing: A atualizar as posiçõoes do seu portofolio
     portfolio:
       alerts:
         heading: n% Alertas
@@ -180,7 +180,7 @@ pt:
         canceled: 
         canceled_error: 
         cancelling: 
-        warning: 'Desconectar a sua conta de corretagem irá eliminar todos os seus dados armazenados nos nossos servidores. '
+        warning: 'Ao desconectar a sua conta de corretagem irá eliminar todos os seus dados armazenados nos nossos servidores. '
       headings:
         power: Poder de Compra
       notes:
@@ -190,7 +190,7 @@ pt:
         statuses:
           completed: Completo
           failed: Falhou
-          filling: Arquivando
+          filling: A arquivar
           pending: Pendente
         trades: Transações Abertas
       unsupported: '%n não são compatíveis'
@@ -203,15 +203,15 @@ pt:
         selling:
           price: Atualmente em %n
           title: Vender
-        title: Comprando ou vendendo?
-        tooltip: 'Nós configuramos transações para ordens-limite por omissão, não no mercado, e com o preço marcado pela margem de oferta-procura. Se quiser comprar ou vender independentemente do preço, por favor utilize as Opções Avançadas para mudar o tipo de ordem. Também configuramos transações para expirarem ao final do dia por omissão. Se quiser manter uma ordem aberta indefinitivamente, por favor utilize as Opções Avançadas para selecionar "Disponível até Cancelado". Nota: não oferecemos os seguintes tipos de ordens: "Comprar para Cobrir", "Vender a Descoberto", "Stop com Preço Limite" ou "Stop no Mercado". Se quiser estas opções, por favor informe-nos.    '
+        title: A comprar ou a vender?
+        tooltip: 'Configuramos transações para ordens-limite por omissão, não no mercado, e com o preço marcado pela margem de oferta-procura. Se quiser comprar ou vender independentemente do preço, por favor utilize as Opções Avançadas para mudar o tipo de ordem. Também configuramos transações para expirarem ao final do dia por omissão. Se quiser manter uma ordem aberta indefinitivamente, por favor utilize as Opções Avançadas para selecionar "Disponível até Cancelado". Nota: não oferecemos os seguintes tipos de ordens: "Comprar para Cobrir", "Vender a Descoberto", "Stop com Preço Limite" ou "Stop no Mercado". Se quiser estas opções, por favor informe-nos.    '
       step_three:
         button:
           buy: Comprar ações (%n)
           sell: Vender ações (%n)
         errors:
-          buying: Seu limite de %n é inferior ao preço de venda atual de %n
-          selling: Seu limite de %n é superior ao preço de compra atual de %n
+          buying: O seu limite de %n é inferior ao preço de venda atual de %n
+          selling: O seu limite de %n é superior ao preço de compra atual de %n
         table:
           brokerage: Corretagem
           cost: Custo Estimado
@@ -226,10 +226,10 @@ pt:
         advanced:
           expiration:
             options:
-              day: Expira pelo fim do dia
+              day: Expira ao fim do dia
               gtc: Ordem está disponível até a cancelar
             prompt: Expiração
-            tooltip: Nós configuramos transações para que estejam válidas durante o resto do mesmo dia por omissão. Pode mudar para "Disponível Até Cancelada" (DAC), se assim quiser.
+            tooltip: Configuramos transações para que estejam válidas durante o resto do mesmo dia por omissão. Pode mudar para "Disponível Até Cancelada" (DAC), se assim quiser.
           order_type:
             options:
               limit: Limite de Ordem
@@ -257,7 +257,7 @@ pt:
         to_portfolio: Ir a Portfólio
         to_stocks: Ir a Ações
         update:
-          no_success: A sua ordem ainda não foi completada. Nós lhe enviaremos um email assim que estiver completa.
+          no_success: A sua ordem ainda não foi completada. Iremos enviar um email assim que estiver completa.
           success: Sucesso. A sua ordem está completa. A transação está feita.
       title: Negoceie %n
       tradeupdate:
@@ -902,7 +902,7 @@ pt:
       widget:
         alerts: Alertas de Ações
         graph: Gráfico de Preços
-        info: Parâmetros Chave
+        info: Indicadores Chave
         missing: Este título não está no Stockflare
         social: Ação
         trade: Comprar ou Vender %n
@@ -929,29 +929,29 @@ pt:
       error: Um erro foi encontrado durante a eliminação da sua conta. Por favor contate support@stockflare.com
     titles:
       deleted: Conta Eliminada
-      deleting: Eliminando a Conta...
+      deleting: A eliminar a Conta...
       error: Ocorreu um erro
   disclaimers:
     main:
-      fifth: Os 5 parâmetros chave de Stockflare são uma maneira de comparar a qualidade de ações. Analisam a rentabilidade, crescimento, avaliação e a opinião de "Wall Street" em qualquer ação. Para salientar, estes parâmetros são qualitativos e uma ferramenta de pesquisa. Não são  recomendações, quer explícitas ou implícitas.
-      first: Stockflare é operada por %_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490}, uma companhia com sede no Reino Unido. Stockflare é principalmente um serviço de informação. Nós não damos conselhos e não fazemos recomendações. Somos uma ferramenta de pesquisa para investidores autodirecionados.
-      fourth: Nós apresentamos a previsão de consenso e as recomendações de "Wall Street" em nosso website. Isso inclui referências à "Comprar", "Vender", "Manter", & "Preços Alvo" para ações. Stockflare não endossa essas previsões. Infelizmente, não há dados sobre o futuro. As opiniões de Wall Street são subjetivas, não objetivas. Ou seja, eles erram regularmente.
+      fifth: Os 5 Indicadores chave de Stockflare são uma maneira de comparar a qualidade de ações. Analisam a rentabilidade, crescimento, avaliação e a opinião de "Wall Street" em qualquer ação. Para salientar, estes Indicadores são qualitativos e uma ferramenta de pesquisa. Não são  recomendações, quer explícitas ou implícitas.
+      first: Stockflare é operada por %_blank(Stockflare Limited){https://beta.companieshouse.gov.uk/company/08522490}, uma companhia com sede no Reino Unido. Stockflare é principalmente um serviço de informação. Não damos conselhos e não fazemos recomendações. Somos uma ferramenta de pesquisa para investidores autodirecionados.
+      fourth: Apresentamos a previsão de consenso e as recomendações de "Wall Street" em nosso website. Isso inclui referências à "Comprar", "Vender", "Manter", & "Preços Alvo" para ações. Stockflare não endossa essas previsões. Infelizmente, não há dados sobre o futuro. As opiniões de Wall Street são subjetivas, não objetivas. Ou seja, eles erram regularmente.
       second: Conselho sobre investimento é um serviço regulamentado. Nossa subsidiária integral nos Estados Unidos, %_blank(Stockflare USA, Inc.){http://www.adviserinfo.sec.gov/IAPD/IAPDFirmSummary.aspx?ORG_PK=242787} é um consultor de investimento registrado com a Comissão de Títulos e Câmbio dos Estados Unidos. Por favor veja nosso %_blank(catálogo){http://www.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=371069}para clientes caso deseje receber conselhos da Stockflare USA, Inc.
       third: Informações sobre preços no fim do dia, fundamentos e estimativas são providenciadas por Thomson Reuters. Informações sobre preços atrasados para BATS, AMEX, NYSE, e NASDAQ são providenciadas por %_blank(Barchart){http://www.barchart.com/agreement.php e têm um atraso de pelo menos 10 minutos, para mais informações visite os respectivos websites. A integração para corretoras estadunidenses é providenciada por %_blank(Trading Ticket Inc.){https://www.trade.it/}.
-    metrics: Os 5 parâmetros chave consideram rentabilidade, dividendos, crescimento, avaliação e sentimento. Não são uma recomendação mas sim uma maneira de comparar a qualidade das ações e salientar os riscos principais.
+    metrics: Os 5 Indicadores chave consideram rentabilidade, dividendos, crescimento, avaliação e sentimento. Não são uma recomendação mas sim uma maneira de comparar a qualidade das ações e salientar os riscos principais.
     title: Hora de legalidades!
-    wallStreet: 'Esta tabela apresenta a alta do preço indicativo usando o consenso de "Wall Street" em relação ao consenso recomendado para as ações na sua Lista de Vigia. Não existem dados do futuro, de maneira que este consenso consiste de análise subjetiva e não objetiva. Stockflare não promove o ponto de vista de "Wall Street". Nós apresentamos esta informação para que os nossos usuários possam ver qual é a opinião dos especialistas a respeito a qualquer ação.     '
-    worth: 'Esta tabela combina a receita a longo prazo prevista do consenso de "Wall Street", o rendimento de ações previsto e a reversão-à-média do rácio de PE (PER) previsto. Por este motivo o número de ganhos projetado é calculado à base de análise subjetiva de profissionais e portanto não é objetiva. Stockflare não promove os pontos de vista de "Wall Street". Nós apresentamos esta informação para que os nossos usuários possam ver qual é a opinião dos especialistas a respeito a de uma ação. Não existem dados do futuro. Se as previsões de profissionais forem erradas, os ganhos verdadeiros serão substancialmente diferentes do que os números aqui apresentados.  '
+    wallStreet: 'Esta tabela apresenta a alta do preço indicativo usando o consenso de "Wall Street" em relação ao consenso recomendado para as ações na sua Lista de Vigia. Não existem dados do futuro, de maneira que este consenso consiste de análise subjetiva e não objetiva. Stockflare não promove o ponto de vista de "Wall Street". Apresentamos esta informação para que os nossos usuários possam ver qual é a opinião dos especialistas a respeito a qualquer ação.     '
+    worth: 'Esta tabela combina a receita a longo prazo prevista do consenso de "Wall Street", o rendimento de ações previsto e a reversão-à-média do rácio de PE (PER) previsto. Por este motivo o número de ganhos projetado é calculado à base de análise subjetiva de profissionais e portanto não é objetiva. Stockflare não promove os pontos de vista de "Wall Street". Apresentamos esta informação para que os nossos usuários possam ver qual é a opinião dos especialistas a respeito a de uma ação. Não existem dados do futuro. Se as previsões de profissionais forem erradas, os ganhos verdadeiros serão substancialmente diferentes do que os números aqui apresentados.  '
   errors:
     api_error: Que chatice, houve um erro ao contatar os nossos servidores.
     not_found: Oops, esta página não existe.
     stock_not_tradeable: Desculpe, este título não pode ser negociado no momento.
   explore:
     all: Todas as ações
-    biLine: Necessita um pouco de inspiração ?
+    biLine: Necessita de um pouco de inspiração ?
     categories:
       big-and-cheap:
-        description: Existem muitas grandes companhias com óptimas marcas que os investidores estão escolhendo ignorar. Talvez um dia voltarão a ser favorecidas ?
+        description: Existem muitas grandes Empresas com óptimas marcas que os investidores estão escolhendo ignorar. Talvez um dia voltarão a ser favorecidas ?
         disclaimer: As ações em "Grande e Acessível" são geradas usando um filtro de cada ação nos Estados Unidos que tenha mais de 50 mil milhões $ em valor no mercado e que seja mais barata do que a competição usando um coeficiente de preço-para-receita (PE ou PER).
         filters:
           country: usa
@@ -960,8 +960,8 @@ pt:
           valulation: low_pe
         name: Grande & Acessível
       boring-businesses:
-        description: 'Quem diz que tem de investir na próxima ação popular! Imagine-se a conversar com seus amigos sobre tinta, plásticos, pilhas e esferas de rolamento, esgotos ou produtos sanitários. Existem companhias de testes, negócio veterinários e casas funerárias. Dê uma olhada! '
-        disclaimer: 'As ações em "Negócios Chatos" são produzidas usando um filtro de todas as ações dos Estados Unidos com um valor no mercado excedendo  $ 1 bilhão e que tenham passado pelo menos 1 teste de parâmetros chave (por exemplo, rentabilidade, dividendos, alto crescimento, etc). De seguida, analisamos as ações que correspondem a este filtro a também sejam parte de qualquer dos seguintes sectores: tintas, plásticos, pilhas, rolamentos de esferas, esgotos, produtos sanitários, companhias de testes, negócios de veterinário e casas funerárias.   '
+        description: 'Quem diz que tem de investir na próxima ação popular! Imagine-se a conversar com seus amigos sobre tinta, plásticos, pilhas e esferas de rolamento, esgotos ou produtos sanitários. Existem Empresas de testes, negócio veterinários e casas funerárias. Dê uma olhada! '
+        disclaimer: 'As ações em "Negócios Chatos" são produzidas usando um filtro de todas as ações dos Estados Unidos com um valor no mercado excedendo  $ 1 bilhão e que tenham passado pelo menos 1 teste de Indicadores chave (por exemplo, rentabilidade, dividendos, alto crescimento, etc). De seguida, analisamos as ações que correspondem a este filtro a também sejam parte de qualquer dos seguintes sectores: tintas, plásticos, pilhas, rolamentos de esferas, esgotos, produtos sanitários, Empresas de testes, negócios de veterinário e casas funerárias.   '
         filters:
           country: usa
           market_value_usd: 1000+
@@ -969,7 +969,7 @@ pt:
           sector_code: '5110101011,5110101012,5210201013,5210201014,5210201015,5210201016,5210201017,5210203011,5210203012,5210203013,5210203014,5210203015,5210203016,5210203017,5220304020,5220301012,5310102013,5420102013,5420103018,5610102018,5610201016,5620104014,5710102010,5710102012,5710501013,5910301012'
         name: Negócios Chatos
       cash-heavy:
-        description: Existem algumas companhias que não têm dívidas e estão ocupadas a pagar todo o fluxo de caixa que produzem aos acionistas. Será que são ambas "um monte de dinheiro" e galinhas de ovos de ouro?
+        description: Existem algumas Empresas que não têm dívidas e estão ocupadas a pagar todo o fluxo de caixa que produzem aos acionistas. Será que são ambas "um monte de dinheiro" e galinhas de ovos de ouro?
         disclaimer: As ações em "Um Monte De Dinheiro" são produzidas usando um filtro de cada ação nos Estados Unidos avaliadas acima de $500 milhões que tenham uma posição de caixa líquido no balanço a paga dividendos significativos (por exemplo, rendimentos acima de 4%).
         filters:
           country: usa
@@ -979,7 +979,7 @@ pt:
         name: Um monte de dinheiro
       coffee-cake:
         description: Invista nos pequenos prazeres da vida, sem o sentimento de culpa como quando se abusa do açúcar.
-        disclaimer: 'As ações de "Café & Bolos" são produzidas usando um filtro de cada ação no mundo avaliadas no mercado acima de $500 milhões e que tenha passado pelo menos 2 testes de parâmetros chave (por exemplo rentabilidade, paga dividendos, etc). Nós depois analisamos as ações que correspondem a este filtro e pertencem aos seguintes setores: cafés, plantações de café & cana de açúcar,  fabricantes de biscoitos , adoçantes & confeitaria.'
+        disclaimer: 'As ações de "Café & Bolos" são produzidas usando um filtro de cada ação no mundo avaliadas no mercado acima de $500 milhões e que tenha passado pelo menos 2 testes de Indicadores chave (por exemplo rentabilidade, paga dividendos, etc). Depois analisamos as ações que correspondem a este filtro e pertencem aos seguintes setores: cafés, plantações de café & cana de açúcar,  fabricantes de biscoitos , adoçantes & confeitaria.'
         filters:
           market_value_usd: 500+
           rating: 2+
@@ -987,7 +987,7 @@ pt:
         name: Café & Bolos
       gem-stones:
         description: 'Será que diamantes são o melhor amigo do investidor? Diamantes, pedras preciosas, pescadores de pérolas. Todas são opções para deslumbrar o investidor. '
-        disclaimer: 'As ações em "Pedras Preciosas" são produzidas usando um filtro de cada ação no mundo avaliadas no mercado acima de $100 milhões e que tenha passado pelo menos 1 teste de parâmetros chave (por exemplo rentabilidade). Nós depois analisamos as ações que pertencem aos seguintes setores: mineração de diamantes, pedras semi-preciosas, pérolas.'
+        disclaimer: 'As ações em "Pedras Preciosas" são produzidas usando um filtro de cada ação no mundo avaliadas no mercado acima de $100 milhões e que tenha passado pelo menos 1 teste de Indicadores chave (por exemplo rentabilidade). Depois analisamos as ações que pertencem aos seguintes setores: mineração de diamantes, pedras semi-preciosas, pérolas.'
         filters:
           market_value_usd: 100+
           rating: 1+
@@ -995,7 +995,7 @@ pt:
         name: Pedras Preciosas
       going-nuclear:
         description: Energia nuclear não é inteiramente limpa mas no que toca a um mundo pós-petróleo, está a par com energias renováveis, lutando para prover energia ao nosso planeta.
-        disclaimer: 'As ações em "Vire Nuclear" são produzidas usando um filtro de cada ação no mundo avaliadas no mercado acima de $100 milhões e que tenha passado pelo menos 1 teste de parâmetro chave (por exemplo, rentabilidade). Nós depois analisamos as ações que pertencem aos seguinte setores: urânio, componentes nucleares & construção, utlitários nucleares. '
+        disclaimer: 'As ações em "Vire Nuclear" são produzidas usando um filtro de cada ação no mundo avaliadas no mercado acima de $100 milhões e que tenha passado pelo menos 1 teste de parâmetro chave (por exemplo, rentabilidade). Depois analisamos as ações que pertencem aos seguinte setores: urânio, componentes nucleares & construção, utlitários nucleares. '
         filters:
           market_value_usd: 100+
           rating: 1+
@@ -1010,7 +1010,7 @@ pt:
           sentiment: hated
         name: Odiados por Wall Street
       healthy-tech:
-        description: Companhias de biotecnologia estão fazendo avanços maravilhosos todos os dias. Por que não apoiar os ciêntistas que estão resolvendo os problemas mais difíceis na área da Saúde?
+        description: Empresas de biotecnologia estão fazendo avanços maravilhosos todos os dias. Por que não apoiar os ciêntistas que estão resolvendo os problemas mais difíceis na área da Saúde?
         disclaimer: 'As ações em "Tecnologia Saudável" são produzidas usando um filtro de cada ação nos Estados Unidos com um valor avaliado acima de $1 blihão no mercado que esteja nos seguintes setores: biofármacos, biotecnologia e pesquisa médica. '
         filters:
           country: usa
@@ -1027,7 +1027,7 @@ pt:
         name: Terra & Mar
       legal-eagles:
         description: Advogados e contabilistas são apenas um custo, também se pode investir neles!
-        disclaimer: 'As ações em "Advogados Peritos" são produzidas usando um filtro de cada ação na região das Américas com um valor avaliado no mercado acima de $50 mlihões e que tenha passado pelo menos 1 teste de parâmetros chave (por exemplo, rentabilidade, etc.) Nós depois analisamos as ações que estejam em qualquer dos seguintes setores:  contabilidade & serviços legais, fornecedores de informação legal & impostos.'
+        disclaimer: 'As ações em "Advogados Peritos" são produzidas usando um filtro de cada ação na região das Américas com um valor avaliado no mercado acima de $50 mlihões e que tenha passado pelo menos 1 teste de Indicadores chave (por exemplo, rentabilidade, etc.) Depois analisamos as ações que estejam em qualquer dos seguintes setores:  contabilidade & serviços legais, fornecedores de informação legal & impostos.'
         filters:
           market_value_usd: 50+
           rating: 1+
@@ -1036,7 +1036,7 @@ pt:
         name: Advogados Peritos
       renewables:
         description: 'Se quiser investir num mundo pós petróleo, existem muitas empresas que trabalham no mercado de energias renováveis. Esta tecnologia e produtos variam desde Eólica e Solar até Ondas e Hidrogénio. Aqui está uma lista das principais nas Américas. '
-        disclaimer: 'As ações em "Renováveis" são produzidas usando um filtro de cada ação na região das Américas que tenha passado pelo menos 3 testes de parâmetros chave (por exemplo, rentabilidade, etc.). Nós depois analisamos as ações que estejam em qualquer dos seguintes setores: energias renováveis, utilidades renováveis. '
+        disclaimer: 'As ações em "Renováveis" são produzidas usando um filtro de cada ação na região das Américas que tenha passado pelo menos 3 testes de Indicadores chave (por exemplo, rentabilidade, etc.). Depois analisamos as ações que estejam em qualquer dos seguintes setores: energias renováveis, utilidades renováveis. '
         filters:
           rating: 3+
           region: amer
@@ -1044,7 +1044,7 @@ pt:
         name: Renováveis
       ship-it:
         description: 'Se quiser enviar encomendas em massa, pelo mar é a melhor maneira. É tão fácil investir tanto em barcos de lazer como em super petroleiros. '
-        disclaimer: 'As ações em "Envia-lo!" são produzidas usando um filtro de cada ação no mundo com um valor acima de $500 milhões no mercado que tenha passado pelo menos um teste de parâmetro chave (por exemplo, rentabilidade). Nós depois analisamos as ações que pertençam em qualquer dos seguintes setores: petroleiros marítimos, construção naval, frete marítimo & logística, iates e barcos a motor, serviços portuários marítimos.'
+        disclaimer: 'As ações em "Envia-lo!" são produzidas usando um filtro de cada ação no mundo com um valor acima de $500 milhões no mercado que tenha passado pelo menos um teste de parâmetro chave (por exemplo, rentabilidade). Depois analisamos as ações que pertençam em qualquer dos seguintes setores: petroleiros marítimos, construção naval, frete marítimo & logística, iates e barcos a motor, serviços portuários marítimos.'
         filters:
           market_value_usd: 500+
           rating: 1+
@@ -1059,7 +1059,7 @@ pt:
         name: Corrida ao espaço
       sporting-outdoors:
         description: 'Também pode apoiar uma equipa de desporto no mercado. Ou usar as cores de equipa. Ou ser o dono do estádio. '
-        disclaimer: 'As ações em "Desportos Ao Ar Livre" são produzidas usando um filtro de cada ação no mundo que tenha passado pelo menos 1 teste de parâmetros chave (por exemplo, rentável etc). Nós depois analisamos as ações que pertençam a qualquer dos seguintes setores: calçado & roupa de desporto ao ar livre, produtos de lazer ao ar livre, ginásios, estâncias de esqui, recintos desportivos, campos de golfe, lojas de produtos desportivos, retalhistas de produtos ao ar livre.'
+        disclaimer: 'As ações em "Desportos Ao Ar Livre" são produzidas usando um filtro de cada ação no mundo que tenha passado pelo menos 1 teste de Indicadores chave (por exemplo, rentável etc). Depois analisamos as ações que pertençam a qualquer dos seguintes setores: calçado & roupa de desporto ao ar livre, produtos de lazer ao ar livre, ginásios, estâncias de esqui, recintos desportivos, campos de golfe, lojas de produtos desportivos, retalhistas de produtos ao ar livre.'
         filters:
           market_value_usd: 100+
           rating: 1+
@@ -1074,7 +1074,7 @@ pt:
         name: Nas Calmas
       tech-titans:
         description: 'Se a "tecnologia está comendo o mundo", então aqui está uma escolha seleta de empresas desfrutando de suas refeições. '
-        disclaimer: 'As ações em "Titãs da Tecnologia" são produzidas usando um filtro de cada ação no mundo avaliadas no mercado acima de $10 bilhões e que tenha passado pelo menos 1 teste de parâmetros chave (por exemplo, rentável etc.) Nós depois analisamos as ações que estejam no seguinte setor: Tecnologia.'
+        disclaimer: 'As ações em "Titãs da Tecnologia" são produzidas usando um filtro de cada ação no mundo avaliadas no mercado acima de $10 bilhões e que tenha passado pelo menos 1 teste de Indicadores chave (por exemplo, rentável etc.) Depois analisamos as ações que estejam no seguinte setor: Tecnologia.'
         filters:
           financial: large
           market_value_usd: 10000+
@@ -1083,7 +1083,7 @@ pt:
         name: Titãs da Tecnologia
       thirsty:
         description: 'Poucas coisas são tão essenciais como a água limpa. À medida que a população cresce, assim também deve crescer a procura. '
-        disclaimer: 'As ações em "Sede?" são produzidas usando um filtro para cada ação nos Estados Unidos que tenha passado pelo menos 1 teste de parâmetros chave (por exemplo, rentável etc.). Nós depois analisamos as ações que pertençam a qualquer um dos seguintes setores: água & construção de esgotos, água engarrafada & gelo, serviços públicos de água.'
+        disclaimer: 'As ações em "Sede?" são produzidas usando um filtro para cada ação nos Estados Unidos que tenha passado pelo menos 1 teste de Indicadores chave (por exemplo, rentável etc.). Depois analisamos as ações que pertençam a qualquer um dos seguintes setores: água & construção de esgotos, água engarrafada & gelo, serviços públicos de água.'
         filters:
           country: usa
           market_value_usd: 500+
@@ -1092,7 +1092,7 @@ pt:
         name: Sede?
       timber:
         description: 'Quer investir em florestas, serrarias ou negócias de madeira? Aqui estão os maiores jogadores nos EU e no Canadá. '
-        disclaimer: 'As ações em "Madeira!" são produzidas usando um filtro de cada ação nos Estados Unidos & Canadá avaliados no mercado acima de $100 milhões e que tenha passado pelo menos 2 testes de parâmetros chave (por exemplo, rentável etc.). Nós depois analisamos as ações que estejam em qualquer um dos seguintes setores: papel & produtos forestais, contentores de madeira & embalagens, fundo de investimento imobiliário de madeireiras. '
+        disclaimer: 'As ações em "Madeira!" são produzidas usando um filtro de cada ação nos Estados Unidos & Canadá avaliados no mercado acima de $100 milhões e que tenha passado pelo menos 2 testes de Indicadores chave (por exemplo, rentável etc.). Depois analisamos as ações que estejam em qualquer um dos seguintes setores: papel & produtos forestais, contentores de madeira & embalagens, fundo de investimento imobiliário de madeireiras. '
         filters:
           country: usa,cad
           market_value_usd: 100+
@@ -1100,8 +1100,8 @@ pt:
           sector_code: '5130101010,5130101011,5130101012,5130101013,5130101014,5130101015,5130101016,5130102010,5130102011,5130102012,5130102013,5130102014,5130201015,5130202010,5130202011,5540304014'
         name: Madeira!
       time-online:
-        description: Com a internet tirando cada vez mais tempo da TV, está claro quem está liderando. Quer investir nas companhias que usa?
-        disclaimer: 'As ações em "Tempo Online" são produzidas usando um filtro de cada ação nos Estados Unidos avaliadas no mercado acima de $10 bilhões que tenha passado pelo menos 1 teste de parâmetros chave (por exemplo, rentável etc.). Nós depois analisamos as ações que estejam em qualquer um dos seguintes setores: Serviços de Internet.'
+        description: Com a internet tirando cada vez mais tempo da TV, está claro quem está liderando. Quer investir nas Empresas que usa?
+        disclaimer: 'As ações em "Tempo Online" são produzidas usando um filtro de cada ação nos Estados Unidos avaliadas no mercado acima de $10 bilhões que tenha passado pelo menos 1 teste de Indicadores chave (por exemplo, rentável etc.). Depois analisamos as ações que estejam em qualquer um dos seguintes setores: Serviços de Internet.'
         filters:
           country: usa
           market_value_usd: 10000+
@@ -1110,7 +1110,7 @@ pt:
         name: Tempo Online
       vice-not-nice:
         description: Esqueceu sua moralidade? Quer investir em drogas, álcool, jogos de aposta, armas e outros provedores de vício?
-        disclaimer: 'As ações em "Vícios" são produzidas usando um filtro de cada ação nos Estados Unidos avaliadas no mercado acima de $500 milhões que tenha passado pelo menos 2 testes de parâmetros chave (por exemplo rentável etc). Nós depois analisamos as ações que estejam em qualquer um dos seguintes setores: fabrico de armamento, pubs & clubes noturnos, casinos & jogo, entretenimento adulto e retalhistas, cervejeiros & destiladores, cerveja & tabacarias. '
+        disclaimer: 'As ações em "Vícios" são produzidas usando um filtro de cada ação nos Estados Unidos avaliadas no mercado acima de $500 milhões que tenha passado pelo menos 2 testes de Indicadores chave (por exemplo rentável etc). Depois analisamos as ações que estejam em qualquer um dos seguintes setores: fabrico de armamento, pubs & clubes noturnos, casinos & jogo, entretenimento adulto e retalhistas, cervejeiros & destiladores, cerveja & tabacarias. '
         filters:
           country: usa
           market_value_usd: 500+
@@ -1119,7 +1119,7 @@ pt:
         name: Vícios
       young-and-old:
         description: 'Desde roupas até brinquedos, não importa a idade. Existe uma opção de investimento para toda a gente. '
-        disclaimer: 'As ações em "Miúdo & Graúdo" são produzidas usando um filtro de cada ação nos Estados Unidos avaliadas no mercado acima de $1 bilhão que tenham passado pelo menos 2 testes de parâmetros chave (por exemplo, rentável etc). Nós depois analisamos as ações que estejam em qualquer um dos seguintes setores: calçado & roupa de criança, lares de idosos, brinquedos, linhas de cruzeiro, retalhistas de crianças & adolescentes, comida para bebé, produtos de controlo de natalidade, cuidados infantis, serviços funerários, óculos & lentes de contato, cuidados de longa duração.'
+        disclaimer: 'As ações em "Miúdo & Graúdo" são produzidas usando um filtro de cada ação nos Estados Unidos avaliadas no mercado acima de $1 bilhão que tenham passado pelo menos 2 testes de Indicadores chave (por exemplo, rentável etc). Depois analisamos as ações que estejam em qualquer um dos seguintes setores: calçado & roupa de criança, lares de idosos, brinquedos, linhas de cruzeiro, retalhistas de crianças & adolescentes, comida para bebé, produtos de controlo de natalidade, cuidados infantis, serviços funerários, óculos & lentes de contato, cuidados de longa duração.'
         filters:
           country: usa
           market_value_usd: 1000+
@@ -1134,24 +1134,24 @@ pt:
     company_tags:
       descriptions:
         growing: 'Vendas & Lucro-por-Ação (Sales and Earnings-per-Share) previstas para aumentar este ano, em relação ao ano passado. '
-        has_cash: Companhias com mais dinheiro & investimentos do que dívidas.
+        has_cash: Empresas com mais dinheiro & investimentos do que dívidas.
         high_growth: Previsto aumentar lucros mais rápido que 16%, a longo termo
-        large: Companhias avaliadas acima de $10 blilhões de dólares EUA.
+        large: Empresas avaliadas acima de $10 blilhões de dólares EUA.
         pays_dividends: Empresas que pagam dividendos aos acionistas.
         profitable: Rentável, ano passado & previsto para este ano.
         small: 'Empresas avaliadas abaixo de $1 bilhão de dólares EU. '
         turning_profitable: Previsto para ser rentável este ano, depois de prejuízos no ano passado.
       titles:
-        default: Parâmetros de Negócios
+        default: Indicadores de Negócios
         filters:
           growing: Crescendo
           has_cash: Tem Numerário & Investimentos
           high_growth: Alto Crescimento Apenas
-          large: Grandes Companhias Apenas
+          large: Grandes Empresas Apenas
           pays_dividends: Paga Dividendos Apenas
           profitable: Rentável Hoje
-          small: Pequenas Companhias Apenas
-          turning_profitable: Virando Rentável
+          small: Pequenas Empresas Apenas
+          turning_profitable: A tornar-se Rentável
     country:
       search: Pesquise por nome de País
       titles:
@@ -1189,7 +1189,7 @@ pt:
       profitable:
         description: A companhia é rentável?
         title: Rentável
-      title: Parâmetros Chave
+      title: Indicadores Chave
       upside:
         description: Wall Street pensa que a ação vale mais do que o preço atual?
         title: Tem Alta
@@ -1202,10 +1202,10 @@ pt:
       orders:
         latest_market_value_usd: Valor de Mercado
         latest_price: Preço
-        latest_rating: Parâmetros Chave
+        latest_rating: Indicadores Chave
         market_value_usd: Valor de Mercado
         price: Preço
-        rating: Parâmetros Chave
+        rating: Indicadores Chave
     panel:
       description: 'Pode aplicar muitos filtros das opções abaixo para encontrar a sua ação perfeita. '
       title: Usar Filtros
@@ -1246,8 +1246,8 @@ pt:
           unknown: Desconhecido pela Wall Street
     style:
       descriptions:
-        growth: Companhias que crescem mais rápido do que competidores a longo prazo.
-        quality: Companhias que são baratas & previstas para crescerem fortemente.
+        growth: Empresas que crescem mais rápido do que competidores a longo prazo.
+        quality: Empresas que são baratas & previstas para crescerem fortemente.
         value: 'Compahnias que são mais baratas do que os competidores. '
       titles:
         default: Estilo de Investimento
@@ -1354,7 +1354,7 @@ pt:
       stats:
         analyzed: Ações Totais
         countries: Países
-        stocks: Todos os 5 Parâmetros
+        stocks: Todos os 5 Indicadores
       tease: O que é a Stockflare?
     mobile:
       content:
@@ -1372,15 +1372,15 @@ pt:
     pageTitle: Escolha Ações Facilmente
     question:
       content:
-        copy: Fazer pesquisas sobre ações não precisa ser complicado. Stockflare busca parâmetros chave em qualquer ação do mundo rapidamente.
+        copy: Fazer pesquisas sobre ações não precisa ser complicado. Stockflare busca Indicadores chave em qualquer ação do mundo rapidamente.
         title: O que é Stockflare?
     rating:
       content:
-        copy: Sente-se soterrado por todos os termos financeiros profissionais atirados a si? Olhe para os parâmetros chave em qualquer ação. Livre-se da confusão, veja os fatos.
+        copy: Sente-se soterrado por todos os termos financeiros profissionais atirados a si? Olhe para os Indicadores chave em qualquer ação. Livre-se da confusão, veja os fatos.
         point: 'Pesquise ações com facilidade. Melhore como investe. '
         reveal:
           notRevealing: Dê uma olhada em %n
-          revealing: '%n passa %n dos testes de parâmetros chave'
+          revealing: '%n passa %n dos testes de Indicadores chave'
         title: Vá à informação chave, rapidamente.
       ratings:
         cheaper: 'É Acessível ou Caro?  '
@@ -1477,7 +1477,7 @@ pt:
           title:
             negative: mais fraco
             positive: mais forte
-        title: Parâmetros Chave
+        title: Indicadores Chave
   onboard:
     controls:
       complete: Completo
@@ -1485,7 +1485,7 @@ pt:
       prev: Anterior
       skip: Pule
     subtitles:
-      pick: Aqui estão algumas das maiores companhias dos EU. Porque não adicioná-las à sua Lista de Vigia?
+      pick: Aqui estão algumas das maiores Empresas dos EU. Porque não adicioná-las à sua Lista de Vigia?
       register: 'Aceda todas as nossas ótimas características '
       watchlist: Listas de Vigia são listas de ações que possui ou quer vigiar
     titles:
@@ -1669,7 +1669,7 @@ pt:
       percentChange: 'Percentagem de Diferença '
       price: Preço de Ação
     information:
-      breakdown: Parâmetros Chave
+      breakdown: Indicadores Chave
       competitors: Competidores
       description: Descrição de Companhia
       results: Resultados Mais Recentes
@@ -1713,7 +1713,7 @@ pt:
           roe: Rentabilidade dos Capitais Próprios (%) Vs. os 5 Maiores Competidores
           salesForecast: Vendas Previstas e Lucro Líquido
       panel:
-        description: Pode encontrar aqui informação detalhada sobre %n, incluindo comparações de rivais em parâmetros chave.
+        description: Pode encontrar aqui informação detalhada sobre %n, incluindo comparações de rivais em Indicadores chave.
         title: Detalhes
       peers:
         table:
@@ -1722,11 +1722,11 @@ pt:
           growth: Crescimento
           name: Nome de Companhia
           pe: Rácio P/LPA
-          rating: Parâmetros Chave
+          rating: Indicadores Chave
           ric: RIC
           upside: Alta
         titles:
-          main: 'Companhias Competidoras '
+          main: 'Empresas Competidoras '
       profitable:
         titles:
           epsForecast: EPS Previsto a Curto Prazo
@@ -1735,7 +1735,7 @@ pt:
       stats:
         data:
           table:
-            cheaperOn: Mais barato do que rivais em %n de 10 parâmetros
+            cheaperOn: Mais barato do que rivais em %n de 10 Indicadores
             headers:
               cheaper: Mais barato?
               competitors: Competidores
@@ -1807,7 +1807,7 @@ pt:
         title: Resultados Mais Recentes
       peers:
         description:
-          valid: Esta ação tem %n competidores. Compare os parâmetros chave em Stockflare.
+          valid: Esta ação tem %n competidores. Compare os Indicadores chave em Stockflare.
         title: Lista de Rivais
       profitable:
         description:
@@ -1819,7 +1819,7 @@ pt:
           terms:
             cheaper: mais barato
             expensive: caro
-          valid: Esta ação tem um valor no mercado de %n e a sua valuação é %n baseado em %n dos nossos 9 parâmetros. Veja mais em Stockflare.
+          valid: Esta ação tem um valor no mercado de %n e a sua valuação é %n baseado em %n dos nossos 9 Indicadores. Veja mais em Stockflare.
         title: Estatísticas Chave
       upside:
         description:
@@ -1851,7 +1851,7 @@ pt:
       updating: Estamos atualizando a informação desta ação de momento. Por favor volte em 15 minutos.
       widgetUpdating: Atualizando Cálculos
     og:
-      description: 'Esta ação passa %n dos testes de parâmetros chave de momento. Veja mais informação em Stockflare. '
+      description: 'Esta ação passa %n dos testes de Indicadores chave de momento. Veja mais informação em Stockflare. '
       title: Informação sobre %n em Stockflare
     priceChange:
       down: Baixa
@@ -1979,15 +1979,15 @@ pt:
       eps: lucro por ação
       growth: Previsão de Crescimento a Longo Prazo
       pe: Índice Preço/Lucro
-      rating: Parâmetros Chave
+      rating: Indicadores Chave
       ric: Código de Abreviação de Reuters
     explanations:
-      downside: 'Corretores publicam aquilo que acreditam é o melhor valor de uma ação e chama-se Preço Indicativo. O nosso fornecedor de dados calcula uma média destes peritos. Nós mostramos a percentagem de redução em relação ao preço indicativo de Wall Street a partir do preço da ação de hoje. Tome cautela, é uma opção subjetiva destes peritos, não é objetiva.  '
+      downside: 'Corretores publicam aquilo que acreditam é o melhor valor de uma ação e chama-se Preço Indicativo. O nosso fornecedor de dados calcula uma média destes peritos. Mostramos a percentagem de redução em relação ao preço indicativo de Wall Street a partir do preço da ação de hoje. Tome cautela, é uma opção subjetiva destes peritos, não é objetiva.  '
       dps: 'Uma companhia paga dividendos, tal como um banco paga juros. O Dividendo Por Ação é aquilo que recebe por cada ação que possui.  '
       eps: O lucro de uma companhia pertence aos seus acionistas. O Lucro Por Ação é aquilo que recebe em teoria por cada ação que possui.
       pe: Rácio PE mostra o preço por ação em relação ao lucro por ação. Quanto maior for o número, mais cara é a ação.
       recommendation: Corretores publicam uma recomendação de Comprar/ Vender/ Deter por cada ação que analisam. O nosso fornecedor de dados Thomson Reuters calcula a média destes peritos. Isto é um bom indicador do sentimento de "Wall Street". Mas tome cautela, é uma opinião subjetiva.
-      upside: 'Corretores publicam aquilo que acreditam é o melhor valor de uma ação e chama-se Preço Indicativo. O nosso fornecedor de dados calcula uma média destes peritos. Nós mostramos a percentagem de aumento em relação ao preço indicativo de Wall Street a partir do preço da ação de hoje. Tome cautela, é uma opção subjetiva destes peritos, não é objetiva.  '
+      upside: 'Corretores publicam aquilo que acreditam é o melhor valor de uma ação e chama-se Preço Indicativo. O nosso fornecedor de dados calcula uma média destes peritos. Mostramos a percentagem de aumento em relação ao preço indicativo de Wall Street a partir do preço da ação de hoje. Tome cautela, é uma opção subjetiva destes peritos, não é objetiva.  '
   user:
     fields:
       confirmPassword: Confirmar Senha
@@ -2044,7 +2044,7 @@ pt:
         name: Nome
         price: Hoje
         purchased: Investido Em
-        rating: Parâmetros Chave
+        rating: Indicadores Chave
         shares: Valor & Ações
       empty: Comece por adicionar algumas ações à sua lista de vigia abaixo
       rows:
@@ -2078,8 +2078,8 @@ pt:
       description: Apagar sua lista de vigia irá retirar permanentemente todos os dados que tenha sido armazenados no nossos servidores. Esta ação não pode ser revertida.
       title: Zona de Perigo
     defaultName: Minha Lista de Vigia
-    footnote: '* Onde não temos dados, nós usamos uma taxa de crescimento de 8%. '
-    pageDescription: Sua lista de vigia contém um resumo de seu portfólio assim como também alertas recentes de ações vigiadas.
+    footnote: '* Onde não temos dados, usamos uma taxa de crescimento de 8%. '
+    pageDescription: A Sua lista de vigia contém um resumo do seu portfólio assim como também alertas recentes de ações vigiadas.
     pageTitle: Minha Lista de Vigia
     percentChange: Percentagem de Mudança
     portfolioTable:
@@ -2099,30 +2099,30 @@ pt:
     sector:
       missing: 'Desaparecido:'
       title: Concentração por Setor
-      tooltip: O valor de seu portfólio separado pelos 10 setores chave.
+      tooltip: O valor do seu portfólio separado pelos 10 setores chave.
     summary:
       summaries:
         gain:
           notWatchingStocks: Vigie algumas ações para ver dados de médias de crescimento.
           projectedGain: um ganho anual de %n de %n de hoje
-          projectedValue: Portfólio potencialmente valerá %n em 7 anos
+          projectedValue: O Portfólio irá potencialmente valer %n em 7 anos
         opinion:
-          notWatchingStocks: Vigie algumas ações para ter acesso aos parâmetros chave
-          stars: Média de %n parâmetros chave
+          notWatchingStocks: Vigie algumas ações para ter acesso aos Indicadores chave
+          stars: Média de %n Indicadores chave
           ws: Wall Street pensa que é %n
       titles:
         alerts: Alertas Mais Recentes
         gain: Ganho Em Sete Anos
-        opinion: Parâmetros Chave da Lista de Vigia
+        opinion: Indicadores Chave da Lista de Vigia
     wallStreet:
       title: Preço Indicativo & Recomendação de Wall Street
       upside:
         missing: N/A Upside
         text: '%n% Upside'
-    warningSubtitle: 'Não perca sua lista de vigia. É guardada apenas temporariamente. Registre-se ou Entre para guardá-la. '
+    warningSubtitle: 'Não perca sua lista de vigia. É guardada apenas temporariamente. Registe-se ou Entre para guardá-la. '
     warningTitle: Guardou ações vigiadas, sem registrar-se ou entrar!
     watching: Vigia Total
-    watchingPhrase: '%n Companhias'
+    watchingPhrase: '%n Empresas'
     worth: Valor Total
   watchlists:
     connect: Nova Corretagem
@@ -2134,10 +2134,10 @@ pt:
     titles:
       actual: Mudança Real
       change: Percentagem de Mudança
-      count: Vigiando
+      count: Sob vigia
       inactive: '%n Inativo'
       mover: Maior Movimentador
-      rating: Teste de Parâmetros Chave
+      rating: Teste de Indicadores Chave
       return: Retorno total
       stocks: '%n Ações'
       worth: Valor Total
