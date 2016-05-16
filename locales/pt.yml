@@ -925,7 +925,7 @@ pt:
   delete:
     copy:
       deleted: A sua conta foi eliminada com sucesso e toda a informação contida foi removida do nosso sistema permanentemente. Esta ação é irreversível.
-      deleting: 'A sua conta está sendo eliminada. '
+      deleting: 'A sua conta está a ser eliminada. '
       error: Um erro foi encontrado durante a eliminação da sua conta. Por favor contate support@stockflare.com
     titles:
       deleted: Conta Eliminada
@@ -943,9 +943,9 @@ pt:
     wallStreet: 'Esta tabela apresenta a alta do preço indicativo usando o consenso de "Wall Street" em relação ao consenso recomendado para as ações na sua Lista de Vigia. Não existem dados do futuro, de maneira que este consenso consiste de análise subjetiva e não objetiva. Stockflare não promove o ponto de vista de "Wall Street". Apresentamos esta informação para que os nossos usuários possam ver qual é a opinião dos especialistas a respeito a qualquer ação.     '
     worth: 'Esta tabela combina a receita a longo prazo prevista do consenso de "Wall Street", o rendimento de ações previsto e a reversão-à-média do rácio de PE (PER) previsto. Por este motivo o número de ganhos projetado é calculado à base de análise subjetiva de profissionais e portanto não é objetiva. Stockflare não promove os pontos de vista de "Wall Street". Apresentamos esta informação para que os nossos usuários possam ver qual é a opinião dos especialistas a respeito a de uma ação. Não existem dados do futuro. Se as previsões de profissionais forem erradas, os ganhos verdadeiros serão substancialmente diferentes do que os números aqui apresentados.  '
   errors:
-    api_error: Que chatice, houve um erro ao contatar os nossos servidores.
+    api_error: Que chatice, houve um erro ao estabelecer a ligação aos nossos servidores.
     not_found: Oops, esta página não existe.
-    stock_not_tradeable: Desculpe, este título não pode ser negociado no momento.
+    stock_not_tradeable: Desculpe, este título não pode ser negociado de momento.
   explore:
     all: Todas as ações
     biLine: Necessita de um pouco de inspiração ?
